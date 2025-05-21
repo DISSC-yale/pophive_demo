@@ -1,89 +1,11 @@
 {
-  "measure_info": {
-    "gtrends_naloxone": {
-      "full_name": "gtrends_naloxone",
-      "measure": "gtrends_naloxone",
-      "short_name": "Google Search Volume: naloxone",
-      "long_name": "Google Trends Search Volume of Term naloxone",
-      "category": "overdose",
-      "short_description": "Google search volume of the term naloxone.",
-      "long_description": "Google trends search volume of the term naloxone. Values are the probabilities of a short search session including the term within the geography and timeframe, multiplied by 10 million.",
-      "statement": "There is a {value} / 10M chance of a short search session including the term naloxone",
-      "measure_type": "probability",
-      "unit": "probability * 10M",
-      "time_resolution": "week",
-      "sources": [
-        {
-          "name": "Google Trends",
-          "url": "https://trends.google.com",
-          "location": "Yale Data-Intensive Social Sciences, Google Trends Collection Framework",
-          "location_url": "https://github.com/DISSC-yale/gtrends_collection"
-        }
-      ]
-    },
-    "gtrends_overdose": {
-      "full_name": "gtrends_overdose",
-      "measure": "gtrends_overdose",
-      "short_name": "Google Search Volume: overdose",
-      "long_name": "Google Trends Search Volume of Term overdose",
-      "category": "overdose",
-      "short_description": "Google search volume of the term overdose.",
-      "long_description": "Google trends search volume of the term overdose. Values are the probabilities of a short search session including the term within the geography and timeframe, multiplied by 10 million.",
-      "statement": "There is a {value} / 10M chance of a short search session including the term overdose",
-      "measure_type": "probability",
-      "unit": "probability * 10M",
-      "time_resolution": "week",
-      "sources": [
-        {
-          "name": "Google Trends",
-          "url": "https://trends.google.com",
-          "location": "Yale Data-Intensive Social Sciences, Google Trends Collection Framework",
-          "location_url": "https://github.com/DISSC-yale/gtrends_collection"
-        }
-      ]
-    },
-    "gtrends_rsv": {
-      "full_name": "gtrends_rsv",
-      "measure": "gtrends_rsv",
-      "short_name": "Google Search Volume: rsv",
-      "long_name": "Google Trends Search Volume of Term rsv",
-      "category": "rsv",
-      "short_description": "Google search volume of the term rsv.",
-      "long_description": "Google trends search volume of the term rsv. Values are the probabilities of a short search session including the term within the geography and timeframe, multiplied by 10 million.",
-      "statement": "There is a {value} / 10M chance of a short search session including the term rsv",
-      "measure_type": "probability",
-      "unit": "probability * 10M",
-      "time_resolution": "week",
-      "sources": [
-        {
-          "name": "Google Trends",
-          "url": "https://trends.google.com",
-          "location": "Yale Data-Intensive Social Sciences, Google Trends Collection Framework",
-          "location_url": "https://github.com/DISSC-yale/gtrends_collection"
-        }
-      ]
-    },
-    "gtrends_rsv_vaccine": {
-      "full_name": "gtrends_rsv_vaccine",
-      "measure": "gtrends_rsv_vaccine",
-      "short_name": "Google Search Volume: rsv_vaccine",
-      "long_name": "Google Trends Search Volume of Term rsv_vaccine",
-      "category": "rsv",
-      "short_description": "Google search volume of the term rsv_vaccine.",
-      "long_description": "Google trends search volume of the term rsv_vaccine. Values are the probabilities of a short search session including the term within the geography and timeframe, multiplied by 10 million.",
-      "statement": "There is a {value} / 10M chance of a short search session including the term rsv_vaccine",
-      "measure_type": "probability",
-      "unit": "probability * 10M",
-      "time_resolution": "week",
-      "sources": [
-        {
-          "name": "Google Trends",
-          "url": "https://trends.google.com",
-          "location": "Yale Data-Intensive Social Sciences, Google Trends Collection Framework",
-          "location_url": "https://github.com/DISSC-yale/gtrends_collection"
-        }
-      ]
-    }
+  "name": "data.csv.gz",
+  "title": "Data Csv Gz",
+  "licence": {
+    "url": "http://opendatacommons.org/licenses/pddl",
+    "name": "Open Data Commons Public Domain",
+    "version": "1.0",
+    "id": "odc-pddl"
   },
   "resources": [
     {
@@ -94,34 +16,10 @@
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
-        "hash": [
-          "13f4202d7a7636b63c4e95ecf504fd924f146a3d",
-          "f56646f9be90ebb7709ecfa486cd1aade30a3d90",
-          "1b88b7a37015a93c81f1723af524dd453eeaaa4b",
-          "3c76c0ed357df6322932a863843ea811e278e00e",
-          "fe7e73c028e03de031df7a2a3d01b9d1af2849af"
-        ],
-        "author": [
-          "Micah <micah.iserman@gmail.com>",
-          "Micah <micah.iserman@gmail.com>",
-          "Micah <micah.iserman@gmail.com>",
-          "GitHub Actions <actions@github.com>",
-          "Micah <micah.iserman@gmail.com>"
-        ],
-        "date": [
-          "Wed May 21 10:09:00 2025 -0400",
-          "Wed May 21 09:45:01 2025 -0400",
-          "Wed May 21 09:22:41 2025 -0400",
-          "Wed May 21 09:35:04 2025 +0000",
-          "Tue May 20 09:34:26 2025 -0400"
-        ],
-        "message": [
-          "moves lock management to local",
-          "removes renv restore",
-          "updates community",
-          "weekly data reprocess",
-          "initial commit"
-        ]
+        "hash": ["643bc96a8cc2e7b197b85d623056f2d8c96af01f"],
+        "author": ["Micah <micah.iserman@gmail.com>"],
+        "date": ["Wed May 21 10:19:42 2025 -0400"],
+        "message": ["initial commit"]
       },
       "source": [
         {
@@ -139,8 +37,8 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-05-21 14:10:54.909496",
-      "last_modified": "2025-05-21 14:10:54.909496",
+      "created": "2025-05-21 06:29:49.514906",
+      "last_modified": "2025-05-21 06:29:49.514906",
       "row_count": 30294,
       "entity_count": 51,
       "schema": {
@@ -856,5 +754,91 @@
       },
       "sha512": "d1ce5676ba9a5dc5015ffaaadc8ff1f3f3f664b7cc5a369857503b0a316b928af25a22a0634e0b20e0720ab6c7133a285fb63ea86874923dffbdf3ddf3ea0958"
     }
-  ]
+  ],
+  "measure_info": {
+    "gtrends_naloxone": {
+      "full_name": "gtrends_naloxone",
+      "measure": "gtrends_naloxone",
+      "short_name": "Google Search Volume: naloxone",
+      "long_name": "Google Trends Search Volume of Term naloxone",
+      "category": "overdose",
+      "short_description": "Google search volume of the term naloxone.",
+      "long_description": "Google trends search volume of the term naloxone. Values are the probabilities of a short search session including the term within the geography and timeframe, multiplied by 10 million.",
+      "statement": "There is a {value} / 10M chance of a short search session including the term naloxone",
+      "measure_type": "probability",
+      "unit": "probability * 10M",
+      "time_resolution": "week",
+      "sources": [
+        {
+          "name": "Google Trends",
+          "url": "https://trends.google.com",
+          "location": "Yale Data-Intensive Social Sciences, Google Trends Collection Framework",
+          "location_url": "https://github.com/DISSC-yale/gtrends_collection"
+        }
+      ]
+    },
+    "gtrends_overdose": {
+      "full_name": "gtrends_overdose",
+      "measure": "gtrends_overdose",
+      "short_name": "Google Search Volume: overdose",
+      "long_name": "Google Trends Search Volume of Term overdose",
+      "category": "overdose",
+      "short_description": "Google search volume of the term overdose.",
+      "long_description": "Google trends search volume of the term overdose. Values are the probabilities of a short search session including the term within the geography and timeframe, multiplied by 10 million.",
+      "statement": "There is a {value} / 10M chance of a short search session including the term overdose",
+      "measure_type": "probability",
+      "unit": "probability * 10M",
+      "time_resolution": "week",
+      "sources": [
+        {
+          "name": "Google Trends",
+          "url": "https://trends.google.com",
+          "location": "Yale Data-Intensive Social Sciences, Google Trends Collection Framework",
+          "location_url": "https://github.com/DISSC-yale/gtrends_collection"
+        }
+      ]
+    },
+    "gtrends_rsv": {
+      "full_name": "gtrends_rsv",
+      "measure": "gtrends_rsv",
+      "short_name": "Google Search Volume: rsv",
+      "long_name": "Google Trends Search Volume of Term rsv",
+      "category": "rsv",
+      "short_description": "Google search volume of the term rsv.",
+      "long_description": "Google trends search volume of the term rsv. Values are the probabilities of a short search session including the term within the geography and timeframe, multiplied by 10 million.",
+      "statement": "There is a {value} / 10M chance of a short search session including the term rsv",
+      "measure_type": "probability",
+      "unit": "probability * 10M",
+      "time_resolution": "week",
+      "sources": [
+        {
+          "name": "Google Trends",
+          "url": "https://trends.google.com",
+          "location": "Yale Data-Intensive Social Sciences, Google Trends Collection Framework",
+          "location_url": "https://github.com/DISSC-yale/gtrends_collection"
+        }
+      ]
+    },
+    "gtrends_rsv_vaccine": {
+      "full_name": "gtrends_rsv_vaccine",
+      "measure": "gtrends_rsv_vaccine",
+      "short_name": "Google Search Volume: rsv_vaccine",
+      "long_name": "Google Trends Search Volume of Term rsv_vaccine",
+      "category": "rsv",
+      "short_description": "Google search volume of the term rsv_vaccine.",
+      "long_description": "Google trends search volume of the term rsv_vaccine. Values are the probabilities of a short search session including the term within the geography and timeframe, multiplied by 10 million.",
+      "statement": "There is a {value} / 10M chance of a short search session including the term rsv_vaccine",
+      "measure_type": "probability",
+      "unit": "probability * 10M",
+      "time_resolution": "week",
+      "sources": [
+        {
+          "name": "Google Trends",
+          "url": "https://trends.google.com",
+          "location": "Yale Data-Intensive Social Sciences, Google Trends Collection Framework",
+          "location_url": "https://github.com/DISSC-yale/gtrends_collection"
+        }
+      ]
+    }
+  }
 }

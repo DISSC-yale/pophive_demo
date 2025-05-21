@@ -1,65 +1,11 @@
 {
-  "measure_info": {
-    "nrevss": {
-      "full_name": "nrevss",
-      "measure": "nrevss",
-      "short_name": "Positive RSV Test Volume",
-      "long_name": "Positive RSV Test Volume (5-Week Moving Average)",
-      "category": "rsv",
-      "short_description": "MMWR report week number since July.",
-      "long_description": "Number of positive Respiratory Syncytial Virus (RSV) Nucleic Acid Amplification Tests, averaged over 5 weeks.",
-      "statement": "there were {value} positive RSV tests in {region_name}",
-      "measure_type": "count",
-      "unit": "positive tests",
-      "time_resolution": "week",
-      "sources": [
-        {
-          "name": "Center for Disease Control and Prevention",
-          "url": "https://data.cdc.gov",
-          "location": "Percent Positivity of Respiratory Syncytial Virus Nucleic Acid Amplification Tests by HHS Region, National Respiratory and Enteric Virus Surveillance System",
-          "location_url": "https://data.cdc.gov/resource/3cxc-4k8q",
-          "date_accessed": 2025
-        }
-      ]
-    },
-    "nrevss_week": {
-      "full_name": "nrevss_week",
-      "measure": "nrevss_week",
-      "short_name": "MMWR Week",
-      "long_name": "Morbidity and Mortality Weekly Report (MMWR) Week",
-      "category": "rsv",
-      "short_description": "MMWR report week number.",
-      "long_description": "Morbidity and Mortality Weekly Report (MMWR) week number",
-      "statement": "{value} is the report week",
-      "measure_type": "week",
-      "unit": "report weeks",
-      "time_resolution": "week",
-      "sources": [
-        {
-          "name": "Center for Disease Control and Prevention",
-          "url": "https://data.cdc.gov",
-          "location": "Percent Positivity of Respiratory Syncytial Virus Nucleic Acid Amplification Tests by HHS Region, National Respiratory and Enteric Virus Surveillance System",
-          "location_url": "https://data.cdc.gov/resource/3cxc-4k8q",
-          "date_accessed": 2025
-        }
-      ],
-      "citations": [
-        "niemi20"
-      ]
-    },
-    "_references": {
-      "niemi20": {
-        "id": "niemi20",
-        "author": {
-          "given": "Jarad",
-          "family": "Neimi"
-        },
-        "year": 2020,
-        "title": "MMWRweek: Convert Dates to MMWR Day, Week, and Year",
-        "version": "0.1.3",
-        "doi": "10.32614/CRAN.package.MMWRweek"
-      }
-    }
+  "name": "data.csv.gz",
+  "title": "Data Csv Gz",
+  "licence": {
+    "url": "http://opendatacommons.org/licenses/pddl",
+    "name": "Open Data Commons Public Domain",
+    "version": "1.0",
+    "id": "odc-pddl"
   },
   "resources": [
     {
@@ -70,34 +16,10 @@
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
-        "hash": [
-          "13f4202d7a7636b63c4e95ecf504fd924f146a3d",
-          "f56646f9be90ebb7709ecfa486cd1aade30a3d90",
-          "1b88b7a37015a93c81f1723af524dd453eeaaa4b",
-          "0be0e1af7bfa5f64b32473017bff51e82f7324b6",
-          "fe7e73c028e03de031df7a2a3d01b9d1af2849af"
-        ],
-        "author": [
-          "Micah <micah.iserman@gmail.com>",
-          "Micah <micah.iserman@gmail.com>",
-          "Micah <micah.iserman@gmail.com>",
-          "GitHub Actions <actions@github.com>",
-          "Micah <micah.iserman@gmail.com>"
-        ],
-        "date": [
-          "Wed May 21 10:09:00 2025 -0400",
-          "Wed May 21 09:45:01 2025 -0400",
-          "Wed May 21 09:22:41 2025 -0400",
-          "Wed May 21 09:46:11 2025 +0000",
-          "Tue May 20 09:34:26 2025 -0400"
-        ],
-        "message": [
-          "moves lock management to local",
-          "removes renv restore",
-          "updates community",
-          "weekly data reprocess",
-          "initial commit"
-        ]
+        "hash": ["643bc96a8cc2e7b197b85d623056f2d8c96af01f"],
+        "author": ["Micah <micah.iserman@gmail.com>"],
+        "date": ["Wed May 21 10:19:42 2025 -0400"],
+        "message": ["initial commit"]
       },
       "source": [
         {
@@ -116,8 +38,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-05-21 14:11:12.839364",
-      "last_modified": "2025-05-21 14:11:12.839364",
+      "created": "2025-05-21 06:29:49.512386",
+      "last_modified": "2025-05-21 06:29:49.511391",
       "row_count": 2660,
       "entity_count": 10,
       "schema": {
@@ -442,5 +364,67 @@
       },
       "sha512": "a29b22d21dfafe21f3e2e1272be58b817376bde813e474b3e7a8e7c314d8ae1ac58ecbfd3c1faa21dbdbd2b9415c5620a889df68acafc685f50f8ce8dc05d2d9"
     }
-  ]
+  ],
+  "measure_info": {
+    "nrevss": {
+      "full_name": "nrevss",
+      "measure": "nrevss",
+      "short_name": "Positive RSV Test Volume",
+      "long_name": "Positive RSV Test Volume (5-Week Moving Average)",
+      "category": "rsv",
+      "short_description": "MMWR report week number since July.",
+      "long_description": "Number of positive Respiratory Syncytial Virus (RSV) Nucleic Acid Amplification Tests, averaged over 5 weeks.",
+      "statement": "there were {value} positive RSV tests in {region_name}",
+      "measure_type": "count",
+      "unit": "positive tests",
+      "time_resolution": "week",
+      "sources": [
+        {
+          "name": "Center for Disease Control and Prevention",
+          "url": "https://data.cdc.gov",
+          "location": "Percent Positivity of Respiratory Syncytial Virus Nucleic Acid Amplification Tests by HHS Region, National Respiratory and Enteric Virus Surveillance System",
+          "location_url": "https://data.cdc.gov/resource/3cxc-4k8q",
+          "date_accessed": 2025
+        }
+      ]
+    },
+    "nrevss_week": {
+      "full_name": "nrevss_week",
+      "measure": "nrevss_week",
+      "short_name": "MMWR Week",
+      "long_name": "Morbidity and Mortality Weekly Report (MMWR) Week",
+      "category": "rsv",
+      "short_description": "MMWR report week number.",
+      "long_description": "Morbidity and Mortality Weekly Report (MMWR) week number",
+      "statement": "{value} is the report week",
+      "measure_type": "week",
+      "unit": "report weeks",
+      "time_resolution": "week",
+      "sources": [
+        {
+          "name": "Center for Disease Control and Prevention",
+          "url": "https://data.cdc.gov",
+          "location": "Percent Positivity of Respiratory Syncytial Virus Nucleic Acid Amplification Tests by HHS Region, National Respiratory and Enteric Virus Surveillance System",
+          "location_url": "https://data.cdc.gov/resource/3cxc-4k8q",
+          "date_accessed": 2025
+        }
+      ],
+      "citations": [
+        "niemi20"
+      ]
+    },
+    "_references": {
+      "niemi20": {
+        "id": "niemi20",
+        "author": {
+          "given": "Jarad",
+          "family": "Neimi"
+        },
+        "year": 2020,
+        "title": "MMWRweek: Convert Dates to MMWR Day, Week, and Year",
+        "version": "0.1.3",
+        "doi": "10.32614/CRAN.package.MMWRweek"
+      }
+    }
+  }
 }
