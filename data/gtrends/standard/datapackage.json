@@ -16,10 +16,22 @@
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
-        "hash": ["643bc96a8cc2e7b197b85d623056f2d8c96af01f"],
-        "author": ["Micah <micah.iserman@gmail.com>"],
-        "date": ["Wed May 21 10:19:42 2025 -0400"],
-        "message": ["initial commit"]
+        "hash": [
+          "0cdd705c45fa3db70c8d85d8166673698aed05b5",
+          "643bc96a8cc2e7b197b85d623056f2d8c96af01f"
+        ],
+        "author": [
+          "Micah <micah.iserman@gmail.com>",
+          "Micah <micah.iserman@gmail.com>"
+        ],
+        "date": [
+          "Wed May 21 10:24:40 2025 -0400",
+          "Wed May 21 10:19:42 2025 -0400"
+        ],
+        "message": [
+          "clears old versions",
+          "initial commit"
+        ]
       },
       "source": [
         {
@@ -37,8 +49,8 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-05-21 06:29:49.514906",
-      "last_modified": "2025-05-21 06:29:49.514906",
+      "created": "2025-05-21 14:37:48.563215",
+      "last_modified": "2025-05-21 14:37:48.563215",
       "row_count": 30294,
       "entity_count": 51,
       "schema": {
