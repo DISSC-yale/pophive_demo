@@ -1,0 +1,13 @@
+^renv$
+^renv\.lock$
+^.*\.Rproj$
+^\.Rproj\.user$
+^LICENSE\.md$
+^\.github$
+^data$
+^data_bundles$
+^report_site$
+^scripts$
+^docs$
+^pkgdown$
+^vignettes/articles$

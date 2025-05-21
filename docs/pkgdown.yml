@@ -1,0 +1,9 @@
+pandoc: '3.4'
+pkgdown: 2.1.2
+pkgdown_sha: ~
+articles:
+  articles/standards: standards.html
+last_built: 2025-05-21T12:09Z
+urls:
+  reference: https://DISSC-yale.github.io/pophive_demo/reference
+  article: https://DISSC-yale.github.io/pophive_demo/articles
