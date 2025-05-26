@@ -9,26 +9,30 @@
   },
   "resources": [
     {
-      "bytes": 13927,
+      "bytes": 13979,
       "encoding": "ISO-8859-1",
-      "md5": "a328b5bd4f5dd438a762f7df0cd9cb4c",
+      "md5": "fe7b91b1a2918c57c5a0d00096b4849d",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
         "hash": [
+          "364e84f50fd90879ada399d4727957d03d759e85",
           "0cdd705c45fa3db70c8d85d8166673698aed05b5",
           "643bc96a8cc2e7b197b85d623056f2d8c96af01f"
         ],
         "author": [
+          "GitHub Actions <actions@github.com>",
           "Micah <micah.iserman@gmail.com>",
           "Micah <micah.iserman@gmail.com>"
         ],
         "date": [
+          "Wed May 21 14:38:10 2025 +0000",
           "Wed May 21 10:24:40 2025 -0400",
           "Wed May 21 10:19:42 2025 -0400"
         ],
         "message": [
+          "weekly data reprocess",
           "clears old versions",
           "initial commit"
         ]
@@ -50,35 +54,35 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-05-21 14:38:09.749346",
-      "last_modified": "2025-05-21 14:38:09.749346",
-      "row_count": 2660,
+      "created": "2025-05-26 00:35:30.236091",
+      "last_modified": "2025-05-26 00:35:30.236091",
+      "row_count": 2670,
       "entity_count": 10,
       "schema": {
         "fields": [
           {
             "name": "geography",
-            "duplicates": 2650,
-            "time_range": [0, 265],
+            "duplicates": 2660,
+            "time_range": [0, 266],
             "type": "string",
             "missing": 0,
             "table": {
-              "hhs_1": 266,
-              "hhs_10": 266,
-              "hhs_2": 266,
-              "hhs_3": 266,
-              "hhs_4": 266,
-              "hhs_5": 266,
-              "hhs_6": 266,
-              "hhs_7": 266,
-              "hhs_8": 266,
-              "hhs_9": 266
+              "hhs_1": 267,
+              "hhs_10": 267,
+              "hhs_2": 267,
+              "hhs_3": 267,
+              "hhs_4": 267,
+              "hhs_5": 267,
+              "hhs_6": 267,
+              "hhs_7": 267,
+              "hhs_8": 267,
+              "hhs_9": 267
             }
           },
           {
             "name": "time",
-            "duplicates": 2394,
-            "time_range": [0, 265],
+            "duplicates": 2403,
+            "time_range": [0, 266],
             "type": "string",
             "missing": 0,
             "table": {
@@ -347,34 +351,35 @@
               "2025-04-19": 10,
               "2025-04-26": 10,
               "2025-05-03": 10,
-              "2025-05-10": 10
+              "2025-05-10": 10,
+              "2025-05-17": 10
             }
           },
           {
             "name": "nrevss_week",
-            "duplicates": 2607,
-            "time_range": [0, 265],
+            "duplicates": 2617,
+            "time_range": [0, 266],
             "type": "integer",
             "missing": 0,
-            "mean": 26.421053,
-            "sd": 14.987376,
+            "mean": 26.397004,
+            "sd": 14.964416,
             "min": 1,
             "max": 53
           },
           {
             "name": "nrevss",
-            "duplicates": 1300,
-            "time_range": [0, 265],
+            "duplicates": 1311,
+            "time_range": [0, 266],
             "type": "float",
             "missing": 0,
-            "mean": 272.013346,
-            "sd": 538.259275,
+            "mean": 271.116142,
+            "sd": 537.442372,
             "min": 0,
             "max": 5097.2
           }
         ]
       },
-      "sha512": "a29b22d21dfafe21f3e2e1272be58b817376bde813e474b3e7a8e7c314d8ae1ac58ecbfd3c1faa21dbdbd2b9415c5620a889df68acafc685f50f8ce8dc05d2d9"
+      "sha512": "e61953a15d8e76e9fbde280419017aac562a351cf71cf20924be5e31fffdde19f551f9b1fabc6ed4964b6352f6b0e1710490c9503d5f4990ad161efea6685412"
     }
   ],
   "measure_info": {
