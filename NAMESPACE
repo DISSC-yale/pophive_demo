@@ -2,4 +2,5 @@
 
 export(pophive_add_source)
 export(pophive_check_sources)
+export(pophive_download_cdc)
 export(pophive_process)

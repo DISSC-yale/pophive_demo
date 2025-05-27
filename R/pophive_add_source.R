@@ -4,6 +4,7 @@
 #'
 #' @param name Name of the source.
 #' @param base_dir Path to the directory containing sources.
+#' @param open_after Logical; if \code{FALSE}, will not open the project.
 #' @returns Nothing; creates default files and directories.
 #' @section Project:
 #'
@@ -26,7 +27,11 @@
 #'
 #' @export
 
-pophive_add_source <- function(name, base_dir = "data") {
+pophive_add_source <- function(
+  name,
+  base_dir = "data",
+  open_after = interactive()
+) {
   if (missing(name)) cli::cli_abort("specify a name")
   name <- gsub("[^A-Za-z0-9]+", "_", name)
   base_path <- paste0(base_dir, "/", name, "/")
@@ -43,7 +48,8 @@ pophive_add_source <- function(name, base_dir = "data") {
       "measure_info.json",
       "ingest.R",
       "project.Rproj",
-      "standard/datapackage.json"
+      "standard/datapackage.json",
+      "README.md"
     )
   )
   if (!file.exists(paths[[1]])) {
@@ -85,4 +91,34 @@ pophive_add_source <- function(name, base_dir = "data") {
       dir = paste0(base_path, "standard"),
       quiet = TRUE
     )
+  if (!file.exists(paths[[5]])) {
+    writeLines(
+      paste0(
+        c(
+          paste("#", name),
+          "",
+          "This is a PopHIVE data source project, initialized with the `pophive` R package:",
+          "",
+          "```R",
+          paste0('pophive_add_source("', name, '")'),
+          "```",
+          "",
+          "Using the package, you can also check the project:",
+          "",
+          "```R",
+          paste0('pophive_check_source("', name, '", "..")'),
+          "```",
+          "",
+          "And process it:",
+          "",
+          "```R",
+          paste0('pophive_process("', name, '", "..")'),
+          "```"
+        ),
+        collapse = "\n"
+      ),
+      paths[[5]]
+    )
+  }
+  if (open_after) rstudioapi::openProject(paths[[3]], newSession = TRUE)
 }

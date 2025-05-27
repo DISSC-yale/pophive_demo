@@ -5,7 +5,7 @@ test_that("source workflow works", {
   on.exit(setwd(wd))
   source_dir <- "pophive_sources"
   source_name <- "test_source"
-  pophive_add_source(source_name, source_dir)
+  pophive_add_source(source_name, source_dir, open_after = FALSE)
   project_files <- paste0(
     source_dir,
     "/",
@@ -74,7 +74,13 @@ test_that("source workflow works", {
   system2("git", "add -A")
   system2("git", 'commit -m "initial commit"')
   process <- pophive_process(source_name, source_dir, ingest = FALSE)
-  expect_false(is.null(process$versions[[source_name]]$data.csv.xz))
+  package <- jsonlite::read_json(paste0(
+    source_dir,
+    "/",
+    source_name,
+    "/standard/datapackage.json"
+  ))
+  expect_false(is.null(package$resources[[1]]$versions$hash))
   issues <- pophive_check_sources(source_name, source_dir)
   expect_true(length(issues[[source_name]]) == 0L)
 })

@@ -4,12 +4,14 @@
 \alias{pophive_add_source}
 \title{Adds a source project structure}
 \usage{
-pophive_add_source(name, base_dir = "data")
+pophive_add_source(name, base_dir = "data", open_after = TRUE)
 }
 \arguments{
 \item{name}{Name of the source.}
 
 \item{base_dir}{Path to the directory containing sources.}
+
+\item{open_after}{Logical; if \code{FALSE}, will not open the project.}
 }
 \value{
 Nothing; creates default files and directories.

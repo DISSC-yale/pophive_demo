@@ -54,7 +54,9 @@ export function VariableDisplay({meta}: {meta: Variable}) {
         <DialogContent sx={{pt: 0}}>
           <Stack spacing={2}>
             <Typography variant="h5">{info.long_name}</Typography>
-            <Typography variant="body2">{info.long_description}</Typography>
+            <Typography variant="body2">
+              {info.long_description ? <span dangerouslySetInnerHTML={{__html: info.long_description}} /> : <></>}
+            </Typography>
             <Box>
               <Typography variant="h6">Metadata</Typography>
               <Table size="small" aria-label="measure info entries">

@@ -2,21 +2,7 @@
 # Download
 #
 
-options(timeout = 9999)
-
-# metadata
-download.file(
-  "https://data.cdc.gov/api/views/3cxc-4k8q",
-  "raw/3cxc-4k8q.json"
-)
-
-# data
-download.file(
-  "https://data.cdc.gov/api/views/3cxc-4k8q/rows.csv",
-  "raw/3cxc-4k8q.csv"
-)
-unlink("raw/3cxc-4k8q.csv.xz")
-system2("xz", "-f raw/3cxc-4k8q.csv")
+pophive_download_cdc("3cxc-4k8q")
 
 #
 # Reformat

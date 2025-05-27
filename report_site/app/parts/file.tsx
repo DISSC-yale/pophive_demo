@@ -17,7 +17,7 @@ import {
   TableRow,
   Typography,
 } from '@mui/material'
-import {Check, Close} from '@mui/icons-material'
+import {Check, Close, Warning} from '@mui/icons-material'
 import {useState} from 'react'
 import type {File} from '../report'
 import Link from 'next/link'
@@ -41,7 +41,7 @@ export function FileDisplay({meta}: {meta: File}) {
         <ListItem disablePadding>
           <ListItemButton onClick={toggle}>
             <ListItemIcon sx={{minWidth: 40}}>
-              {anyIssues ? <Close color="error" /> : <Check color="success" />}
+              {failed ? <Close color="error" /> : anyIssues ? <Warning color="warning" /> : <Check color="success" />}
             </ListItemIcon>
             <ListItemText primary={resource.name} />
           </ListItemButton>
@@ -123,9 +123,9 @@ export function FileDisplay({meta}: {meta: File}) {
                 </TableBody>
               </Table>
             </Box>
-            {versions && (
+            {versions && versions.hash && (
               <Box>
-                <Typography variant="h6">Versions</Typography>
+                <Typography variant="h6">Previous Versions</Typography>
                 <Table size="small" aria-label="measure info entries">
                   <TableHead>
                     <TableRow sx={{'& .MuiTableCell-head': {fontWeight: 'bold'}}}>
