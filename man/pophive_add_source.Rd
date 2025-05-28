@@ -4,7 +4,7 @@
 \alias{pophive_add_source}
 \title{Adds a source project structure}
 \usage{
-pophive_add_source(name, base_dir = "data", open_after = TRUE)
+pophive_add_source(name, base_dir = "data", open_after = interactive())
 }
 \arguments{
 \item{name}{Name of the source.}

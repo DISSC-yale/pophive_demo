@@ -26,11 +26,11 @@ For each resource ID, there are 3 relevant CDC URLs:
 \itemize{
   \item \strong{\code{resource/<id>}}: This redirects to the resource's main page,
     with displayed metadata and a data preview
-    (e.g., \code{\href{https://data.cdc.gov/resource/ijqb-a7ye}{data.cdc.gov/resource/ijqb-a7ye}}).
+    (e.g., \href{https://data.cdc.gov/resource/ijqb-a7ye}{data.cdc.gov/resource/ijqb-a7ye}).
   \item \strong{\code{api/views/<id>}}: This is a direct link to the underlying
-    JSON metadata (e.g., \code{\href{https://data.cdc.gov/api/views/ijqb-a7ye}{data.cdc.gov/api/views/ijqb-a7ye}}).
+    JSON metadata (e.g., \href{https://data.cdc.gov/api/views/ijqb-a7ye}{data.cdc.gov/api/views/ijqb-a7ye}).
   \item \strong{\code{api/views/<id>/rows.csv}}: This is a direct link to the full
-    CSV dataset (e.g., \code{\href{https://data.cdc.gov/api/views/ijqb-a7ye/rows.csv}{data.cdc.gov/api/views/ijqb-a7ye/rows.csv}}).
+    CSV dataset (e.g., \href{https://data.cdc.gov/api/views/ijqb-a7ye/rows.csv}{data.cdc.gov/api/views/ijqb-a7ye/rows.csv}).
 }
 }
 

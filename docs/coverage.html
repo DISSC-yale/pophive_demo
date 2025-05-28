@@ -95,7 +95,7 @@ table.table-condensed {
   font-size: 11px;
 }</style>
   <div class="col-md-8 col-md-offset-2">
-    <h2>pophive coverage - 87.74%</h2>
+    <h2>pophive coverage - 87.90%</h2>
     <div class="tabbable">
       <ul class="nav nav-tabs" data-tabsetid="covr">
         <li class="active">
@@ -107,11 +107,1982 @@ table.table-condensed {
       </ul>
       <div class="tab-content" data-tabsetid="covr">
         <div class="tab-pane active" title="Files" data-value="Files" id="tab-covr-1">
-          <div class="datatables html-widget html-fill-item" id="htmlwidget-ed4390f690b492746737" style="width:100%;height:500px;"></div>
-          <script type="application/json" data-for="htmlwidget-ed4390f690b492746737">{"x":{"filter":"none","vertical":false,"fillContainer":false,"data":[["<a href=\"#\">R/pophive_process.R<\/a>","<a href=\"#\">R/pophive_check_sources.R<\/a>","<a href=\"#\">R/pophive_download_cdc.R<\/a>","<a href=\"#\">R/pophive_add_source.R<\/a>"],[120,170,57,124],[66,102,24,57],[53,87,21,55],[13,15,3,2],["2","1","1","1"],["80.30%","85.29%","87.50%","96.49%"]],"container":"<table class=\"row-border\">\n  <thead>\n    <tr>\n      <th>File<\/th>\n      <th>Lines<\/th>\n      <th>Relevant<\/th>\n      <th>Covered<\/th>\n      <th>Missed<\/th>\n      <th>Hits / Line<\/th>\n      <th>Coverage<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"searching":false,"dom":"t","paging":false,"columnDefs":[{"targets":6,"createdCell":"function(td, cellData, rowData, row, col) {\n  var percent = cellData.replace(\"%\", \"\");\n  if (percent > 90) {\n    var grad = \"linear-gradient(90deg, #edfde7 \" + cellData + \", white \" + cellData + \")\";\n  } else if (percent > 75) {\n    var grad = \"linear-gradient(90deg, #f9ffe5 \" + cellData + \", white \" + cellData + \")\";\n  } else {\n    var grad = \"linear-gradient(90deg, #fcece9 \" + cellData + \", white \" + cellData + \")\";\n  }\n  $(td).css(\"background\", grad);\n}\n"},{"className":"dt-right","targets":[1,2,3,4]},{"name":"File","targets":0},{"name":"Lines","targets":1},{"name":"Relevant","targets":2},{"name":"Covered","targets":3},{"name":"Missed","targets":4},{"name":"Hits / Line","targets":5},{"name":"Coverage","targets":6}],"order":[],"autoWidth":false,"orderClasses":false},"callback":"function(table) {\ntable.on('click.dt', 'a', function() {\n  files = $('div#files div');\n  files.not('div.hidden').addClass('hidden');\n  id = $(this).text();\n  files.filter('div[id=\\'' + id + '\\']').removeClass('hidden');\n  $('ul.nav a[data-value=Source]').text(id).tab('show');\n});\n}"},"evals":["options.columnDefs.0.createdCell","callback"],"jsHooks":[]}</script>
+          <div class="datatables html-widget html-fill-item" id="htmlwidget-6db82023d4cb0ef03375" style="width:100%;height:500px;"></div>
+          <script type="application/json" data-for="htmlwidget-6db82023d4cb0ef03375">{"x":{"filter":"none","vertical":false,"fillContainer":false,"data":[["<a href=\"#\">R/pophive_process.R<\/a>","<a href=\"#\">R/pophive_check_sources.R<\/a>","<a href=\"#\">R/pophive_get_file.R<\/a>","<a href=\"#\">R/pophive_download_cdc.R<\/a>","<a href=\"#\">R/pophive_add_source.R<\/a>"],[120,170,102,57,124],[66,102,50,24,57],[53,87,43,21,55],[13,15,7,3,2],["2","1","2","1","1"],["80.30%","85.29%","86.00%","87.50%","96.49%"]],"container":"<table class=\"row-border\">\n  <thead>\n    <tr>\n      <th>File<\/th>\n      <th>Lines<\/th>\n      <th>Relevant<\/th>\n      <th>Covered<\/th>\n      <th>Missed<\/th>\n      <th>Hits / Line<\/th>\n      <th>Coverage<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"searching":false,"dom":"t","paging":false,"columnDefs":[{"targets":6,"createdCell":"function(td, cellData, rowData, row, col) {\n  var percent = cellData.replace(\"%\", \"\");\n  if (percent > 90) {\n    var grad = \"linear-gradient(90deg, #edfde7 \" + cellData + \", white \" + cellData + \")\";\n  } else if (percent > 75) {\n    var grad = \"linear-gradient(90deg, #f9ffe5 \" + cellData + \", white \" + cellData + \")\";\n  } else {\n    var grad = \"linear-gradient(90deg, #fcece9 \" + cellData + \", white \" + cellData + \")\";\n  }\n  $(td).css(\"background\", grad);\n}\n"},{"className":"dt-right","targets":[1,2,3,4]},{"name":"File","targets":0},{"name":"Lines","targets":1},{"name":"Relevant","targets":2},{"name":"Covered","targets":3},{"name":"Missed","targets":4},{"name":"Hits / Line","targets":5},{"name":"Coverage","targets":6}],"order":[],"autoWidth":false,"orderClasses":false},"callback":"function(table) {\ntable.on('click.dt', 'a', function() {\n  files = $('div#files div');\n  files.not('div.hidden').addClass('hidden');\n  id = $(this).text();\n  files.filter('div[id=\\'' + id + '\\']').removeClass('hidden');\n  $('ul.nav a[data-value=Source]').text(id).tab('show');\n});\n}"},"evals":["options.columnDefs.0.createdCell","callback"],"jsHooks":[]}</script>
         </div>
         <div class="tab-pane" title="Source" data-value="Source" id="tab-covr-2">
           <div id="files">
+            <div id="R/pophive_download_cdc.R" class="hidden">
+              <table class="table-condensed">
+                <tbody>
+                  <tr class="never">
+                    <td class="num">1</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#' Download Data from the CDC</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">2</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#'</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">3</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#' Download data and metadata from the Centers for Disease Control and Prevention (CDC).</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">4</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#'</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">5</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#' @param id ID of the resource (e.g., \code{ijqb-a7ye}).</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">6</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#' @param out_dir Directory in which to save the metadata and data files.</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">7</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#' @param verbose Logical; if \code{FALSE}, will not display status messages.</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">8</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#' @returns Nothing; downloads files (\code{&lt;id&gt;.json} and \code{&lt;id&gt;.csv.xz}) to \code{out_dir}</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">9</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#' @section \code{data.cdc.gov} URLs:</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">10</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#'</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">11</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#' For each resource ID, there are 3 relevant CDC URLs:</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">12</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#' \itemize{</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">13</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#'   \item \strong{\code{resource/&lt;id&gt;}}: This redirects to the resource's main page,</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">14</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#'     with displayed metadata and a data preview</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">15</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#'     (e.g., \href{https://data.cdc.gov/resource/ijqb-a7ye}{data.cdc.gov/resource/ijqb-a7ye}).</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">16</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#'   \item \strong{\code{api/views/&lt;id&gt;}}: This is a direct link to the underlying</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">17</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#'     JSON metadata (e.g., \href{https://data.cdc.gov/api/views/ijqb-a7ye}{data.cdc.gov/api/views/ijqb-a7ye}).</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">18</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#'   \item \strong{\code{api/views/&lt;id&gt;/rows.csv}}: This is a direct link to the full</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">19</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#'     CSV dataset (e.g., \href{https://data.cdc.gov/api/views/ijqb-a7ye/rows.csv}{data.cdc.gov/api/views/ijqb-a7ye/rows.csv}).</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">20</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#' }</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">21</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#'</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">22</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#' @examples</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">23</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#' \dontrun{</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">24</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#'   pophive_download_cdc("ijqb-a7ye")</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">25</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#' }</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">26</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#' @export</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">27</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r"></pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">28</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">pophive_download_cdc &lt;- function(id, out_dir = "raw", verbose = TRUE) {</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">29</td>
+                    <td class="coverage">1<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  initial_timeout &lt;- options(timeout = 99999)$timeout</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">30</td>
+                    <td class="coverage">1<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  on.exit(options(timeout = initial_timeout))</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">31</td>
+                    <td class="coverage">1<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  dir.create(out_dir, showWarnings = FALSE, recursive = TRUE)</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">32</td>
+                    <td class="coverage">1<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  if (verbose) {</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">33</td>
+                    <td class="coverage">1<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    resource_url &lt;- paste0("https://data.cdc.gov/resource/", id)</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">34</td>
+                    <td class="coverage">1<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    cli::cli_h1(</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">35</td>
+                    <td class="coverage">1<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">      "downloading resource {.url {resource_url}}"</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">36</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    )</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">37</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  }</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">38</td>
+                    <td class="coverage">1<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  url &lt;- paste0("https://data.cdc.gov/api/views/", id)</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">39</td>
+                    <td class="coverage">1<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  if (verbose) cli::cli_progress_step("metadata: {.url {url}}")</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">40</td>
+                    <td class="coverage">1<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  status &lt;- utils::download.file(</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">41</td>
+                    <td class="coverage">1<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    url,</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">42</td>
+                    <td class="coverage">1<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    paste0(out_dir, "/", id, ".json"),</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">43</td>
+                    <td class="coverage">1<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    quiet = TRUE</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">44</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  )</pre>
+                    </td>
+                  </tr>
+                  <tr class="missed">
+                    <td class="num">45</td>
+                    <td class="coverage">!</td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  if (status != 0L) cli::cli_abort("failed to download metadata")</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">46</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r"></pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">47</td>
+                    <td class="coverage">1<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  data_url &lt;- paste0(url, "/rows.csv")</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">48</td>
+                    <td class="coverage">1<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  out_path &lt;- paste0(out_dir, "/", id, ".csv")</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">49</td>
+                    <td class="coverage">1<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  if (verbose) cli::cli_progress_step("data: {.url {data_url}}")</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">50</td>
+                    <td class="coverage">1<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  status &lt;- utils::download.file(data_url, out_path, quiet = TRUE)</pre>
+                    </td>
+                  </tr>
+                  <tr class="missed">
+                    <td class="num">51</td>
+                    <td class="coverage">!</td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  if (status != 0L) cli::cli_abort("failed to download data")</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">52</td>
+                    <td class="coverage">1<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  if (verbose) cli::cli_progress_step("compressing data")</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">53</td>
+                    <td class="coverage">1<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  unlink(paste0(out_path, ".xz"))</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">54</td>
+                    <td class="coverage">1<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  status &lt;- system2("xz", c("-f", out_path))</pre>
+                    </td>
+                  </tr>
+                  <tr class="missed">
+                    <td class="num">55</td>
+                    <td class="coverage">!</td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  if (status != 0L) cli::cli_abort("failed to compress data")</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">56</td>
+                    <td class="coverage">1<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  if (verbose) cli::cli_progress_done()</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">57</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">}</pre>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div id="R/pophive_process.R" class="hidden">
+              <table class="table-condensed">
+                <tbody>
+                  <tr class="never">
+                    <td class="num">1</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#' Run Data Sources</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">2</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#'</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">3</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#' Optionally run the ingestion script for each data source, and collect metadata.</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">4</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#'</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">5</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#' @param name Name of a source project to process. Will</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">6</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#' @param source_dir Path to the directory containing source projects.</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">7</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#' @param ingest Logical; if \code{FALSE}, will re-process standardized data without running</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">8</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#' ingestion scripts.</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">9</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#' @returns A list with processing results:</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">10</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#' \itemize{</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">11</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#'   \item \code{timings}: How many seconds the ingestion script took to run.</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">12</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#'   \item \code{logs}: The captured output of the ingestion script.</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">13</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#' }</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">14</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#' Each entry has an entry for each source.</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">15</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#'</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">16</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#' A `datapackage.json` file is also created / update in each source's `standard` directory.</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">17</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#' @examples</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">18</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#' \dontrun{</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">19</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#'   # run from a directory containing a `data` directory containing the source</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">20</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#'   pophive_process("source_name")</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">21</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#'</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">22</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#'   # run without executing the ingestion script</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">23</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#'   pophive_process("source_name", ingest = FALSE)</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">24</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#' }</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">25</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#' @export</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">26</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r"></pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">27</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">pophive_process &lt;- function(</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">28</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  name = NULL,</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">29</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  source_dir = "data",</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">30</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  ingest = TRUE</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">31</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">) {</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">32</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  sources &lt;- if (is.null(name)) {</pre>
+                    </td>
+                  </tr>
+                  <tr class="missed">
+                    <td class="num">33</td>
+                    <td class="coverage">!</td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    list.files(</pre>
+                    </td>
+                  </tr>
+                  <tr class="missed">
+                    <td class="num">34</td>
+                    <td class="coverage">!</td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">      source_dir,</pre>
+                    </td>
+                  </tr>
+                  <tr class="missed">
+                    <td class="num">35</td>
+                    <td class="coverage">!</td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">      "ingest\\.R",</pre>
+                    </td>
+                  </tr>
+                  <tr class="missed">
+                    <td class="num">36</td>
+                    <td class="coverage">!</td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">      recursive = TRUE,</pre>
+                    </td>
+                  </tr>
+                  <tr class="missed">
+                    <td class="num">37</td>
+                    <td class="coverage">!</td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">      full.names = TRUE</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">38</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    )</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">39</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  } else {</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">40</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    ingest_files &lt;- paste0(source_dir, "/", name, "/ingest.R")</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">41</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    if (any(!file.exists(ingest_files))) {</pre>
+                    </td>
+                  </tr>
+                  <tr class="missed">
+                    <td class="num">42</td>
+                    <td class="coverage">!</td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">      cli::cli_abort(</pre>
+                    </td>
+                  </tr>
+                  <tr class="missed">
+                    <td class="num">43</td>
+                    <td class="coverage">!</td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">        "missing ingest file{?/s}: {.emph {ingest_files[!file.exists(ingest_files)]}}"</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">44</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">      )</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">45</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    }</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">46</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    ingest_files</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">47</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  }</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">48</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  timings &lt;- list()</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">49</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  logs &lt;- list()</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">50</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  for (s in sources) {</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">51</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    st &lt;- proc.time()[[3]]</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">52</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    base_dir &lt;- dirname(s)</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">53</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    name &lt;- basename(base_dir)</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">54</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    file_ref &lt;- if (ingest) paste0(" ({.file ", s, "})") else NULL</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">55</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    cli::cli_progress_step(</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">56</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">      paste0("processing {.strong ", name, "}", file_ref),</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">57</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">      msg_failed = paste0("failed to process {.strong ", name, "}", file_ref),</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">58</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">      spinner = TRUE</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">59</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    )</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">60</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    status &lt;- if (ingest) {</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">61</td>
+                    <td class="coverage">2<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">      tryCatch(</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">62</td>
+                    <td class="coverage">2<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">        list(</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">63</td>
+                    <td class="coverage">2<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">          log = utils::capture.output(</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">64</td>
+                    <td class="coverage">2<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">            source(s, chdir = TRUE),</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">65</td>
+                    <td class="coverage">2<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">            type = "message"</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">66</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">          ),</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">67</td>
+                    <td class="coverage">2<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">          success = TRUE</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">68</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">        ),</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">69</td>
+                    <td class="coverage">2<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">        error = function(e) list(log = e$message, success = FALSE)</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">70</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">      )</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">71</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    } else list(log = "", success = TRUE)</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">72</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    logs[[name]] &lt;- status$log</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">73</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    if (status$success) timings[[name]] &lt;- proc.time()[[3]] - st</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">74</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    data_files &lt;- list.files(</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">75</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">      paste0(base_dir, "/standard"),</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">76</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">      "\\.(?:csv|parquet)"</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">77</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    )</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">78</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    if (length(data_files)) {</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">79</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">      measure_info &lt;- community::data_measure_info(</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">80</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">        paste0(base_dir, "/measure_info.json"),</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">81</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">        include_empty = FALSE,</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">82</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">        render = TRUE,</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">83</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">        write = FALSE,</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">84</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">        open_after = FALSE,</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">85</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">        verbose = FALSE</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">86</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">      )</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">87</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">      measure_sources &lt;- list()</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">88</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">      for (info in measure_info) {</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">89</td>
+                    <td class="coverage">5<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">        for (s in info$sources) {</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">90</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">          if (</pre>
+                    </td>
+                  </tr>
+                  <tr class="missed">
+                    <td class="num">91</td>
+                    <td class="coverage">!</td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">            !is.null(s$location) &amp;&amp;</pre>
+                    </td>
+                  </tr>
+                  <tr class="missed">
+                    <td class="num">92</td>
+                    <td class="coverage">!</td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">              !(s$location %in% names(sources))</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">93</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">          ) {</pre>
+                    </td>
+                  </tr>
+                  <tr class="missed">
+                    <td class="num">94</td>
+                    <td class="coverage">!</td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">            measure_sources[[s$location]] &lt;- s</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">95</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">          }</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">96</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">        }</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">97</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">      }</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">98</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">      community::data_add(</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">99</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">        data_files,</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">100</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">        meta = list(</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">101</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">          source = unname(measure_sources),</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">102</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">          ids = "geography",</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">103</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">          time = "time",</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">104</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">          variables = measure_info</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">105</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">        ),</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">106</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">        dir = paste0(base_dir, "/standard"),</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">107</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">        pretty = TRUE,</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">108</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">        summarize_ids = TRUE,</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">109</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">        verbose = FALSE</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">110</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">      )</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">111</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">      cli::cli_progress_done(result = if (status$success) "done" else "failed")</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">112</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    } else {</pre>
+                    </td>
+                  </tr>
+                  <tr class="missed">
+                    <td class="num">113</td>
+                    <td class="coverage">!</td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">      cli::cli_progress_update(</pre>
+                    </td>
+                  </tr>
+                  <tr class="missed">
+                    <td class="num">114</td>
+                    <td class="coverage">!</td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">        "no standard data files found in {.path {s}}"</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">115</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">      )</pre>
+                    </td>
+                  </tr>
+                  <tr class="missed">
+                    <td class="num">116</td>
+                    <td class="coverage">!</td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">      cli::cli_progress_done(result = "failed")</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">117</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    }</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">118</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  }</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">119</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  invisible(list(timings = timings, logs = logs))</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">120</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">}</pre>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div id="R/pophive_get_file.R" class="hidden">
+              <table class="table-condensed">
+                <tbody>
+                  <tr class="never">
+                    <td class="num">1</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#' Retrieve A Data File</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">2</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#'</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">3</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#' Load a data file from a source data project, or list versions of the file.</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">4</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#'</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">5</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#' @param path Path to the file.</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">6</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#' @param date Date of the version to load; A \code{Date}, or \code{character} in the format</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">7</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#'   \code{YYYY-MM-DD}. Will match to the nearest version.</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">8</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#' @param commit_hash SHA signature of the committed version;</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">9</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#'   can be the first 6 or so characters. Ignored if \code{date} is provided.</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">10</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#' @param versions Logical; if \code{TRUE}, will return a list of available version,</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">11</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#'   rather than a</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">12</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#' @returns If \code{versions} is \code{TRUE}, a \code{data.frame} with columns for</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">13</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#'   the \code{hash}, \code{author}, \code{date}, and \code{message} of each commit.</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">14</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#'   Otherwise, the path to a temporary file, if one was extracted.</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">15</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#'</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">16</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#' @examples</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">17</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#' path &lt;- "../../data/wastewater/raw/flua.csv.xz"</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">18</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#' if (file.exists(path)) {</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">19</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#'   # list versions</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">20</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#'   versions &lt;- pophive_get_file(path, versions = TRUE)</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">21</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#'   print(versions[, c("date", "hash")])</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">22</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#'</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">23</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#'   # extract a version to a temporary file</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">24</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#'   temp_path &lt;- pophive_get_file(path, "2025-05")</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">25</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#'   basename(temp_path)</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">26</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#' }</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">27</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#'</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">28</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">#' @export</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">29</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r"></pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">30</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">pophive_get_file &lt;- function(</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">31</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  path,</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">32</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  date = NULL,</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">33</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  commit_hash = NULL,</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">34</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  versions = FALSE</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">35</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">) {</pre>
+                    </td>
+                  </tr>
+                  <tr class="missed">
+                    <td class="num">36</td>
+                    <td class="coverage">!</td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  if (missing(path)) cli::cli_abort("specify a path")</pre>
+                    </td>
+                  </tr>
+                  <tr class="missed">
+                    <td class="num">37</td>
+                    <td class="coverage">!</td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  if (!file.exists(path)) cli::cli_abort("path does not exist")</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">38</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  vs &lt;- data.frame(</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">39</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    hash = character(),</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">40</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    author = character(),</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">41</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    date = character(),</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">42</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    message = character()</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">43</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  )</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">44</td>
+                    <td class="coverage">3<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  if (versions || !is.null(date)) {</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">45</td>
+                    <td class="coverage">2<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    commits &lt;- sys::exec_internal("git", c("log", path))</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">46</td>
+                    <td class="coverage">2<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    if (commits$status == 0L) {</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">47</td>
+                    <td class="coverage">2<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">      commits &lt;- do.call(</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">48</td>
+                    <td class="coverage">2<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">        rbind,</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">49</td>
+                    <td class="coverage">2<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">        Filter(</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">50</td>
+                    <td class="coverage">2<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">          function(e) length(e) == 4L,</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">51</td>
+                    <td class="coverage">2<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">          strsplit(</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">52</td>
+                    <td class="coverage">2<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">            strsplit(rawToChar(commits$stdout), "commit ", fixed = TRUE)[[1L]],</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">53</td>
+                    <td class="coverage">2<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">            "\\n+(?:[^:]+:)?\\s*"</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">54</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">          )</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">55</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">        )</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">56</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">      )</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">57</td>
+                    <td class="coverage">2<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">      colnames(commits) &lt;- colnames(vs)</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">58</td>
+                    <td class="coverage">2<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">      vs &lt;- as.data.frame(commits)</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">59</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    } else {</pre>
+                    </td>
+                  </tr>
+                  <tr class="missed">
+                    <td class="num">60</td>
+                    <td class="coverage">!</td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">      cli::cli_abort("failed to git log: {rawToChar(commits$stderr)}")</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">61</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    }</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">62</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  }</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">63</td>
+                    <td class="coverage">1<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  if (versions) return(vs)</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">64</td>
+                    <td class="coverage">2<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  if (!is.null(date)) {</pre>
+                    </td>
+                  </tr>
+                  <tr class="missed">
+                    <td class="num">65</td>
+                    <td class="coverage">!</td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    if (nrow(vs) == 0L) return(path)</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">66</td>
+                    <td class="coverage">1<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    if (is.character(date))</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">67</td>
+                    <td class="coverage">1<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">      date &lt;- as.POSIXct(</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">68</td>
+                    <td class="coverage">1<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">        date,</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">69</td>
+                    <td class="coverage">1<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">        tryFormats = c(</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">70</td>
+                    <td class="coverage">1<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">          "%Y-%m-%d %H:%M:%S",</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">71</td>
+                    <td class="coverage">1<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">          "%Y-%m-%d %H:%M",</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">72</td>
+                    <td class="coverage">1<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">          "%Y-%m-%d",</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">73</td>
+                    <td class="coverage">1<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">          "%Y-%m",</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">74</td>
+                    <td class="coverage">1<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">          "%Y"</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">75</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">        ),</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">76</td>
+                    <td class="coverage">1<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">        tz = "UTC"</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">77</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">      )</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">78</td>
+                    <td class="coverage">1<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    commit_hash &lt;- vs$hash[which.min(abs(</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">79</td>
+                    <td class="coverage">1<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">      as.POSIXct(vs$date, "%a %b %d %H:%M:%S %Y", tz = "UTC") - date</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">80</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    ))]</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">81</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  }</pre>
+                    </td>
+                  </tr>
+                  <tr class="missed">
+                    <td class="num">82</td>
+                    <td class="coverage">!</td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  if (is.null(commit_hash)) return(path)</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">83</td>
+                    <td class="coverage">2<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  name_parts &lt;- strsplit(basename(path), ".", fixed = TRUE)[[1L]]</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">84</td>
+                    <td class="coverage">2<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  out_path &lt;- paste0(</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">85</td>
+                    <td class="coverage">2<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    tempdir(),</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">86</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    "/",</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">87</td>
+                    <td class="coverage">2<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    name_parts[[1L]],</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">88</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    "-",</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">89</td>
+                    <td class="coverage">2<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    substring(commit_hash, 1L, 6L),</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">90</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    ".",</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">91</td>
+                    <td class="coverage">2<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    paste(name_parts[-1L], collapse = ".")</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">92</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  )</pre>
+                    </td>
+                  </tr>
+                  <tr class="missed">
+                    <td class="num">93</td>
+                    <td class="coverage">!</td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  if (file.exists(out_path)) return(out_path)</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">94</td>
+                    <td class="coverage">2<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  status &lt;- sys::exec_wait(</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">95</td>
+                    <td class="coverage">2<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    "git",</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">96</td>
+                    <td class="coverage">2<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    c("show", paste0(commit_hash, ":", path)),</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">97</td>
+                    <td class="coverage">2<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    std_out = out_path</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">98</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  )</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">99</td>
+                    <td class="coverage">2<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  if (status != 0L)</pre>
+                    </td>
+                  </tr>
+                  <tr class="missed">
+                    <td class="num">100</td>
+                    <td class="coverage">!</td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">    cli::cli_abort("failed to git show: {rawToChar(status$stderr)}")</pre>
+                    </td>
+                  </tr>
+                  <tr class="covered">
+                    <td class="num">101</td>
+                    <td class="coverage">2<em>x</em></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">  out_path</pre>
+                    </td>
+                  </tr>
+                  <tr class="never">
+                    <td class="num">102</td>
+                    <td class="coverage"></td>
+                    <td class="col-sm-12">
+                      <pre class="language-r">}</pre>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
             <div id="R/pophive_check_sources.R" class="hidden">
               <table class="table-condensed">
                 <tbody>
@@ -1300,1257 +3271,6 @@ table.table-condensed {
                   </tr>
                   <tr class="never">
                     <td class="num">170</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">}</pre>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <div id="R/pophive_download_cdc.R" class="hidden">
-              <table class="table-condensed">
-                <tbody>
-                  <tr class="never">
-                    <td class="num">1</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#' Download Data from the CDC</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">2</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#'</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">3</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#' Download data and metadata from the Centers for Disease Control and Prevention (CDC).</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">4</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#'</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">5</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#' @param id ID of the resource (e.g., \code{ijqb-a7ye}).</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">6</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#' @param out_dir Directory in which to save the metadata and data files.</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">7</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#' @param verbose Logical; if \code{FALSE}, will not display status messages.</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">8</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#' @returns Nothing; downloads files (\code{&lt;id&gt;.json} and \code{&lt;id&gt;.csv.xz}) to \code{out_dir}</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">9</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#' @section \code{data.cdc.gov} URLs:</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">10</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#'</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">11</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#' For each resource ID, there are 3 relevant CDC URLs:</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">12</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#' \itemize{</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">13</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#'   \item \strong{\code{resource/&lt;id&gt;}}: This redirects to the resource's main page,</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">14</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#'     with displayed metadata and a data preview</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">15</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#'     (e.g., \code{\href{https://data.cdc.gov/resource/ijqb-a7ye}{data.cdc.gov/resource/ijqb-a7ye}}).</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">16</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#'   \item \strong{\code{api/views/&lt;id&gt;}}: This is a direct link to the underlying</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">17</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#'     JSON metadata (e.g., \code{\href{https://data.cdc.gov/api/views/ijqb-a7ye}{data.cdc.gov/api/views/ijqb-a7ye}}).</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">18</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#'   \item \strong{\code{api/views/&lt;id&gt;/rows.csv}}: This is a direct link to the full</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">19</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#'     CSV dataset (e.g., \code{\href{https://data.cdc.gov/api/views/ijqb-a7ye/rows.csv}{data.cdc.gov/api/views/ijqb-a7ye/rows.csv}}).</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">20</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#' }</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">21</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#'</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">22</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#' @examples</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">23</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#' \dontrun{</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">24</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#'   pophive_download_cdc("ijqb-a7ye")</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">25</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#' }</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">26</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#' @export</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">27</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r"></pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">28</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">pophive_download_cdc &lt;- function(id, out_dir = "raw", verbose = TRUE) {</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">29</td>
-                    <td class="coverage">1<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">  initial_timeout &lt;- options(timeout = 99999)$timeout</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">30</td>
-                    <td class="coverage">1<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">  on.exit(options(timeout = initial_timeout))</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">31</td>
-                    <td class="coverage">1<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">  dir.create(out_dir, showWarnings = FALSE, recursive = TRUE)</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">32</td>
-                    <td class="coverage">1<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">  if (verbose) {</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">33</td>
-                    <td class="coverage">1<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">    resource_url &lt;- paste0("https://data.cdc.gov/resource/", id)</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">34</td>
-                    <td class="coverage">1<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">    cli::cli_h1(</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">35</td>
-                    <td class="coverage">1<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">      "downloading resource {.url {resource_url}}"</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">36</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">    )</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">37</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">  }</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">38</td>
-                    <td class="coverage">1<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">  url &lt;- paste0("https://data.cdc.gov/api/views/", id)</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">39</td>
-                    <td class="coverage">1<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">  if (verbose) cli::cli_progress_step("metadata: {.url {url}}")</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">40</td>
-                    <td class="coverage">1<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">  status &lt;- utils::download.file(</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">41</td>
-                    <td class="coverage">1<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">    url,</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">42</td>
-                    <td class="coverage">1<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">    paste0(out_dir, "/", id, ".json"),</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">43</td>
-                    <td class="coverage">1<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">    quiet = TRUE</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">44</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">  )</pre>
-                    </td>
-                  </tr>
-                  <tr class="missed">
-                    <td class="num">45</td>
-                    <td class="coverage">!</td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">  if (status != 0L) cli::cli_abort("failed to download metadata")</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">46</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r"></pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">47</td>
-                    <td class="coverage">1<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">  data_url &lt;- paste0(url, "/rows.csv")</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">48</td>
-                    <td class="coverage">1<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">  out_path &lt;- paste0(out_dir, "/", id, ".csv")</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">49</td>
-                    <td class="coverage">1<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">  if (verbose) cli::cli_progress_step("data: {.url {data_url}}")</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">50</td>
-                    <td class="coverage">1<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">  status &lt;- utils::download.file(data_url, out_path, quiet = TRUE)</pre>
-                    </td>
-                  </tr>
-                  <tr class="missed">
-                    <td class="num">51</td>
-                    <td class="coverage">!</td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">  if (status != 0L) cli::cli_abort("failed to download data")</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">52</td>
-                    <td class="coverage">1<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">  if (verbose) cli::cli_progress_step("compressing data")</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">53</td>
-                    <td class="coverage">1<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">  unlink(paste0(out_path, ".xz"))</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">54</td>
-                    <td class="coverage">1<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">  status &lt;- system2("xz", c("-f", out_path))</pre>
-                    </td>
-                  </tr>
-                  <tr class="missed">
-                    <td class="num">55</td>
-                    <td class="coverage">!</td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">  if (status != 0L) cli::cli_abort("failed to compress data")</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">56</td>
-                    <td class="coverage">1<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">  if (verbose) cli::cli_progress_done()</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">57</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">}</pre>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <div id="R/pophive_process.R" class="hidden">
-              <table class="table-condensed">
-                <tbody>
-                  <tr class="never">
-                    <td class="num">1</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#' Run Data Sources</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">2</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#'</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">3</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#' Optionally run the ingestion script for each data source, and collect metadata.</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">4</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#'</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">5</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#' @param name Name of a source project to process. Will</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">6</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#' @param source_dir Path to the directory containing source projects.</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">7</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#' @param ingest Logical; if \code{FALSE}, will re-process standardized data without running</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">8</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#' ingestion scripts.</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">9</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#' @returns A list with processing results:</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">10</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#' \itemize{</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">11</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#'   \item \code{timings}: How many seconds the ingestion script took to run.</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">12</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#'   \item \code{logs}: The captured output of the ingestion script.</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">13</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#' }</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">14</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#' Each entry has an entry for each source.</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">15</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#'</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">16</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#' A `datapackage.json` file is also created / update in each source's `standard` directory.</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">17</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#' @examples</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">18</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#' \dontrun{</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">19</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#'   # run from a directory containing a `data` directory containing the source</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">20</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#'   pophive_process("source_name")</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">21</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#'</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">22</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#'   # run without executing the ingestion script</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">23</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#'   pophive_process("source_name", ingest = FALSE)</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">24</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#' }</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">25</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">#' @export</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">26</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r"></pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">27</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">pophive_process &lt;- function(</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">28</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">  name = NULL,</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">29</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">  source_dir = "data",</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">30</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">  ingest = TRUE</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">31</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">) {</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">32</td>
-                    <td class="coverage">3<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">  sources &lt;- if (is.null(name)) {</pre>
-                    </td>
-                  </tr>
-                  <tr class="missed">
-                    <td class="num">33</td>
-                    <td class="coverage">!</td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">    list.files(</pre>
-                    </td>
-                  </tr>
-                  <tr class="missed">
-                    <td class="num">34</td>
-                    <td class="coverage">!</td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">      source_dir,</pre>
-                    </td>
-                  </tr>
-                  <tr class="missed">
-                    <td class="num">35</td>
-                    <td class="coverage">!</td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">      "ingest\\.R",</pre>
-                    </td>
-                  </tr>
-                  <tr class="missed">
-                    <td class="num">36</td>
-                    <td class="coverage">!</td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">      recursive = TRUE,</pre>
-                    </td>
-                  </tr>
-                  <tr class="missed">
-                    <td class="num">37</td>
-                    <td class="coverage">!</td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">      full.names = TRUE</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">38</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">    )</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">39</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">  } else {</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">40</td>
-                    <td class="coverage">3<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">    ingest_files &lt;- paste0(source_dir, "/", name, "/ingest.R")</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">41</td>
-                    <td class="coverage">3<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">    if (any(!file.exists(ingest_files))) {</pre>
-                    </td>
-                  </tr>
-                  <tr class="missed">
-                    <td class="num">42</td>
-                    <td class="coverage">!</td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">      cli::cli_abort(</pre>
-                    </td>
-                  </tr>
-                  <tr class="missed">
-                    <td class="num">43</td>
-                    <td class="coverage">!</td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">        "missing ingest file{?/s}: {.emph {ingest_files[!file.exists(ingest_files)]}}"</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">44</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">      )</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">45</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">    }</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">46</td>
-                    <td class="coverage">3<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">    ingest_files</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">47</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">  }</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">48</td>
-                    <td class="coverage">3<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">  timings &lt;- list()</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">49</td>
-                    <td class="coverage">3<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">  logs &lt;- list()</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">50</td>
-                    <td class="coverage">3<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">  for (s in sources) {</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">51</td>
-                    <td class="coverage">3<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">    st &lt;- proc.time()[[3]]</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">52</td>
-                    <td class="coverage">3<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">    base_dir &lt;- dirname(s)</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">53</td>
-                    <td class="coverage">3<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">    name &lt;- basename(base_dir)</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">54</td>
-                    <td class="coverage">3<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">    file_ref &lt;- if (ingest) paste0(" ({.file ", s, "})") else NULL</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">55</td>
-                    <td class="coverage">3<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">    cli::cli_progress_step(</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">56</td>
-                    <td class="coverage">3<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">      paste0("processing {.strong ", name, "}", file_ref),</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">57</td>
-                    <td class="coverage">3<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">      msg_failed = paste0("failed to process {.strong ", name, "}", file_ref),</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">58</td>
-                    <td class="coverage">3<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">      spinner = TRUE</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">59</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">    )</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">60</td>
-                    <td class="coverage">3<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">    status &lt;- if (ingest) {</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">61</td>
-                    <td class="coverage">2<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">      tryCatch(</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">62</td>
-                    <td class="coverage">2<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">        list(</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">63</td>
-                    <td class="coverage">2<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">          log = utils::capture.output(</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">64</td>
-                    <td class="coverage">2<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">            source(s, chdir = TRUE),</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">65</td>
-                    <td class="coverage">2<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">            type = "message"</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">66</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">          ),</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">67</td>
-                    <td class="coverage">2<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">          success = TRUE</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">68</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">        ),</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">69</td>
-                    <td class="coverage">2<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">        error = function(e) list(log = e$message, success = FALSE)</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">70</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">      )</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">71</td>
-                    <td class="coverage">3<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">    } else list(log = "", success = TRUE)</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">72</td>
-                    <td class="coverage">3<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">    logs[[name]] &lt;- status$log</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">73</td>
-                    <td class="coverage">3<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">    if (status$success) timings[[name]] &lt;- proc.time()[[3]] - st</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">74</td>
-                    <td class="coverage">3<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">    data_files &lt;- list.files(</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">75</td>
-                    <td class="coverage">3<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">      paste0(base_dir, "/standard"),</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">76</td>
-                    <td class="coverage">3<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">      "\\.(?:csv|parquet)"</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">77</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">    )</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">78</td>
-                    <td class="coverage">3<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">    if (length(data_files)) {</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">79</td>
-                    <td class="coverage">3<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">      measure_info &lt;- community::data_measure_info(</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">80</td>
-                    <td class="coverage">3<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">        paste0(base_dir, "/measure_info.json"),</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">81</td>
-                    <td class="coverage">3<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">        include_empty = FALSE,</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">82</td>
-                    <td class="coverage">3<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">        render = TRUE,</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">83</td>
-                    <td class="coverage">3<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">        write = FALSE,</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">84</td>
-                    <td class="coverage">3<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">        open_after = FALSE,</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">85</td>
-                    <td class="coverage">3<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">        verbose = FALSE</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">86</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">      )</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">87</td>
-                    <td class="coverage">3<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">      measure_sources &lt;- list()</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">88</td>
-                    <td class="coverage">3<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">      for (info in measure_info) {</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">89</td>
-                    <td class="coverage">5<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">        for (s in info$sources) {</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">90</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">          if (</pre>
-                    </td>
-                  </tr>
-                  <tr class="missed">
-                    <td class="num">91</td>
-                    <td class="coverage">!</td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">            !is.null(s$location) &amp;&amp;</pre>
-                    </td>
-                  </tr>
-                  <tr class="missed">
-                    <td class="num">92</td>
-                    <td class="coverage">!</td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">              !(s$location %in% names(sources))</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">93</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">          ) {</pre>
-                    </td>
-                  </tr>
-                  <tr class="missed">
-                    <td class="num">94</td>
-                    <td class="coverage">!</td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">            measure_sources[[s$location]] &lt;- s</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">95</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">          }</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">96</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">        }</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">97</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">      }</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">98</td>
-                    <td class="coverage">3<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">      community::data_add(</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">99</td>
-                    <td class="coverage">3<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">        data_files,</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">100</td>
-                    <td class="coverage">3<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">        meta = list(</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">101</td>
-                    <td class="coverage">3<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">          source = unname(measure_sources),</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">102</td>
-                    <td class="coverage">3<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">          ids = "geography",</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">103</td>
-                    <td class="coverage">3<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">          time = "time",</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">104</td>
-                    <td class="coverage">3<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">          variables = measure_info</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">105</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">        ),</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">106</td>
-                    <td class="coverage">3<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">        dir = paste0(base_dir, "/standard"),</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">107</td>
-                    <td class="coverage">3<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">        pretty = TRUE,</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">108</td>
-                    <td class="coverage">3<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">        summarize_ids = TRUE,</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">109</td>
-                    <td class="coverage">3<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">        verbose = FALSE</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">110</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">      )</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">111</td>
-                    <td class="coverage">3<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">      cli::cli_progress_done(result = if (status$success) "done" else "failed")</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">112</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">    } else {</pre>
-                    </td>
-                  </tr>
-                  <tr class="missed">
-                    <td class="num">113</td>
-                    <td class="coverage">!</td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">      cli::cli_progress_update(</pre>
-                    </td>
-                  </tr>
-                  <tr class="missed">
-                    <td class="num">114</td>
-                    <td class="coverage">!</td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">        "no standard data files found in {.path {s}}"</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">115</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">      )</pre>
-                    </td>
-                  </tr>
-                  <tr class="missed">
-                    <td class="num">116</td>
-                    <td class="coverage">!</td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">      cli::cli_progress_done(result = "failed")</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">117</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">    }</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">118</td>
-                    <td class="coverage"></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">  }</pre>
-                    </td>
-                  </tr>
-                  <tr class="covered">
-                    <td class="num">119</td>
-                    <td class="coverage">3<em>x</em></td>
-                    <td class="col-sm-12">
-                      <pre class="language-r">  invisible(list(timings = timings, logs = logs))</pre>
-                    </td>
-                  </tr>
-                  <tr class="never">
-                    <td class="num">120</td>
                     <td class="coverage"></td>
                     <td class="col-sm-12">
                       <pre class="language-r">}</pre>

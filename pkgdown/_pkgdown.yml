@@ -42,6 +42,7 @@ reference:
     - pophive_process
     - pophive_add_source
     - pophive_check_sources
+    - pophive_get_file
 
   - title: Collection
     desc: Function to use as part of data collection or preparation.
