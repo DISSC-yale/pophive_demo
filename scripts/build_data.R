@@ -1,5 +1,7 @@
-process <- pophive::pophive_process()
-issues <- pophive::pophive_check_sources()
+library(pophive)
+
+process <- pophive_process()
+issues <- pophive_check_sources()
 datapackages <- list.files(
   "data",
   "datapackage\\.json",

@@ -7,6 +7,7 @@
 ^data$
 ^data_bundles$
 ^report_site$
+^resources$
 ^scripts$
 ^docs$
 ^pkgdown$
