@@ -48,7 +48,8 @@ reference:
     desc: Function to use as part of data collection or preparation.
   - contents:
     - pophive_download_cdc
-    - pophive_read_epic
     - pophive_load_census
-    - pophive_process_epic_staging
     - pophive_to_health_region
+    - pophive_read_epic
+    - pophive_process_epic_staging
+    - pophive_standardize_epic

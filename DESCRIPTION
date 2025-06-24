@@ -7,6 +7,7 @@ Authors@R: c(
     person("Micah", "Iserman", role = c("cre", "aut"), email = "micah.iserman@gmail.com")
   )
 Description: Collection and use of population health data.
+Depends: R (>= 3.5)
 Imports: community, cli, arrow, dplyr, vroom, vctrs (>= 0.2.0), rstudioapi, sys
 License: MIT + file LICENSE
 Encoding: UTF-8
