@@ -16,10 +16,22 @@
       "name": "children.csv",
       "filename": "children.csv.xz",
       "versions": {
-        "hash": ["a8990d67d91081a167b94bbdc2ed5dddbbc3db4c", "8194be352017e1051898afce9941ec3907bfe04e"],
-        "author": ["Micah <micah.iserman@gmail.com>", "Micah <micah.iserman@gmail.com>"],
-        "date": ["Wed Jun 25 09:48:50 2025 -0400", "Wed Jun 25 09:45:29 2025 -0400"],
-        "message": ["weekly update", "adds Epic data"]
+        "hash": [
+          "a8990d67d91081a167b94bbdc2ed5dddbbc3db4c",
+          "8194be352017e1051898afce9941ec3907bfe04e"
+        ],
+        "author": [
+          "Micah <micah.iserman@gmail.com>",
+          "Micah <micah.iserman@gmail.com>"
+        ],
+        "date": [
+          "Wed Jun 25 09:48:50 2025 -0400",
+          "Wed Jun 25 09:45:29 2025 -0400"
+        ],
+        "message": [
+          "weekly update",
+          "adds Epic data"
+        ]
       },
       "source": [],
       "ids": [
@@ -151,10 +163,18 @@
       "name": "county_no_time.csv",
       "filename": "county_no_time.csv.xz",
       "versions": {
-        "hash": ["8194be352017e1051898afce9941ec3907bfe04e"],
-        "author": ["Micah <micah.iserman@gmail.com>"],
-        "date": ["Wed Jun 25 09:45:29 2025 -0400"],
-        "message": ["adds Epic data"]
+        "hash": [
+          "8194be352017e1051898afce9941ec3907bfe04e"
+        ],
+        "author": [
+          "Micah <micah.iserman@gmail.com>"
+        ],
+        "date": [
+          "Wed Jun 25 09:45:29 2025 -0400"
+        ],
+        "message": [
+          "adds Epic data"
+        ]
       },
       "source": [],
       "ids": [
@@ -3270,10 +3290,18 @@
       "name": "no_geo.csv",
       "filename": "no_geo.csv.xz",
       "versions": {
-        "hash": ["8194be352017e1051898afce9941ec3907bfe04e"],
-        "author": ["Micah <micah.iserman@gmail.com>"],
-        "date": ["Wed Jun 25 09:45:29 2025 -0400"],
-        "message": ["adds Epic data"]
+        "hash": [
+          "8194be352017e1051898afce9941ec3907bfe04e"
+        ],
+        "author": [
+          "Micah <micah.iserman@gmail.com>"
+        ],
+        "date": [
+          "Wed Jun 25 09:45:29 2025 -0400"
+        ],
+        "message": [
+          "adds Epic data"
+        ]
       },
       "source": [],
       "ids": [
@@ -3436,10 +3464,18 @@
       "name": "state_no_time.csv",
       "filename": "state_no_time.csv.xz",
       "versions": {
-        "hash": ["8194be352017e1051898afce9941ec3907bfe04e"],
-        "author": ["Micah <micah.iserman@gmail.com>"],
-        "date": ["Wed Jun 25 09:45:29 2025 -0400"],
-        "message": ["adds Epic data"]
+        "hash": [
+          "8194be352017e1051898afce9941ec3907bfe04e"
+        ],
+        "author": [
+          "Micah <micah.iserman@gmail.com>"
+        ],
+        "date": [
+          "Wed Jun 25 09:45:29 2025 -0400"
+        ],
+        "message": [
+          "adds Epic data"
+        ]
       },
       "source": [],
       "ids": [
@@ -3556,10 +3592,38 @@
       "name": "weekly.csv",
       "filename": "weekly.csv.xz",
       "versions": {
-        "hash": ["39619e454ff4fa15ce343358908a6db5480af4c1", "f8381c7866f924359e61b8396cd1814d5603644c", "f74f7036f11fa4d7eddd0889dd6cc5d59626c4b9", "be22396fa0b86bb8c99e554dab77d85d23ab898f", "a8990d67d91081a167b94bbdc2ed5dddbbc3db4c", "8194be352017e1051898afce9941ec3907bfe04e"],
-        "author": ["Micah <micah.iserman@gmail.com>", "Micah <micah.iserman@gmail.com>", "Micah <micah.iserman@gmail.com>", "Micah <micah.iserman@gmail.com>", "Micah <micah.iserman@gmail.com>", "Micah <micah.iserman@gmail.com>"],
-        "date": ["Wed Jun 25 09:53:12 2025 -0400", "Wed Jun 25 09:52:08 2025 -0400", "Wed Jun 25 09:51:07 2025 -0400", "Wed Jun 25 09:49:57 2025 -0400", "Wed Jun 25 09:48:50 2025 -0400", "Wed Jun 25 09:45:29 2025 -0400"],
-        "message": ["weekly update", "weekly update", "weekly update", "weekly update", "weekly update", "adds Epic data"]
+        "hash": [
+          "39619e454ff4fa15ce343358908a6db5480af4c1",
+          "f8381c7866f924359e61b8396cd1814d5603644c",
+          "f74f7036f11fa4d7eddd0889dd6cc5d59626c4b9",
+          "be22396fa0b86bb8c99e554dab77d85d23ab898f",
+          "a8990d67d91081a167b94bbdc2ed5dddbbc3db4c",
+          "8194be352017e1051898afce9941ec3907bfe04e"
+        ],
+        "author": [
+          "Micah <micah.iserman@gmail.com>",
+          "Micah <micah.iserman@gmail.com>",
+          "Micah <micah.iserman@gmail.com>",
+          "Micah <micah.iserman@gmail.com>",
+          "Micah <micah.iserman@gmail.com>",
+          "Micah <micah.iserman@gmail.com>"
+        ],
+        "date": [
+          "Wed Jun 25 09:53:12 2025 -0400",
+          "Wed Jun 25 09:52:08 2025 -0400",
+          "Wed Jun 25 09:51:07 2025 -0400",
+          "Wed Jun 25 09:49:57 2025 -0400",
+          "Wed Jun 25 09:48:50 2025 -0400",
+          "Wed Jun 25 09:45:29 2025 -0400"
+        ],
+        "message": [
+          "weekly update",
+          "weekly update",
+          "weekly update",
+          "weekly update",
+          "weekly update",
+          "adds Epic data"
+        ]
       },
       "source": [],
       "ids": [
@@ -3856,13 +3920,30 @@
         }
       ]
     },
-    "mmr_receipt": {
-      "full_name": "mmr_receipt",
-      "measure": "mmr_receipt",
+    "n_vaccine_mmr": {
+      "full_name": "n_vaccine_mmr",
+      "measure": "n_vaccine_mmr",
       "short_name": "Immunizations for MMR",
       "long_name": "Immunizations for Measles, Mumps, and Rubella (MMR)",
       "category": "immunizations",
-      "short_description": "Age group.",
+      "short_description": "Number with Immunizations: Measles, Mumps, and Rubella (MMR) receipt",
+      "long_description": "Number with Immunizations: Measles, Mumps, and Rubella (MMR) receipt by Age in Years (Current) Range and State of Residence (U.S.).",
+      "measure_type": "integer",
+      "unit": "patient",
+      "sources": [
+        {
+          "name": "Epic Cosmos",
+          "url": "https://cosmos.epic.com/"
+        }
+      ]
+    },
+    "mmr_receipt": {
+      "full_name": "mmr_receipt",
+      "measure": "mmr_receipt",
+      "short_name": "Immunizations for MMR: Percent",
+      "long_name": "Immunizations for Measles, Mumps, and Rubella (MMR): Percent",
+      "category": "immunizations",
+      "short_description": "Percentage with Immunizations: Measles, Mumps, and Rubella (MMR) receipt",
       "long_description": "Percentage with Immunizations: Measles, Mumps, and Rubella (MMR) receipt by Age in Years (Current) Range and State of Residence (U.S.).",
       "measure_type": "percent",
       "unit": "percent of sample",
@@ -3958,29 +4039,12 @@
         }
       ]
     },
-    "n_self_harm": {
-      "full_name": "n_self_harm",
-      "measure": "n_self_harm",
-      "short_name": "Self-Harm Patients",
-      "long_name": "Self-Harm-Related Emergency Room (ER) Encounters",
-      "category": "rsv",
-      "short_description": "Number of Self-Harm Parients",
-      "long_description": "Number of emergency room (ER) encounters with self-harm-related ICD-10-CM codes.",
-      "measure_type": "integer",
-      "unit": "encounters",
-      "sources": [
-        {
-          "name": "Epic Cosmos",
-          "url": "https://cosmos.epic.com/"
-        }
-      ]
-    },
     "n_all_encounters": {
       "full_name": "n_all_encounters",
       "measure": "n_all_encounters",
       "short_name": "All Patients",
       "long_name": "All Emergency Room (ER) Encounters",
-      "category": "rsv",
+      "category": "{}",
       "short_description": "Number of All Parients",
       "long_description": "Number of emergency room (ER) encounters with All ICD-10-CM codes.",
       "measure_type": "integer",
@@ -3992,12 +4056,12 @@
         }
       ]
     },
-    "n_self_harm.1": {
+    "n_self_harm": {
       "full_name": "n_self_harm",
       "measure": "n_self_harm",
       "short_name": "Self-Harm Patients",
       "long_name": "Self-Harm Emergency Room (ER) Encounters",
-      "category": "rsv",
+      "category": "{}",
       "short_description": "Number of Self-Harm Parients",
       "long_description": "Number of emergency room (ER) encounters with Self-Harm ICD-10-CM codes.",
       "measure_type": "integer",
@@ -4014,7 +4078,7 @@
       "measure": "n_covid",
       "short_name": "COVID Patients",
       "long_name": "COVID Emergency Room (ER) Encounters",
-      "category": "rsv",
+      "category": "{}",
       "short_description": "Number of COVID Parients",
       "long_description": "Number of emergency room (ER) encounters with COVID ICD-10-CM codes.",
       "measure_type": "integer",
@@ -4031,7 +4095,7 @@
       "measure": "n_flu",
       "short_name": "FLU Patients",
       "long_name": "FLU Emergency Room (ER) Encounters",
-      "category": "rsv",
+      "category": "{}",
       "short_description": "Number of FLU Parients",
       "long_description": "Number of emergency room (ER) encounters with FLU ICD-10-CM codes.",
       "measure_type": "integer",
@@ -4048,7 +4112,7 @@
       "measure": "n_rsv",
       "short_name": "RSV Patients",
       "long_name": "RSV Emergency Room (ER) Encounters",
-      "category": "rsv",
+      "category": "{}",
       "short_description": "Number of RSV Parients",
       "long_description": "Number of emergency room (ER) encounters with RSV ICD-10-CM codes.",
       "measure_type": "integer",

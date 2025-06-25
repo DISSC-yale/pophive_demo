@@ -144,10 +144,10 @@ pophive_check_sources <- function(
           }
         }
         if (length(data_issues) || length(measure_issues)) {
-          source_issues[[file]] <- list(
-            data = data_issues,
-            measures = measure_issues
-          )
+          file_issues <- list()
+          if (length(data_issues)) file_issues$data <- data_issues
+          if (length(measure_issues)) file_issues$measures <- measure_issues
+          source_issues[[file]] <- file_issues
         }
         if (verbose) {
           if (length(issue_messages)) {

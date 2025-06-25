@@ -57,6 +57,7 @@ export function ReportDisplay() {
         ).json()) as Report
         const files: {meta: File; display: ReactNode}[] = []
         const variables: {meta: Variable; display: ReactNode}[] = []
+        const encountered: {[index: string]: boolean} = {}
         Object.keys(report.metadata).forEach(source_name => {
           const p = report.metadata[source_name]
           p.resources.forEach(resource => {
@@ -70,20 +71,23 @@ export function ReportDisplay() {
             }
             files.push({meta: file, display: <FileDisplay key={resource.name} meta={file} />})
             resource.schema.fields.forEach(f => {
-              if (!(f.name in id_fields)) {
+              if (!(f.name in id_fields) && !(f.name in encountered)) {
+                encountered[f.name] = true
                 const info = p.measure_info[f.name]
-                const meta = {
-                  ...f,
-                  info,
-                  info_string: info ? JSON.stringify(info).toLowerCase() : '',
-                  source_name,
-                  source_time: report.source_times[source_name],
-                  resource,
+                if (info) {
+                  const meta = {
+                    ...f,
+                    info,
+                    info_string: info ? JSON.stringify(info).toLowerCase() : '',
+                    source_name,
+                    source_time: report.source_times[source_name],
+                    resource,
+                  }
+                  variables.push({
+                    meta,
+                    display: <VariableDisplay key={f.name} meta={meta} />,
+                  })
                 }
-                variables.push({
-                  meta,
-                  display: <VariableDisplay key={f.name} meta={meta} />,
-                })
               }
             })
           })

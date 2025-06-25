@@ -14,13 +14,28 @@
       "url": "https://cosmos.epic.com/"
     }]
   },
-  "mmr_receipt": {
-    "full_name": "mmr_receipt",
-    "measure": "mmr_receipt",
+  "n_vaccine_mmr": {
+    "full_name": "n_vaccine_mmr",
+    "measure": "n_vaccine_mmr",
     "short_name": "Immunizations for MMR",
     "long_name": "Immunizations for Measles, Mumps, and Rubella (MMR)",
     "category": "immunizations",
-    "short_description": "Age group.",
+    "short_description": "Number with Immunizations: Measles, Mumps, and Rubella (MMR) receipt",
+    "long_description": "Number with Immunizations: Measles, Mumps, and Rubella (MMR) receipt by Age in Years (Current) Range and State of Residence (U.S.).",
+    "measure_type": "integer",
+    "unit": "patient",
+    "sources": [{
+      "name": "Epic Cosmos",
+      "url": "https://cosmos.epic.com/"
+    }]
+  },
+  "mmr_receipt": {
+    "full_name": "mmr_receipt",
+    "measure": "mmr_receipt",
+    "short_name": "Immunizations for MMR: Percent",
+    "long_name": "Immunizations for Measles, Mumps, and Rubella (MMR): Percent",
+    "category": "immunizations",
+    "short_description": "Percentage with Immunizations: Measles, Mumps, and Rubella (MMR) receipt",
     "long_description": "Percentage with Immunizations: Measles, Mumps, and Rubella (MMR) receipt by Age in Years (Current) Range and State of Residence (U.S.).",
     "measure_type": "percent",
     "unit": "percent of sample",
@@ -104,27 +119,12 @@
       "url": "https://cosmos.epic.com/"
     }]
   },
-  "n_self_harm": {
-    "full_name": "n_self_harm",
-    "measure": "n_self_harm",
-    "short_name": "Self-Harm Patients",
-    "long_name": "Self-Harm-Related Emergency Room (ER) Encounters",
-    "category": "rsv",
-    "short_description": "Number of Self-Harm Parients",
-    "long_description": "Number of emergency room (ER) encounters with self-harm-related ICD-10-CM codes.",
-    "measure_type": "integer",
-    "unit": "encounters",
-    "sources": [{
-      "name": "Epic Cosmos",
-      "url": "https://cosmos.epic.com/"
-    }]
-  },
   "n_{variant.name}": {
     "full_name": "n_{variant.name}",
     "measure": "n_{variant.name}",
     "short_name": "{variant} Patients",
     "long_name": "{variant} Emergency Room (ER) Encounters",
-    "category": "rsv",
+    "category": "{}",
     "short_description": "Number of {variant} Parients",
     "long_description": "Number of emergency room (ER) encounters with {variant} ICD-10-CM codes.",
     "measure_type": "integer",
@@ -134,11 +134,11 @@
       "url": "https://cosmos.epic.com/"
     }],
     "variants": {
-      "all_encounters": {"default": "All"},
-      "self_harm": {"default": "Self-Harm"},
-      "covid": {"default": "COVID"},
-      "flu": {"default": "FLU"},
-      "rsv": {"default": "RSV"}
+      "all_encounters": {"default": "All", "category": "general"},
+      "self_harm": {"default": "Self-Harm", "category": "injury"},
+      "covid": {"default": "COVID", "category": "rsv"},
+      "flu": {"default": "FLU", "category": "rsv"},
+      "rsv": {"default": "RSV", "category": "rsv"}
     }
   }
 }
