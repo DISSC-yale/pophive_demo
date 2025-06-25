@@ -9,13 +9,18 @@
   },
   "resources": [
     {
-      "bytes": 1476,
+      "bytes": 3492,
       "encoding": "ISO-8859-1",
-      "md5": "86040695e0d8b6243b7c198d6cd4260d",
+      "md5": "15eb004a9a0b516263b6cdb74903f28b",
       "format": "csv",
       "name": "children.csv",
       "filename": "children.csv.xz",
-      "versions": {},
+      "versions": {
+        "hash": ["a8990d67d91081a167b94bbdc2ed5dddbbc3db4c", "8194be352017e1051898afce9941ec3907bfe04e"],
+        "author": ["Micah <micah.iserman@gmail.com>", "Micah <micah.iserman@gmail.com>"],
+        "date": ["Wed Jun 25 09:48:50 2025 -0400", "Wed Jun 25 09:45:29 2025 -0400"],
+        "message": ["weekly update", "adds Epic data"]
+      },
       "source": [],
       "ids": [
         {
@@ -25,104 +30,118 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-06-24 18:50:59.632471",
+      "created": "2025-06-25 09:52:50.20578",
       "last_modified": "2025-06-24 18:32:25.624142",
-      "row_count": 401,
+      "row_count": 572,
       "entity_count": 52,
       "schema": {
         "fields": [
           {
-            "name": "geography",
-            "duplicates": 349,
-            "time_range": [-1, -1],
-            "type": "string",
-            "missing": 0,
-            "table": {
-              "01": 7,
-              "02": 7,
-              "04": 7,
-              "05": 8,
-              "06": 8,
-              "08": 8,
-              "09": 8,
-              "10": 8,
-              "11": 6,
-              "12": 8,
-              "13": 8,
-              "15": 7,
-              "16": 8,
-              "17": 8,
-              "18": 8,
-              "19": 8,
-              "20": 8,
-              "21": 8,
-              "22": 8,
-              "23": 8,
-              "24": 8,
-              "25": 8,
-              "26": 8,
-              "27": 8,
-              "28": 8,
-              "29": 7,
-              "30": 8,
-              "31": 7,
-              "32": 7,
-              "33": 8,
-              "34": 8,
-              "35": 7,
-              "36": 8,
-              "37": 8,
-              "38": 8,
-              "39": 8,
-              "40": 8,
-              "41": 8,
-              "42": 8,
-              "44": 7,
-              "45": 8,
-              "46": 7,
-              "47": 7,
-              "48": 8,
-              "49": 8,
-              "50": 8,
-              "51": 8,
-              "53": 8,
-              "54": 8,
-              "55": 8,
-              "56": 7,
-              "72": 7
-            }
-          },
-          {
             "name": "age",
-            "duplicates": 393,
+            "duplicates": 561,
             "time_range": [-1, -1],
             "type": "string",
             "missing": 0,
             "table": {
-              "<1 Years": 38,
-              "1-2 Years": 51,
+              "<1 Years": 52,
+              "1-2 Years": 52,
               "2-3 Years": 52,
               "3-4 Years": 52,
               "4-5 Years": 52,
               "5-6 Years": 52,
-              "6+ Years": 52,
+              "6-7 Years": 52,
+              "7-8 Years": 52,
+              "8-9 Years": 52,
+              "9+ Years": 52,
               "Total": 52
             }
           },
           {
+            "name": "geography",
+            "duplicates": 520,
+            "time_range": [-1, -1],
+            "type": "string",
+            "missing": 0,
+            "table": {
+              "01": 11,
+              "02": 11,
+              "04": 11,
+              "05": 11,
+              "06": 11,
+              "08": 11,
+              "09": 11,
+              "10": 11,
+              "11": 11,
+              "12": 11,
+              "13": 11,
+              "15": 11,
+              "16": 11,
+              "17": 11,
+              "18": 11,
+              "19": 11,
+              "20": 11,
+              "21": 11,
+              "22": 11,
+              "23": 11,
+              "24": 11,
+              "25": 11,
+              "26": 11,
+              "27": 11,
+              "28": 11,
+              "29": 11,
+              "30": 11,
+              "31": 11,
+              "32": 11,
+              "33": 11,
+              "34": 11,
+              "35": 11,
+              "36": 11,
+              "37": 11,
+              "38": 11,
+              "39": 11,
+              "40": 11,
+              "41": 11,
+              "42": 11,
+              "44": 11,
+              "45": 11,
+              "46": 11,
+              "47": 11,
+              "48": 11,
+              "49": 11,
+              "50": 11,
+              "51": 11,
+              "53": 11,
+              "54": 11,
+              "55": 11,
+              "56": 11,
+              "72": 11
+            }
+          },
+          {
+            "name": "n_vaccine_mmr",
+            "duplicates": 9,
+            "time_range": [-1, -1],
+            "type": "integer",
+            "missing": 0,
+            "mean": 33964.804196,
+            "sd": 91475.255435,
+            "min": 11,
+            "max": 1271076
+          },
+          {
             "name": "mmr_receipt",
-            "duplicates": 152,
+            "duplicates": 310,
             "time_range": [-1, -1],
             "type": "float",
-            "missing": 0,
-            "mean": 74.061299,
-            "sd": 25.624945,
-            "min": 0.138,
-            "max": 95.4
+            "missing": 18,
+            "mean": 82.168301,
+            "sd": 24.612585,
+            "min": 0.167,
+            "max": 99.1
           }
         ]
       },
-      "sha512": "8f771be4a6e1e1022ad22989662c0dce123552099dd6e782443535d62676052cc9fe74d641915e4898d6723afa0ec652999df7c224adfec161af27d4a49f2963"
+      "sha512": "9ac9b09ed2a3cab3a7075e1b28d26e8a9d14642a65f60004c07c1c6df4c48b745e20446b73b69127e9680c3071a963fbf99e259dc42e21433cd060a10b14df3d"
     },
     {
       "bytes": 151252,
@@ -131,7 +150,12 @@
       "format": "csv",
       "name": "county_no_time.csv",
       "filename": "county_no_time.csv.xz",
-      "versions": {},
+      "versions": {
+        "hash": ["8194be352017e1051898afce9941ec3907bfe04e"],
+        "author": ["Micah <micah.iserman@gmail.com>"],
+        "date": ["Wed Jun 25 09:45:29 2025 -0400"],
+        "message": ["adds Epic data"]
+      },
       "source": [],
       "ids": [
         {
@@ -141,7 +165,7 @@
       "id_length": 5,
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-06-24 18:50:59.511444",
+      "created": "2025-06-25 09:52:50.042334",
       "last_modified": "2025-06-24 18:32:24.460554",
       "row_count": 24232,
       "entity_count": 3029,
@@ -3245,7 +3269,12 @@
       "format": "csv",
       "name": "no_geo.csv",
       "filename": "no_geo.csv.xz",
-      "versions": {},
+      "versions": {
+        "hash": ["8194be352017e1051898afce9941ec3907bfe04e"],
+        "author": ["Micah <micah.iserman@gmail.com>"],
+        "date": ["Wed Jun 25 09:45:29 2025 -0400"],
+        "message": ["adds Epic data"]
+      },
       "source": [],
       "ids": [
         {
@@ -3255,7 +3284,7 @@
       "id_length": "NA",
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-06-24 18:50:59.585445",
+      "created": "2025-06-25 09:52:50.129057",
       "last_modified": "2025-06-24 18:32:25.55419",
       "row_count": 616,
       "entity_count": 0,
@@ -3406,7 +3435,12 @@
       "format": "csv",
       "name": "state_no_time.csv",
       "filename": "state_no_time.csv.xz",
-      "versions": {},
+      "versions": {
+        "hash": ["8194be352017e1051898afce9941ec3907bfe04e"],
+        "author": ["Micah <micah.iserman@gmail.com>"],
+        "date": ["Wed Jun 25 09:45:29 2025 -0400"],
+        "message": ["adds Epic data"]
+      },
       "source": [],
       "ids": [
         {
@@ -3416,7 +3450,7 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-06-24 18:50:58.421782",
+      "created": "2025-06-25 09:52:49.285036",
       "last_modified": "2025-06-24 18:32:24.406563",
       "row_count": 416,
       "entity_count": 52,
@@ -3515,13 +3549,18 @@
       "sha512": "03280c71d119831392c64b088b5a350113f94a81273725045b9da239149c9961a2a2e26c7a05e16b0d374765cb449863adb7a40223a1df8ca9110364648211ec"
     },
     {
-      "bytes": 217900,
+      "bytes": 240684,
       "encoding": "ISO-8859-1",
-      "md5": "0a8f9a7acc3eae7b04e550ffb2f4223d",
+      "md5": "e770e8a3795eea9a934b91db0266b936",
       "format": "csv",
       "name": "weekly.csv",
       "filename": "weekly.csv.xz",
-      "versions": {},
+      "versions": {
+        "hash": ["39619e454ff4fa15ce343358908a6db5480af4c1", "f8381c7866f924359e61b8396cd1814d5603644c", "f74f7036f11fa4d7eddd0889dd6cc5d59626c4b9", "be22396fa0b86bb8c99e554dab77d85d23ab898f", "a8990d67d91081a167b94bbdc2ed5dddbbc3db4c", "8194be352017e1051898afce9941ec3907bfe04e"],
+        "author": ["Micah <micah.iserman@gmail.com>", "Micah <micah.iserman@gmail.com>", "Micah <micah.iserman@gmail.com>", "Micah <micah.iserman@gmail.com>", "Micah <micah.iserman@gmail.com>", "Micah <micah.iserman@gmail.com>"],
+        "date": ["Wed Jun 25 09:53:12 2025 -0400", "Wed Jun 25 09:52:08 2025 -0400", "Wed Jun 25 09:51:07 2025 -0400", "Wed Jun 25 09:49:57 2025 -0400", "Wed Jun 25 09:48:50 2025 -0400", "Wed Jun 25 09:45:29 2025 -0400"],
+        "message": ["weekly update", "weekly update", "weekly update", "weekly update", "weekly update", "adds Epic data"]
+      },
       "source": [],
       "ids": [
         {
@@ -3531,92 +3570,92 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-06-24 18:50:57.865252",
+      "created": "2025-06-25 09:52:49.224552",
       "last_modified": "2025-06-24 18:32:23.23698",
-      "row_count": 47424,
+      "row_count": 52832,
       "entity_count": 52,
       "schema": {
         "fields": [
           {
             "name": "geography",
-            "duplicates": 47372,
+            "duplicates": 52780,
             "time_range": [0, 104],
             "type": "string",
             "missing": 0,
             "table": {
-              "01": 912,
-              "02": 912,
-              "04": 912,
-              "05": 912,
-              "06": 912,
-              "08": 912,
-              "09": 912,
-              "10": 912,
-              "11": 912,
-              "12": 912,
-              "13": 912,
-              "15": 912,
-              "16": 912,
-              "17": 912,
-              "18": 912,
-              "19": 912,
-              "20": 912,
-              "21": 912,
-              "22": 912,
-              "23": 912,
-              "24": 912,
-              "25": 912,
-              "26": 912,
-              "27": 912,
-              "28": 912,
-              "29": 912,
-              "30": 912,
-              "31": 912,
-              "32": 912,
-              "33": 912,
-              "34": 912,
-              "35": 912,
-              "36": 912,
-              "37": 912,
-              "38": 912,
-              "39": 912,
-              "40": 912,
-              "41": 912,
-              "42": 912,
-              "44": 912,
-              "45": 912,
-              "46": 912,
-              "47": 912,
-              "48": 912,
-              "49": 912,
-              "50": 912,
-              "51": 912,
-              "53": 912,
-              "54": 912,
-              "55": 912,
-              "56": 912,
-              "72": 912
+              "01": 1016,
+              "02": 1016,
+              "04": 1016,
+              "05": 1016,
+              "06": 1016,
+              "08": 1016,
+              "09": 1016,
+              "10": 1016,
+              "11": 1016,
+              "12": 1016,
+              "13": 1016,
+              "15": 1016,
+              "16": 1016,
+              "17": 1016,
+              "18": 1016,
+              "19": 1016,
+              "20": 1016,
+              "21": 1016,
+              "22": 1016,
+              "23": 1016,
+              "24": 1016,
+              "25": 1016,
+              "26": 1016,
+              "27": 1016,
+              "28": 1016,
+              "29": 1016,
+              "30": 1016,
+              "31": 1016,
+              "32": 1016,
+              "33": 1016,
+              "34": 1016,
+              "35": 1016,
+              "36": 1016,
+              "37": 1016,
+              "38": 1016,
+              "39": 1016,
+              "40": 1016,
+              "41": 1016,
+              "42": 1016,
+              "44": 1016,
+              "45": 1016,
+              "46": 1016,
+              "47": 1016,
+              "48": 1016,
+              "49": 1016,
+              "50": 1016,
+              "51": 1016,
+              "53": 1016,
+              "54": 1016,
+              "55": 1016,
+              "56": 1016,
+              "72": 1016
             }
           },
           {
             "name": "age",
-            "duplicates": 47416,
+            "duplicates": 52824,
             "time_range": [0, 104],
             "type": "string",
-            "missing": 5928,
+            "missing": 6604,
             "table": {
-              "<1 Years": 5928,
-              "1-4 Years": 5928,
-              "18-49 Years": 5928,
-              "5-17 Years": 5928,
-              "50-64 Years": 5928,
-              "65+ Years": 5928,
-              "Total": 5928
+              "<1 Years": 6604,
+              "1-4 Years": 6604,
+              "18-49 Years": 6604,
+              "5-17 Years": 6604,
+              "50-64 Years": 6604,
+              "65+ Years": 6604,
+              "Total": 6604
             }
           },
           {
             "name": "time",
-            "duplicates": 47310,
+            "duplicates": 52705,
             "time_range": [0, 104],
             "type": "string",
             "missing": 0,
@@ -3734,64 +3773,292 @@
               "2025-02-16": 416,
               "2025-02-23": 416,
               "2025-03-02": 416,
+              "2025-03-09": 416,
+              "2025-03-16": 416,
+              "2025-03-23": 416,
+              "2025-03-30": 416,
+              "2025-04-06": 416,
+              "2025-04-13": 416,
+              "2025-04-20": 416,
+              "2025-04-27": 416,
+              "2025-05-04": 416,
+              "2025-05-11": 416,
+              "2025-05-18": 416,
+              "2025-05-25": 416,
+              "2025-06-01": 416,
               "2025-12-29": 416
             }
           },
           {
             "name": "n_all_encounters",
-            "duplicates": 34862,
+            "duplicates": 39394,
             "time_range": [0, 104],
             "type": "integer",
             "missing": 0,
-            "mean": 4441.757212,
-            "sd": 9693.252236,
+            "mean": 4485.644515,
+            "sd": 9817.37505,
             "min": 5,
-            "max": 100088
+            "max": 99157
           },
           {
             "name": "n_covid",
-            "duplicates": 46250,
+            "duplicates": 51672,
             "time_range": [0, 104],
             "type": "integer",
             "missing": 0,
-            "mean": 66.446314,
-            "sd": 180.962039,
+            "mean": 62.387738,
+            "sd": 173.230269,
             "min": 5,
-            "max": 4496
+            "max": 4557
           },
           {
             "name": "n_flu",
-            "duplicates": 45992,
+            "duplicates": 51379,
             "time_range": [0, 104],
             "type": "integer",
             "missing": 0,
-            "mean": 72.557102,
-            "sd": 327.323722,
+            "mean": 70.083188,
+            "sd": 314.234185,
             "min": 5,
-            "max": 12222
+            "max": 12259
           },
           {
             "name": "n_rsv",
-            "duplicates": 46956,
+            "duplicates": 52368,
             "time_range": [0, 104],
             "type": "integer",
-            "missing": 416,
-            "mean": 14.801587,
-            "sd": 45.739117,
+            "missing": 0,
+            "mean": 14.115952,
+            "sd": 43.483692,
             "min": 5,
-            "max": 1056
+            "max": 1092
           }
         ]
       },
-      "sha512": "6dc95231c0e5cdb059b2075ee0fca489ae4489d670632c8d2538f050b9a3832eafab43332f8f89de22e9dcb7e26cc533f5f9d6d8b5be6bbb1eafa010ccd2e8fa"
+      "sha512": "689337cf895de132d06e76ff96de3d7890f714976badb495eb2e4cbee0566f0bf0172e726668d0179b1198dc3a0239194ea0902a3d5e728349c68af8c9d50094"
     }
   ],
   "measure_info": {
-    "example_variable": {
-      "full_name": "example_variable",
-      "sources": [],
-      "citations": [],
-      "layer": []
+    "age": {
+      "full_name": "age",
+      "measure": "age",
+      "short_name": "Age Group",
+      "long_name": "Age Group",
+      "category": "demographic",
+      "short_description": "Age group.",
+      "long_description": "Age group, based on age in current years.",
+      "measure_type": "string",
+      "unit": "bin",
+      "sources": [
+        {
+          "name": "Epic Cosmos",
+          "url": "https://cosmos.epic.com/"
+        }
+      ]
+    },
+    "mmr_receipt": {
+      "full_name": "mmr_receipt",
+      "measure": "mmr_receipt",
+      "short_name": "Immunizations for MMR",
+      "long_name": "Immunizations for Measles, Mumps, and Rubella (MMR)",
+      "category": "immunizations",
+      "short_description": "Age group.",
+      "long_description": "Percentage with Immunizations: Measles, Mumps, and Rubella (MMR) receipt by Age in Years (Current) Range and State of Residence (U.S.).",
+      "measure_type": "percent",
+      "unit": "percent of sample",
+      "sources": [
+        {
+          "name": "Epic Cosmos",
+          "url": "https://cosmos.epic.com/"
+        }
+      ]
+    },
+    "n_obesity_county": {
+      "full_name": "n_obesity_county",
+      "measure": "n_obesity_county",
+      "short_name": "Number of Patients (Chronic, County)",
+      "long_name": "Number of Patients (Chronic, County)",
+      "category": "chronic",
+      "short_description": "Total number of patients.",
+      "long_description": "Total number of patients within the county-level obesity sample.",
+      "measure_type": "integer",
+      "unit": "patient",
+      "sources": [
+        {
+          "name": "Epic Cosmos",
+          "url": "https://cosmos.epic.com/"
+        }
+      ]
+    },
+    "hemoglobin_a1c_7": {
+      "full_name": "hemoglobin_a1c_7",
+      "measure": "hemoglobin_a1c_7",
+      "short_name": "HA1C >= 7%",
+      "long_name": "HA1C 7% Or More",
+      "category": "chronic",
+      "short_description": "Percent of sample with HcA1C test results of 7% or more.",
+      "long_description": "Percent of sample with Hemoglobin A1C test results of 7% or more.",
+      "measure_type": "percent",
+      "unit": "percent of sample",
+      "sources": [
+        {
+          "name": "Epic Cosmos",
+          "url": "https://cosmos.epic.com/"
+        }
+      ]
+    },
+    "bmi_30_49.8": {
+      "full_name": "bmi_30_49.8",
+      "measure": "bmi_30_49.8",
+      "short_name": "BMI between 30 and 49.8",
+      "long_name": "Body Mass Index ( BMI) between 30 and 49.8",
+      "category": "chronic",
+      "short_description": "Percent of sample with a BMI between 30 and 49.8.",
+      "long_description": "Percent of sample with a Body Mass Index (BMI) between 30 and 49.8.",
+      "measure_type": "percent",
+      "unit": "percent of sample",
+      "sources": [
+        {
+          "name": "Epic Cosmos",
+          "url": "https://cosmos.epic.com/"
+        }
+      ]
+    },
+    "n_rsv_tests": {
+      "full_name": "n_rsv_tests",
+      "measure": "n_rsv_tests",
+      "short_name": "RSV Tests: Positive",
+      "long_name": "Emergency Room (ER) Encounters with Positive Respiratory Syntactical Virus (RSV) Tests",
+      "category": "rsv",
+      "short_description": "Number of ER encounters with positive RSV tests.",
+      "long_description": "Number of emergency room (ER) encounters with positive Respiratory Syntactical Virus (RSV) tests (ICD-10-CM J12-J18 pneumonia).",
+      "measure_type": "integer",
+      "unit": "encounter",
+      "sources": [
+        {
+          "name": "Epic Cosmos",
+          "url": "https://cosmos.epic.com/"
+        }
+      ]
+    },
+    "rsv_tests": {
+      "full_name": "rsv_tests",
+      "measure": "rsv_tests",
+      "short_name": "RSV Tests: Positive (%)",
+      "long_name": "Percent of Emergency Room (ER) Visits with Positive Respiratory Syntactical Virus (RSV) Tests",
+      "category": "rsv",
+      "short_description": "Percent of ER encounters with positive RSV tests.",
+      "long_description": "Percent of emergency room (ER) encounters with positive Respiratory Syntactical Virus (RSV) tests (ICD-10-CM J12-J18 pneumonia).",
+      "measure_type": "percent",
+      "unit": "percent of encounters",
+      "sources": [
+        {
+          "name": "Epic Cosmos",
+          "url": "https://cosmos.epic.com/"
+        }
+      ]
+    },
+    "n_self_harm": {
+      "full_name": "n_self_harm",
+      "measure": "n_self_harm",
+      "short_name": "Self-Harm Patients",
+      "long_name": "Self-Harm-Related Emergency Room (ER) Encounters",
+      "category": "rsv",
+      "short_description": "Number of Self-Harm Parients",
+      "long_description": "Number of emergency room (ER) encounters with self-harm-related ICD-10-CM codes.",
+      "measure_type": "integer",
+      "unit": "encounters",
+      "sources": [
+        {
+          "name": "Epic Cosmos",
+          "url": "https://cosmos.epic.com/"
+        }
+      ]
+    },
+    "n_all_encounters": {
+      "full_name": "n_all_encounters",
+      "measure": "n_all_encounters",
+      "short_name": "All Patients",
+      "long_name": "All Emergency Room (ER) Encounters",
+      "category": "rsv",
+      "short_description": "Number of All Parients",
+      "long_description": "Number of emergency room (ER) encounters with All ICD-10-CM codes.",
+      "measure_type": "integer",
+      "unit": "encounters",
+      "sources": [
+        {
+          "name": "Epic Cosmos",
+          "url": "https://cosmos.epic.com/"
+        }
+      ]
+    },
+    "n_self_harm.1": {
+      "full_name": "n_self_harm",
+      "measure": "n_self_harm",
+      "short_name": "Self-Harm Patients",
+      "long_name": "Self-Harm Emergency Room (ER) Encounters",
+      "category": "rsv",
+      "short_description": "Number of Self-Harm Parients",
+      "long_description": "Number of emergency room (ER) encounters with Self-Harm ICD-10-CM codes.",
+      "measure_type": "integer",
+      "unit": "encounters",
+      "sources": [
+        {
+          "name": "Epic Cosmos",
+          "url": "https://cosmos.epic.com/"
+        }
+      ]
+    },
+    "n_covid": {
+      "full_name": "n_covid",
+      "measure": "n_covid",
+      "short_name": "COVID Patients",
+      "long_name": "COVID Emergency Room (ER) Encounters",
+      "category": "rsv",
+      "short_description": "Number of COVID Parients",
+      "long_description": "Number of emergency room (ER) encounters with COVID ICD-10-CM codes.",
+      "measure_type": "integer",
+      "unit": "encounters",
+      "sources": [
+        {
+          "name": "Epic Cosmos",
+          "url": "https://cosmos.epic.com/"
+        }
+      ]
+    },
+    "n_flu": {
+      "full_name": "n_flu",
+      "measure": "n_flu",
+      "short_name": "FLU Patients",
+      "long_name": "FLU Emergency Room (ER) Encounters",
+      "category": "rsv",
+      "short_description": "Number of FLU Parients",
+      "long_description": "Number of emergency room (ER) encounters with FLU ICD-10-CM codes.",
+      "measure_type": "integer",
+      "unit": "encounters",
+      "sources": [
+        {
+          "name": "Epic Cosmos",
+          "url": "https://cosmos.epic.com/"
+        }
+      ]
+    },
+    "n_rsv": {
+      "full_name": "n_rsv",
+      "measure": "n_rsv",
+      "short_name": "RSV Patients",
+      "long_name": "RSV Emergency Room (ER) Encounters",
+      "category": "rsv",
+      "short_description": "Number of RSV Parients",
+      "long_description": "Number of emergency room (ER) encounters with RSV ICD-10-CM codes.",
+      "measure_type": "integer",
+      "unit": "encounters",
+      "sources": [
+        {
+          "name": "Epic Cosmos",
+          "url": "https://cosmos.epic.com/"
+        }
+      ]
     }
   }
 }
