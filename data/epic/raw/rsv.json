@@ -1,0 +1,18 @@
+[
+  {
+    "file": "raw/staging/rsv/2025_04_07_RSV_EDvisits_ICD10s_State_Week_Age_2023-2025.csv",
+    "md5": "644ad4bbd2658a3a2a5641a8e7764afd",
+    "date_processed": "2025-06-24 18:50:41",
+    "standard_name": "rsv",
+    "Session Title": "Number of ED Encounters by State of Residence (U.S.) and Age at Time of Visit Range",
+    "Session Description": "long format of RSV ICD-10 codes from ED encounters, state week age",
+    "Session ID": "2726777",
+    "Data Model": "ED Encounters",
+    "Population Base": "All ED Encounters",
+    "Population Criteria Filters: These criteria are a summary and do not fully reflect the content of the exported session.": "ED Diagnoses: Respiratory syncytial virus pneumonia( ICD-10-CM: J12.1 ), Respiratory syncytial virus as the cause of diseases classified elsewhere( ICD-10-CM: B97.4 ), Acute bronchitis due to respiratory syncytial virus( ICD-10-CM: J20.5 ), Acute bronchiolitis due to respiratory syncytial virus( ICD-10-CM: J21.0 )",
+    "Session Date Range": "1/1/2023 - 3/1/2025 (Based On Arrival Date)",
+    "Measure": "Number of ED Encounters",
+    "Export User": "Stephanie Perniciaro",
+    "Date of Export": "4/7/2025"
+  }
+]

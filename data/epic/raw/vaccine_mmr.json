@@ -1,0 +1,18 @@
+[
+  {
+    "file": "raw/staging/Immunizations/mmr_age_state_2025_04_18.csv",
+    "md5": "e7e83c67093519aab06b7a79aefad844",
+    "date_processed": "2025-06-24 18:50:40",
+    "standard_name": "vaccine_mmr",
+    "Session Title": "Percentage with Immunizations: MMR receipt by Age in Years (Current) Range and State of Residence (U.S.)",
+    "Session Description": "extend visit back",
+    "Session ID": "2728294",
+    "Data Model": "Patients",
+    "Population Base": "All Patients",
+    "Population Criteria Filters: These criteria are a summary and do not fully reflect the content of the exported session.": "Age in Years (Current): ? 10 years,Chief Complaint: wellness or well child visit",
+    "Session Date Range": "All Time",
+    "Measure": "Immunizations (%) ",
+    "Export User": "Daniel Weinberger",
+    "Date of Export": "4/17/2025"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "file": "raw/staging/Youth Well-being/Self-Harm/2025_04_11_AllPts_State_Year_Age.csv",
+    "md5": "61b03f5658367924b48b77f21a4e8e7d",
+    "date_processed": "2025-06-24 18:50:41",
+    "standard_name": "obesity_state",
+    "Session Title": "Number of Patients by Age at Encounter in Years Range and State of Residence (U.S.)",
+    "Session Description": "long format of base patients with all obesity ICD10s, split by age and state",
+    "Session ID": "2727675",
+    "Sneak Peek": "The data is from the Sneak Peek sample set",
+    "Data Model": "Patients",
+    "Population Base": "All Patients",
+    "Population Criteria Filters": "These criteria are a summary and do not fully reflect the content of the exported session.",
+    "Session Date Range": "1/6/2019 - 3/26/2025",
+    "Measure": "Number of Patients",
+    "Export User": "Stephanie Perniciaro",
+    "Date of Export": "4/11/2025"
+  },
+  {
+    "file": "raw/staging/Chronic Disease/Raw/2025_04_11_diabetes_obesity.csv",
+    "md5": "d902c38a899346ec2a00dcfd22ac9957",
+    "date_processed": "2025-06-24 18:50:40",
+    "standard_name": "obesity_state",
+    "Session Title": "Percentage with Hemoglobin A1C 7.0% or more and Percentage with BMI 30.0  or more and 49.8  or less by Age in Years (Current) Range and State of Residence (U.S.)",
+    "Session Description": "Obesity measured based on BMI",
+    "Session ID": "2727757",
+    "Data Model": "Patients",
+    "Population Base": "All Patients",
+    "Population Criteria Filters: These criteria are a summary and do not fully reflect the content of the exported session.": "Base Patient",
+    "Session Date Range": "3/27/2023 - 3/26/2025",
+    "Export User": "Daniel Weinberger",
+    "Date of Export": "4/11/2025"
+  }
+]
