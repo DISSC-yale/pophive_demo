@@ -1,8 +1,8 @@
 [
   {
-    "file": "raw/staging/All visits/2025_06_06_AllEDvisits_State_Week_Age_2023-2025.csv",
-    "md5": "6e38165c94585c6461467cfc3951098c",
-    "date_processed": "2025-06-25 09:51:44",
+    "file": "raw/staging/All visits/2025_06_20_AllEDvisits_State_Week_Age_2023-2025.csv",
+    "md5": "a598321c941f24b6dd8b21fb7e9bd991",
+    "date_processed": "2025-06-25 09:52:35",
     "standard_name": "all_encounters",
     "Session Title": "Number of ED Encounters by State of Residence (U.S.) and Age at Time of Visit Range",
     "Session Description": "All ED Enouncters as base,Slice by 53 states of residenceSlice by 6 age groupsSlice weekly from Jan 6, 2019- march 5 2025",
@@ -10,9 +10,9 @@
     "Data Model": "ED Encounters",
     "Population Base": "All ED Encounters",
     "Population Criteria Filters": "These criteria are a summary and do not fully reflect the content of the exported session.",
-    "Session Date Range": "1/1/2023 - 5/29/2025 (Based On Arrival Date)",
+    "Session Date Range": "1/1/2023 - 6/5/2025 (Based On Arrival Date)",
     "Measure": "Number of ED Encounters",
     "Export User": "Stephanie Perniciaro",
-    "Date of Export": "6/6/2025"
+    "Date of Export": "6/20/2025"
   }
 ]
