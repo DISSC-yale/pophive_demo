@@ -10,7 +10,7 @@
   "description" : "More than 450 public health, clinical, and commercial laboratories located throughout the United States voluntarily participate in surveillance for respiratory syncytial virus (RSV) through CDC's National Respiratory and Enteric Virus Surveillance System (NREVSS) (https://www.cdc.gov/surveillance/nrevss/labs/index.html). The data contain weekly, aggregate counts of RSV tests performed and RSV detections as reported to NREVSS since April 11, 2020. \n\nNREVSS data are reported weekly at the national and 10 HHS regional levels (https://www.hhs.gov/about/agencies/iea/regional-offices/index.html). The presented data are RSV Nucleic Acid Amplification Test (NAAT) results, which include reverse transcription-polymerase chain reaction (RT-PCR) tests. These data exclude antigen, antibody, and at-home test results. Less than 5% of RSV tests reported to NREVSS are from antigen tests. All data are provisional and subject to change. Reporting is less complete for the most recent weeks, but relatively complete (>90%) for the period up to 2 weeks earlier. \n\nPercent positivity is a surveillance metric used to monitor RSV activity over time and by geographic area. Participating laboratories send weekly reports of the total number of RSV tests performed that week, and the number of those tests that were positive. In the table and upon hovering on the map, the total test counts reflect the latest data reported to NREVSS and may differ from data presented by public health jurisdictions. Public health jurisdictions may have additional data not reported to NREVSS and may use a different reporting cadence. The RSV trend graphs display the weekly average percent of tests positive for RSV among all the tests performed. Each point on the regional table displays the average number of RSV tests that were performed, and the average percent of those that were positive during a 3-week period (i.e., the specified week, and the weeks immediately preceding and following it). This is also known as a centered, 3-week moving average. The RSV detections displayed are the 5-week moving average (average of the 4 previous and current weeks) in accordance with the recommendations for assessing RSV trends by detections (https://academic.oup.com/jid/article/216/3/345/3860464). \n\nNREVSS strives to present precise estimates of respiratory viral trends and minimize reporting burden for participating laboratories. However, there are several limitations to this surveillance system. NREVSS is a laboratory-based surveillance system that does not have patient-specific data; multiple tests from a single patient may be included. In addition, NREVSS does not collect demographic or clinical data (i.e., hospitalizations or deaths). Testing practices may vary regionally, and the number of participating laboratories may change from year to year. Laboratories from all 50 states report data weekly, but reporting is voluntary and may not be representative of local RSV activity. The data do not include all test results within a jurisdiction and therefore do not reflect all RSV NAATs administered regionally or nationally. Participating laboratories vary in size, testing capabilities, and areas and populations served. Geographic results from clinical laboratories are based on testing location and laboratories may test samples from across one or more states.  For more information on NREVSS and RSV surveillance please visit: https://www.cdc.gov/surveillance/nrevss.",
   "diciBackend" : false,
   "displayType" : "table",
-  "downloadCount" : 4682,
+  "downloadCount" : 4923,
   "hideFromCatalog" : false,
   "hideFromDataJson" : false,
   "locked" : false,
@@ -22,12 +22,12 @@
   "publicationDate" : 1695596220,
   "publicationGroup" : 19297849,
   "publicationStage" : "published",
-  "rowsUpdatedAt" : 1750428436,
-  "rowsUpdatedBy" : "8day-vcrj",
+  "rowsUpdatedAt" : 1750937408,
+  "rowsUpdatedBy" : "ejqy-mg8s",
   "tableId" : 19297849,
   "totalTimesRated" : 0,
-  "viewCount" : 12753,
-  "viewLastModified" : 1750428383,
+  "viewCount" : 12930,
+  "viewLastModified" : 1750937406,
   "viewType" : "tabular",
   "approvals" : [ {
     "reviewedAt" : 1696535953,
@@ -67,45 +67,45 @@
     "renderTypeName" : "text",
     "tableColumnId" : 148625471,
     "cachedContents" : {
-      "non_null" : "230351",
+      "non_null" : "233343",
       "largest" : "Region 9",
       "null" : "0",
       "top" : [ {
         "item" : "Region 1",
-        "count" : "21121"
+        "count" : "21393"
       }, {
         "item" : "Region 9",
-        "count" : "20941"
+        "count" : "21213"
       }, {
         "item" : "National",
-        "count" : "20941"
+        "count" : "21213"
       }, {
         "item" : "Region 2",
-        "count" : "20941"
+        "count" : "21213"
       }, {
         "item" : "Region 3",
-        "count" : "20941"
+        "count" : "21213"
       }, {
         "item" : "Region 4",
-        "count" : "20941"
+        "count" : "21213"
       }, {
         "item" : "Region 5",
-        "count" : "20941"
+        "count" : "21213"
       }, {
         "item" : "Region 6",
-        "count" : "20941"
+        "count" : "21213"
       }, {
         "item" : "Region 7",
-        "count" : "20941"
+        "count" : "21213"
       }, {
         "item" : "Region 8",
-        "count" : "20941"
+        "count" : "21213"
       }, {
         "item" : "Region 10",
-        "count" : "20761"
+        "count" : "21033"
       } ],
       "smallest" : "National",
-      "count" : "230351",
+      "count" : "233343",
       "cardinality" : "11"
     },
     "format" : { }
@@ -119,72 +119,72 @@
     "renderTypeName" : "number",
     "tableColumnId" : 148625470,
     "cachedContents" : {
-      "non_null" : "230351",
+      "non_null" : "233343",
       "largest" : "5.7",
       "null" : "0",
       "top" : [ {
         "item" : "0",
-        "count" : "64430"
+        "count" : "65211"
       }, {
         "item" : "-0.1",
-        "count" : "24780"
+        "count" : "25116"
       }, {
         "item" : "0.1",
-        "count" : "22707"
+        "count" : "22984"
       }, {
         "item" : "-0.2",
-        "count" : "13665"
+        "count" : "13855"
       }, {
         "item" : "0.2",
-        "count" : "11199"
+        "count" : "11335"
       }, {
         "item" : "-0.3",
-        "count" : "7207"
+        "count" : "7315"
       }, {
         "item" : "-0.4",
-        "count" : "5564"
+        "count" : "5647"
       }, {
         "item" : "-0.5",
-        "count" : "5272"
+        "count" : "5349"
       }, {
         "item" : "-0.6",
-        "count" : "5009"
+        "count" : "5081"
       }, {
         "item" : "0.3",
-        "count" : "4571"
+        "count" : "4630"
       }, {
         "item" : "0.4",
-        "count" : "4276"
+        "count" : "4332"
       }, {
         "item" : "-0.7",
-        "count" : "3619"
+        "count" : "3674"
       }, {
         "item" : "0.5",
-        "count" : "3334"
+        "count" : "3374"
       }, {
         "item" : "-0.8",
-        "count" : "3145"
+        "count" : "3194"
       }, {
         "item" : "-0.9",
-        "count" : "2822"
+        "count" : "2861"
       }, {
         "item" : "0.7",
-        "count" : "2811"
+        "count" : "2848"
       }, {
         "item" : "0.6",
-        "count" : "2599"
+        "count" : "2633"
       }, {
         "item" : "-1",
-        "count" : "2232"
+        "count" : "2261"
       }, {
         "item" : "1",
-        "count" : "2197"
+        "count" : "2225"
       }, {
         "item" : "0.9",
-        "count" : "1972"
+        "count" : "1998"
       } ],
       "smallest" : "-5",
-      "count" : "230351",
+      "count" : "233343",
       "cardinality" : "93"
     },
     "format" : {
@@ -201,72 +201,72 @@
     "renderTypeName" : "number",
     "tableColumnId" : 148625477,
     "cachedContents" : {
-      "non_null" : "230351",
+      "non_null" : "233343",
       "largest" : "27.2",
       "null" : "0",
       "top" : [ {
         "item" : "0.1",
-        "count" : "21012"
+        "count" : "21247"
       }, {
         "item" : "0",
-        "count" : "16112"
+        "count" : "16282"
       }, {
         "item" : "0.2",
-        "count" : "14568"
+        "count" : "14754"
       }, {
         "item" : "0.3",
-        "count" : "10693"
+        "count" : "10850"
       }, {
         "item" : "0.4",
-        "count" : "8388"
+        "count" : "8504"
       }, {
         "item" : "0.5",
-        "count" : "8083"
+        "count" : "8198"
       }, {
         "item" : "0.6",
-        "count" : "7613"
+        "count" : "7722"
       }, {
         "item" : "0.9",
-        "count" : "5984"
+        "count" : "6059"
       }, {
         "item" : "0.8",
-        "count" : "5923"
+        "count" : "6002"
       }, {
         "item" : "0.7",
-        "count" : "5757"
+        "count" : "5832"
       }, {
         "item" : "1.1",
-        "count" : "5223"
+        "count" : "5288"
       }, {
         "item" : "1.2",
-        "count" : "4916"
+        "count" : "4977"
       }, {
         "item" : "1",
-        "count" : "4792"
+        "count" : "4855"
       }, {
         "item" : "1.3",
-        "count" : "4007"
+        "count" : "4059"
       }, {
         "item" : "1.4",
-        "count" : "3240"
+        "count" : "3279"
       }, {
         "item" : "1.5",
-        "count" : "3018"
+        "count" : "3057"
       }, {
         "item" : "2.1",
-        "count" : "2575"
+        "count" : "2611"
       }, {
         "item" : "1.7",
-        "count" : "2266"
+        "count" : "2295"
       }, {
         "item" : "1.8",
-        "count" : "2134"
+        "count" : "2164"
       }, {
         "item" : "1.9",
-        "count" : "2099"
+        "count" : "2126"
       } ],
       "smallest" : "0",
-      "count" : "230351",
+      "count" : "233343",
       "cardinality" : "253"
     },
     "format" : {
@@ -283,72 +283,72 @@
     "renderTypeName" : "number",
     "tableColumnId" : 148625476,
     "cachedContents" : {
-      "non_null" : "230351",
+      "non_null" : "233343",
       "largest" : "12.1",
       "null" : "0",
       "top" : [ {
         "item" : "0",
-        "count" : "27721"
+        "count" : "28020"
       }, {
         "item" : "0.1",
-        "count" : "26248"
+        "count" : "26575"
       }, {
         "item" : "0.2",
-        "count" : "19240"
+        "count" : "19504"
       }, {
         "item" : "0.3",
-        "count" : "13407"
+        "count" : "13591"
       }, {
         "item" : "0.5",
-        "count" : "11220"
+        "count" : "11355"
       }, {
         "item" : "0.4",
-        "count" : "11015"
+        "count" : "11163"
       }, {
         "item" : "0.6",
-        "count" : "9351"
+        "count" : "9468"
       }, {
         "item" : "0.7",
-        "count" : "6186"
+        "count" : "6274"
       }, {
         "item" : "0.8",
-        "count" : "4819"
+        "count" : "4882"
       }, {
         "item" : "0.9",
-        "count" : "4763"
+        "count" : "4828"
       }, {
         "item" : "1",
-        "count" : "4006"
+        "count" : "4059"
       }, {
         "item" : "1.1",
-        "count" : "3721"
+        "count" : "3769"
       }, {
         "item" : "1.2",
-        "count" : "3619"
+        "count" : "3667"
       }, {
         "item" : "1.5",
-        "count" : "3153"
+        "count" : "3196"
       }, {
         "item" : "1.3",
-        "count" : "2605"
+        "count" : "2640"
       }, {
         "item" : "1.4",
-        "count" : "2483"
+        "count" : "2515"
       }, {
         "item" : "1.6",
-        "count" : "2426"
+        "count" : "2458"
       }, {
         "item" : "1.8",
-        "count" : "2080"
+        "count" : "2113"
       }, {
         "item" : "2.7",
-        "count" : "2067"
+        "count" : "2098"
       }, {
         "item" : "2",
-        "count" : "2019"
+        "count" : "2048"
       } ],
       "smallest" : "0",
-      "count" : "230351",
+      "count" : "233343",
       "cardinality" : "120"
     },
     "format" : {
@@ -365,72 +365,72 @@
     "renderTypeName" : "number",
     "tableColumnId" : 148625475,
     "cachedContents" : {
-      "non_null" : "230351",
+      "non_null" : "233343",
       "largest" : "5.8",
       "null" : "0",
       "top" : [ {
         "item" : "0",
-        "count" : "43513"
+        "count" : "43991"
       }, {
         "item" : "0.1",
-        "count" : "35647"
+        "count" : "36134"
       }, {
         "item" : "0.2",
-        "count" : "23326"
+        "count" : "23630"
       }, {
         "item" : "0.3",
-        "count" : "17375"
+        "count" : "17594"
       }, {
         "item" : "0.4",
-        "count" : "10999"
+        "count" : "11145"
       }, {
         "item" : "0.5",
-        "count" : "7103"
+        "count" : "7202"
       }, {
         "item" : "0.6",
-        "count" : "6835"
+        "count" : "6925"
       }, {
         "item" : "0.7",
-        "count" : "5637"
+        "count" : "5713"
       }, {
         "item" : "0.8",
-        "count" : "4930"
+        "count" : "4998"
       }, {
         "item" : "0.9",
-        "count" : "4098"
+        "count" : "4150"
       }, {
         "item" : "1",
-        "count" : "4059"
+        "count" : "4116"
       }, {
         "item" : "1.2",
-        "count" : "3731"
+        "count" : "3785"
       }, {
         "item" : "1.1",
-        "count" : "3527"
+        "count" : "3575"
       }, {
         "item" : "1.4",
-        "count" : "3461"
+        "count" : "3510"
       }, {
         "item" : "1.3",
-        "count" : "3352"
+        "count" : "3397"
       }, {
         "item" : "1.8",
-        "count" : "3032"
+        "count" : "3082"
       }, {
         "item" : "1.6",
-        "count" : "3022"
+        "count" : "3061"
       }, {
         "item" : "1.7",
-        "count" : "3017"
+        "count" : "3057"
       }, {
         "item" : "2.3",
-        "count" : "2853"
+        "count" : "2888"
       }, {
         "item" : "2",
-        "count" : "2549"
+        "count" : "2584"
       } ],
       "smallest" : "0",
-      "count" : "230351",
+      "count" : "233343",
       "cardinality" : "59"
     },
     "format" : {
@@ -447,73 +447,73 @@
     "renderTypeName" : "number",
     "tableColumnId" : 148625474,
     "cachedContents" : {
-      "non_null" : "230351",
+      "non_null" : "233343",
       "largest" : "20572",
       "null" : "0",
       "top" : [ {
         "item" : "0.4",
-        "count" : "6642"
+        "count" : "6711"
       }, {
         "item" : "0.2",
-        "count" : "5289"
+        "count" : "5344"
       }, {
         "item" : "0.6",
-        "count" : "4993"
+        "count" : "5043"
       }, {
         "item" : "0.8",
-        "count" : "3792"
+        "count" : "3835"
       }, {
         "item" : "0",
-        "count" : "3708"
+        "count" : "3747"
       }, {
         "item" : "1",
-        "count" : "2184"
+        "count" : "2209"
       }, {
         "item" : "1.2",
-        "count" : "2143"
+        "count" : "2169"
       }, {
         "item" : "1.4",
-        "count" : "1947"
+        "count" : "1970"
       }, {
         "item" : "1.6",
-        "count" : "1856"
+        "count" : "1876"
       }, {
         "item" : "1.8",
-        "count" : "1715"
+        "count" : "1736"
       }, {
         "item" : "2.6",
-        "count" : "1664"
+        "count" : "1682"
       }, {
         "item" : "2.4",
-        "count" : "1466"
+        "count" : "1482"
       }, {
         "item" : "3.2",
-        "count" : "1263"
+        "count" : "1278"
       }, {
         "item" : "2",
-        "count" : "1240"
+        "count" : "1254"
       }, {
         "item" : "2.2",
-        "count" : "1189"
+        "count" : "1201"
       }, {
         "item" : "5.6",
-        "count" : "1154"
+        "count" : "1169"
       }, {
         "item" : "4",
-        "count" : "1117"
+        "count" : "1130"
       }, {
         "item" : "3",
-        "count" : "1104"
+        "count" : "1113"
       }, {
         "item" : "4.6",
-        "count" : "1047"
+        "count" : "1057"
       }, {
         "item" : "6",
-        "count" : "1008"
+        "count" : "1024"
       } ],
       "smallest" : "0",
-      "count" : "230351",
-      "cardinality" : "6189"
+      "count" : "233343",
+      "cardinality" : "6244"
     },
     "format" : {
       "decimalSeparator" : ".",
@@ -529,73 +529,73 @@
     "renderTypeName" : "number",
     "tableColumnId" : 148625473,
     "cachedContents" : {
-      "non_null" : "230351",
+      "non_null" : "233343",
       "largest" : "40128",
       "null" : "0",
       "top" : [ {
         "item" : "0.8",
-        "count" : "4611"
+        "count" : "4658"
       }, {
         "item" : "0.4",
-        "count" : "4245"
+        "count" : "4291"
       }, {
         "item" : "1.2",
-        "count" : "2589"
+        "count" : "2616"
       }, {
         "item" : "1",
-        "count" : "2511"
+        "count" : "2536"
       }, {
         "item" : "0",
-        "count" : "2415"
+        "count" : "2440"
       }, {
         "item" : "1.4",
-        "count" : "2031"
+        "count" : "2054"
       }, {
         "item" : "1.6",
-        "count" : "1815"
+        "count" : "1835"
       }, {
         "item" : "0.6",
-        "count" : "1563"
+        "count" : "1577"
       }, {
         "item" : "1.8",
-        "count" : "1516"
+        "count" : "1533"
       }, {
         "item" : "2.4",
-        "count" : "1386"
+        "count" : "1402"
       }, {
         "item" : "0.2",
-        "count" : "1386"
+        "count" : "1401"
       }, {
         "item" : "2.6",
-        "count" : "1320"
+        "count" : "1336"
       }, {
         "item" : "2",
-        "count" : "1314"
+        "count" : "1330"
       }, {
         "item" : "2.2",
-        "count" : "964"
-      }, {
-        "item" : "4.8",
-        "count" : "906"
+        "count" : "975"
       }, {
         "item" : "4",
-        "count" : "906"
+        "count" : "917"
+      }, {
+        "item" : "4.8",
+        "count" : "916"
       }, {
         "item" : "5.6",
-        "count" : "861"
+        "count" : "871"
       }, {
         "item" : "2.8",
-        "count" : "841"
+        "count" : "851"
       }, {
         "item" : "3.6",
-        "count" : "825"
+        "count" : "834"
       }, {
         "item" : "3",
-        "count" : "809"
+        "count" : "818"
       } ],
       "smallest" : "0",
-      "count" : "230351",
-      "cardinality" : "7533"
+      "count" : "233343",
+      "cardinality" : "7629"
     },
     "format" : {
       "decimalSeparator" : ".",
@@ -611,73 +611,73 @@
     "renderTypeName" : "number",
     "tableColumnId" : 148625469,
     "cachedContents" : {
-      "non_null" : "230351",
+      "non_null" : "233343",
       "largest" : "74930",
       "null" : "0",
       "top" : [ {
         "item" : "1.2",
-        "count" : "2103"
+        "count" : "2123"
       }, {
         "item" : "2",
-        "count" : "1812"
+        "count" : "1831"
       }, {
         "item" : "0.8",
-        "count" : "1743"
+        "count" : "1761"
       }, {
         "item" : "1.6",
-        "count" : "1650"
+        "count" : "1666"
       }, {
         "item" : "1.4",
-        "count" : "1602"
+        "count" : "1620"
       }, {
         "item" : "1.8",
-        "count" : "1455"
+        "count" : "1468"
       }, {
         "item" : "2.2",
-        "count" : "1449"
+        "count" : "1464"
       }, {
         "item" : "2.4",
-        "count" : "1302"
+        "count" : "1315"
       }, {
         "item" : "0.4",
-        "count" : "1257"
+        "count" : "1271"
       }, {
         "item" : "2.8",
-        "count" : "1155"
+        "count" : "1168"
       }, {
         "item" : "0.6",
-        "count" : "1107"
+        "count" : "1119"
       }, {
         "item" : "1",
+        "count" : "1095"
+      }, {
+        "item" : "3.2",
         "count" : "1083"
       }, {
         "item" : "3.4",
-        "count" : "1071"
-      }, {
-        "item" : "3.2",
-        "count" : "1071"
+        "count" : "1083"
       }, {
         "item" : "2.6",
-        "count" : "1062"
+        "count" : "1073"
       }, {
         "item" : "0",
-        "count" : "957"
+        "count" : "966"
       }, {
         "item" : "4",
-        "count" : "856"
+        "count" : "866"
       }, {
         "item" : "0.2",
-        "count" : "822"
+        "count" : "831"
       }, {
         "item" : "5.2",
-        "count" : "743"
+        "count" : "752"
       }, {
         "item" : "3",
-        "count" : "714"
+        "count" : "722"
       } ],
       "smallest" : "0",
-      "count" : "230351",
-      "cardinality" : "9725"
+      "count" : "233343",
+      "cardinality" : "9868"
     },
     "format" : {
       "decimalSeparator" : ".",
@@ -693,73 +693,73 @@
     "renderTypeName" : "number",
     "tableColumnId" : 148625472,
     "cachedContents" : {
-      "non_null" : "209410",
+      "non_null" : "212130",
       "largest" : "41861.7",
-      "null" : "20941",
+      "null" : "21213",
       "top" : [ {
         "item" : "3112.3",
-        "count" : "234"
+        "count" : "237"
       }, {
         "item" : "2624.7",
-        "count" : "207"
+        "count" : "209"
       }, {
         "item" : "2244",
-        "count" : "202"
-      }, {
-        "item" : "3563",
-        "count" : "190"
+        "count" : "204"
       }, {
         "item" : "1585.3",
-        "count" : "190"
+        "count" : "192"
+      }, {
+        "item" : "3563",
+        "count" : "191"
       }, {
         "item" : "1117",
-        "count" : "189"
+        "count" : "191"
       }, {
         "item" : "1863",
-        "count" : "187"
+        "count" : "189"
       }, {
         "item" : "6127",
-        "count" : "187"
+        "count" : "189"
       }, {
-        "item" : "803.3",
-        "count" : "186"
-      }, {
-        "item" : "1832.7",
-        "count" : "186"
-      }, {
-        "item" : "1454.7",
-        "count" : "186"
-      }, {
-        "item" : "6682",
-        "count" : "186"
-      }, {
-        "item" : "2193.3",
-        "count" : "186"
-      }, {
-        "item" : "697.3",
-        "count" : "186"
-      }, {
-        "item" : "350.3",
-        "count" : "186"
+        "item" : "1898.3",
+        "count" : "188"
       }, {
         "item" : "1843.7",
-        "count" : "186"
+        "count" : "188"
       }, {
-        "item" : "2870.3",
-        "count" : "186"
+        "item" : "1513.7",
+        "count" : "188"
       }, {
-        "item" : "1333.3",
-        "count" : "186"
+        "item" : "2977.3",
+        "count" : "188"
       }, {
-        "item" : "881.3",
-        "count" : "186"
+        "item" : "803.3",
+        "count" : "188"
       }, {
-        "item" : "3530",
-        "count" : "186"
+        "item" : "5705.3",
+        "count" : "188"
+      }, {
+        "item" : "890.7",
+        "count" : "188"
+      }, {
+        "item" : "1051",
+        "count" : "188"
+      }, {
+        "item" : "547",
+        "count" : "188"
+      }, {
+        "item" : "1454.7",
+        "count" : "188"
+      }, {
+        "item" : "350.3",
+        "count" : "188"
+      }, {
+        "item" : "6682",
+        "count" : "188"
       } ],
       "smallest" : "116.3",
-      "count" : "230351",
-      "cardinality" : "9255"
+      "count" : "233343",
+      "cardinality" : "9353"
     },
     "format" : {
       "decimalSeparator" : ".",
@@ -775,10 +775,13 @@
     "renderTypeName" : "calendar_date",
     "tableColumnId" : 148625468,
     "cachedContents" : {
-      "non_null" : "230351",
-      "largest" : "2025-06-20T09:43:31.000",
+      "non_null" : "233343",
+      "largest" : "2025-06-25T23:08:10.000",
       "null" : "0",
       "top" : [ {
+        "item" : "2025-06-25T23:05:28.000",
+        "count" : "2720"
+      }, {
         "item" : "2025-06-18T23:28:16.000",
         "count" : "2710"
       }, {
@@ -835,13 +838,10 @@
       }, {
         "item" : "2025-02-12T21:06:05.000",
         "count" : "2530"
-      }, {
-        "item" : "2025-02-05T20:51:49.000",
-        "count" : "2520"
       } ],
       "smallest" : "2023-09-21T23:36:00.000",
-      "count" : "230351",
-      "cardinality" : "182"
+      "count" : "233343",
+      "cardinality" : "184"
     },
     "format" : { }
   }, {
@@ -854,73 +854,73 @@
     "renderTypeName" : "calendar_date",
     "tableColumnId" : 148625467,
     "cachedContents" : {
-      "non_null" : "230351",
-      "largest" : "2025-06-14T00:00:00.000",
+      "non_null" : "233343",
+      "largest" : "2025-06-21T00:00:00.000",
       "null" : "0",
       "top" : [ {
         "item" : "2020-04-11T00:00:00.000",
-        "count" : "1023"
+        "count" : "1034"
       }, {
         "item" : "2020-04-18T00:00:00.000",
-        "count" : "1023"
+        "count" : "1034"
       }, {
         "item" : "2020-04-25T00:00:00.000",
-        "count" : "1023"
+        "count" : "1034"
       }, {
         "item" : "2020-05-02T00:00:00.000",
-        "count" : "1023"
+        "count" : "1034"
       }, {
         "item" : "2020-05-09T00:00:00.000",
-        "count" : "1023"
+        "count" : "1034"
       }, {
         "item" : "2020-05-16T00:00:00.000",
-        "count" : "1023"
+        "count" : "1034"
       }, {
         "item" : "2020-05-23T00:00:00.000",
-        "count" : "1023"
+        "count" : "1034"
       }, {
         "item" : "2020-05-30T00:00:00.000",
-        "count" : "1023"
+        "count" : "1034"
       }, {
         "item" : "2020-06-06T00:00:00.000",
-        "count" : "1023"
+        "count" : "1034"
       }, {
         "item" : "2020-06-13T00:00:00.000",
-        "count" : "1023"
+        "count" : "1034"
       }, {
         "item" : "2020-06-20T00:00:00.000",
-        "count" : "1023"
+        "count" : "1034"
       }, {
         "item" : "2020-06-27T00:00:00.000",
-        "count" : "1023"
+        "count" : "1034"
       }, {
         "item" : "2020-07-04T00:00:00.000",
-        "count" : "1023"
+        "count" : "1034"
       }, {
         "item" : "2020-07-11T00:00:00.000",
-        "count" : "1023"
+        "count" : "1034"
       }, {
         "item" : "2020-07-18T00:00:00.000",
-        "count" : "1023"
+        "count" : "1034"
       }, {
         "item" : "2020-07-25T00:00:00.000",
-        "count" : "1023"
+        "count" : "1034"
       }, {
         "item" : "2020-08-01T00:00:00.000",
-        "count" : "1023"
+        "count" : "1034"
       }, {
         "item" : "2020-08-08T00:00:00.000",
-        "count" : "1023"
+        "count" : "1034"
       }, {
         "item" : "2020-08-15T00:00:00.000",
-        "count" : "1023"
+        "count" : "1034"
       }, {
         "item" : "2020-08-22T00:00:00.000",
-        "count" : "1023"
+        "count" : "1034"
       } ],
       "smallest" : "2020-04-11T00:00:00.000",
-      "count" : "230351",
-      "cardinality" : "271"
+      "count" : "233343",
+      "cardinality" : "272"
     },
     "format" : { }
   } ],
