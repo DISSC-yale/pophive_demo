@@ -7,7 +7,7 @@
 #' write this as the new process file, rather than reading any existing file.
 #' @returns The process definition of the source project.
 #' @examples
-#' epic_process_file <- "../../epic/process.json"
+#' epic_process_file <- "../../data/epic/process.json"
 #' if (file.exists(epic_process_file)) {
 #'   pophive_source_process(path = epic_process_file)
 #' }

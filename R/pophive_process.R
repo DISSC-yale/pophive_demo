@@ -107,8 +107,13 @@ pophive_process <- function(
       if (!env$pophive_process_continue) break
     }
     process_def_current <- pophive_source_process(process_file)
-    process_def_current$scripts <- process_def$scripts
-    pophive_source_process(process_file, process_def_current)
+    if (
+      is.null(process_def_current$raw_state) ||
+        !identical(process_def$raw_state, process_def_current$raw_state)
+    ) {
+      process_def_current$scripts <- process_def$scripts
+      pophive_source_process(process_file, process_def_current)
+    }
     data_files <- list.files(
       paste0(base_dir, "/standard"),
       "\\.(?:csv|parquet)"
@@ -153,8 +158,8 @@ pophive_process <- function(
           verbose = FALSE
         )
         process_def_current$standard_state <- standard_state
+        pophive_source_process(process_file, process_def_current)
       }
-      pophive_source_process(process_file, process_def_current)
       cli::cli_progress_done(result = if (status$success) "done" else "failed")
     } else {
       cli::cli_progress_update(

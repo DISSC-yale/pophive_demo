@@ -38,7 +38,7 @@ pophive_check_sources <- function(
     if (!file.exists(process_file)) {
       cli::cli_abort("{name} does not appear to be a data source project")
     }
-    process <- jsonlite::read_json(process_file)
+    process <- pophive_source_process(process_file)
     info_file <- paste0(base_dir, "measure_info.json")
     info <- tryCatch(
       community::data_measure_info(
@@ -158,14 +158,11 @@ pophive_check_sources <- function(
     } else {
       if (verbose) cli::cli_alert_info("no standard data files found to check")
     }
-    process$checked <- Sys.time()
-    process$check_results <- source_issues
-    jsonlite::write_json(
-      process,
-      process_file,
-      auto_unbox = TRUE,
-      pretty = TRUE
-    )
+    if (!identical(process$check_results, source_issues)) {
+      process$checked <- Sys.time()
+      process$check_results <- source_issues
+      pophive_source_process(process_file, process)
+    }
     issues[[name]] <- source_issues
   }
 
