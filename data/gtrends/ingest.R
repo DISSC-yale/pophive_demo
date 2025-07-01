@@ -18,38 +18,59 @@ for (term in terms) {
 # Reformat
 #
 
-data <- dplyr::collect(dplyr::filter(
-  arrow::open_dataset("raw"),
-  grepl("US", location),
-  date > 2014
-))
+# check raw state
+raw_state <- as.list(tools::md5sum(list.files(
+  "raw",
+  "parquet",
+  recursive = TRUE,
+  full.names = TRUE
+)))
+process <- pophive::pophive_source_process()
 
-# aggregate over repeated samples
-data <- dplyr::summarize(
-  dplyr::group_by(data, term, location, date),
-  value = mean(value),
-  .groups = "keep"
-)
-data$term <- paste0("gtrends_", tolower(data$term))
-data$term[data$term == "gtrends_%2fg%2f11j30ybfx6"] <- "gtrends_rsv_vaccine"
-data <- tidyr::pivot_wider(
-  data,
-  id_cols = c("location", "date"),
-  names_from = "term"
-)
-colnames(data)[1L:2L] <- c("geography", "time")
+# process raw if state has changed
+if (!identical(process$raw_state, raw_state)) {
+  data <- dplyr::collect(dplyr::filter(
+    arrow::open_dataset("raw"),
+    grepl("US", location),
+    date > 2014
+  ))
 
-# convert state abbreviations to GEOIDs
-state_ids <- vroom::vroom(
-  "https://www2.census.gov/geo/docs/reference/codes2020/national_state2020.txt",
-  delim = "|",
-  col_types = list(STATE = "c", STATEFP = "c")
-)
-data$geography <- structure(state_ids$STATEFP, names = state_ids$STATE)[sub(
-  "US-",
-  "",
-  data$geography,
-  fixed = TRUE
-)]
+  # aggregate over repeated samples
+  data <- dplyr::summarize(
+    dplyr::group_by(data, term, location, date),
+    value = mean(value),
+    .groups = "keep"
+  )
+  data$term <- paste0("gtrends_", tolower(data$term))
+  data$term[data$term == "gtrends_%2fg%2f11j30ybfx6"] <- "gtrends_rsv_vaccine"
+  data <- tidyr::pivot_wider(
+    data,
+    id_cols = c("location", "date"),
+    names_from = "term"
+  )
+  colnames(data)[1L:2L] <- c("geography", "time")
 
-vroom::vroom_write(data, "standard/data.csv.gz", ",")
+  # convert state abbreviations to GEOIDs
+  state_ids <- pophive::pophive_load_census(
+    out_dir = "../../resources",
+    state_only = TRUE
+  )
+  data$geography <- structure(
+    state_ids$GEOID,
+    names = state_ids$region_name
+  )[structure(
+    c(state.name, "District of Columbia"),
+    names = c(state.abb, "DC")
+  )[sub(
+    "US-",
+    "",
+    data$geography,
+    fixed = TRUE
+  )]]
+
+  vroom::vroom_write(data, "standard/data.csv.gz", ",")
+
+  # record processed raw state
+  process$raw_state <- raw_state
+  pophive::pophive_source_process(updated = process)
+}

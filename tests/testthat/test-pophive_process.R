@@ -59,6 +59,7 @@ test_that("source workflow works", {
     ),
     project_files[[1L]]
   )
+  pophive_process(source_name, source_dir)
   community::data_measure_info(
     project_files[[2L]],
     measure_name = list(
@@ -67,7 +68,6 @@ test_that("source workflow works", {
     verbose = FALSE,
     open_after = FALSE
   )
-  pophive_process(source_name, source_dir)
   system2("git", "init")
   system2("git", 'config user.email "temp@example.com"')
   system2("git", 'config user.name "temp user"')
@@ -80,7 +80,7 @@ test_that("source workflow works", {
     source_name,
     "/standard/datapackage.json"
   ))
-  expect_false(is.null(package$resources[[1]]$versions$hash))
+  expect_false(is.null(package$resources[[1L]]$versions$hash))
   issues <- pophive_check_sources(source_name, source_dir)
-  expect_true(length(issues[[source_name]]) == 0L)
+  expect_true(length(issues[[source_name]][[1L]]) == 0L)
 })

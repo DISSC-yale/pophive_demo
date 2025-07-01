@@ -3,6 +3,7 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
 ^LICENSE\.md$
+^\.git$
 ^\.github$
 ^data$
 ^data_bundles$

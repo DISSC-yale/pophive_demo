@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron: '0 0 * * 1'
+    - cron: '0 2 * * *'
   workflow_dispatch:
 
 jobs:
@@ -26,5 +26,5 @@ jobs:
           git config user.email "actions@github.com"
           git config user.name "GitHub Actions"
           git add -A
-          git commit -m "weekly data reprocess"
+          git commit -m "scheduled data build"
           git push

@@ -1,6 +1,6 @@
 library(pophive)
 
-process <- pophive_process()
+process <- pophive_process(is_auto = TRUE)
 issues <- pophive_check_sources()
 datapackages <- list.files(
   "data",

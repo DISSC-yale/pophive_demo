@@ -6,6 +6,9 @@
 #' @param source_dir Path to the directory containing source projects.
 #' @param ingest Logical; if \code{FALSE}, will re-process standardized data without running
 #' ingestion scripts.
+#' @param is_auto Logical; if \code{TRUE}, will skip process scripts marked as manual.
+#' @param force Logical; if \code{TRUE}, will ignore process frequencies
+#' (will run scripts even if recently run).
 #' @returns A list with processing results:
 #' \itemize{
 #'   \item \code{timings}: How many seconds the ingestion script took to run.
@@ -27,91 +30,135 @@
 pophive_process <- function(
   name = NULL,
   source_dir = "data",
-  ingest = TRUE
+  ingest = TRUE,
+  is_auto = FALSE,
+  force = FALSE
 ) {
   sources <- if (is.null(name)) {
     list.files(
       source_dir,
-      "ingest\\.R",
+      "process\\.json",
       recursive = TRUE,
       full.names = TRUE
     )
   } else {
-    ingest_files <- paste0(source_dir, "/", name, "/ingest.R")
-    if (any(!file.exists(ingest_files))) {
+    process_files <- paste0(source_dir, "/", name, "/process.json")
+    if (any(!file.exists(process_files))) {
       cli::cli_abort(
-        "missing ingest file{?/s}: {.emph {ingest_files[!file.exists(ingest_files)]}}"
+        "missing process file{?/s}: {.emph {process_files[!file.exists(process_files)]}}"
       )
     }
-    ingest_files
+    process_files
+  }
+  decide_to_run <- function(process_script) {
+    if (is_auto && process_script$manual) return(FALSE)
+    if (
+      force || process_script$last_run == "" || process_script$frequency == 0L
+    )
+      return(TRUE)
+    if (
+      difftime(Sys.time(), as.POSIXct(process_script$last_run), units = "day") >
+        process_script$frequency
+    ) {
+      return(TRUE)
+    }
+    FALSE
   }
   timings <- list()
   logs <- list()
-  for (s in sources) {
-    st <- proc.time()[[3]]
-    base_dir <- dirname(s)
-    name <- basename(base_dir)
-    file_ref <- if (ingest) paste0(" ({.file ", s, "})") else NULL
-    cli::cli_progress_step(
-      paste0("processing {.strong ", name, "}", file_ref),
-      msg_failed = paste0("failed to process {.strong ", name, "}", file_ref),
-      spinner = TRUE
-    )
-    status <- if (ingest) {
-      tryCatch(
-        list(
-          log = utils::capture.output(
-            source(s, chdir = TRUE),
-            type = "message"
-          ),
-          success = TRUE
-        ),
-        error = function(e) list(log = e$message, success = FALSE)
+  for (process_file in sources) {
+    pophive_add_source(basename(dirname(process_file)), source_dir, FALSE)
+    process_def <- pophive_source_process(process_file)
+    name <- process_def$name
+    for (si in seq_along(process_def$scripts)) {
+      process_script <- process_def$scripts[[si]]
+      run_current <- ingest && decide_to_run(process_script)
+      base_dir <- dirname(process_file)
+      script <- paste0(base_dir, "/", process_script$path)
+      st <- proc.time()[[3]]
+      file_ref <- if (run_current) paste0(" ({.emph ", script, "})") else NULL
+      cli::cli_progress_step(
+        paste0("processing {.strong ", name, "}", file_ref),
+        msg_failed = paste0("failed to process {.strong ", name, "}", file_ref),
+        spinner = TRUE
       )
-    } else list(log = "", success = TRUE)
-    logs[[name]] <- status$log
-    if (status$success) timings[[name]] <- proc.time()[[3]] - st
+      env <- new.env()
+      env$pophive_process_continue <- TRUE
+      status <- if (ingest) {
+        tryCatch(
+          list(
+            log = utils::capture.output(
+              source(script, env, chdir = TRUE),
+              type = "message"
+            ),
+            success = TRUE
+          ),
+          error = function(e) list(log = e$message, success = FALSE)
+        )
+      } else list(log = "", success = TRUE)
+      logs[[name]] <- status$log
+      if (run_current) {
+        process_script$last_run <- Sys.time()
+        process_script$run_time <- proc.time()[[3]] - st
+        process_script$last_status <- status
+        process_def$scripts[[si]] <- process_script
+      }
+      if (status$success) timings[[name]] <- process_script$run_time
+      if (!env$pophive_process_continue) break
+    }
+    process_def_current <- pophive_source_process(process_file)
+    process_def_current$scripts <- process_def$scripts
+    pophive_source_process(process_file, process_def_current)
     data_files <- list.files(
       paste0(base_dir, "/standard"),
       "\\.(?:csv|parquet)"
     )
     if (length(data_files)) {
-      measure_info <- community::data_measure_info(
-        paste0(base_dir, "/measure_info.json"),
-        include_empty = FALSE,
-        render = TRUE,
-        write = FALSE,
-        open_after = FALSE,
-        verbose = FALSE
-      )
-      measure_sources <- list()
-      for (info in measure_info) {
-        for (s in info$sources) {
-          if (
-            !is.null(s$location) &&
-              !(s$location %in% names(sources))
-          ) {
-            measure_sources[[s$location]] <- s
+      measure_info_file <- paste0(base_dir, "/measure_info.json")
+      standard_state <- as.list(tools::md5sum(c(
+        measure_info_file,
+        paste0(base_dir, "/standard/", data_files)
+      )))
+      if (!identical(process_def_current$standard_state, standard_state)) {
+        measure_info <- community::data_measure_info(
+          measure_info_file,
+          include_empty = FALSE,
+          render = TRUE,
+          write = FALSE,
+          open_after = FALSE,
+          verbose = FALSE
+        )
+        measure_sources <- list()
+        for (info in measure_info) {
+          for (s in info$sources) {
+            if (
+              !is.null(s$location) &&
+                !(s$location %in% names(sources))
+            ) {
+              measure_sources[[s$location]] <- s
+            }
           }
         }
+        community::data_add(
+          data_files,
+          meta = list(
+            source = unname(measure_sources),
+            ids = "geography",
+            time = "time",
+            variables = measure_info
+          ),
+          dir = paste0(base_dir, "/standard"),
+          pretty = TRUE,
+          summarize_ids = TRUE,
+          verbose = FALSE
+        )
+        process_def_current$standard_state <- standard_state
       }
-      community::data_add(
-        data_files,
-        meta = list(
-          source = unname(measure_sources),
-          ids = "geography",
-          time = "time",
-          variables = measure_info
-        ),
-        dir = paste0(base_dir, "/standard"),
-        pretty = TRUE,
-        summarize_ids = TRUE,
-        verbose = FALSE
-      )
+      pophive_source_process(process_file, process_def_current)
       cli::cli_progress_done(result = if (status$success) "done" else "failed")
     } else {
       cli::cli_progress_update(
-        "no standard data files found in {.path {s}}"
+        "no standard data files found in {.path {process_file}}"
       )
       cli::cli_progress_done(result = "failed")
     }

@@ -122,13 +122,13 @@ export function ReportDisplay() {
             </Stack>
           }
         />
-        <CardContent sx={{position: 'absolute', top: 48, bottom: 0, width: '100%', p: 1, pt: 0, overflow: 'hidden'}}>
+        <CardContent sx={{position: 'absolute', top: 48, bottom: 0, width: '100%', overflow: 'hidden'}}>
           <Box
             role="tabpanel"
             id="variables-panel"
             aria-labelledby="variables-tab"
             hidden={tab !== 'variables'}
-            sx={{height: '100%', overflow: 'hidden'}}
+            sx={{height: '100%', overflow: 'hidden', pb: 7}}
           >
             <TextField
               size="small"

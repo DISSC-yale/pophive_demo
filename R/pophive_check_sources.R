@@ -33,16 +33,12 @@ pophive_check_sources <- function(
     base_dir <- paste0(source_dir, "/", name, "/")
     if (!dir.exists(base_dir))
       cli::cli_abort("specify the name of an existing data source")
-    if (
-      any(
-        !file.exists(paste0(
-          base_dir,
-          c("ingest.R", "measure_info.json", "standard")
-        ))
-      )
-    ) {
+    process_file <- paste0(base_dir, "process.json")
+    pophive_add_source(name, source_dir, FALSE)
+    if (!file.exists(process_file)) {
       cli::cli_abort("{name} does not appear to be a data source project")
     }
+    process <- jsonlite::read_json(process_file)
     info_file <- paste0(base_dir, "measure_info.json")
     info <- tryCatch(
       community::data_measure_info(
@@ -143,12 +139,10 @@ pophive_check_sources <- function(
             }
           }
         }
-        if (length(data_issues) || length(measure_issues)) {
-          file_issues <- list()
-          if (length(data_issues)) file_issues$data <- data_issues
-          if (length(measure_issues)) file_issues$measures <- measure_issues
-          source_issues[[file]] <- file_issues
-        }
+        file_issues <- list()
+        if (length(data_issues)) file_issues$data <- data_issues
+        if (length(measure_issues)) file_issues$measures <- measure_issues
+        source_issues[[file]] <- file_issues
         if (verbose) {
           if (length(issue_messages)) {
             cli::cli_progress_done(result = "failed")
@@ -164,7 +158,16 @@ pophive_check_sources <- function(
     } else {
       if (verbose) cli::cli_alert_info("no standard data files found to check")
     }
+    process$checked <- Sys.time()
+    process$check_results <- source_issues
+    jsonlite::write_json(
+      process,
+      process_file,
+      auto_unbox = TRUE,
+      pretty = TRUE
+    )
     issues[[name]] <- source_issues
   }
+
   invisible(issues)
 }

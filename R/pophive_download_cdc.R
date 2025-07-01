@@ -4,8 +4,11 @@
 #'
 #' @param id ID of the resource (e.g., \code{ijqb-a7ye}).
 #' @param out_dir Directory in which to save the metadata and data files.
+#' @param state The state ID of a previous download; if provided, will only download if the
+#' new state does not match.
 #' @param verbose Logical; if \code{FALSE}, will not display status messages.
-#' @returns Nothing; downloads files (\code{<id>.json} and \code{<id>.csv.xz}) to \code{out_dir}
+#' @returns The state ID of the downloaded files;
+#' downloads files (\code{<id>.json} and \code{<id>.csv.xz}) to \code{out_dir}
 #' @section \code{data.cdc.gov} URLs:
 #'
 #' For each resource ID, there are 3 relevant CDC URLs:
@@ -25,9 +28,12 @@
 #' }
 #' @export
 
-pophive_download_cdc <- function(id, out_dir = "raw", verbose = TRUE) {
-  initial_timeout <- options(timeout = 99999)$timeout
-  on.exit(options(timeout = initial_timeout))
+pophive_download_cdc <- function(
+  id,
+  out_dir = "raw",
+  state = NULL,
+  verbose = TRUE
+) {
   dir.create(out_dir, showWarnings = FALSE, recursive = TRUE)
   if (verbose) {
     resource_url <- paste0("https://data.cdc.gov/resource/", id)
@@ -36,22 +42,26 @@ pophive_download_cdc <- function(id, out_dir = "raw", verbose = TRUE) {
     )
   }
   url <- paste0("https://data.cdc.gov/api/views/", id)
+  initial_timeout <- options(timeout = 99999)$timeout
+  on.exit(options(timeout = initial_timeout))
   if (verbose) cli::cli_progress_step("metadata: {.url {url}}")
-  status <- utils::download.file(
-    url,
-    paste0(out_dir, "/", id, ".json"),
-    quiet = TRUE
-  )
+  metadata_file <- paste0(out_dir, "/", id, ".json")
+  status <- utils::download.file(url, metadata_file, quiet = TRUE)
   if (status != 0L) cli::cli_abort("failed to download metadata")
-
-  data_url <- paste0(url, "/rows.csv")
-  out_path <- paste0(out_dir, "/", id, ".csv")
-  if (verbose) cli::cli_progress_step("data: {.url {data_url}}")
-  status <- utils::download.file(data_url, out_path, quiet = TRUE)
-  if (status != 0L) cli::cli_abort("failed to download data")
-  if (verbose) cli::cli_progress_step("compressing data")
-  unlink(paste0(out_path, ".xz"))
-  status <- system2("xz", c("-f", out_path))
-  if (status != 0L) cli::cli_abort("failed to compress data")
-  if (verbose) cli::cli_progress_done()
+  new_state <- as.list(tools::md5sum(metadata_file))
+  if (!identical(new_state, state)) {
+    data_url <- paste0(url, "/rows.csv")
+    out_path <- paste0(out_dir, "/", id, ".csv")
+    if (verbose) cli::cli_progress_step("data: {.url {data_url}}")
+    status <- utils::download.file(data_url, out_path, quiet = TRUE)
+    if (status != 0L) cli::cli_abort("failed to download data")
+    if (verbose) cli::cli_progress_step("compressing data")
+    unlink(paste0(out_path, ".xz"))
+    status <- system2("xz", c("-f", out_path))
+    if (status != 0L) cli::cli_abort("failed to compress data")
+    if (verbose) cli::cli_progress_done()
+    invisible(new_state)
+  } else {
+    invisible(state)
+  }
 }

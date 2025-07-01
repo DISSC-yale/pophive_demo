@@ -4,7 +4,13 @@
 \alias{pophive_process}
 \title{Run Data Sources}
 \usage{
-pophive_process(name = NULL, source_dir = "data", ingest = TRUE)
+pophive_process(
+  name = NULL,
+  source_dir = "data",
+  ingest = TRUE,
+  is_auto = FALSE,
+  force = FALSE
+)
 }
 \arguments{
 \item{name}{Name of a source project to process. Will}
@@ -13,6 +19,11 @@ pophive_process(name = NULL, source_dir = "data", ingest = TRUE)
 
 \item{ingest}{Logical; if \code{FALSE}, will re-process standardized data without running
 ingestion scripts.}
+
+\item{is_auto}{Logical; if \code{TRUE}, will skip process scripts marked as manual.}
+
+\item{force}{Logical; if \code{TRUE}, will ignore process frequencies
+(will run scripts even if recently run).}
 }
 \value{
 A list with processing results:

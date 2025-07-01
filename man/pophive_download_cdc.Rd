@@ -4,17 +4,21 @@
 \alias{pophive_download_cdc}
 \title{Download Data from the CDC}
 \usage{
-pophive_download_cdc(id, out_dir = "raw", verbose = TRUE)
+pophive_download_cdc(id, out_dir = "raw", state = NULL, verbose = TRUE)
 }
 \arguments{
 \item{id}{ID of the resource (e.g., \code{ijqb-a7ye}).}
 
 \item{out_dir}{Directory in which to save the metadata and data files.}
 
+\item{state}{The state ID of a previous download; if provided, will only download if the
+new state does not match.}
+
 \item{verbose}{Logical; if \code{FALSE}, will not display status messages.}
 }
 \value{
-Nothing; downloads files (\code{<id>.json} and \code{<id>.csv.xz}) to \code{out_dir}
+The state ID of the downloaded files;
+downloads files (\code{<id>.json} and \code{<id>.csv.xz}) to \code{out_dir}
 }
 \description{
 Download data and metadata from the Centers for Disease Control and Prevention (CDC).

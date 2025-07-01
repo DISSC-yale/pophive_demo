@@ -49,6 +49,7 @@ pophive_add_source <- function(
       "ingest.R",
       "project.Rproj",
       "standard/datapackage.json",
+      "process.json",
       "README.md"
     )
   )
@@ -91,7 +92,29 @@ pophive_add_source <- function(
       dir = paste0(base_path, "standard"),
       quiet = TRUE
     )
-  if (!file.exists(paths[[5]])) {
+
+  if (!file.exists(paths[[5]]))
+    jsonlite::write_json(
+      list(
+        name = name,
+        scripts = list(
+          list(
+            path = "ingest.R",
+            manual = FALSE,
+            frequency = 0L,
+            last_run = "",
+            run_time = "",
+            last_status = list(log = "", success = TRUE)
+          )
+        ),
+        checked = "",
+        check_results = list()
+      ),
+      paths[[5]],
+      auto_unbox = TRUE,
+      pretty = TRUE
+    )
+  if (!file.exists(paths[[6]])) {
     writeLines(
       paste0(
         c(
@@ -113,7 +136,7 @@ pophive_add_source <- function(
         ),
         collapse = "\n"
       ),
-      paths[[5]]
+      paths[[6]]
     )
   }
   if (open_after) rstudioapi::openProject(paths[[3]], newSession = TRUE)
