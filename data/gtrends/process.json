@@ -30,9 +30,9 @@
       }
     }
   ],
-  "checked": "2025-07-01 15:09:03",
+  "checked": "2025-07-02 02:34:23",
   "check_results": {
-    "data/gtrends/standard/data.csv.gz": []
+    "data/gtrends/standard//data.csv.gz": []
   },
   "raw_state": {
     "raw/term=%252Fg%252F11j30ybfx6/part-0.parquet": "37fc221272fe18bcf6be8fbfc31aca2f",
@@ -41,7 +41,7 @@
     "raw/term=rsv/part-0.parquet": "b012cf978976b28493fc3c0390341da5"
   },
   "standard_state": {
-    "data/gtrends/measure_info.json": "69a0c1fca677c545c0a18e0e659276c3",
+    "data/gtrends/measure_info.json": "c3cfde6f4869c5098de920ab36f55de0",
     "data/gtrends/standard/data.csv.gz": "d558f5886fdba8bfc4fd449e3c1c974d"
   }
 }
