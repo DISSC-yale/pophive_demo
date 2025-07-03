@@ -48,7 +48,9 @@ pophive_download_cdc <- function(
   metadata_file <- paste0(out_dir, "/", id, ".json")
   status <- utils::download.file(url, metadata_file, quiet = TRUE)
   if (status != 0L) cli::cli_abort("failed to download metadata")
-  new_state <- as.list(tools::md5sum(metadata_file))
+  metadata <- jsonlite::read_json(metadata_file)
+  new_state <- if (is.null(metadata$rowsUpdatedAt))
+    as.list(tools::md5sum(metadata_file)) else metadata$rowsUpdatedAt
   if (!identical(new_state, state)) {
     data_url <- paste0(url, "/rows.csv")
     out_path <- paste0(out_dir, "/", id, ".csv")

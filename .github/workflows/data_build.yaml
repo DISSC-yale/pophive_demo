@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  weekly-reprocess:
+  data_build:
     runs-on: ubuntu-latest
     permissions:
       contents: write
