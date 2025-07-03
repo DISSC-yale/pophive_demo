@@ -5,23 +5,10 @@
       "path": "ingest.R",
       "manual": false,
       "frequency": 0,
-      "last_run": "2025-07-02 02:34:19",
-      "run_time": 19.391,
+      "last_run": "2025-07-03 02:34:18",
+      "run_time": 19.157,
       "last_status": {
-        "log": [
-          "",
-          "⠙ processing NREVSS (data/NREVSS/ingest.R)\r── downloading resource <https://data.cdc.gov/resource/3cxc-4k8q> ──────────────",
-          "⠙ processing NREVSS (data/NREVSS/ingest.R)\rℹ metadata: <https://data.cdc.gov/api/views/3cxc-4k8q>",
-          "✔ metadata: <https://data.cdc.gov/api/views/3cxc-4k8q> [560ms]",
-          "",
-          "⠙ processing NREVSS (data/NREVSS/ingest.R)\rℹ data: <https://data.cdc.gov/api/views/3cxc-4k8q/rows.csv>",
-          "✔ data: <https://data.cdc.gov/api/views/3cxc-4k8q/rows.csv> [9.6s]",
-          "",
-          "⠙ processing NREVSS (data/NREVSS/ingest.R)\rℹ compressing data",
-          "✔ compressing data [7.7s]",
-          "",
-          "⠙ processing NREVSS (data/NREVSS/ingest.R)\r"
-        ],
+        "log": ["", "⠙ processing NREVSS (data/NREVSS/ingest.R)\r── downloading resource <https://data.cdc.gov/resource/3cxc-4k8q> ──────────────", "⠙ processing NREVSS (data/NREVSS/ingest.R)\rℹ metadata: <https://data.cdc.gov/api/views/3cxc-4k8q>", "✔ metadata: <https://data.cdc.gov/api/views/3cxc-4k8q> [562ms]", "", "⠙ processing NREVSS (data/NREVSS/ingest.R)\rℹ data: <https://data.cdc.gov/api/views/3cxc-4k8q/rows.csv>", "✔ data: <https://data.cdc.gov/api/views/3cxc-4k8q/rows.csv> [9.1s]", "", "⠙ processing NREVSS (data/NREVSS/ingest.R)\rℹ compressing data", "✔ compressing data [8s]", "", "⠙ processing NREVSS (data/NREVSS/ingest.R)\r"],
         "success": true
       }
     }
@@ -31,7 +18,7 @@
     "data/NREVSS/standard//data.csv.gz": []
   },
   "raw_state": {
-    "raw/3cxc-4k8q.json": "0c549351b1a26149a65ce1fdd908b2ac"
+    "raw/3cxc-4k8q.json": "a077dc1ccbf261fc9e5e06e0633cff21"
   },
   "standard_state": {
     "data/NREVSS/measure_info.json": "f706595e825619160be9ac5359564be8",
