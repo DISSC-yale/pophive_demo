@@ -25,7 +25,7 @@ raw_state <- as.list(tools::md5sum(list.files(
   recursive = TRUE,
   full.names = TRUE
 )))
-process <- pophive::pophive_source_process()
+process <- dcf::dcf_process_record()
 
 # process raw if state has changed
 if (!identical(process$raw_state, raw_state)) {
@@ -51,7 +51,7 @@ if (!identical(process$raw_state, raw_state)) {
   colnames(data)[1L:2L] <- c("geography", "time")
 
   # convert state abbreviations to GEOIDs
-  state_ids <- pophive::pophive_load_census(
+  state_ids <- dcf::dcf_load_census(
     out_dir = "../../resources",
     state_only = TRUE
   )
@@ -72,5 +72,5 @@ if (!identical(process$raw_state, raw_state)) {
 
   # record processed raw state
   process$raw_state <- raw_state
-  pophive::pophive_source_process(updated = process)
+  dcf::dcf_process_record(updated = process)
 }

@@ -5,25 +5,35 @@
       "path": "ingest.R",
       "manual": false,
       "frequency": 0,
-      "last_run": "2025-07-08 02:35:31",
-      "run_time": 6.739,
+      "last_run": "2025-07-10 17:55:33",
+      "run_time": 2.85,
       "last_status": {
-        "log": ["trying URL 'https://www.cdc.gov/wcms/vizdata/NCEZID_DIDRI/RSVStateLevelDownloadCSV.csv'", "downloaded 1.1 MB", "", "trying URL 'https://www.cdc.gov/wcms/vizdata/NCEZID_DIDRI/FluA/FluAStateMapDownloadCSV.csv'", "downloaded 1.1 MB", "", "trying URL 'https://www.cdc.gov/wcms/vizdata/NCEZID_DIDRI/SC2StateLevelDownloadCSV.csv'", "downloaded 1.4 MB", ""],
+        "log": [
+          "trying URL 'https://www.cdc.gov/wcms/vizdata/NCEZID_DIDRI/RSVStateLevelDownloadCSV.csv'",
+          "downloaded 1.1 MB",
+          "",
+          "trying URL 'https://www.cdc.gov/wcms/vizdata/NCEZID_DIDRI/FluA/FluAStateMapDownloadCSV.csv'",
+          "downloaded 1.1 MB",
+          "",
+          "trying URL 'https://www.cdc.gov/wcms/vizdata/NCEZID_DIDRI/SC2StateLevelDownloadCSV.csv'",
+          "downloaded 1.4 MB",
+          ""
+        ],
         "success": true
       }
     }
   ],
-  "checked": "2025-07-02 02:34:23",
+  "checked": "2025-07-10 17:58:34",
   "check_results": {
-    "data/wastewater/standard//data.csv.gz": []
+    "./data/wastewater/standard/data.csv.gz": []
   },
   "raw_state": {
-    "raw/covid.csv.xz": "3cf01bcd56d3e63cf340d0a6865fe3ad",
-    "raw/flua.csv.xz": "a957611fa62688b99a5f665008aed4b4",
-    "raw/rsv.csv.xz": "b77b0477b1137bcf0fd20dc7fb844a34"
+    "raw/covid.csv.xz": "9aa21b7d1d8da7befa1877c12f983492",
+    "raw/flua.csv.xz": "f3a8771f12352df35cc6de7c138c4cae",
+    "raw/rsv.csv.xz": "9f865b208cb0d71dd149db7156e98b7e"
   },
   "standard_state": {
-    "data/wastewater/measure_info.json": "6f5960ac6aa87c21ba7c5df994d4567c",
-    "data/wastewater/standard/data.csv.gz": "86637dbbe06d2c4d5d3ceddfc8d5773e"
+    "./data/wastewater/measure_info.json": "b69efd2b1aab251f80931839d4c8bd61",
+    "./data/wastewater/standard/data.csv.gz": "e22fa2043963194f9e04b0696322cb90"
   }
 }

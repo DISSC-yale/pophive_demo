@@ -27,7 +27,7 @@ raw_state <- as.list(tools::md5sum(list.files(
   recursive = TRUE,
   full.names = TRUE
 )))
-process <- pophive::pophive_source_process()
+process <- dcf::dcf_process_record()
 
 if (!identical(process$raw_state, raw_state)) {
   data <- do.call(
@@ -80,5 +80,5 @@ if (!identical(process$raw_state, raw_state)) {
   vroom::vroom_write(data, "standard/data.csv.gz", ",")
 
   process$raw_state <- raw_state
-  pophive::pophive_source_process(updated = process)
+  dcf::dcf_process_record(updated = process)
 }

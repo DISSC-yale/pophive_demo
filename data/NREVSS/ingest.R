@@ -2,8 +2,8 @@
 # Download
 #
 
-process <- pophive::pophive_source_process()
-raw_state <- pophive::pophive_download_cdc(
+process <- dcf::dcf_process_record()
+raw_state <- dcf::dcf_download_cdc(
   "3cxc-4k8q",
   "raw",
   process$raw_state
@@ -33,5 +33,5 @@ if (!identical(process$raw_state, raw_state)) {
 
   # record processed raw state
   process$raw_state <- raw_state
-  pophive::pophive_source_process(updated = process)
+  dcf::dcf_process_record(updated = process)
 }

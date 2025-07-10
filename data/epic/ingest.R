@@ -1,6 +1,6 @@
 # Process staging data
 
-raw <- pophive::pophive_process_epic_staging()
+raw <- dcf::dcf_process_epic_staging()
 
 # if there was staging data, make new standard version from it
 
@@ -8,7 +8,7 @@ if (!is.null(raw)) {
   files <- list.files("raw", "\\.csv\\.xz", full.names = TRUE)
   data <- lapply(files, function(file) {
     d <- vroom::vroom(file, show_col_types = FALSE, guess_max = Inf)
-    pophive::pophive_standardize_epic(d)
+    dcf::dcf_standardize_epic(d)
   })
   names(data) <- sub("\\..*", "", basename(files))
 
