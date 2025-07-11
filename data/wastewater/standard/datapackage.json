@@ -11,12 +11,13 @@
     {
       "bytes": 220185,
       "encoding": "ISO-8859-1",
-      "md5": "e22fa2043963194f9e04b0696322cb90",
+      "md5": "86637dbbe06d2c4d5d3ceddfc8d5773e",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
         "hash": [
+          "ab6649b2b88fb7fc51f1a34f18a29dd40b5e6d11",
           "3afe62043b4290a4199d82721ba510b3fe93ba79",
           "440e5a9e4917c83424b6a3fe933715a22d5fb87b",
           "1ef46279c9b98850cdff0d5acfeda88e7d8d4c92",
@@ -29,6 +30,7 @@
           "36914a3d9b47f91eba0b5d8dfddd357a700fd525"
         ],
         "author": [
+          "Micah <micah.iserman@gmail.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "Micah <micah.iserman@gmail.com>",
@@ -41,6 +43,7 @@
           "Micah <micah.iserman@gmail.com>"
         ],
         "date": [
+          "Thu Jul 10 18:10:38 2025 -0400",
           "Tue Jul 8 02:35:33 2025 +0000",
           "Wed Jul 2 02:34:23 2025 +0000",
           "Tue Jul 1 15:11:58 2025 -0400",
@@ -53,6 +56,7 @@
           "Tue May 27 13:56:02 2025 -0400"
         ],
         "message": [
+          "transitions to dcf",
           "scheduled data build",
           "scheduled data build",
           "adds source process mechanism",
@@ -93,8 +97,8 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-07-10 17:55:33.327692",
-      "last_modified": "2025-07-08 04:52:47.478128",
+      "created": "2025-07-11 02:46:41.675194",
+      "last_modified": "2025-07-11 02:46:41.675194",
       "row_count": 8998,
       "entity_count": 52,
       "schema": {
@@ -402,7 +406,7 @@
           }
         ]
       },
-      "sha512": "fb666f26c130d3acfa69b240cf08bdba7d91ba91b3a4493e7e51a53bb050dcb348ecba0513738fe80e870efb643576a89eddc26e35c1e797b3f11cf77cda2027"
+      "sha512": "66523d1051a377406f5cdfde83126a20d573cccb75369b51110f821f972d31ab62aea6ee84f4b333d30e4402ae1c05e92e221c1d7cc94faa9df4ac0da7040bb3"
     }
   ],
   "measure_info": {
