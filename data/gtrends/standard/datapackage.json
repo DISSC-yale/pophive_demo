@@ -1,6 +1,6 @@
 {
-  "name": "data.csv.gz",
-  "title": "Data Csv Gz",
+  "name": "gtrends",
+  "title": "Gtrends",
   "licence": {
     "url": "http://opendatacommons.org/licenses/pddl",
     "name": "Open Data Commons Public Domain",
@@ -11,55 +11,15 @@
     {
       "bytes": 707638,
       "encoding": "ISO-8859-1",
-      "md5": "660b3662b04ff2f2668d316823c5477a",
+      "md5": "440012594ba1269949b8d258b98aab3c",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
-        "hash": [
-          "c189721aef0f4dd9a1785ed48b88f7fe01925ef4",
-          "1ef46279c9b98850cdff0d5acfeda88e7d8d4c92",
-          "eb977e93221277f616a1a46835ac3daa1f0186ae",
-          "0576de553d7c11836e020501a500431af581654a",
-          "04fa04500f67f1bdfb2c6cc02bb0bd3c430bf8bd",
-          "d978116e3b12926798d8f573bc1d3e913d67a547",
-          "784558d5a95e20f3950a36770f82a5a0fabebb21",
-          "8b2576dcc62d56f883e2170216fef14b74786b07",
-          "643bc96a8cc2e7b197b85d623056f2d8c96af01f"
-        ],
-        "author": [
-          "GitHub Actions <actions@github.com>",
-          "Micah <micah.iserman@gmail.com>",
-          "GitHub Actions <actions@github.com>",
-          "GitHub Actions <actions@github.com>",
-          "GitHub Actions <actions@github.com>",
-          "GitHub Actions <actions@github.com>",
-          "GitHub Actions <actions@github.com>",
-          "GitHub Actions <actions@github.com>",
-          "Micah <micah.iserman@gmail.com>"
-        ],
-        "date": [
-          "Mon Jul 7 02:38:06 2025 +0000",
-          "Tue Jul 1 15:11:58 2025 -0400",
-          "Mon Jun 30 00:37:54 2025 +0000",
-          "Mon Jun 23 00:38:01 2025 +0000",
-          "Mon Jun 16 00:48:12 2025 +0000",
-          "Mon Jun 9 00:36:37 2025 +0000",
-          "Mon Jun 2 09:32:13 2025 +0000",
-          "Mon May 26 00:35:30 2025 +0000",
-          "Wed May 21 10:19:42 2025 -0400"
-        ],
-        "message": [
-          "scheduled data build",
-          "adds source process mechanism",
-          "weekly data reprocess",
-          "weekly data reprocess",
-          "weekly data reprocess",
-          "weekly data reprocess",
-          "weekly data reprocess",
-          "weekly data reprocess",
-          "initial commit"
-        ]
+        "hash": ["04b051fd81a1ebb51494f0d33add165b9859fda4", "c189721aef0f4dd9a1785ed48b88f7fe01925ef4", "1ef46279c9b98850cdff0d5acfeda88e7d8d4c92", "eb977e93221277f616a1a46835ac3daa1f0186ae", "0576de553d7c11836e020501a500431af581654a", "04fa04500f67f1bdfb2c6cc02bb0bd3c430bf8bd", "d978116e3b12926798d8f573bc1d3e913d67a547", "784558d5a95e20f3950a36770f82a5a0fabebb21", "8b2576dcc62d56f883e2170216fef14b74786b07", "643bc96a8cc2e7b197b85d623056f2d8c96af01f"],
+        "author": ["GitHub Actions <actions@github.com>", "GitHub Actions <actions@github.com>", "Micah <micah.iserman@gmail.com>", "GitHub Actions <actions@github.com>", "GitHub Actions <actions@github.com>", "GitHub Actions <actions@github.com>", "GitHub Actions <actions@github.com>", "GitHub Actions <actions@github.com>", "GitHub Actions <actions@github.com>", "Micah <micah.iserman@gmail.com>"],
+        "date": ["Mon Jul 14 02:46:03 2025 +0000", "Mon Jul 7 02:38:06 2025 +0000", "Tue Jul 1 15:11:58 2025 -0400", "Mon Jun 30 00:37:54 2025 +0000", "Mon Jun 23 00:38:01 2025 +0000", "Mon Jun 16 00:48:12 2025 +0000", "Mon Jun 9 00:36:37 2025 +0000", "Mon Jun 2 09:32:13 2025 +0000", "Mon May 26 00:35:30 2025 +0000", "Wed May 21 10:19:42 2025 -0400"],
+        "message": ["scheduled data build", "scheduled data build", "adds source process mechanism", "weekly data reprocess", "weekly data reprocess", "weekly data reprocess", "weekly data reprocess", "weekly data reprocess", "weekly data reprocess", "initial commit"]
       },
       "source": [
         {
@@ -77,8 +37,8 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-07-14 02:45:54.910011",
-      "last_modified": "2025-07-14 02:45:54.910011",
+      "created": "2025-07-14 10:31:49.270458",
+      "last_modified": "2025-07-14 08:02:13.264317",
       "row_count": 30702,
       "entity_count": 51,
       "schema": {
@@ -800,7 +760,7 @@
           }
         ]
       },
-      "sha512": "c8e9fdd432c5b04300503165185743e8dd6ad24003abcfad02ca319561f47b4b40349c4be55da3e7d7fb005c0062722068dc78a6ef035f9d91152c15b13581d5"
+      "sha512": "6f265878dee5dfd44dc34a18353e8dcb8441e1736720568b111234db9e546bee80b31e53408c07767dd322c940dca08daf932df5bca80cd02d595306d15bd7d7"
     }
   ],
   "measure_info": {

@@ -1,24 +1,25 @@
 {
   "name": "NREVSS",
+  "type": "source",
   "scripts": [
     {
       "path": "ingest.R",
       "manual": false,
       "frequency": 0,
-      "last_run": "2025-07-10 17:55:30",
-      "run_time": 20.55,
+      "last_run": "2025-07-14 10:32:11",
+      "run_time": 21.64,
       "last_status": {
         "log": [
           "\u001bG3;",
           "\u001bg\u001bG3;⠙ processing source \u001b[1mNREVSS\u001b[22m (\u001b[3m./data/NREVSS/ingest.R\u001b[23m)\r\u001bg\u001bG3;── downloading resource <https://data.cdc.gov/resource/3cxc-4k8q> ──────────────────────────────────────────────────────────────────────",
           "\u001bg\u001bG3;⠙ processing source \u001b[1mNREVSS\u001b[22m (\u001b[3m./data/NREVSS/ingest.R\u001b[23m)\r\u001bg\u001bG3;ℹ metadata: <https://data.cdc.gov/api/views/3cxc-4k8q>",
-          "\u001bg\u001bG3;✔ metadata: <https://data.cdc.gov/api/views/3cxc-4k8q> [500ms]",
+          "\u001bg\u001bG3;✔ metadata: <https://data.cdc.gov/api/views/3cxc-4k8q> [611ms]",
           "\u001bg\u001bG3;",
           "\u001bg\u001bG3;⠙ processing source \u001b[1mNREVSS\u001b[22m (\u001b[3m./data/NREVSS/ingest.R\u001b[23m)\r\u001bg\u001bG3;ℹ data: <https://data.cdc.gov/api/views/3cxc-4k8q/rows.csv>",
-          "\u001bg\u001bG3;✔ data: <https://data.cdc.gov/api/views/3cxc-4k8q/rows.csv> [9.3s]",
+          "\u001bg\u001bG3;✔ data: <https://data.cdc.gov/api/views/3cxc-4k8q/rows.csv> [10s]",
           "\u001bg\u001bG3;",
           "\u001bg\u001bG3;⠙ processing source \u001b[1mNREVSS\u001b[22m (\u001b[3m./data/NREVSS/ingest.R\u001b[23m)\r\u001bg\u001bG3;ℹ compressing data",
-          "\u001bg\u001bG3;✔ compressing data [8.9s]",
+          "\u001bg\u001bG3;✔ compressing data [9s]",
           "\u001bg\u001bG3;",
           "\u001bg\u001bG3;⠙ processing source \u001b[1mNREVSS\u001b[22m (\u001b[3m./data/NREVSS/ingest.R\u001b[23m)\r\u001bg"
         ],
@@ -32,7 +33,7 @@
   },
   "raw_state": 1752155788,
   "standard_state": {
-    "./data/NREVSS/measure_info.json": "f706595e825619160be9ac5359564be8",
+    "./data/NREVSS/measure_info.json": "290fca9f7345982ee2961d65a6901572",
     "./data/NREVSS/standard/data.csv.gz": "78315571f9784a088ac06fe884ec8965"
   }
 }

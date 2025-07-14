@@ -1,5 +1,7 @@
 {
   "name": "pophive",
   "data_dir": "data",
-  "github_account": "dissc-yale"
+  "github_account": "dissc-yale",
+  "branch": "main",
+  "repo_name": "pophive_demo"
 }

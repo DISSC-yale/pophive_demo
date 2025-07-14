@@ -9,30 +9,13 @@
   },
   "resources": [
     {
-      "bytes": 3492,
+      "bytes": 4232,
       "encoding": "ISO-8859-1",
-      "md5": "15eb004a9a0b516263b6cdb74903f28b",
+      "md5": "2bfe3786c58cfd364e9eb12bcc83d096",
       "format": "csv",
       "name": "children.csv",
-      "filename": "children.csv.xz",
-      "versions": {
-        "hash": [
-          "a8990d67d91081a167b94bbdc2ed5dddbbc3db4c",
-          "8194be352017e1051898afce9941ec3907bfe04e"
-        ],
-        "author": [
-          "Micah <micah.iserman@gmail.com>",
-          "Micah <micah.iserman@gmail.com>"
-        ],
-        "date": [
-          "Wed Jun 25 09:48:50 2025 -0400",
-          "Wed Jun 25 09:45:29 2025 -0400"
-        ],
-        "message": [
-          "weekly update",
-          "adds Epic data"
-        ]
-      },
+      "filename": "children.csv.gz",
+      "versions": {},
       "source": [],
       "ids": [
         {
@@ -42,8 +25,8 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-07-11 02:41:07.06268",
-      "last_modified": "2025-07-11 02:41:07.06268",
+      "created": "2025-07-13 17:40:32.403801",
+      "last_modified": "2025-07-13 17:36:29.72831",
       "row_count": 572,
       "entity_count": 52,
       "schema": {
@@ -153,29 +136,16 @@
           }
         ]
       },
-      "sha512": "9ac9b09ed2a3cab3a7075e1b28d26e8a9d14642a65f60004c07c1c6df4c48b745e20446b73b69127e9680c3071a963fbf99e259dc42e21433cd060a10b14df3d"
+      "sha512": "e01f6c8ef4bc40fdb9c54d751f267d3cd6c735b1bd38757aca1233112ed6241b845c1cdd776e33d0e7895dccf486ebfe417e33531eeb6d88fdc7a7225163d817"
     },
     {
-      "bytes": 151252,
+      "bytes": 178621,
       "encoding": "ISO-8859-1",
-      "md5": "b52c0900ece40113dc34d44d74f2a7c2",
+      "md5": "207010679e4f8c84907505cbe8d3c885",
       "format": "csv",
       "name": "county_no_time.csv",
-      "filename": "county_no_time.csv.xz",
-      "versions": {
-        "hash": [
-          "8194be352017e1051898afce9941ec3907bfe04e"
-        ],
-        "author": [
-          "Micah <micah.iserman@gmail.com>"
-        ],
-        "date": [
-          "Wed Jun 25 09:45:29 2025 -0400"
-        ],
-        "message": [
-          "adds Epic data"
-        ]
-      },
+      "filename": "county_no_time.csv.gz",
+      "versions": {},
       "source": [],
       "ids": [
         {
@@ -185,8 +155,8 @@
       "id_length": 5,
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-07-11 02:41:07.06268",
-      "last_modified": "2025-07-11 02:41:07.06268",
+      "created": "2025-07-13 17:40:32.177422",
+      "last_modified": "2025-07-13 17:36:29.193632",
       "row_count": 24232,
       "entity_count": 3029,
       "schema": {
@@ -3280,29 +3250,16 @@
           }
         ]
       },
-      "sha512": "c59a95684cc7fd5fdb5bbd02f2f7502dad207b84c021ea1764bd622d6382f214200284e5e0c225d84a7be8890453a8b734c72f5a2f1b8a59531522c736618319"
+      "sha512": "42b41c5d800837603d7703c5b965a30a6ed0799406eadd8706bd52aae6ed68690bd4b2ee1e5c80a802d33072d41e8c600d2484ce175ea1c773e40eb38b444504"
     },
     {
-      "bytes": 3564,
+      "bytes": 4392,
       "encoding": "ISO-8859-1",
-      "md5": "43194bae68995e1de8c675cc2de90921",
+      "md5": "612347598abc7970631923a099f4aa44",
       "format": "csv",
       "name": "no_geo.csv",
-      "filename": "no_geo.csv.xz",
-      "versions": {
-        "hash": [
-          "8194be352017e1051898afce9941ec3907bfe04e"
-        ],
-        "author": [
-          "Micah <micah.iserman@gmail.com>"
-        ],
-        "date": [
-          "Wed Jun 25 09:45:29 2025 -0400"
-        ],
-        "message": [
-          "adds Epic data"
-        ]
-      },
+      "filename": "no_geo.csv.gz",
+      "versions": {},
       "source": [],
       "ids": [
         {
@@ -3312,8 +3269,8 @@
       "id_length": "NA",
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-07-11 02:41:07.06368",
-      "last_modified": "2025-07-11 02:41:07.06368",
+      "created": "2025-07-13 17:40:32.254761",
+      "last_modified": "2025-07-13 17:36:29.660946",
       "row_count": 616,
       "entity_count": 0,
       "schema": {
@@ -3454,29 +3411,16 @@
           }
         ]
       },
-      "sha512": "add7eb863a56c7c4eefb6453beaab4eabbd65ad1f1fd0151ff84a705e5cde5ff7a88add9e77b6b2c010f9007e91e7242e7a144897f87a7822c0c7142ea878334"
+      "sha512": "8881a3b9a7bafc662a813ac85567ec6783ddbc60a31de3a8b5685a2b3124e9111b7842bdb7b21fcc5f40db07d9acb5918834a746c8fd6159624b92ec0de8209c"
     },
     {
-      "bytes": 1280,
+      "bytes": 1634,
       "encoding": "ISO-8859-1",
-      "md5": "8a6a463098c30a20ed52b18fe857fa19",
+      "md5": "760d063cac8b399bbb8753b23a2524bb",
       "format": "csv",
       "name": "state_no_time.csv",
-      "filename": "state_no_time.csv.xz",
-      "versions": {
-        "hash": [
-          "8194be352017e1051898afce9941ec3907bfe04e"
-        ],
-        "author": [
-          "Micah <micah.iserman@gmail.com>"
-        ],
-        "date": [
-          "Wed Jun 25 09:45:29 2025 -0400"
-        ],
-        "message": [
-          "adds Epic data"
-        ]
-      },
+      "filename": "state_no_time.csv.gz",
+      "versions": {},
       "source": [],
       "ids": [
         {
@@ -3486,8 +3430,8 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-07-11 02:41:07.06368",
-      "last_modified": "2025-07-11 02:41:07.06368",
+      "created": "2025-07-13 17:40:31.640522",
+      "last_modified": "2025-07-13 17:36:29.061274",
       "row_count": 416,
       "entity_count": 52,
       "schema": {
@@ -3582,49 +3526,16 @@
           }
         ]
       },
-      "sha512": "03280c71d119831392c64b088b5a350113f94a81273725045b9da239149c9961a2a2e26c7a05e16b0d374765cb449863adb7a40223a1df8ca9110364648211ec"
+      "sha512": "d27f9d081cdf2e9597f569bc4cc1c1517cbda727abb45df63f437e923e8716ed2402d6226aad1b5b536ca1093f5262e6e4958d4c2b65b23a3249029a68613712"
     },
     {
-      "bytes": 240684,
+      "bytes": 371195,
       "encoding": "ISO-8859-1",
-      "md5": "e770e8a3795eea9a934b91db0266b936",
+      "md5": "791336d95e76c9318a20ead4a6119cf3",
       "format": "csv",
       "name": "weekly.csv",
-      "filename": "weekly.csv.xz",
-      "versions": {
-        "hash": [
-          "39619e454ff4fa15ce343358908a6db5480af4c1",
-          "f8381c7866f924359e61b8396cd1814d5603644c",
-          "f74f7036f11fa4d7eddd0889dd6cc5d59626c4b9",
-          "be22396fa0b86bb8c99e554dab77d85d23ab898f",
-          "a8990d67d91081a167b94bbdc2ed5dddbbc3db4c",
-          "8194be352017e1051898afce9941ec3907bfe04e"
-        ],
-        "author": [
-          "Micah <micah.iserman@gmail.com>",
-          "Micah <micah.iserman@gmail.com>",
-          "Micah <micah.iserman@gmail.com>",
-          "Micah <micah.iserman@gmail.com>",
-          "Micah <micah.iserman@gmail.com>",
-          "Micah <micah.iserman@gmail.com>"
-        ],
-        "date": [
-          "Wed Jun 25 09:53:12 2025 -0400",
-          "Wed Jun 25 09:52:08 2025 -0400",
-          "Wed Jun 25 09:51:07 2025 -0400",
-          "Wed Jun 25 09:49:57 2025 -0400",
-          "Wed Jun 25 09:48:50 2025 -0400",
-          "Wed Jun 25 09:45:29 2025 -0400"
-        ],
-        "message": [
-          "weekly update",
-          "weekly update",
-          "weekly update",
-          "weekly update",
-          "weekly update",
-          "adds Epic data"
-        ]
-      },
+      "filename": "weekly.csv.gz",
+      "versions": {},
       "source": [],
       "ids": [
         {
@@ -3634,8 +3545,8 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-07-11 02:41:07.06368",
-      "last_modified": "2025-07-11 02:41:07.06368",
+      "created": "2025-07-13 17:40:31.589642",
+      "last_modified": "2025-07-13 17:40:31.116282",
       "row_count": 52832,
       "entity_count": 52,
       "schema": {
@@ -3899,7 +3810,7 @@
           }
         ]
       },
-      "sha512": "689337cf895de132d06e76ff96de3d7890f714976badb495eb2e4cbee0566f0bf0172e726668d0179b1198dc3a0239194ea0902a3d5e728349c68af8c9d50094"
+      "sha512": "e8b295e8d3f768c6391cecc46cad6cf0f7908fd3d71321593adaa6b7b83e693361a14f2f6bcb785cadbdd2a4d0847b765146c32ac28c950aee1efd3296a65ab6"
     }
   ],
   "measure_info": {
