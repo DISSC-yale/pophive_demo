@@ -16,10 +16,42 @@
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
-        "hash": ["ab6649b2b88fb7fc51f1a34f18a29dd40b5e6d11", "c3955f3fb2d91f11716e08fff45bdd426b99d219", "440e5a9e4917c83424b6a3fe933715a22d5fb87b", "1ef46279c9b98850cdff0d5acfeda88e7d8d4c92", "eb977e93221277f616a1a46835ac3daa1f0186ae", "8b2576dcc62d56f883e2170216fef14b74786b07", "643bc96a8cc2e7b197b85d623056f2d8c96af01f"],
-        "author": ["Micah <micah.iserman@gmail.com>", "GitHub Actions <actions@github.com>", "GitHub Actions <actions@github.com>", "Micah <micah.iserman@gmail.com>", "GitHub Actions <actions@github.com>", "GitHub Actions <actions@github.com>", "Micah <micah.iserman@gmail.com>"],
-        "date": ["Thu Jul 10 18:10:38 2025 -0400", "Fri Jul 4 02:34:13 2025 +0000", "Wed Jul 2 02:34:23 2025 +0000", "Tue Jul 1 15:11:58 2025 -0400", "Mon Jun 30 00:37:54 2025 +0000", "Mon May 26 00:35:30 2025 +0000", "Wed May 21 10:19:42 2025 -0400"],
-        "message": ["transitions to dcf", "scheduled data build", "scheduled data build", "adds source process mechanism", "weekly data reprocess", "weekly data reprocess", "initial commit"]
+        "hash": [
+          "ab6649b2b88fb7fc51f1a34f18a29dd40b5e6d11",
+          "c3955f3fb2d91f11716e08fff45bdd426b99d219",
+          "440e5a9e4917c83424b6a3fe933715a22d5fb87b",
+          "1ef46279c9b98850cdff0d5acfeda88e7d8d4c92",
+          "eb977e93221277f616a1a46835ac3daa1f0186ae",
+          "8b2576dcc62d56f883e2170216fef14b74786b07",
+          "643bc96a8cc2e7b197b85d623056f2d8c96af01f"
+        ],
+        "author": [
+          "Micah <micah.iserman@gmail.com>",
+          "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
+          "Micah <micah.iserman@gmail.com>",
+          "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
+          "Micah <micah.iserman@gmail.com>"
+        ],
+        "date": [
+          "Thu Jul 10 18:10:38 2025 -0400",
+          "Fri Jul 4 02:34:13 2025 +0000",
+          "Wed Jul 2 02:34:23 2025 +0000",
+          "Tue Jul 1 15:11:58 2025 -0400",
+          "Mon Jun 30 00:37:54 2025 +0000",
+          "Mon May 26 00:35:30 2025 +0000",
+          "Wed May 21 10:19:42 2025 -0400"
+        ],
+        "message": [
+          "transitions to dcf",
+          "scheduled data build",
+          "scheduled data build",
+          "adds source process mechanism",
+          "weekly data reprocess",
+          "weekly data reprocess",
+          "initial commit"
+        ]
       },
       "source": [
         {
@@ -38,8 +70,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-07-14 10:32:11.804186",
-      "last_modified": "2025-07-07 04:50:47.150951",
+      "created": "2025-07-15 02:43:40.821899",
+      "last_modified": "2025-07-15 02:43:40.821899",
       "row_count": 2740,
       "entity_count": 10,
       "schema": {
