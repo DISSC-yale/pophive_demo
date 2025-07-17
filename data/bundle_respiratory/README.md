@@ -1,4 +1,4 @@
-# bundle_weekly
+# bundle_respiratory
 
 This is a Data Collection Framework data bundle project, initialized with `dcf::dcf_add_bundle`.
 
