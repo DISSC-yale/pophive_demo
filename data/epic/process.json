@@ -17,7 +17,7 @@
       }
     }
   ],
-  "checked": "2025-07-13 17:40:53",
+  "checked": "2025-07-17 09:43:26",
   "check_results": {
     "./data/epic/standard/children.csv.gz": {
       "data": "time_missing"
@@ -34,7 +34,7 @@
     "./data/epic/standard/weekly.csv.gz": []
   },
   "standard_state": {
-    "./data/epic/measure_info.json": "46b7fee910f358c3b8a3ec8709b21e9c",
+    "./data/epic/measure_info.json": "091570f4344efd0f8cf3dad361d86d21",
     "./data/epic/standard/children.csv.gz": "2bfe3786c58cfd364e9eb12bcc83d096",
     "./data/epic/standard/county_no_time.csv.gz": "207010679e4f8c84907505cbe8d3c885",
     "./data/epic/standard/no_geo.csv.gz": "612347598abc7970631923a099f4aa44",

@@ -1,0 +1,32 @@
+{
+  "name": "bundle_respiratory",
+  "type": "bundle",
+  "scripts": [
+    {
+      "path": "build.R",
+      "last_run": "2025-07-17 09:43:24",
+      "run_time": 0.69,
+      "last_status": {
+        "log": [],
+        "success": true
+      }
+    }
+  ],
+  "source_files": [
+    "epic/standard/weekly.csv.gz",
+    "gtrends/standard/data.csv.gz",
+    "wastewater/standard/data.csv.gz"
+  ],
+  "standard_state": {
+    "./data/epic/standard/weekly.csv.gz": "791336d95e76c9318a20ead4a6119cf3",
+    "./data/gtrends/standard/data.csv.gz": "440012594ba1269949b8d258b98aab3c",
+    "./data/wastewater/standard/data.csv.gz": "210d903707a607925f6f79b96b80332e"
+  },
+  "checked": "2025-07-17 09:43:25",
+  "check_results": {
+    "./data/bundle_respiratory/dist/data.parquet": []
+  },
+  "dist_state": {
+    "./data/bundle_respiratory/dist/data.parquet": "fa121805b27cf01c0f56d4c14570484f"
+  }
+}

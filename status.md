@@ -23,6 +23,9 @@ flowchart LR
     subgraph wastewater["`<a href="https://github.com/dissc-yale/pophive_demo/tree/main/data/wastewater" target="_blank" rel="noreferrer">wastewater</a>`"]
         n8["`<a href="https://github.com/dissc-yale/pophive_demo/blob/main/data/wastewater/standard/data.csv.gz" target="_blank" rel="noreferrer">data.csv.gz</a>`"]:::pass
     end
+    subgraph bundle_respiratory["`<a href="https://github.com/dissc-yale/pophive_demo/tree/main/data/bundle_respiratory" target="_blank" rel="noreferrer">bundle_respiratory</a>`"]
+        n9["`<a href="https://github.com/dissc-yale/pophive_demo/blob/main/data/bundle_respiratory/dist/data.parquet" target="_blank" rel="noreferrer">data.parquet</a>`"]
+    end
     s0 --> n1
     s0 --> n2
     s0 --> n3
@@ -31,4 +34,7 @@ flowchart LR
     s1 --> n6
     s2 --> n7
     s3 --> n8
+    n5 --> bundle_respiratory
+    n6 --> bundle_respiratory
+    n8 --> bundle_respiratory
 ```

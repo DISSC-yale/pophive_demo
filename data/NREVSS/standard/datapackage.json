@@ -9,49 +9,17 @@
   },
   "resources": [
     {
-      "bytes": 14315,
+      "bytes": 14361,
       "encoding": "ISO-8859-1",
-      "md5": "78315571f9784a088ac06fe884ec8965",
+      "md5": "6adfee58acc802b6abaa7f70f64f1b7f",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
-        "hash": [
-          "ab6649b2b88fb7fc51f1a34f18a29dd40b5e6d11",
-          "c3955f3fb2d91f11716e08fff45bdd426b99d219",
-          "440e5a9e4917c83424b6a3fe933715a22d5fb87b",
-          "1ef46279c9b98850cdff0d5acfeda88e7d8d4c92",
-          "eb977e93221277f616a1a46835ac3daa1f0186ae",
-          "8b2576dcc62d56f883e2170216fef14b74786b07",
-          "643bc96a8cc2e7b197b85d623056f2d8c96af01f"
-        ],
-        "author": [
-          "Micah <micah.iserman@gmail.com>",
-          "GitHub Actions <actions@github.com>",
-          "GitHub Actions <actions@github.com>",
-          "Micah <micah.iserman@gmail.com>",
-          "GitHub Actions <actions@github.com>",
-          "GitHub Actions <actions@github.com>",
-          "Micah <micah.iserman@gmail.com>"
-        ],
-        "date": [
-          "Thu Jul 10 18:10:38 2025 -0400",
-          "Fri Jul 4 02:34:13 2025 +0000",
-          "Wed Jul 2 02:34:23 2025 +0000",
-          "Tue Jul 1 15:11:58 2025 -0400",
-          "Mon Jun 30 00:37:54 2025 +0000",
-          "Mon May 26 00:35:30 2025 +0000",
-          "Wed May 21 10:19:42 2025 -0400"
-        ],
-        "message": [
-          "transitions to dcf",
-          "scheduled data build",
-          "scheduled data build",
-          "adds source process mechanism",
-          "weekly data reprocess",
-          "weekly data reprocess",
-          "initial commit"
-        ]
+        "hash": ["ab6649b2b88fb7fc51f1a34f18a29dd40b5e6d11", "c3955f3fb2d91f11716e08fff45bdd426b99d219", "440e5a9e4917c83424b6a3fe933715a22d5fb87b", "1ef46279c9b98850cdff0d5acfeda88e7d8d4c92", "eb977e93221277f616a1a46835ac3daa1f0186ae", "8b2576dcc62d56f883e2170216fef14b74786b07", "643bc96a8cc2e7b197b85d623056f2d8c96af01f"],
+        "author": ["Micah <micah.iserman@gmail.com>", "GitHub Actions <actions@github.com>", "GitHub Actions <actions@github.com>", "Micah <micah.iserman@gmail.com>", "GitHub Actions <actions@github.com>", "GitHub Actions <actions@github.com>", "Micah <micah.iserman@gmail.com>"],
+        "date": ["Thu Jul 10 18:10:38 2025 -0400", "Fri Jul 4 02:34:13 2025 +0000", "Wed Jul 2 02:34:23 2025 +0000", "Tue Jul 1 15:11:58 2025 -0400", "Mon Jun 30 00:37:54 2025 +0000", "Mon May 26 00:35:30 2025 +0000", "Wed May 21 10:19:42 2025 -0400"],
+        "message": ["transitions to dcf", "scheduled data build", "scheduled data build", "adds source process mechanism", "weekly data reprocess", "weekly data reprocess", "initial commit"]
       },
       "source": [
         {
@@ -70,35 +38,35 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-07-15 02:43:40.821899",
-      "last_modified": "2025-07-15 02:43:40.821899",
-      "row_count": 2740,
+      "created": "2025-07-17 09:43:19.493217",
+      "last_modified": "2025-07-07 04:50:47.150951",
+      "row_count": 2750,
       "entity_count": 10,
       "schema": {
         "fields": [
           {
             "name": "geography",
-            "duplicates": 2730,
-            "time_range": [0, 273],
+            "duplicates": 2740,
+            "time_range": [0, 274],
             "type": "string",
             "missing": 0,
             "table": {
-              "hhs_1": 274,
-              "hhs_10": 274,
-              "hhs_2": 274,
-              "hhs_3": 274,
-              "hhs_4": 274,
-              "hhs_5": 274,
-              "hhs_6": 274,
-              "hhs_7": 274,
-              "hhs_8": 274,
-              "hhs_9": 274
+              "hhs_1": 275,
+              "hhs_10": 275,
+              "hhs_2": 275,
+              "hhs_3": 275,
+              "hhs_4": 275,
+              "hhs_5": 275,
+              "hhs_6": 275,
+              "hhs_7": 275,
+              "hhs_8": 275,
+              "hhs_9": 275
             }
           },
           {
             "name": "time",
-            "duplicates": 2466,
-            "time_range": [0, 273],
+            "duplicates": 2475,
+            "time_range": [0, 274],
             "type": "string",
             "missing": 0,
             "table": {
@@ -375,34 +343,35 @@
               "2025-06-14": 10,
               "2025-06-21": 10,
               "2025-06-28": 10,
-              "2025-07-05": 10
+              "2025-07-05": 10,
+              "2025-07-12": 10
             }
           },
           {
             "name": "nrevss_week",
-            "duplicates": 2687,
-            "time_range": [0, 273],
+            "duplicates": 2697,
+            "time_range": [0, 274],
             "type": "integer",
             "missing": 0,
-            "mean": 26.335766,
-            "sd": 14.780258,
+            "mean": 26.341818,
+            "sd": 14.753691,
             "min": 1,
             "max": 53
           },
           {
             "name": "nrevss",
-            "duplicates": 1361,
-            "time_range": [0, 273],
+            "duplicates": 1372,
+            "time_range": [0, 274],
             "type": "float",
             "missing": 0,
-            "mean": 265.224234,
-            "sd": 533.388003,
+            "mean": 264.358364,
+            "sd": 532.68046,
             "min": 0,
             "max": 5097.2
           }
         ]
       },
-      "sha512": "8f06fc98d56dc711afff682b7227a8bf42b0cdf8f112974d3287de6ca512cbe6603b729a2e2ae4b8a46dc9e28d0b42a0a73cf76286722bdccec94a9cac36f6b5"
+      "sha512": "655055ad941155ac7b7811038b1673a013b4fa2aa85160dcbcbf9ef699d28baba5e193802d39553ab38b24848b3cf5249ea17219cf31629a5e0c983256c5c2aa"
     }
   ],
   "measure_info": {
@@ -426,7 +395,8 @@
           "location_url": "https://data.cdc.gov/resource/3cxc-4k8q",
           "date_accessed": 2025
         }
-      ]
+      ],
+      "id": "nrevss"
     },
     "nrevss_week": {
       "full_name": "nrevss_week",
@@ -451,7 +421,8 @@
       ],
       "citations": [
         "niemi20"
-      ]
+      ],
+      "id": "nrevss_week"
     },
     "_references": {
       "niemi20": {
@@ -464,7 +435,8 @@
         "title": "MMWRweek: Convert Dates to MMWR Day, Week, and Year",
         "version": "0.1.3",
         "doi": "10.32614/CRAN.package.MMWRweek"
-      }
+      },
+      "id": "_references"
     }
   }
 }
