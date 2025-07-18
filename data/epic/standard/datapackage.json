@@ -17,15 +17,19 @@
       "filename": "children.csv.gz",
       "versions": {
         "hash": [
+          "39732a153fa02c1a4350a9a998471ae61c7a8627",
           "f397e907659bbc3c8bb2175232c8b3376562839b"
         ],
         "author": [
+          "Micah <micah.iserman@gmail.com>",
           "Micah <micah.iserman@gmail.com>"
         ],
         "date": [
+          "Fri Jul 18 06:05:49 2025 -0400",
           "Mon Jul 14 11:10:58 2025 -0400"
         ],
         "message": [
+          "processes Epic staging",
           "removes package parts"
         ]
       },
@@ -38,7 +42,7 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-07-18 06:02:57.713217",
+      "created": "2025-07-18 15:27:36.813356",
       "last_modified": "2025-07-18 06:00:54.011652",
       "row_count": 583,
       "entity_count": 53,
@@ -161,15 +165,19 @@
       "filename": "county_no_time.csv.gz",
       "versions": {
         "hash": [
+          "39732a153fa02c1a4350a9a998471ae61c7a8627",
           "f397e907659bbc3c8bb2175232c8b3376562839b"
         ],
         "author": [
+          "Micah <micah.iserman@gmail.com>",
           "Micah <micah.iserman@gmail.com>"
         ],
         "date": [
+          "Fri Jul 18 06:05:49 2025 -0400",
           "Mon Jul 14 11:10:58 2025 -0400"
         ],
         "message": [
+          "processes Epic staging",
           "removes package parts"
         ]
       },
@@ -182,7 +190,7 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-07-18 06:02:57.561037",
+      "created": "2025-07-18 15:27:36.593222",
       "last_modified": "2025-07-18 06:00:54.012655",
       "row_count": 24240,
       "entity_count": 3030,
@@ -3310,7 +3318,7 @@
       "id_length": "NA",
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-07-18 06:02:57.638632",
+      "created": "2025-07-18 15:27:36.745325",
       "last_modified": "2025-07-13 17:36:29.660946",
       "row_count": 616,
       "entity_count": 0,
@@ -3463,15 +3471,19 @@
       "filename": "state_no_time.csv.gz",
       "versions": {
         "hash": [
+          "39732a153fa02c1a4350a9a998471ae61c7a8627",
           "f397e907659bbc3c8bb2175232c8b3376562839b"
         ],
         "author": [
+          "Micah <micah.iserman@gmail.com>",
           "Micah <micah.iserman@gmail.com>"
         ],
         "date": [
+          "Fri Jul 18 06:05:49 2025 -0400",
           "Mon Jul 14 11:10:58 2025 -0400"
         ],
         "message": [
+          "processes Epic staging",
           "removes package parts"
         ]
       },
@@ -3484,7 +3496,7 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-07-18 06:02:57.042656",
+      "created": "2025-07-18 15:27:36.063181",
       "last_modified": "2025-07-18 06:00:54.013651",
       "row_count": 424,
       "entity_count": 53,
@@ -3584,23 +3596,27 @@
       "sha512": "afaef0d68696d11dcaa557fcbc6b431cfdbba91a1ab73b959cff70922d4f4e3aebfb7c41ad9d4628da98a6b01b58bba696f72ea5cf0fa31c80318a6367633a0d"
     },
     {
-      "bytes": 398217,
+      "bytes": 397842,
       "encoding": "ISO-8859-1",
-      "md5": "fb24bdfb421a3e75f756f91a69dac2f0",
+      "md5": "29d830af361a067be287c61da0180ad5",
       "format": "csv",
       "name": "weekly.csv",
       "filename": "weekly.csv.gz",
       "versions": {
         "hash": [
+          "39732a153fa02c1a4350a9a998471ae61c7a8627",
           "f397e907659bbc3c8bb2175232c8b3376562839b"
         ],
         "author": [
+          "Micah <micah.iserman@gmail.com>",
           "Micah <micah.iserman@gmail.com>"
         ],
         "date": [
+          "Fri Jul 18 06:05:49 2025 -0400",
           "Mon Jul 14 11:10:58 2025 -0400"
         ],
         "message": [
+          "processes Epic staging",
           "removes package parts"
         ]
       },
@@ -3613,7 +3629,7 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-07-18 06:02:56.911146",
+      "created": "2025-07-18 15:27:36.012987",
       "last_modified": "2025-07-18 06:00:54.016161",
       "row_count": 56592,
       "entity_count": 54,
@@ -3622,7 +3638,7 @@
           {
             "name": "geography",
             "duplicates": 56538,
-            "time_range": [0, 104],
+            "time_range": [0, 130],
             "type": "string",
             "missing": 0,
             "table": {
@@ -3685,7 +3701,7 @@
           {
             "name": "age",
             "duplicates": 56584,
-            "time_range": [0, 104],
+            "time_range": [0, 130],
             "type": "string",
             "missing": 7074,
             "table": {
@@ -3701,7 +3717,7 @@
           {
             "name": "time",
             "duplicates": 56461,
-            "time_range": [0, 104],
+            "time_range": [0, 130],
             "type": "string",
             "missing": 0,
             "table": {
@@ -3757,6 +3773,7 @@
               "2023-12-10": 432,
               "2023-12-17": 432,
               "2023-12-24": 432,
+              "2023-12-31": 432,
               "2024-01-07": 432,
               "2024-01-14": 432,
               "2024-01-21": 432,
@@ -3808,7 +3825,7 @@
               "2024-12-08": 432,
               "2024-12-15": 432,
               "2024-12-22": 432,
-              "2024-12-31": 432,
+              "2024-12-29": 432,
               "2025-01-05": 432,
               "2025-01-12": 432,
               "2025-01-19": 432,
@@ -3834,14 +3851,13 @@
               "2025-06-08": 432,
               "2025-06-15": 432,
               "2025-06-22": 432,
-              "2025-06-29": 432,
-              "2025-12-29": 432
+              "2025-06-29": 432
             }
           },
           {
             "name": "n_all_encounters",
             "duplicates": 42083,
-            "time_range": [0, 104],
+            "time_range": [0, 130],
             "type": "integer",
             "missing": 0,
             "mean": 8726.698332,
@@ -3852,7 +3868,7 @@
           {
             "name": "n_covid",
             "duplicates": 54891,
-            "time_range": [0, 104],
+            "time_range": [0, 130],
             "type": "integer",
             "missing": 0,
             "mean": 117.386874,
@@ -3863,7 +3879,7 @@
           {
             "name": "n_flu",
             "duplicates": 54765,
-            "time_range": [0, 104],
+            "time_range": [0, 130],
             "type": "integer",
             "missing": 0,
             "mean": 131.226357,
@@ -3874,7 +3890,7 @@
           {
             "name": "n_rsv",
             "duplicates": 55877,
-            "time_range": [0, 104],
+            "time_range": [0, 130],
             "type": "integer",
             "missing": 1048,
             "mean": 24.414914,
@@ -3884,7 +3900,7 @@
           }
         ]
       },
-      "sha512": "be4f852e96cea304facfaa28a4ba40e10bba2be1c4c56f08e78561f86caad0db660bae128b54cc2ab3bf7186c3049ce3bf0c647718d643770e4004ec3f191bc3"
+      "sha512": "476d586346ed5d2cd70227dac76574f332336477e14a35d9ed38328c9770a7abc78914ba5d613192b51e3ac16859c9264322357ce2a17453b76a4ee6df387932"
     }
   ],
   "measure_info": {
