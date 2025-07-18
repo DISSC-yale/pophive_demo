@@ -474,7 +474,7 @@
       "RemoteRepo": "dcf",
       "RemoteUsername": "dissc-yale",
       "RemoteRef": "HEAD",
-      "RemoteSha": "974363c051c1ae0120c291da944d74c3ccc3c3e8",
+      "RemoteSha": "e79616b202482a31534f9ffd8e20479f4ab0369f",
       "NeedsCompilation": "no",
       "Author": "Yale Data-Intensive Social Science Center [fnd, cph], Micah Iserman [cre, aut]",
       "Maintainer": "Micah Iserman <micah.iserman@gmail.com>"
