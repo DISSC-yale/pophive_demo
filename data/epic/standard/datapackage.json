@@ -16,10 +16,18 @@
       "name": "children.csv",
       "filename": "children.csv.gz",
       "versions": {
-        "hash": ["f397e907659bbc3c8bb2175232c8b3376562839b"],
-        "author": ["Micah <micah.iserman@gmail.com>"],
-        "date": ["Mon Jul 14 11:10:58 2025 -0400"],
-        "message": ["removes package parts"]
+        "hash": [
+          "f397e907659bbc3c8bb2175232c8b3376562839b"
+        ],
+        "author": [
+          "Micah <micah.iserman@gmail.com>"
+        ],
+        "date": [
+          "Mon Jul 14 11:10:58 2025 -0400"
+        ],
+        "message": [
+          "removes package parts"
+        ]
       },
       "source": [],
       "ids": [
@@ -30,8 +38,8 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-07-13 17:40:32.403801",
-      "last_modified": "2025-07-13 17:36:29.72831",
+      "created": "2025-07-18 02:43:18.426831",
+      "last_modified": "2025-07-18 02:43:18.426831",
       "row_count": 572,
       "entity_count": 52,
       "schema": {
@@ -151,10 +159,18 @@
       "name": "county_no_time.csv",
       "filename": "county_no_time.csv.gz",
       "versions": {
-        "hash": ["f397e907659bbc3c8bb2175232c8b3376562839b"],
-        "author": ["Micah <micah.iserman@gmail.com>"],
-        "date": ["Mon Jul 14 11:10:58 2025 -0400"],
-        "message": ["removes package parts"]
+        "hash": [
+          "f397e907659bbc3c8bb2175232c8b3376562839b"
+        ],
+        "author": [
+          "Micah <micah.iserman@gmail.com>"
+        ],
+        "date": [
+          "Mon Jul 14 11:10:58 2025 -0400"
+        ],
+        "message": [
+          "removes package parts"
+        ]
       },
       "source": [],
       "ids": [
@@ -165,8 +181,8 @@
       "id_length": 5,
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-07-13 17:40:32.177422",
-      "last_modified": "2025-07-13 17:36:29.193632",
+      "created": "2025-07-18 02:43:18.426831",
+      "last_modified": "2025-07-18 02:43:18.426831",
       "row_count": 24232,
       "entity_count": 3029,
       "schema": {
@@ -3270,10 +3286,18 @@
       "name": "no_geo.csv",
       "filename": "no_geo.csv.gz",
       "versions": {
-        "hash": ["f397e907659bbc3c8bb2175232c8b3376562839b"],
-        "author": ["Micah <micah.iserman@gmail.com>"],
-        "date": ["Mon Jul 14 11:10:58 2025 -0400"],
-        "message": ["removes package parts"]
+        "hash": [
+          "f397e907659bbc3c8bb2175232c8b3376562839b"
+        ],
+        "author": [
+          "Micah <micah.iserman@gmail.com>"
+        ],
+        "date": [
+          "Mon Jul 14 11:10:58 2025 -0400"
+        ],
+        "message": [
+          "removes package parts"
+        ]
       },
       "source": [],
       "ids": [
@@ -3284,8 +3308,8 @@
       "id_length": "NA",
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-07-13 17:40:32.254761",
-      "last_modified": "2025-07-13 17:36:29.660946",
+      "created": "2025-07-18 02:43:18.426831",
+      "last_modified": "2025-07-18 02:43:18.426831",
       "row_count": 616,
       "entity_count": 0,
       "schema": {
@@ -3436,10 +3460,18 @@
       "name": "state_no_time.csv",
       "filename": "state_no_time.csv.gz",
       "versions": {
-        "hash": ["f397e907659bbc3c8bb2175232c8b3376562839b"],
-        "author": ["Micah <micah.iserman@gmail.com>"],
-        "date": ["Mon Jul 14 11:10:58 2025 -0400"],
-        "message": ["removes package parts"]
+        "hash": [
+          "f397e907659bbc3c8bb2175232c8b3376562839b"
+        ],
+        "author": [
+          "Micah <micah.iserman@gmail.com>"
+        ],
+        "date": [
+          "Mon Jul 14 11:10:58 2025 -0400"
+        ],
+        "message": [
+          "removes package parts"
+        ]
       },
       "source": [],
       "ids": [
@@ -3450,8 +3482,8 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-07-13 17:40:31.640522",
-      "last_modified": "2025-07-13 17:36:29.061274",
+      "created": "2025-07-18 02:43:18.426831",
+      "last_modified": "2025-07-18 02:43:18.426831",
       "row_count": 416,
       "entity_count": 52,
       "schema": {
@@ -3556,10 +3588,18 @@
       "name": "weekly.csv",
       "filename": "weekly.csv.gz",
       "versions": {
-        "hash": ["f397e907659bbc3c8bb2175232c8b3376562839b"],
-        "author": ["Micah <micah.iserman@gmail.com>"],
-        "date": ["Mon Jul 14 11:10:58 2025 -0400"],
-        "message": ["removes package parts"]
+        "hash": [
+          "f397e907659bbc3c8bb2175232c8b3376562839b"
+        ],
+        "author": [
+          "Micah <micah.iserman@gmail.com>"
+        ],
+        "date": [
+          "Mon Jul 14 11:10:58 2025 -0400"
+        ],
+        "message": [
+          "removes package parts"
+        ]
       },
       "source": [],
       "ids": [
@@ -3570,8 +3610,8 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-07-13 17:40:31.589642",
-      "last_modified": "2025-07-13 17:40:31.116282",
+      "created": "2025-07-18 02:43:18.428831",
+      "last_modified": "2025-07-18 02:43:18.428831",
       "row_count": 52832,
       "entity_count": 52,
       "schema": {

@@ -9,13 +9,18 @@
   },
   "resources": [
     {
-      "bytes": 644397,
+      "bytes": 644426,
       "encoding": "ISO-8859-1",
-      "md5": "fa121805b27cf01c0f56d4c14570484f",
+      "md5": "e7258ec374673f3d236197a473131241",
       "format": "parquet",
       "name": "data",
       "filename": "data.parquet",
-      "versions": {},
+      "versions": {
+        "hash": ["8b9395792ca23c342cf25af097d86a519918e2e6"],
+        "author": ["Micah <micah.iserman@gmail.com>"],
+        "date": ["Thu Jul 17 09:46:50 2025 -0400"],
+        "message": ["adds bundle_respiratory"]
+      },
       "source": [
         {
           "name": "Google Trends",
@@ -50,8 +55,8 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-07-17 09:43:24.989208",
-      "last_modified": "2025-07-17 08:02:42.114691",
+      "created": "2025-07-18 02:44:22.475347",
+      "last_modified": "2025-07-18 02:44:22.475347",
       "row_count": 24018,
       "entity_count": 53,
       "schema": {
@@ -740,7 +745,7 @@
           }
         ]
       },
-      "sha512": "65de36e000a4e4a2e188fd9d7e277e6d4c325817bdd6333b904adbb9627f8291a40df8aa0adc0bd40c22fc9c1ea784c7fac148eaf443e2a483f3d34377b0f30f"
+      "sha512": "c835ea13526dda20e6559efa1338a67ea6d9854835cad28e08dd63b0c2f458c02cb299dd12abaa66c6c0e1e91ae9c32cb8055eda73b8a3918c08364becd4bcd6"
     }
   ],
   "measure_info": {
