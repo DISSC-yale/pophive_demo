@@ -6,23 +6,10 @@
       "path": "ingest.R",
       "manual": false,
       "frequency": 0,
-      "last_run": "2025-07-17 09:43:19",
-      "run_time": 21.41,
+      "last_run": "2025-07-25 02:44:36",
+      "run_time": 21.004,
       "last_status": {
-        "log": [
-          "\u001bG3;",
-          "\u001bg\u001bG3;⠙ processing source \u001b[1mNREVSS\u001b[22m (\u001b[3m./data/NREVSS/ingest.R\u001b[23m)\r\u001bg\u001bG3;── downloading resource <https://data.cdc.gov/resource/3cxc-4k8q> ─────────────────────────────────────────────────────────────────────────────────",
-          "\u001bg\u001bG3;⠙ processing source \u001b[1mNREVSS\u001b[22m (\u001b[3m./data/NREVSS/ingest.R\u001b[23m)\r\u001bg\u001bG3;ℹ metadata: <https://data.cdc.gov/api/views/3cxc-4k8q>",
-          "\u001bg\u001bG3;✔ metadata: <https://data.cdc.gov/api/views/3cxc-4k8q> [677ms]",
-          "\u001bg\u001bG3;",
-          "\u001bg\u001bG3;⠙ processing source \u001b[1mNREVSS\u001b[22m (\u001b[3m./data/NREVSS/ingest.R\u001b[23m)\r\u001bg\u001bG3;ℹ data: <https://data.cdc.gov/api/views/3cxc-4k8q/rows.csv>",
-          "\u001bg\u001bG3;✔ data: <https://data.cdc.gov/api/views/3cxc-4k8q/rows.csv> [10s]",
-          "\u001bg\u001bG3;",
-          "\u001bg\u001bG3;⠙ processing source \u001b[1mNREVSS\u001b[22m (\u001b[3m./data/NREVSS/ingest.R\u001b[23m)\r\u001bg\u001bG3;ℹ compressing data",
-          "\u001bg\u001bG3;✔ compressing data [8.9s]",
-          "\u001bg\u001bG3;",
-          "\u001bg\u001bG3;⠙ processing source \u001b[1mNREVSS\u001b[22m (\u001b[3m./data/NREVSS/ingest.R\u001b[23m)\r\u001bg"
-        ],
+        "log": ["", "⠙ processing source NREVSS (./data/NREVSS/ingest.R)\r── downloading resource <https://data.cdc.gov/resource/3cxc-4k8q> ──────────────", "⠙ processing source NREVSS (./data/NREVSS/ingest.R)\rℹ metadata: <https://data.cdc.gov/api/views/3cxc-4k8q>", "✔ metadata: <https://data.cdc.gov/api/views/3cxc-4k8q> [435ms]", "", "⠙ processing source NREVSS (./data/NREVSS/ingest.R)\rℹ data: <https://data.cdc.gov/api/views/3cxc-4k8q/rows.csv>", "✔ data: <https://data.cdc.gov/api/views/3cxc-4k8q/rows.csv> [9.7s]", "", "⠙ processing source NREVSS (./data/NREVSS/ingest.R)\rℹ compressing data", "✔ compressing data [9.4s]", "", "⠙ processing source NREVSS (./data/NREVSS/ingest.R)\r"],
         "success": true
       }
     }
@@ -31,9 +18,9 @@
   "check_results": {
     "./data/NREVSS/standard/data.csv.gz": []
   },
-  "raw_state": 1752754193,
+  "raw_state": 1753359249,
   "standard_state": {
     "./data/NREVSS/measure_info.json": "f706595e825619160be9ac5359564be8",
-    "./data/NREVSS/standard/data.csv.gz": "6adfee58acc802b6abaa7f70f64f1b7f"
+    "./data/NREVSS/standard/data.csv.gz": "92b64010c6da613701750be74c5e0303"
   }
 }
