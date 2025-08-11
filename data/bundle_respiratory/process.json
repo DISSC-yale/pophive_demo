@@ -4,8 +4,8 @@
   "scripts": [
     {
       "path": "build.R",
-      "last_run": "2025-08-09 02:38:45",
-      "run_time": 0.298,
+      "last_run": "2025-08-11 02:47:56",
+      "run_time": 0.301,
       "last_status": {
         "log": [],
         "success": true
@@ -19,7 +19,7 @@
   ],
   "standard_state": {
     "./data/epic/standard/weekly.csv.gz": "29d830af361a067be287c61da0180ad5",
-    "./data/gtrends/standard/data.csv.gz": "746397b0e9f18de0506d6f9b0f0f6216",
+    "./data/gtrends/standard/data.csv.gz": "cee5f31242c8587da7da3184a1945e38",
     "./data/wastewater/standard/data.csv.gz": "e549acc62779cf43e49db8199ee79b34"
   },
   "checked": "2025-07-30 02:47:19",
@@ -29,6 +29,6 @@
     }
   },
   "dist_state": {
-    "./data/bundle_respiratory/dist/data.parquet": "8077def27e5c40fdcf53c6e1d06f88c4"
+    "./data/bundle_respiratory/dist/data.parquet": "d5472c3ba874357acef553e9b68a0b10"
   }
 }
