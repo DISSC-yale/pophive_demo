@@ -6,10 +6,10 @@
       "path": "ingest.R",
       "manual": false,
       "frequency": 0,
-      "last_run": "2025-08-08 02:47:20",
-      "run_time": 20.416,
+      "last_run": "2025-08-15 02:40:53",
+      "run_time": 20.751,
       "last_status": {
-        "log": ["", "⠙ processing source NREVSS (./data/NREVSS/ingest.R)\r── downloading resource <https://data.cdc.gov/resource/3cxc-4k8q> ──────────────", "⠙ processing source NREVSS (./data/NREVSS/ingest.R)\rℹ metadata: <https://data.cdc.gov/api/views/3cxc-4k8q>", "✔ metadata: <https://data.cdc.gov/api/views/3cxc-4k8q> [697ms]", "", "⠙ processing source NREVSS (./data/NREVSS/ingest.R)\rℹ data: <https://data.cdc.gov/api/views/3cxc-4k8q/rows.csv>", "✔ data: <https://data.cdc.gov/api/views/3cxc-4k8q/rows.csv> [9.8s]", "", "⠙ processing source NREVSS (./data/NREVSS/ingest.R)\rℹ compressing data", "✔ compressing data [8.4s]", "", "⠙ processing source NREVSS (./data/NREVSS/ingest.R)\r"],
+        "log": ["", "⠙ processing source NREVSS (./data/NREVSS/ingest.R)\r── downloading resource <https://data.cdc.gov/resource/3cxc-4k8q> ──────────────", "⠙ processing source NREVSS (./data/NREVSS/ingest.R)\rℹ metadata: <https://data.cdc.gov/api/views/3cxc-4k8q>", "✔ metadata: <https://data.cdc.gov/api/views/3cxc-4k8q> [508ms]", "", "⠙ processing source NREVSS (./data/NREVSS/ingest.R)\rℹ data: <https://data.cdc.gov/api/views/3cxc-4k8q/rows.csv>", "✔ data: <https://data.cdc.gov/api/views/3cxc-4k8q/rows.csv> [10.4s]", "", "⠙ processing source NREVSS (./data/NREVSS/ingest.R)\rℹ compressing data", "✔ compressing data [8.3s]", "", "⠙ processing source NREVSS (./data/NREVSS/ingest.R)\r"],
         "success": true
       }
     }
@@ -18,9 +18,9 @@
   "check_results": {
     "./data/NREVSS/standard/data.csv.gz": []
   },
-  "raw_state": 1754569822,
+  "raw_state": 1755172177,
   "standard_state": {
     "./data/NREVSS/measure_info.json": "f706595e825619160be9ac5359564be8",
-    "./data/NREVSS/standard/data.csv.gz": "4284eaa66a657358aa98fe4253da3898"
+    "./data/NREVSS/standard/data.csv.gz": "688bafd4bb4b663ed890d418b457a76e"
   }
 }
