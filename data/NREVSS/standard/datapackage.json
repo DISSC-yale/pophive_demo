@@ -9,14 +9,15 @@
   },
   "resources": [
     {
-      "bytes": 14539,
+      "bytes": 14602,
       "encoding": "ISO-8859-1",
-      "md5": "688bafd4bb4b663ed890d418b457a76e",
+      "md5": "84f6668bd034b673a7f17eb2f5ab36ed",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
         "hash": [
+          "6949276ff93312ace3e40b3f65531db2bfe6622e",
           "fc85ad1145b7eed0f66ceb75db11b56ebc66a9a7",
           "aacaa64c0a6420fc89814ea77334fd34b30340de",
           "cc234ed03cb3c7c79f7bc5ca399c020993314596",
@@ -33,6 +34,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "Micah <micah.iserman@gmail.com>",
           "Micah <micah.iserman@gmail.com>",
           "GitHub Actions <actions@github.com>",
@@ -43,6 +45,7 @@
           "Micah <micah.iserman@gmail.com>"
         ],
         "date": [
+          "Fri Aug 15 02:40:58 2025 +0000",
           "Fri Aug 8 02:47:23 2025 +0000",
           "Fri Aug 1 02:53:33 2025 +0000",
           "Fri Jul 25 02:44:39 2025 +0000",
@@ -56,6 +59,7 @@
           "Wed May 21 10:19:42 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled data build",
           "scheduled data build",
           "scheduled data build",
@@ -86,35 +90,35 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-08-15 02:40:53.259826",
-      "last_modified": "2025-08-15 02:40:53.259826",
-      "row_count": 2790,
+      "created": "2025-08-22 02:35:26.68882",
+      "last_modified": "2025-08-22 02:35:26.68882",
+      "row_count": 2800,
       "entity_count": 10,
       "schema": {
         "fields": [
           {
             "name": "geography",
-            "duplicates": 2780,
-            "time_range": [0, 278],
+            "duplicates": 2790,
+            "time_range": [0, 279],
             "type": "string",
             "missing": 0,
             "table": {
-              "hhs_1": 279,
-              "hhs_10": 279,
-              "hhs_2": 279,
-              "hhs_3": 279,
-              "hhs_4": 279,
-              "hhs_5": 279,
-              "hhs_6": 279,
-              "hhs_7": 279,
-              "hhs_8": 279,
-              "hhs_9": 279
+              "hhs_1": 280,
+              "hhs_10": 280,
+              "hhs_2": 280,
+              "hhs_3": 280,
+              "hhs_4": 280,
+              "hhs_5": 280,
+              "hhs_6": 280,
+              "hhs_7": 280,
+              "hhs_8": 280,
+              "hhs_9": 280
             }
           },
           {
             "name": "time",
-            "duplicates": 2511,
-            "time_range": [0, 278],
+            "duplicates": 2520,
+            "time_range": [0, 279],
             "type": "string",
             "missing": 0,
             "table": {
@@ -396,34 +400,35 @@
               "2025-07-19": 10,
               "2025-07-26": 10,
               "2025-08-02": 10,
-              "2025-08-09": 10
+              "2025-08-09": 10,
+              "2025-08-16": 10
             }
           },
           {
             "name": "nrevss_week",
-            "duplicates": 2737,
-            "time_range": [0, 278],
+            "duplicates": 2747,
+            "time_range": [0, 279],
             "type": "integer",
             "missing": 0,
-            "mean": 26.401434,
-            "sd": 14.656463,
+            "mean": 26.425,
+            "sd": 14.635554,
             "min": 1,
             "max": 53
           },
           {
             "name": "nrevss",
             "duplicates": 1417,
-            "time_range": [0, 278],
+            "time_range": [0, 279],
             "type": "float",
             "missing": 0,
-            "mean": 260.710251,
-            "sd": 529.706152,
+            "mean": 259.814071,
+            "sd": 528.969374,
             "min": 0,
             "max": 5097.2
           }
         ]
       },
-      "sha512": "a5579153cc04d371966401f328ec7d8cad403d8b49779dad2f1a0bd29fe5670a5af0415624833af019f6fffa82035cbd3c67ac2cbc92a079184331fb69199f91"
+      "sha512": "d93cab60e524265f512f12901321623c220449247dada6a3d8eadea0a5432e4b7a45fa0cf5f161025d9a2426afdf005d217622cb321f0ac7277ea85925f08502"
     }
   ],
   "measure_info": {
