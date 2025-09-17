@@ -4,141 +4,126 @@
     "measure": "age",
     "short_name": "Age Group",
     "long_name": "Age Group",
-    "category": "demographic",
     "short_description": "Age group.",
     "long_description": "Age group, based on age in current years.",
     "measure_type": "string",
     "unit": "bin",
-    "sources": [{
-      "name": "Epic Cosmos",
-      "url": "https://cosmos.epic.com/"
-    }]
+    "sources": "epic"
   },
   "n_vaccine_mmr": {
     "full_name": "n_vaccine_mmr",
     "measure": "n_vaccine_mmr",
     "short_name": "Immunizations for MMR",
     "long_name": "Immunizations for Measles, Mumps, and Rubella (MMR)",
-    "category": "immunizations",
+    "category": "Immunizations",
+    "subcategory": "MMR",
     "short_description": "Number with Immunizations: Measles, Mumps, and Rubella (MMR) receipt",
     "long_description": "Number with Immunizations: Measles, Mumps, and Rubella (MMR) receipt by Age in Years (Current) Range and State of Residence (U.S.).",
     "measure_type": "integer",
     "unit": "patient",
-    "sources": [{
-      "name": "Epic Cosmos",
-      "url": "https://cosmos.epic.com/"
-    }]
+    "sources": "epic"
   },
   "mmr_receipt": {
     "full_name": "mmr_receipt",
     "measure": "mmr_receipt",
     "short_name": "Immunizations for MMR: Percent",
     "long_name": "Immunizations for Measles, Mumps, and Rubella (MMR): Percent",
-    "category": "immunizations",
+    "category": "Immunizations",
+    "subcategory": "MMR",
     "short_description": "Percentage with Immunizations: Measles, Mumps, and Rubella (MMR) receipt",
     "long_description": "Percentage with Immunizations: Measles, Mumps, and Rubella (MMR) receipt by Age in Years (Current) Range and State of Residence (U.S.).",
     "measure_type": "percent",
     "unit": "percent of sample",
-    "sources": [{
-      "name": "Epic Cosmos",
-      "url": "https://cosmos.epic.com/"
-    }]
+    "sources": "epic"
   },
   "n_obesity_county": {
     "full_name": "n_obesity_county",
     "measure": "n_obesity_county",
     "short_name": "Number of Patients (Chronic, County)",
     "long_name": "Number of Patients (Chronic, County)",
-    "category": "chronic",
+    "category": "Chronic Diseases",
+    "subcategory": "Obesity",
     "short_description": "Total number of patients.",
     "long_description": "Total number of patients within the county-level obesity sample.",
     "measure_type": "integer",
     "unit": "patient",
-    "sources": [{
-      "name": "Epic Cosmos",
-      "url": "https://cosmos.epic.com/"
-    }]
+    "sources": "epic"
   },
   "hemoglobin_a1c_7": {
     "full_name": "hemoglobin_a1c_7",
     "measure": "hemoglobin_a1c_7",
     "short_name": "HA1C >= 7%",
     "long_name": "HA1C 7% Or More",
-    "category": "chronic",
+    "category": "Chronic Diseases",
+    "subcategory": "Diabetes",
     "short_description": "Percent of sample with HcA1C test results of 7% or more.",
     "long_description": "Percent of sample with Hemoglobin A1C test results of 7% or more.",
     "measure_type": "percent",
     "unit": "percent of sample",
-    "sources": [{
-      "name": "Epic Cosmos",
-      "url": "https://cosmos.epic.com/"
-    }]
+    "sources": "epic"
   },
   "bmi_30_49.8": {
     "full_name": "bmi_30_49.8",
     "measure": "bmi_30_49.8",
     "short_name": "BMI between 30 and 49.8",
     "long_name": "Body Mass Index ( BMI) between 30 and 49.8",
-    "category": "chronic",
+    "category": "Chronic Diseases",
+    "subcategory": "Obesity",
     "short_description": "Percent of sample with a BMI between 30 and 49.8.",
     "long_description": "Percent of sample with a Body Mass Index (BMI) between 30 and 49.8.",
     "measure_type": "percent",
     "unit": "percent of sample",
-    "sources": [{
-      "name": "Epic Cosmos",
-      "url": "https://cosmos.epic.com/"
-    }]
+    "sources": "epic"
   },
   "n_rsv_tests": {
     "full_name": "n_rsv_tests",
     "measure": "n_rsv_tests",
     "short_name": "RSV Tests: Positive",
     "long_name": "Emergency Room (ER) Encounters with Positive Respiratory Syntactical Virus (RSV) Tests",
-    "category": "rsv",
+    "category": "Respiratory Diseases",
+    "subcategory": "Respiratory Syncytial Virus",
     "short_description": "Number of ER encounters with positive RSV tests.",
     "long_description": "Number of emergency room (ER) encounters with positive Respiratory Syntactical Virus (RSV) tests (ICD-10-CM J12-J18 pneumonia).",
     "measure_type": "integer",
     "unit": "encounter",
-    "sources": [{
-      "name": "Epic Cosmos",
-      "url": "https://cosmos.epic.com/"
-    }]
+    "sources": "epic"
   },
   "rsv_tests": {
     "full_name": "rsv_tests",
     "measure": "rsv_tests",
     "short_name": "RSV Tests: Positive (%)",
     "long_name": "Percent of Emergency Room (ER) Visits with Positive Respiratory Syntactical Virus (RSV) Tests",
-    "category": "rsv",
+    "category": "Respiratory Diseases",
+    "subcategory": "Respiratory Syncytial Virus",
     "short_description": "Percent of ER encounters with positive RSV tests.",
     "long_description": "Percent of emergency room (ER) encounters with positive Respiratory Syntactical Virus (RSV) tests (ICD-10-CM J12-J18 pneumonia).",
     "measure_type": "percent",
     "unit": "percent of encounters",
-    "sources": [{
-      "name": "Epic Cosmos",
-      "url": "https://cosmos.epic.com/"
-    }]
+    "sources": "epic"
   },
   "n_{variant.name}": {
     "full_name": "n_{variant.name}",
     "measure": "n_{variant.name}",
     "short_name": "{variant} Patients",
     "long_name": "{variant} Emergency Room (ER) Encounters",
-    "category": "{}",
     "short_description": "Number of {variant} Parients",
     "long_description": "Number of emergency room (ER) encounters with {variant} ICD-10-CM codes.",
     "measure_type": "integer",
     "unit": "encounters",
-    "sources": [{
-      "name": "Epic Cosmos",
-      "url": "https://cosmos.epic.com/"
-    }],
+    "sources": "epic",
     "variants": {
-      "all_encounters": {"default": "All", "category": "general"},
-      "self_harm": {"default": "Self-Harm", "category": "injury"},
-      "covid": {"default": "COVID", "category": "rsv"},
-      "flu": {"default": "FLU", "category": "rsv"},
-      "rsv": {"default": "RSV", "category": "rsv"}
+      "all_encounters": {"default": "All"},
+      "self_harm": {"default": "Self-Harm", "category": "Injury & Overdose", "subcategory": "Self Harm"},
+      "covid": {"default": "COVID", "category": "Respiratory Diseases", "subcategory": "COVID-19"},
+      "flu": {"default": "FLU", "category": "Respiratory Diseases", "subcategory": "Influenza"},
+      "rsv": {"default": "RSV", "category": "Respiratory Diseases", "subcategory": "Respiratory Syncytial Virus"}
+    }
+  },
+  "_sources": {
+    "epic": {
+      "name": "Epic Cosmos",
+      "url": "https://cosmos.epic.com",
+      "description": "Cosmos is a dataset created in collaboration with a community of Epic health systems representing more than 300 million patient records from over 1633 hospitals and 37,900 clinics from all 50 states, D.C., Canada, Lebanon, and Saudi Arabia. Summary statistics were obtained using the SlicerDicer tool in Epic Cosmos."
     }
   }
 }

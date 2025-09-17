@@ -4,7 +4,7 @@
     "measure": "wastewater_{variant}",
     "short_name": "Wastewater: {variant}",
     "long_name": "Wastewater Viral Activity Level of {variant.short_name}",
-    "category": "rsv",
+    "category": "Respiratory Diseases",
     "short_description": "Wastewater Viral Activity Level of {variant.short_name}.",
     "long_description": "Wastewater Viral Activity Level (VAL) of {variant.short_name}. The viral activity level is the scaled number of standard deviations above a dynamic baseline. The baseline is the 10th percentile of the log-transformed and normalized concentration values, which is calculated within a {variant.norm_frequency}. This is then scaled, where e is the mathmatical constant, and x is the number of standard deviations: $VAL = e^{x}$ These values are categorized as very low, low, moderate, high, or very high using the following breakpoints: {variant.breakpoints}.",
     "statement": "The viral activity level of {variant.short_name} in wastewater is {value}.",
@@ -17,10 +17,10 @@
         "short_name": "RSV",
         "norm_frequency": "18 month timeframe every year",
         "breakpoints": "4, 8, 12, and 20",
+        "subcategory": "Respiratory Syncytial Virus",
         "sources": [
           {
-            "name": "National Wastewater Surveillance System",
-            "url": "https://www.cdc.gov/nwss",
+            "id": "nwss",
             "location": "Wastewater RSV State and Territory Trends",
             "location_url": "https://www.cdc.gov/nwss/rv/RSV-statetrend.html"
           }
@@ -31,10 +31,10 @@
         "short_name": "Influenza A",
         "norm_frequency": "18 month timeframe every year",
         "breakpoints": "1.6, 4.5, 12.2, and 20.1",
+        "subcategory": "Influenza",
         "sources": [
           {
-            "name": "National Wastewater Surveillance System",
-            "url": "https://www.cdc.gov/nwss",
+            "id": "nwss",
             "location": "Wastewater Influenza A State and Territory Trends",
             "location_url": "https://www.cdc.gov/nwss/rv/InfluenzaA-statetrend.html"
           }
@@ -46,15 +46,24 @@
         "norm_frequency": "12 month timeframe every 6 months",
         "breakpoints": "1.5, 3, 4.5, and 8",
         "location_url": "https://www.cdc.gov/nwss/rv/COVID19-statetrend.html",
+        "subcategory": "COVID-19",
         "sources": [
           {
-            "name": "National Wastewater Surveillance System",
-            "url": "https://www.cdc.gov/nwss",
+            "id": "nwss",
             "location": "Wastewater COVID-19 State and Territory Trends",
             "location_url": "https://www.cdc.gov/nwss/rv/COVID19-statetrend.html"
           }
         ]
       }
+    }
+  },
+  "_sources": {
+    "nwss": {
+      "name": "National Wastewater Surveillance System",
+      "url": "https://www.cdc.gov/nwss",
+      "organization": "Centers for Disease Control and Prevention",
+      "organization_url": "https://www.cdc.gov",
+      "description": "Testing for viruses in wastewater can provide an efficient way to identify the levels of virus circulation in the community. The CDC’s National Wastewater Surveillance program obtains samples from select communities around the US and presents the data aggregated by state. These data can provide an early indication of viral activity. Limitations include an inability to link detected back to particular groups of individuals and challenges in comparing viral levels across sites that use different methodologies. The sewage is not necessarily representative of the entire population. These data are made available by the CDC."
     }
   }
 }

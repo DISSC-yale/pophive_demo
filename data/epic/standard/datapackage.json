@@ -16,22 +16,10 @@
       "name": "children.csv",
       "filename": "children.csv.gz",
       "versions": {
-        "hash": [
-          "39732a153fa02c1a4350a9a998471ae61c7a8627",
-          "f397e907659bbc3c8bb2175232c8b3376562839b"
-        ],
-        "author": [
-          "Micah <micah.iserman@gmail.com>",
-          "Micah <micah.iserman@gmail.com>"
-        ],
-        "date": [
-          "Fri Jul 18 06:05:49 2025 -0400",
-          "Mon Jul 14 11:10:58 2025 -0400"
-        ],
-        "message": [
-          "processes Epic staging",
-          "removes package parts"
-        ]
+        "hash": ["39732a153fa02c1a4350a9a998471ae61c7a8627", "f397e907659bbc3c8bb2175232c8b3376562839b"],
+        "author": ["Micah <micah.iserman@gmail.com>", "Micah <micah.iserman@gmail.com>"],
+        "date": ["Fri Jul 18 06:05:49 2025 -0400", "Mon Jul 14 11:10:58 2025 -0400"],
+        "message": ["processes Epic staging", "removes package parts"]
       },
       "source": [],
       "ids": [
@@ -42,8 +30,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-07-19 02:38:01.302857",
-      "last_modified": "2025-07-19 02:38:01.302857",
+      "created": "2025-07-18 15:27:36.813356",
+      "last_modified": "2025-07-18 06:00:54.011652",
       "row_count": 583,
       "entity_count": 53,
       "schema": {
@@ -164,22 +152,10 @@
       "name": "county_no_time.csv",
       "filename": "county_no_time.csv.gz",
       "versions": {
-        "hash": [
-          "39732a153fa02c1a4350a9a998471ae61c7a8627",
-          "f397e907659bbc3c8bb2175232c8b3376562839b"
-        ],
-        "author": [
-          "Micah <micah.iserman@gmail.com>",
-          "Micah <micah.iserman@gmail.com>"
-        ],
-        "date": [
-          "Fri Jul 18 06:05:49 2025 -0400",
-          "Mon Jul 14 11:10:58 2025 -0400"
-        ],
-        "message": [
-          "processes Epic staging",
-          "removes package parts"
-        ]
+        "hash": ["39732a153fa02c1a4350a9a998471ae61c7a8627", "f397e907659bbc3c8bb2175232c8b3376562839b"],
+        "author": ["Micah <micah.iserman@gmail.com>", "Micah <micah.iserman@gmail.com>"],
+        "date": ["Fri Jul 18 06:05:49 2025 -0400", "Mon Jul 14 11:10:58 2025 -0400"],
+        "message": ["processes Epic staging", "removes package parts"]
       },
       "source": [],
       "ids": [
@@ -190,8 +166,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-07-19 02:38:01.302857",
-      "last_modified": "2025-07-19 02:38:01.302857",
+      "created": "2025-07-18 15:27:36.593222",
+      "last_modified": "2025-07-18 06:00:54.012655",
       "row_count": 24240,
       "entity_count": 3030,
       "schema": {
@@ -3296,18 +3272,10 @@
       "name": "no_geo.csv",
       "filename": "no_geo.csv.gz",
       "versions": {
-        "hash": [
-          "f397e907659bbc3c8bb2175232c8b3376562839b"
-        ],
-        "author": [
-          "Micah <micah.iserman@gmail.com>"
-        ],
-        "date": [
-          "Mon Jul 14 11:10:58 2025 -0400"
-        ],
-        "message": [
-          "removes package parts"
-        ]
+        "hash": ["f397e907659bbc3c8bb2175232c8b3376562839b"],
+        "author": ["Micah <micah.iserman@gmail.com>"],
+        "date": ["Mon Jul 14 11:10:58 2025 -0400"],
+        "message": ["removes package parts"]
       },
       "source": [],
       "ids": [
@@ -3318,8 +3286,8 @@
       "id_length": "NA",
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-07-19 02:38:01.303857",
-      "last_modified": "2025-07-19 02:38:01.303857",
+      "created": "2025-07-18 15:27:36.745325",
+      "last_modified": "2025-07-13 17:36:29.660946",
       "row_count": 616,
       "entity_count": 0,
       "schema": {
@@ -3470,22 +3438,10 @@
       "name": "state_no_time.csv",
       "filename": "state_no_time.csv.gz",
       "versions": {
-        "hash": [
-          "39732a153fa02c1a4350a9a998471ae61c7a8627",
-          "f397e907659bbc3c8bb2175232c8b3376562839b"
-        ],
-        "author": [
-          "Micah <micah.iserman@gmail.com>",
-          "Micah <micah.iserman@gmail.com>"
-        ],
-        "date": [
-          "Fri Jul 18 06:05:49 2025 -0400",
-          "Mon Jul 14 11:10:58 2025 -0400"
-        ],
-        "message": [
-          "processes Epic staging",
-          "removes package parts"
-        ]
+        "hash": ["39732a153fa02c1a4350a9a998471ae61c7a8627", "f397e907659bbc3c8bb2175232c8b3376562839b"],
+        "author": ["Micah <micah.iserman@gmail.com>", "Micah <micah.iserman@gmail.com>"],
+        "date": ["Fri Jul 18 06:05:49 2025 -0400", "Mon Jul 14 11:10:58 2025 -0400"],
+        "message": ["processes Epic staging", "removes package parts"]
       },
       "source": [],
       "ids": [
@@ -3496,8 +3452,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-07-19 02:38:01.303857",
-      "last_modified": "2025-07-19 02:38:01.303857",
+      "created": "2025-07-18 15:27:36.063181",
+      "last_modified": "2025-07-18 06:00:54.013651",
       "row_count": 424,
       "entity_count": 53,
       "schema": {
@@ -3603,26 +3559,10 @@
       "name": "weekly.csv",
       "filename": "weekly.csv.gz",
       "versions": {
-        "hash": [
-          "3c39f450353d516ee166f5f6686ced81c6d5ff75",
-          "39732a153fa02c1a4350a9a998471ae61c7a8627",
-          "f397e907659bbc3c8bb2175232c8b3376562839b"
-        ],
-        "author": [
-          "Micah <micah.iserman@gmail.com>",
-          "Micah <micah.iserman@gmail.com>",
-          "Micah <micah.iserman@gmail.com>"
-        ],
-        "date": [
-          "Fri Jul 18 15:34:47 2025 -0400",
-          "Fri Jul 18 06:05:49 2025 -0400",
-          "Mon Jul 14 11:10:58 2025 -0400"
-        ],
-        "message": [
-          "fixes epic year ends",
-          "processes Epic staging",
-          "removes package parts"
-        ]
+        "hash": ["3c39f450353d516ee166f5f6686ced81c6d5ff75", "39732a153fa02c1a4350a9a998471ae61c7a8627", "f397e907659bbc3c8bb2175232c8b3376562839b"],
+        "author": ["Micah <micah.iserman@gmail.com>", "Micah <micah.iserman@gmail.com>", "Micah <micah.iserman@gmail.com>"],
+        "date": ["Fri Jul 18 15:34:47 2025 -0400", "Fri Jul 18 06:05:49 2025 -0400", "Mon Jul 14 11:10:58 2025 -0400"],
+        "message": ["fixes epic year ends", "processes Epic staging", "removes package parts"]
       },
       "source": [],
       "ids": [
@@ -3633,8 +3573,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-07-19 02:38:01.304857",
-      "last_modified": "2025-07-19 02:38:01.304857",
+      "created": "2025-07-18 15:27:36.012987",
+      "last_modified": "2025-07-18 06:00:54.016161",
       "row_count": 56592,
       "entity_count": 54,
       "schema": {
@@ -3913,17 +3853,11 @@
       "measure": "age",
       "short_name": "Age Group",
       "long_name": "Age Group",
-      "category": "demographic",
       "short_description": "Age group.",
       "long_description": "Age group, based on age in current years.",
       "measure_type": "string",
       "unit": "bin",
-      "sources": [
-        {
-          "name": "Epic Cosmos",
-          "url": "https://cosmos.epic.com/"
-        }
-      ],
+      "sources": "epic",
       "id": "age"
     },
     "n_vaccine_mmr": {
@@ -3931,17 +3865,13 @@
       "measure": "n_vaccine_mmr",
       "short_name": "Immunizations for MMR",
       "long_name": "Immunizations for Measles, Mumps, and Rubella (MMR)",
-      "category": "immunizations",
+      "category": "Immunizations",
+      "subcategory": "MMR",
       "short_description": "Number with Immunizations: Measles, Mumps, and Rubella (MMR) receipt",
       "long_description": "Number with Immunizations: Measles, Mumps, and Rubella (MMR) receipt by Age in Years (Current) Range and State of Residence (U.S.).",
       "measure_type": "integer",
       "unit": "patient",
-      "sources": [
-        {
-          "name": "Epic Cosmos",
-          "url": "https://cosmos.epic.com/"
-        }
-      ],
+      "sources": "epic",
       "id": "n_vaccine_mmr"
     },
     "mmr_receipt": {
@@ -3949,17 +3879,13 @@
       "measure": "mmr_receipt",
       "short_name": "Immunizations for MMR: Percent",
       "long_name": "Immunizations for Measles, Mumps, and Rubella (MMR): Percent",
-      "category": "immunizations",
+      "category": "Immunizations",
+      "subcategory": "MMR",
       "short_description": "Percentage with Immunizations: Measles, Mumps, and Rubella (MMR) receipt",
       "long_description": "Percentage with Immunizations: Measles, Mumps, and Rubella (MMR) receipt by Age in Years (Current) Range and State of Residence (U.S.).",
       "measure_type": "percent",
       "unit": "percent of sample",
-      "sources": [
-        {
-          "name": "Epic Cosmos",
-          "url": "https://cosmos.epic.com/"
-        }
-      ],
+      "sources": "epic",
       "id": "mmr_receipt"
     },
     "n_obesity_county": {
@@ -3967,17 +3893,13 @@
       "measure": "n_obesity_county",
       "short_name": "Number of Patients (Chronic, County)",
       "long_name": "Number of Patients (Chronic, County)",
-      "category": "chronic",
+      "category": "Chronic Diseases",
+      "subcategory": "Obesity",
       "short_description": "Total number of patients.",
       "long_description": "Total number of patients within the county-level obesity sample.",
       "measure_type": "integer",
       "unit": "patient",
-      "sources": [
-        {
-          "name": "Epic Cosmos",
-          "url": "https://cosmos.epic.com/"
-        }
-      ],
+      "sources": "epic",
       "id": "n_obesity_county"
     },
     "hemoglobin_a1c_7": {
@@ -3985,17 +3907,13 @@
       "measure": "hemoglobin_a1c_7",
       "short_name": "HA1C >= 7%",
       "long_name": "HA1C 7% Or More",
-      "category": "chronic",
+      "category": "Chronic Diseases",
+      "subcategory": "Diabetes",
       "short_description": "Percent of sample with HcA1C test results of 7% or more.",
       "long_description": "Percent of sample with Hemoglobin A1C test results of 7% or more.",
       "measure_type": "percent",
       "unit": "percent of sample",
-      "sources": [
-        {
-          "name": "Epic Cosmos",
-          "url": "https://cosmos.epic.com/"
-        }
-      ],
+      "sources": "epic",
       "id": "hemoglobin_a1c_7"
     },
     "bmi_30_49.8": {
@@ -4003,17 +3921,13 @@
       "measure": "bmi_30_49.8",
       "short_name": "BMI between 30 and 49.8",
       "long_name": "Body Mass Index ( BMI) between 30 and 49.8",
-      "category": "chronic",
+      "category": "Chronic Diseases",
+      "subcategory": "Obesity",
       "short_description": "Percent of sample with a BMI between 30 and 49.8.",
       "long_description": "Percent of sample with a Body Mass Index (BMI) between 30 and 49.8.",
       "measure_type": "percent",
       "unit": "percent of sample",
-      "sources": [
-        {
-          "name": "Epic Cosmos",
-          "url": "https://cosmos.epic.com/"
-        }
-      ],
+      "sources": "epic",
       "id": "bmi_30_49.8"
     },
     "n_rsv_tests": {
@@ -4021,17 +3935,13 @@
       "measure": "n_rsv_tests",
       "short_name": "RSV Tests: Positive",
       "long_name": "Emergency Room (ER) Encounters with Positive Respiratory Syntactical Virus (RSV) Tests",
-      "category": "rsv",
+      "category": "Respiratory Diseases",
+      "subcategory": "Respiratory Syncytial Virus",
       "short_description": "Number of ER encounters with positive RSV tests.",
       "long_description": "Number of emergency room (ER) encounters with positive Respiratory Syntactical Virus (RSV) tests (ICD-10-CM J12-J18 pneumonia).",
       "measure_type": "integer",
       "unit": "encounter",
-      "sources": [
-        {
-          "name": "Epic Cosmos",
-          "url": "https://cosmos.epic.com/"
-        }
-      ],
+      "sources": "epic",
       "id": "n_rsv_tests"
     },
     "rsv_tests": {
@@ -4039,17 +3949,13 @@
       "measure": "rsv_tests",
       "short_name": "RSV Tests: Positive (%)",
       "long_name": "Percent of Emergency Room (ER) Visits with Positive Respiratory Syntactical Virus (RSV) Tests",
-      "category": "rsv",
+      "category": "Respiratory Diseases",
+      "subcategory": "Respiratory Syncytial Virus",
       "short_description": "Percent of ER encounters with positive RSV tests.",
       "long_description": "Percent of emergency room (ER) encounters with positive Respiratory Syntactical Virus (RSV) tests (ICD-10-CM J12-J18 pneumonia).",
       "measure_type": "percent",
       "unit": "percent of encounters",
-      "sources": [
-        {
-          "name": "Epic Cosmos",
-          "url": "https://cosmos.epic.com/"
-        }
-      ],
+      "sources": "epic",
       "id": "rsv_tests"
     },
     "n_all_encounters": {
@@ -4057,17 +3963,11 @@
       "measure": "n_all_encounters",
       "short_name": "All Patients",
       "long_name": "All Emergency Room (ER) Encounters",
-      "category": "{}",
       "short_description": "Number of All Parients",
       "long_description": "Number of emergency room (ER) encounters with All ICD-10-CM codes.",
       "measure_type": "integer",
       "unit": "encounters",
-      "sources": [
-        {
-          "name": "Epic Cosmos",
-          "url": "https://cosmos.epic.com/"
-        }
-      ],
+      "sources": "epic",
       "id": "n_all_encounters"
     },
     "n_self_harm": {
@@ -4075,17 +3975,13 @@
       "measure": "n_self_harm",
       "short_name": "Self-Harm Patients",
       "long_name": "Self-Harm Emergency Room (ER) Encounters",
-      "category": "{}",
       "short_description": "Number of Self-Harm Parients",
       "long_description": "Number of emergency room (ER) encounters with Self-Harm ICD-10-CM codes.",
       "measure_type": "integer",
       "unit": "encounters",
-      "sources": [
-        {
-          "name": "Epic Cosmos",
-          "url": "https://cosmos.epic.com/"
-        }
-      ],
+      "sources": "epic",
+      "category": "Injury & Overdose",
+      "subcategory": "Self Harm",
       "id": "n_self_harm"
     },
     "n_covid": {
@@ -4093,17 +3989,13 @@
       "measure": "n_covid",
       "short_name": "COVID Patients",
       "long_name": "COVID Emergency Room (ER) Encounters",
-      "category": "{}",
       "short_description": "Number of COVID Parients",
       "long_description": "Number of emergency room (ER) encounters with COVID ICD-10-CM codes.",
       "measure_type": "integer",
       "unit": "encounters",
-      "sources": [
-        {
-          "name": "Epic Cosmos",
-          "url": "https://cosmos.epic.com/"
-        }
-      ],
+      "sources": "epic",
+      "category": "Respiratory Diseases",
+      "subcategory": "COVID-19",
       "id": "n_covid"
     },
     "n_flu": {
@@ -4111,17 +4003,13 @@
       "measure": "n_flu",
       "short_name": "FLU Patients",
       "long_name": "FLU Emergency Room (ER) Encounters",
-      "category": "{}",
       "short_description": "Number of FLU Parients",
       "long_description": "Number of emergency room (ER) encounters with FLU ICD-10-CM codes.",
       "measure_type": "integer",
       "unit": "encounters",
-      "sources": [
-        {
-          "name": "Epic Cosmos",
-          "url": "https://cosmos.epic.com/"
-        }
-      ],
+      "sources": "epic",
+      "category": "Respiratory Diseases",
+      "subcategory": "Influenza",
       "id": "n_flu"
     },
     "n_rsv": {
@@ -4129,18 +4017,22 @@
       "measure": "n_rsv",
       "short_name": "RSV Patients",
       "long_name": "RSV Emergency Room (ER) Encounters",
-      "category": "{}",
       "short_description": "Number of RSV Parients",
       "long_description": "Number of emergency room (ER) encounters with RSV ICD-10-CM codes.",
       "measure_type": "integer",
       "unit": "encounters",
-      "sources": [
-        {
-          "name": "Epic Cosmos",
-          "url": "https://cosmos.epic.com/"
-        }
-      ],
+      "sources": "epic",
+      "category": "Respiratory Diseases",
+      "subcategory": "Respiratory Syncytial Virus",
       "id": "n_rsv"
+    },
+    "_sources": {
+      "epic": {
+        "name": "Epic Cosmos",
+        "url": "https://cosmos.epic.com",
+        "description": "Cosmos is a dataset created in collaboration with a community of Epic health systems representing more than 300 million patient records from over 1633 hospitals and 37,900 clinics from all 50 states, D.C., Canada, Lebanon, and Saudi Arabia. Summary statistics were obtained using the SlicerDicer tool in Epic Cosmos."
+      },
+      "id": "_sources"
     }
   }
 }

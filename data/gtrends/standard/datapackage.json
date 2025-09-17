@@ -16,101 +16,18 @@
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
-        "hash": [
-          "c3f9197d65aad84189cbbe316fb4f89a04a64076",
-          "5f4340025aca54144b68f37eb2b8b55e514d3d4d",
-          "59b73ad03734b955e728fc1569dc3b444ea8567d",
-          "55d7055a85b18fbe60424f23c90352c5708868ba",
-          "c762bf9f576297ac92f727f4f8ad35dc234fc4b5",
-          "cedb8c76fd535abe6c963ea6c090188f7482be31",
-          "89c6e930e1a2b1653cbcb2249e95792e527514b6",
-          "c044d6b058a5cd8e4651a3c0ad21cccf41d35104",
-          "9cf395d6062230b1ad244ed0e212cb42226d2976",
-          "f397e907659bbc3c8bb2175232c8b3376562839b",
-          "04b051fd81a1ebb51494f0d33add165b9859fda4",
-          "c189721aef0f4dd9a1785ed48b88f7fe01925ef4",
-          "1ef46279c9b98850cdff0d5acfeda88e7d8d4c92",
-          "eb977e93221277f616a1a46835ac3daa1f0186ae",
-          "0576de553d7c11836e020501a500431af581654a",
-          "04fa04500f67f1bdfb2c6cc02bb0bd3c430bf8bd",
-          "d978116e3b12926798d8f573bc1d3e913d67a547",
-          "784558d5a95e20f3950a36770f82a5a0fabebb21",
-          "8b2576dcc62d56f883e2170216fef14b74786b07",
-          "643bc96a8cc2e7b197b85d623056f2d8c96af01f"
-        ],
-        "author": [
-          "GitHub Actions <actions@github.com>",
-          "GitHub Actions <actions@github.com>",
-          "GitHub Actions <actions@github.com>",
-          "GitHub Actions <actions@github.com>",
-          "GitHub Actions <actions@github.com>",
-          "GitHub Actions <actions@github.com>",
-          "GitHub Actions <actions@github.com>",
-          "GitHub Actions <actions@github.com>",
-          "GitHub Actions <actions@github.com>",
-          "Micah <micah.iserman@gmail.com>",
-          "GitHub Actions <actions@github.com>",
-          "GitHub Actions <actions@github.com>",
-          "Micah <micah.iserman@gmail.com>",
-          "GitHub Actions <actions@github.com>",
-          "GitHub Actions <actions@github.com>",
-          "GitHub Actions <actions@github.com>",
-          "GitHub Actions <actions@github.com>",
-          "GitHub Actions <actions@github.com>",
-          "GitHub Actions <actions@github.com>",
-          "Micah <micah.iserman@gmail.com>"
-        ],
-        "date": [
-          "Mon Sep 8 02:36:33 2025 +0000",
-          "Mon Sep 1 02:41:48 2025 +0000",
-          "Mon Aug 25 02:38:04 2025 +0000",
-          "Mon Aug 18 02:45:08 2025 +0000",
-          "Mon Aug 11 02:47:57 2025 +0000",
-          "Mon Aug 4 02:52:12 2025 +0000",
-          "Wed Jul 30 02:47:20 2025 +0000",
-          "Mon Jul 28 02:49:56 2025 +0000",
-          "Mon Jul 21 02:49:54 2025 +0000",
-          "Mon Jul 14 11:10:58 2025 -0400",
-          "Mon Jul 14 02:46:03 2025 +0000",
-          "Mon Jul 7 02:38:06 2025 +0000",
-          "Tue Jul 1 15:11:58 2025 -0400",
-          "Mon Jun 30 00:37:54 2025 +0000",
-          "Mon Jun 23 00:38:01 2025 +0000",
-          "Mon Jun 16 00:48:12 2025 +0000",
-          "Mon Jun 9 00:36:37 2025 +0000",
-          "Mon Jun 2 09:32:13 2025 +0000",
-          "Mon May 26 00:35:30 2025 +0000",
-          "Wed May 21 10:19:42 2025 -0400"
-        ],
-        "message": [
-          "scheduled data build",
-          "scheduled data build",
-          "scheduled data build",
-          "scheduled data build",
-          "scheduled data build",
-          "scheduled data build",
-          "scheduled data build",
-          "scheduled data build",
-          "scheduled data build",
-          "removes package parts",
-          "scheduled data build",
-          "scheduled data build",
-          "adds source process mechanism",
-          "weekly data reprocess",
-          "weekly data reprocess",
-          "weekly data reprocess",
-          "weekly data reprocess",
-          "weekly data reprocess",
-          "weekly data reprocess",
-          "initial commit"
-        ]
+        "hash": ["78334c84310d731b33ade4cdcd3ae4e08d6aad3c", "c3f9197d65aad84189cbbe316fb4f89a04a64076", "5f4340025aca54144b68f37eb2b8b55e514d3d4d", "59b73ad03734b955e728fc1569dc3b444ea8567d", "55d7055a85b18fbe60424f23c90352c5708868ba", "c762bf9f576297ac92f727f4f8ad35dc234fc4b5", "cedb8c76fd535abe6c963ea6c090188f7482be31", "89c6e930e1a2b1653cbcb2249e95792e527514b6", "c044d6b058a5cd8e4651a3c0ad21cccf41d35104", "9cf395d6062230b1ad244ed0e212cb42226d2976", "f397e907659bbc3c8bb2175232c8b3376562839b", "04b051fd81a1ebb51494f0d33add165b9859fda4", "c189721aef0f4dd9a1785ed48b88f7fe01925ef4", "1ef46279c9b98850cdff0d5acfeda88e7d8d4c92", "eb977e93221277f616a1a46835ac3daa1f0186ae", "0576de553d7c11836e020501a500431af581654a", "04fa04500f67f1bdfb2c6cc02bb0bd3c430bf8bd", "d978116e3b12926798d8f573bc1d3e913d67a547", "784558d5a95e20f3950a36770f82a5a0fabebb21", "8b2576dcc62d56f883e2170216fef14b74786b07", "643bc96a8cc2e7b197b85d623056f2d8c96af01f"],
+        "author": ["GitHub Actions <actions@github.com>", "GitHub Actions <actions@github.com>", "GitHub Actions <actions@github.com>", "GitHub Actions <actions@github.com>", "GitHub Actions <actions@github.com>", "GitHub Actions <actions@github.com>", "GitHub Actions <actions@github.com>", "GitHub Actions <actions@github.com>", "GitHub Actions <actions@github.com>", "GitHub Actions <actions@github.com>", "Micah <micah.iserman@gmail.com>", "GitHub Actions <actions@github.com>", "GitHub Actions <actions@github.com>", "Micah <micah.iserman@gmail.com>", "GitHub Actions <actions@github.com>", "GitHub Actions <actions@github.com>", "GitHub Actions <actions@github.com>", "GitHub Actions <actions@github.com>", "GitHub Actions <actions@github.com>", "GitHub Actions <actions@github.com>", "Micah <micah.iserman@gmail.com>"],
+        "date": ["Mon Sep 15 02:36:24 2025 +0000", "Mon Sep 8 02:36:33 2025 +0000", "Mon Sep 1 02:41:48 2025 +0000", "Mon Aug 25 02:38:04 2025 +0000", "Mon Aug 18 02:45:08 2025 +0000", "Mon Aug 11 02:47:57 2025 +0000", "Mon Aug 4 02:52:12 2025 +0000", "Wed Jul 30 02:47:20 2025 +0000", "Mon Jul 28 02:49:56 2025 +0000", "Mon Jul 21 02:49:54 2025 +0000", "Mon Jul 14 11:10:58 2025 -0400", "Mon Jul 14 02:46:03 2025 +0000", "Mon Jul 7 02:38:06 2025 +0000", "Tue Jul 1 15:11:58 2025 -0400", "Mon Jun 30 00:37:54 2025 +0000", "Mon Jun 23 00:38:01 2025 +0000", "Mon Jun 16 00:48:12 2025 +0000", "Mon Jun 9 00:36:37 2025 +0000", "Mon Jun 2 09:32:13 2025 +0000", "Mon May 26 00:35:30 2025 +0000", "Wed May 21 10:19:42 2025 -0400"],
+        "message": ["scheduled data build", "scheduled data build", "scheduled data build", "scheduled data build", "scheduled data build", "scheduled data build", "scheduled data build", "scheduled data build", "scheduled data build", "scheduled data build", "removes package parts", "scheduled data build", "scheduled data build", "adds source process mechanism", "weekly data reprocess", "weekly data reprocess", "weekly data reprocess", "weekly data reprocess", "weekly data reprocess", "weekly data reprocess", "initial commit"]
       },
       "source": [
         {
           "name": "Google Trends",
           "url": "https://trends.google.com",
           "location": "Yale Data-Intensive Social Sciences, Google Trends Collection Framework",
-          "location_url": "https://github.com/DISSC-yale/gtrends_collection"
+          "location_url": "https://github.com/DISSC-yale/gtrends_collection",
+          "description": "Google Trends data represent scaled Google search volume by week and state or metropolitan area and are obtained from the Google Health Trends API for non-commercial purposes."
         }
       ],
       "ids": [
@@ -121,8 +38,8 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-09-15 02:36:20.708648",
-      "last_modified": "2025-09-15 02:36:20.708648",
+      "created": "2025-09-15 14:49:17.917585",
+      "last_modified": "2025-09-15 14:49:17.917585",
       "row_count": 31772,
       "entity_count": 52,
       "schema": {
@@ -862,7 +779,6 @@
       "measure": "gtrends_naloxone",
       "short_name": "Google Search Volume: naloxone",
       "long_name": "Google Trends Search Volume of Term naloxone",
-      "category": "overdose",
       "short_description": "Google search volume of the term naloxone.",
       "long_description": "Google trends search volume of the term naloxone. Values are the probabilities of a short search session including the term within the geography and timeframe, multiplied by 10 million.",
       "statement": "There is a {value} / 10M chance of a short search session including the term naloxone",
@@ -874,9 +790,12 @@
           "name": "Google Trends",
           "url": "https://trends.google.com",
           "location": "Yale Data-Intensive Social Sciences, Google Trends Collection Framework",
-          "location_url": "https://github.com/DISSC-yale/gtrends_collection"
+          "location_url": "https://github.com/DISSC-yale/gtrends_collection",
+          "description": "Google Trends data represent scaled Google search volume by week and state or metropolitan area and are obtained from the Google Health Trends API for non-commercial purposes."
         }
       ],
+      "category": "Injury & Overdose",
+      "subcategory": "Opioid Overdoses",
       "id": "gtrends_naloxone"
     },
     "gtrends_overdose": {
@@ -884,7 +803,6 @@
       "measure": "gtrends_overdose",
       "short_name": "Google Search Volume: overdose",
       "long_name": "Google Trends Search Volume of Term overdose",
-      "category": "overdose",
       "short_description": "Google search volume of the term overdose.",
       "long_description": "Google trends search volume of the term overdose. Values are the probabilities of a short search session including the term within the geography and timeframe, multiplied by 10 million.",
       "statement": "There is a {value} / 10M chance of a short search session including the term overdose",
@@ -896,9 +814,12 @@
           "name": "Google Trends",
           "url": "https://trends.google.com",
           "location": "Yale Data-Intensive Social Sciences, Google Trends Collection Framework",
-          "location_url": "https://github.com/DISSC-yale/gtrends_collection"
+          "location_url": "https://github.com/DISSC-yale/gtrends_collection",
+          "description": "Google Trends data represent scaled Google search volume by week and state or metropolitan area and are obtained from the Google Health Trends API for non-commercial purposes."
         }
       ],
+      "category": "Injury & Overdose",
+      "subcategory": "Opioid Overdoses",
       "id": "gtrends_overdose"
     },
     "gtrends_rsv": {
@@ -906,7 +827,6 @@
       "measure": "gtrends_rsv",
       "short_name": "Google Search Volume: rsv",
       "long_name": "Google Trends Search Volume of Term rsv",
-      "category": "rsv",
       "short_description": "Google search volume of the term rsv.",
       "long_description": "Google trends search volume of the term rsv. Values are the probabilities of a short search session including the term within the geography and timeframe, multiplied by 10 million.",
       "statement": "There is a {value} / 10M chance of a short search session including the term rsv",
@@ -918,9 +838,12 @@
           "name": "Google Trends",
           "url": "https://trends.google.com",
           "location": "Yale Data-Intensive Social Sciences, Google Trends Collection Framework",
-          "location_url": "https://github.com/DISSC-yale/gtrends_collection"
+          "location_url": "https://github.com/DISSC-yale/gtrends_collection",
+          "description": "Google Trends data represent scaled Google search volume by week and state or metropolitan area and are obtained from the Google Health Trends API for non-commercial purposes."
         }
       ],
+      "category": "Respiratory Diseases",
+      "subcategory": "Respiratory Syncytial Virus",
       "id": "gtrends_rsv"
     },
     "gtrends_rsv_vaccine": {
@@ -928,7 +851,6 @@
       "measure": "gtrends_rsv_vaccine",
       "short_name": "Google Search Volume: rsv_vaccine",
       "long_name": "Google Trends Search Volume of Term rsv_vaccine",
-      "category": "rsv",
       "short_description": "Google search volume of the term rsv_vaccine.",
       "long_description": "Google trends search volume of the term rsv_vaccine. Values are the probabilities of a short search session including the term within the geography and timeframe, multiplied by 10 million.",
       "statement": "There is a {value} / 10M chance of a short search session including the term rsv_vaccine",
@@ -940,9 +862,12 @@
           "name": "Google Trends",
           "url": "https://trends.google.com",
           "location": "Yale Data-Intensive Social Sciences, Google Trends Collection Framework",
-          "location_url": "https://github.com/DISSC-yale/gtrends_collection"
+          "location_url": "https://github.com/DISSC-yale/gtrends_collection",
+          "description": "Google Trends data represent scaled Google search volume by week and state or metropolitan area and are obtained from the Google Health Trends API for non-commercial purposes."
         }
       ],
+      "category": "Respiratory Diseases",
+      "subcategory": "Respiratory Syncytial Virus",
       "id": "gtrends_rsv_vaccine"
     }
   }

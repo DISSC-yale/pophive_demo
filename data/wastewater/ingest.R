@@ -49,9 +49,14 @@ if (!identical(process$raw_state, raw_state)) {
           "State/Territory_WVAL"
         )
       )
+      time_col <- colnames(d)[grep("^20..-", d[1L, ])]
+      geo_col <- if (any(d$`State/Territory` == "Maryland"))
+        "State/Territory" else "Data_Collection_Period"
+      collection_col <- if (any(d$Data_Collection_Period == "All Resutls"))
+        "Data_Collection_Period" else "Week_Ending_Date"
       d <- d[
-        !is.na(d$`State/Territory`) & d$Data_Collection_Period == "All Results",
-        -3L
+        !is.na(d[[geo_col]]) & d[[collection_col]] == "All Results",
+        c(geo_col, time_col, "State/Territory_WVAL")
       ]
       colnames(d) <- c("geography", "time", "value")
       d$variable <- paste0(

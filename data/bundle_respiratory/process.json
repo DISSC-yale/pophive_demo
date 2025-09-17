@@ -4,8 +4,8 @@
   "scripts": [
     {
       "path": "build.R",
-      "last_run": "2025-09-15 02:36:23",
-      "run_time": 0.25,
+      "last_run": "2025-09-17 15:44:00",
+      "run_time": 0.69,
       "last_status": {
         "log": [],
         "success": true
@@ -20,15 +20,15 @@
   "standard_state": {
     "./data/epic/standard/weekly.csv.gz": "29d830af361a067be287c61da0180ad5",
     "./data/gtrends/standard/data.csv.gz": "c7a500cd87e92370280c57100873cfb7",
-    "./data/wastewater/standard/data.csv.gz": "cf0d8f8572aed443dbe4f025d8458b73"
+    "./data/wastewater/standard/data.csv.gz": "123f97c04940e49e484dfd3f3ff701c7"
   },
-  "checked": "2025-07-30 02:47:19",
+  "checked": "2025-09-17 15:44:02",
   "check_results": {
     "./data/bundle_respiratory/dist/data.parquet": {
       "data": "geography_nas"
     }
   },
   "dist_state": {
-    "./data/bundle_respiratory/dist/data.parquet": "69fbdc937091a25d8660d19dc3e4e63b"
+    "./data/bundle_respiratory/dist/data.parquet": "1c431e11f6c8d52a8bdad42340e9a4fe"
   }
 }
