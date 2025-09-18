@@ -16,10 +16,22 @@
       "name": "children.csv",
       "filename": "children.csv.gz",
       "versions": {
-        "hash": ["39732a153fa02c1a4350a9a998471ae61c7a8627", "f397e907659bbc3c8bb2175232c8b3376562839b"],
-        "author": ["Micah <micah.iserman@gmail.com>", "Micah <micah.iserman@gmail.com>"],
-        "date": ["Fri Jul 18 06:05:49 2025 -0400", "Mon Jul 14 11:10:58 2025 -0400"],
-        "message": ["processes Epic staging", "removes package parts"]
+        "hash": [
+          "39732a153fa02c1a4350a9a998471ae61c7a8627",
+          "f397e907659bbc3c8bb2175232c8b3376562839b"
+        ],
+        "author": [
+          "Micah <micah.iserman@gmail.com>",
+          "Micah <micah.iserman@gmail.com>"
+        ],
+        "date": [
+          "Fri Jul 18 06:05:49 2025 -0400",
+          "Mon Jul 14 11:10:58 2025 -0400"
+        ],
+        "message": [
+          "processes Epic staging",
+          "removes package parts"
+        ]
       },
       "source": [],
       "ids": [
@@ -30,8 +42,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-07-18 15:27:36.813356",
-      "last_modified": "2025-07-18 06:00:54.011652",
+      "created": "2025-09-18 02:32:01.063607",
+      "last_modified": "2025-09-18 02:32:01.063607",
       "row_count": 583,
       "entity_count": 53,
       "schema": {
@@ -152,10 +164,22 @@
       "name": "county_no_time.csv",
       "filename": "county_no_time.csv.gz",
       "versions": {
-        "hash": ["39732a153fa02c1a4350a9a998471ae61c7a8627", "f397e907659bbc3c8bb2175232c8b3376562839b"],
-        "author": ["Micah <micah.iserman@gmail.com>", "Micah <micah.iserman@gmail.com>"],
-        "date": ["Fri Jul 18 06:05:49 2025 -0400", "Mon Jul 14 11:10:58 2025 -0400"],
-        "message": ["processes Epic staging", "removes package parts"]
+        "hash": [
+          "39732a153fa02c1a4350a9a998471ae61c7a8627",
+          "f397e907659bbc3c8bb2175232c8b3376562839b"
+        ],
+        "author": [
+          "Micah <micah.iserman@gmail.com>",
+          "Micah <micah.iserman@gmail.com>"
+        ],
+        "date": [
+          "Fri Jul 18 06:05:49 2025 -0400",
+          "Mon Jul 14 11:10:58 2025 -0400"
+        ],
+        "message": [
+          "processes Epic staging",
+          "removes package parts"
+        ]
       },
       "source": [],
       "ids": [
@@ -166,8 +190,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-07-18 15:27:36.593222",
-      "last_modified": "2025-07-18 06:00:54.012655",
+      "created": "2025-09-18 02:32:01.063607",
+      "last_modified": "2025-09-18 02:32:01.063607",
       "row_count": 24240,
       "entity_count": 3030,
       "schema": {
@@ -3272,10 +3296,18 @@
       "name": "no_geo.csv",
       "filename": "no_geo.csv.gz",
       "versions": {
-        "hash": ["f397e907659bbc3c8bb2175232c8b3376562839b"],
-        "author": ["Micah <micah.iserman@gmail.com>"],
-        "date": ["Mon Jul 14 11:10:58 2025 -0400"],
-        "message": ["removes package parts"]
+        "hash": [
+          "f397e907659bbc3c8bb2175232c8b3376562839b"
+        ],
+        "author": [
+          "Micah <micah.iserman@gmail.com>"
+        ],
+        "date": [
+          "Mon Jul 14 11:10:58 2025 -0400"
+        ],
+        "message": [
+          "removes package parts"
+        ]
       },
       "source": [],
       "ids": [
@@ -3286,8 +3318,8 @@
       "id_length": "NA",
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-07-18 15:27:36.745325",
-      "last_modified": "2025-07-13 17:36:29.660946",
+      "created": "2025-09-18 02:32:01.063607",
+      "last_modified": "2025-09-18 02:32:01.063607",
       "row_count": 616,
       "entity_count": 0,
       "schema": {
@@ -3438,10 +3470,22 @@
       "name": "state_no_time.csv",
       "filename": "state_no_time.csv.gz",
       "versions": {
-        "hash": ["39732a153fa02c1a4350a9a998471ae61c7a8627", "f397e907659bbc3c8bb2175232c8b3376562839b"],
-        "author": ["Micah <micah.iserman@gmail.com>", "Micah <micah.iserman@gmail.com>"],
-        "date": ["Fri Jul 18 06:05:49 2025 -0400", "Mon Jul 14 11:10:58 2025 -0400"],
-        "message": ["processes Epic staging", "removes package parts"]
+        "hash": [
+          "39732a153fa02c1a4350a9a998471ae61c7a8627",
+          "f397e907659bbc3c8bb2175232c8b3376562839b"
+        ],
+        "author": [
+          "Micah <micah.iserman@gmail.com>",
+          "Micah <micah.iserman@gmail.com>"
+        ],
+        "date": [
+          "Fri Jul 18 06:05:49 2025 -0400",
+          "Mon Jul 14 11:10:58 2025 -0400"
+        ],
+        "message": [
+          "processes Epic staging",
+          "removes package parts"
+        ]
       },
       "source": [],
       "ids": [
@@ -3452,8 +3496,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-07-18 15:27:36.063181",
-      "last_modified": "2025-07-18 06:00:54.013651",
+      "created": "2025-09-18 02:32:01.063607",
+      "last_modified": "2025-09-18 02:32:01.063607",
       "row_count": 424,
       "entity_count": 53,
       "schema": {
@@ -3559,10 +3603,26 @@
       "name": "weekly.csv",
       "filename": "weekly.csv.gz",
       "versions": {
-        "hash": ["3c39f450353d516ee166f5f6686ced81c6d5ff75", "39732a153fa02c1a4350a9a998471ae61c7a8627", "f397e907659bbc3c8bb2175232c8b3376562839b"],
-        "author": ["Micah <micah.iserman@gmail.com>", "Micah <micah.iserman@gmail.com>", "Micah <micah.iserman@gmail.com>"],
-        "date": ["Fri Jul 18 15:34:47 2025 -0400", "Fri Jul 18 06:05:49 2025 -0400", "Mon Jul 14 11:10:58 2025 -0400"],
-        "message": ["fixes epic year ends", "processes Epic staging", "removes package parts"]
+        "hash": [
+          "3c39f450353d516ee166f5f6686ced81c6d5ff75",
+          "39732a153fa02c1a4350a9a998471ae61c7a8627",
+          "f397e907659bbc3c8bb2175232c8b3376562839b"
+        ],
+        "author": [
+          "Micah <micah.iserman@gmail.com>",
+          "Micah <micah.iserman@gmail.com>",
+          "Micah <micah.iserman@gmail.com>"
+        ],
+        "date": [
+          "Fri Jul 18 15:34:47 2025 -0400",
+          "Fri Jul 18 06:05:49 2025 -0400",
+          "Mon Jul 14 11:10:58 2025 -0400"
+        ],
+        "message": [
+          "fixes epic year ends",
+          "processes Epic staging",
+          "removes package parts"
+        ]
       },
       "source": [],
       "ids": [
@@ -3573,8 +3633,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-07-18 15:27:36.012987",
-      "last_modified": "2025-07-18 06:00:54.016161",
+      "created": "2025-09-18 02:32:01.065607",
+      "last_modified": "2025-09-18 02:32:01.065607",
       "row_count": 56592,
       "entity_count": 54,
       "schema": {

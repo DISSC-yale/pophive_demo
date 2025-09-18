@@ -52,7 +52,7 @@
     "raw/term=rsv/part-0.parquet": "38422e2b3f9d43abe385b88e1bf044f9"
   },
   "standard_state": {
-    "./data/gtrends/measure_info.json": "feaeca4b551937b347456989f3310780",
+    "./data/gtrends/measure_info.json": "e2ec3b655de754ddd1cddd44f005137c",
     "./data/gtrends/standard/data.csv.gz": "c7a500cd87e92370280c57100873cfb7"
   }
 }
