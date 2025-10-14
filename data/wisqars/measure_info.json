@@ -1,0 +1,69 @@
+{
+  "age": {
+    "name": "age",
+    "description": "Age group.",
+    "measure_type": "categorical",
+    "unit": "category",
+    "time_resolution": "yearly"
+  },
+  "wisqars_{variant.name}_{category.name}": {
+    "short_name": "Death Rate ({variant} {category})",
+    "long_name": "Rate of Deaths Caused by {variant} {category}",
+    "category": "Injury & Overdose",
+    "subcategory": "Fatalities",
+    "short_description": "Death rate due to {variant} {category}.",
+    "long_description": "Deaths per 100k people due to {variant} {category}.",
+    "measure_type": "per 100k",
+    "unit": "rate",
+    "time_resolution": "yearly",
+    "variants": {
+      "violence": {
+        "default": "intentional",
+        "sources": {
+          "id": "wisqars",
+          "location": "Fatal Injury Report, Violence-related intent",
+          "location_url": "https://wisqars.cdc.gov/reports/?o=MORT&i=8&m=20810&s=0&r=0&ry=2&y1=2018&y2=2023&a=ALL&g1=0&g2=199&a1=0&a2=199&r1=MECH&r2=AGEGP&r3=STATE&r4=YEAR&r5=NONE&r6=NONE&g=00&e=0&yp=65&me=0&t=0"
+        }
+      },
+      "accident": {
+        "default": "accidental",
+        "sources": {
+          "id": "wisqars",
+          "location": "Fatal Injury Report, Unintentional intent",
+          "location_url": "https://wisqars.cdc.gov/reports/?o=MORT&i=8&m=20810&s=0&r=0&ry=2&y1=2018&y2=2023&a=ALL&g1=0&g2=199&a1=0&a2=199&r1=MECH&r2=AGEGP&r3=STATE&r4=YEAR&r5=NONE&r6=NONE&g=00&e=0&yp=65&me=0&t=0"
+        }
+      }
+    },
+    "categories": {
+      "firearm": {
+        "default": "firearm"
+      },
+      "drug_poisoning": {
+        "default": "drug poisioning"
+      },
+      "non_drug_poisoning": {
+        "default": "non-drug poisoning"
+      },
+      "suffocation": {
+        "default": "suffocation"
+      },
+      "motor_vehicle_traffic": {
+        "default": "motor vehicle traffic"
+      },
+      "fall": {
+        "default": "fall"
+      },
+      "unspecified": {
+        "default": "unspecified"
+      }
+    }
+  },
+  "_sources": {
+    "wisqars": {
+      "name": "Web-based Injury Statistics Query and Reporting System",
+      "url": "https://wisqars.cdc.gov/",
+      "organization": "Centers for Disease Control and Prevention",
+      "organization_url": "https://data.cdc.gov"
+    }
+  }
+}

@@ -1,0 +1,492 @@
+{
+  "name": "wisqars",
+  "title": "Wisqars",
+  "licence": {
+    "url": "http://opendatacommons.org/licenses/pddl",
+    "name": "Open Data Commons Public Domain",
+    "version": "1.0",
+    "id": "odc-pddl"
+  },
+  "resources": [
+    {
+      "bytes": 12298,
+      "encoding": "ISO-8859-1",
+      "md5": "55f8f26d8354ff111ac3b07f642e1ed4",
+      "format": "csv",
+      "name": "data.csv",
+      "filename": "data.csv.gz",
+      "versions": {},
+      "source": [],
+      "ids": [
+        {
+          "variable": "geography"
+        }
+      ],
+      "id_length": 2,
+      "time": "time",
+      "profile": "data-resource",
+      "created": "2025-10-14 06:43:39.097462",
+      "last_modified": "2025-10-14 06:20:30.541367",
+      "row_count": 913,
+      "entity_count": 51,
+      "schema": {
+        "fields": [
+          {
+            "name": "geography",
+            "duplicates": 862,
+            "time_range": [0, 0],
+            "type": "string",
+            "missing": 0,
+            "table": {
+              "01": 18,
+              "02": 18,
+              "04": 18,
+              "05": 18,
+              "06": 18,
+              "08": 18,
+              "09": 18,
+              "10": 18,
+              "11": 17,
+              "12": 18,
+              "13": 18,
+              "15": 18,
+              "16": 17,
+              "17": 18,
+              "18": 18,
+              "19": 18,
+              "20": 18,
+              "21": 18,
+              "22": 18,
+              "23": 18,
+              "24": 18,
+              "25": 18,
+              "26": 18,
+              "27": 18,
+              "28": 18,
+              "29": 18,
+              "30": 18,
+              "31": 18,
+              "32": 18,
+              "33": 18,
+              "34": 18,
+              "35": 18,
+              "36": 18,
+              "37": 18,
+              "38": 18,
+              "39": 18,
+              "40": 18,
+              "41": 18,
+              "42": 18,
+              "44": 18,
+              "45": 18,
+              "46": 18,
+              "47": 18,
+              "48": 18,
+              "49": 18,
+              "50": 16,
+              "51": 18,
+              "53": 18,
+              "54": 18,
+              "55": 18,
+              "56": 17
+            }
+          },
+          {
+            "name": "time",
+            "duplicates": 912,
+            "time_range": [0, 0],
+            "type": "string",
+            "missing": 0,
+            "table": {
+              "2018": 913
+            }
+          },
+          {
+            "name": "age",
+            "duplicates": 895,
+            "time_range": [0, 0],
+            "type": "string",
+            "missing": 0,
+            "table": {
+              "00-04": 51,
+              "05-09": 48,
+              "10-14": 49,
+              "15-19": 51,
+              "20-24": 51,
+              "25-29": 51,
+              "30-34": 51,
+              "35-39": 51,
+              "40-44": 51,
+              "45-49": 51,
+              "50-54": 51,
+              "55-59": 51,
+              "60-64": 51,
+              "65-69": 51,
+              "70-74": 51,
+              "75-79": 51,
+              "80-84": 51,
+              "85+": 51
+            }
+          },
+          {
+            "name": "wisqars_violence_firearm",
+            "duplicates": 362,
+            "time_range": [0, 0],
+            "type": "float",
+            "missing": 288,
+            "mean": 16.95648,
+            "sd": 8.210781,
+            "min": 0.41,
+            "max": 60.29
+          },
+          {
+            "name": "wisqars_violence_drug_poisoning",
+            "duplicates": 773,
+            "time_range": [0, 0],
+            "type": "float",
+            "missing": 746,
+            "mean": 2.780299,
+            "sd": 1.404099,
+            "min": 0.47,
+            "max": 9.35
+          },
+          {
+            "name": "wisqars_violence_suffocation",
+            "duplicates": 585,
+            "time_range": [0, 0],
+            "type": "float",
+            "missing": 517,
+            "mean": 6.508283,
+            "sd": 3.126019,
+            "min": 0.82,
+            "max": 22.65
+          },
+          {
+            "name": "wisqars_accident_motor_vehicle_traffic",
+            "duplicates": 341,
+            "time_range": [0, 0],
+            "type": "float",
+            "missing": 266,
+            "mean": 15.317944,
+            "sd": 6.953426,
+            "min": 1.17,
+            "max": 40.69
+          },
+          {
+            "name": "wisqars_accident_suffocation",
+            "duplicates": 712,
+            "time_range": [0, 0],
+            "type": "float",
+            "missing": 704,
+            "mean": 10.032488,
+            "sd": 10.104326,
+            "min": 0.39,
+            "max": 47.08
+          },
+          {
+            "name": "wisqars_accident_drug_poisoning",
+            "duplicates": 423,
+            "time_range": [0, 0],
+            "type": "float",
+            "missing": 403,
+            "mean": 27.919588,
+            "sd": 20.903808,
+            "min": 1.49,
+            "max": 148.36
+          },
+          {
+            "name": "wisqars_accident_non_drug_poisoning",
+            "duplicates": 820,
+            "time_range": [0, 0],
+            "type": "float",
+            "missing": 812,
+            "mean": 2.39,
+            "sd": 1.80221,
+            "min": 0.41,
+            "max": 11.96
+          },
+          {
+            "name": "wisqars_accident_fall",
+            "duplicates": 554,
+            "time_range": [0, 0],
+            "type": "float",
+            "missing": 548,
+            "mean": 72.209973,
+            "sd": 120.375297,
+            "min": 0.48,
+            "max": 743.1
+          },
+          {
+            "name": "wisqars_accident_unspecified",
+            "duplicates": 756,
+            "time_range": [0, 0],
+            "type": "float",
+            "missing": 747,
+            "mean": 15.982831,
+            "sd": 21.10171,
+            "min": 0.32,
+            "max": 109.74
+          }
+        ]
+      },
+      "sha512": "d7d83210b74227f949f07d2e1fcba0d9fabdf04bcf71f4d03223e822d89124daa6b639867974281f198f00a9d8b9a43235b99ddfc251bb36a1353a8c12a30873"
+    }
+  ],
+  "measure_info": {
+    "age": {
+      "name": "age",
+      "description": "Age group.",
+      "measure_type": "categorical",
+      "unit": "category",
+      "time_resolution": "yearly",
+      "id": "age"
+    },
+    "wisqars_violence_firearm": {
+      "short_name": "Death Rate (intentional firearm)",
+      "long_name": "Rate of Deaths Caused by intentional firearm",
+      "category": "Injury & Overdose",
+      "subcategory": "Fatalities",
+      "short_description": "Death rate due to intentional firearm.",
+      "long_description": "Deaths per 100k people due to intentional firearm.",
+      "measure_type": "per 100k",
+      "unit": "rate",
+      "time_resolution": "yearly",
+      "sources": {
+        "id": "wisqars",
+        "location": "Fatal Injury Report, Violence-related intent",
+        "location_url": "https://wisqars.cdc.gov/reports/?o=MORT&i=8&m=20810&s=0&r=0&ry=2&y1=2018&y2=2023&a=ALL&g1=0&g2=199&a1=0&a2=199&r1=MECH&r2=AGEGP&r3=STATE&r4=YEAR&r5=NONE&r6=NONE&g=00&e=0&yp=65&me=0&t=0"
+      },
+      "id": "wisqars_violence_firearm"
+    },
+    "wisqars_violence_drug_poisoning": {
+      "short_name": "Death Rate (intentional drug poisioning)",
+      "long_name": "Rate of Deaths Caused by intentional drug poisioning",
+      "category": "Injury & Overdose",
+      "subcategory": "Fatalities",
+      "short_description": "Death rate due to intentional drug poisioning.",
+      "long_description": "Deaths per 100k people due to intentional drug poisioning.",
+      "measure_type": "per 100k",
+      "unit": "rate",
+      "time_resolution": "yearly",
+      "sources": {
+        "id": "wisqars",
+        "location": "Fatal Injury Report, Violence-related intent",
+        "location_url": "https://wisqars.cdc.gov/reports/?o=MORT&i=8&m=20810&s=0&r=0&ry=2&y1=2018&y2=2023&a=ALL&g1=0&g2=199&a1=0&a2=199&r1=MECH&r2=AGEGP&r3=STATE&r4=YEAR&r5=NONE&r6=NONE&g=00&e=0&yp=65&me=0&t=0"
+      },
+      "id": "wisqars_violence_drug_poisoning"
+    },
+    "wisqars_violence_non_drug_poisoning": {
+      "short_name": "Death Rate (intentional non-drug poisoning)",
+      "long_name": "Rate of Deaths Caused by intentional non-drug poisoning",
+      "category": "Injury & Overdose",
+      "subcategory": "Fatalities",
+      "short_description": "Death rate due to intentional non-drug poisoning.",
+      "long_description": "Deaths per 100k people due to intentional non-drug poisoning.",
+      "measure_type": "per 100k",
+      "unit": "rate",
+      "time_resolution": "yearly",
+      "sources": {
+        "id": "wisqars",
+        "location": "Fatal Injury Report, Violence-related intent",
+        "location_url": "https://wisqars.cdc.gov/reports/?o=MORT&i=8&m=20810&s=0&r=0&ry=2&y1=2018&y2=2023&a=ALL&g1=0&g2=199&a1=0&a2=199&r1=MECH&r2=AGEGP&r3=STATE&r4=YEAR&r5=NONE&r6=NONE&g=00&e=0&yp=65&me=0&t=0"
+      },
+      "id": "wisqars_violence_non_drug_poisoning"
+    },
+    "wisqars_violence_suffocation": {
+      "short_name": "Death Rate (intentional suffocation)",
+      "long_name": "Rate of Deaths Caused by intentional suffocation",
+      "category": "Injury & Overdose",
+      "subcategory": "Fatalities",
+      "short_description": "Death rate due to intentional suffocation.",
+      "long_description": "Deaths per 100k people due to intentional suffocation.",
+      "measure_type": "per 100k",
+      "unit": "rate",
+      "time_resolution": "yearly",
+      "sources": {
+        "id": "wisqars",
+        "location": "Fatal Injury Report, Violence-related intent",
+        "location_url": "https://wisqars.cdc.gov/reports/?o=MORT&i=8&m=20810&s=0&r=0&ry=2&y1=2018&y2=2023&a=ALL&g1=0&g2=199&a1=0&a2=199&r1=MECH&r2=AGEGP&r3=STATE&r4=YEAR&r5=NONE&r6=NONE&g=00&e=0&yp=65&me=0&t=0"
+      },
+      "id": "wisqars_violence_suffocation"
+    },
+    "wisqars_violence_motor_vehicle_traffic": {
+      "short_name": "Death Rate (intentional motor vehicle traffic)",
+      "long_name": "Rate of Deaths Caused by intentional motor vehicle traffic",
+      "category": "Injury & Overdose",
+      "subcategory": "Fatalities",
+      "short_description": "Death rate due to intentional motor vehicle traffic.",
+      "long_description": "Deaths per 100k people due to intentional motor vehicle traffic.",
+      "measure_type": "per 100k",
+      "unit": "rate",
+      "time_resolution": "yearly",
+      "sources": {
+        "id": "wisqars",
+        "location": "Fatal Injury Report, Violence-related intent",
+        "location_url": "https://wisqars.cdc.gov/reports/?o=MORT&i=8&m=20810&s=0&r=0&ry=2&y1=2018&y2=2023&a=ALL&g1=0&g2=199&a1=0&a2=199&r1=MECH&r2=AGEGP&r3=STATE&r4=YEAR&r5=NONE&r6=NONE&g=00&e=0&yp=65&me=0&t=0"
+      },
+      "id": "wisqars_violence_motor_vehicle_traffic"
+    },
+    "wisqars_violence_fall": {
+      "short_name": "Death Rate (intentional fall)",
+      "long_name": "Rate of Deaths Caused by intentional fall",
+      "category": "Injury & Overdose",
+      "subcategory": "Fatalities",
+      "short_description": "Death rate due to intentional fall.",
+      "long_description": "Deaths per 100k people due to intentional fall.",
+      "measure_type": "per 100k",
+      "unit": "rate",
+      "time_resolution": "yearly",
+      "sources": {
+        "id": "wisqars",
+        "location": "Fatal Injury Report, Violence-related intent",
+        "location_url": "https://wisqars.cdc.gov/reports/?o=MORT&i=8&m=20810&s=0&r=0&ry=2&y1=2018&y2=2023&a=ALL&g1=0&g2=199&a1=0&a2=199&r1=MECH&r2=AGEGP&r3=STATE&r4=YEAR&r5=NONE&r6=NONE&g=00&e=0&yp=65&me=0&t=0"
+      },
+      "id": "wisqars_violence_fall"
+    },
+    "wisqars_violence_unspecified": {
+      "short_name": "Death Rate (intentional unspecified)",
+      "long_name": "Rate of Deaths Caused by intentional unspecified",
+      "category": "Injury & Overdose",
+      "subcategory": "Fatalities",
+      "short_description": "Death rate due to intentional unspecified.",
+      "long_description": "Deaths per 100k people due to intentional unspecified.",
+      "measure_type": "per 100k",
+      "unit": "rate",
+      "time_resolution": "yearly",
+      "sources": {
+        "id": "wisqars",
+        "location": "Fatal Injury Report, Violence-related intent",
+        "location_url": "https://wisqars.cdc.gov/reports/?o=MORT&i=8&m=20810&s=0&r=0&ry=2&y1=2018&y2=2023&a=ALL&g1=0&g2=199&a1=0&a2=199&r1=MECH&r2=AGEGP&r3=STATE&r4=YEAR&r5=NONE&r6=NONE&g=00&e=0&yp=65&me=0&t=0"
+      },
+      "id": "wisqars_violence_unspecified"
+    },
+    "wisqars_accident_firearm": {
+      "short_name": "Death Rate (accidental firearm)",
+      "long_name": "Rate of Deaths Caused by accidental firearm",
+      "category": "Injury & Overdose",
+      "subcategory": "Fatalities",
+      "short_description": "Death rate due to accidental firearm.",
+      "long_description": "Deaths per 100k people due to accidental firearm.",
+      "measure_type": "per 100k",
+      "unit": "rate",
+      "time_resolution": "yearly",
+      "sources": {
+        "id": "wisqars",
+        "location": "Fatal Injury Report, Unintentional intent",
+        "location_url": "https://wisqars.cdc.gov/reports/?o=MORT&i=8&m=20810&s=0&r=0&ry=2&y1=2018&y2=2023&a=ALL&g1=0&g2=199&a1=0&a2=199&r1=MECH&r2=AGEGP&r3=STATE&r4=YEAR&r5=NONE&r6=NONE&g=00&e=0&yp=65&me=0&t=0"
+      },
+      "id": "wisqars_accident_firearm"
+    },
+    "wisqars_accident_drug_poisoning": {
+      "short_name": "Death Rate (accidental drug poisioning)",
+      "long_name": "Rate of Deaths Caused by accidental drug poisioning",
+      "category": "Injury & Overdose",
+      "subcategory": "Fatalities",
+      "short_description": "Death rate due to accidental drug poisioning.",
+      "long_description": "Deaths per 100k people due to accidental drug poisioning.",
+      "measure_type": "per 100k",
+      "unit": "rate",
+      "time_resolution": "yearly",
+      "sources": {
+        "id": "wisqars",
+        "location": "Fatal Injury Report, Unintentional intent",
+        "location_url": "https://wisqars.cdc.gov/reports/?o=MORT&i=8&m=20810&s=0&r=0&ry=2&y1=2018&y2=2023&a=ALL&g1=0&g2=199&a1=0&a2=199&r1=MECH&r2=AGEGP&r3=STATE&r4=YEAR&r5=NONE&r6=NONE&g=00&e=0&yp=65&me=0&t=0"
+      },
+      "id": "wisqars_accident_drug_poisoning"
+    },
+    "wisqars_accident_non_drug_poisoning": {
+      "short_name": "Death Rate (accidental non-drug poisoning)",
+      "long_name": "Rate of Deaths Caused by accidental non-drug poisoning",
+      "category": "Injury & Overdose",
+      "subcategory": "Fatalities",
+      "short_description": "Death rate due to accidental non-drug poisoning.",
+      "long_description": "Deaths per 100k people due to accidental non-drug poisoning.",
+      "measure_type": "per 100k",
+      "unit": "rate",
+      "time_resolution": "yearly",
+      "sources": {
+        "id": "wisqars",
+        "location": "Fatal Injury Report, Unintentional intent",
+        "location_url": "https://wisqars.cdc.gov/reports/?o=MORT&i=8&m=20810&s=0&r=0&ry=2&y1=2018&y2=2023&a=ALL&g1=0&g2=199&a1=0&a2=199&r1=MECH&r2=AGEGP&r3=STATE&r4=YEAR&r5=NONE&r6=NONE&g=00&e=0&yp=65&me=0&t=0"
+      },
+      "id": "wisqars_accident_non_drug_poisoning"
+    },
+    "wisqars_accident_suffocation": {
+      "short_name": "Death Rate (accidental suffocation)",
+      "long_name": "Rate of Deaths Caused by accidental suffocation",
+      "category": "Injury & Overdose",
+      "subcategory": "Fatalities",
+      "short_description": "Death rate due to accidental suffocation.",
+      "long_description": "Deaths per 100k people due to accidental suffocation.",
+      "measure_type": "per 100k",
+      "unit": "rate",
+      "time_resolution": "yearly",
+      "sources": {
+        "id": "wisqars",
+        "location": "Fatal Injury Report, Unintentional intent",
+        "location_url": "https://wisqars.cdc.gov/reports/?o=MORT&i=8&m=20810&s=0&r=0&ry=2&y1=2018&y2=2023&a=ALL&g1=0&g2=199&a1=0&a2=199&r1=MECH&r2=AGEGP&r3=STATE&r4=YEAR&r5=NONE&r6=NONE&g=00&e=0&yp=65&me=0&t=0"
+      },
+      "id": "wisqars_accident_suffocation"
+    },
+    "wisqars_accident_motor_vehicle_traffic": {
+      "short_name": "Death Rate (accidental motor vehicle traffic)",
+      "long_name": "Rate of Deaths Caused by accidental motor vehicle traffic",
+      "category": "Injury & Overdose",
+      "subcategory": "Fatalities",
+      "short_description": "Death rate due to accidental motor vehicle traffic.",
+      "long_description": "Deaths per 100k people due to accidental motor vehicle traffic.",
+      "measure_type": "per 100k",
+      "unit": "rate",
+      "time_resolution": "yearly",
+      "sources": {
+        "id": "wisqars",
+        "location": "Fatal Injury Report, Unintentional intent",
+        "location_url": "https://wisqars.cdc.gov/reports/?o=MORT&i=8&m=20810&s=0&r=0&ry=2&y1=2018&y2=2023&a=ALL&g1=0&g2=199&a1=0&a2=199&r1=MECH&r2=AGEGP&r3=STATE&r4=YEAR&r5=NONE&r6=NONE&g=00&e=0&yp=65&me=0&t=0"
+      },
+      "id": "wisqars_accident_motor_vehicle_traffic"
+    },
+    "wisqars_accident_fall": {
+      "short_name": "Death Rate (accidental fall)",
+      "long_name": "Rate of Deaths Caused by accidental fall",
+      "category": "Injury & Overdose",
+      "subcategory": "Fatalities",
+      "short_description": "Death rate due to accidental fall.",
+      "long_description": "Deaths per 100k people due to accidental fall.",
+      "measure_type": "per 100k",
+      "unit": "rate",
+      "time_resolution": "yearly",
+      "sources": {
+        "id": "wisqars",
+        "location": "Fatal Injury Report, Unintentional intent",
+        "location_url": "https://wisqars.cdc.gov/reports/?o=MORT&i=8&m=20810&s=0&r=0&ry=2&y1=2018&y2=2023&a=ALL&g1=0&g2=199&a1=0&a2=199&r1=MECH&r2=AGEGP&r3=STATE&r4=YEAR&r5=NONE&r6=NONE&g=00&e=0&yp=65&me=0&t=0"
+      },
+      "id": "wisqars_accident_fall"
+    },
+    "wisqars_accident_unspecified": {
+      "short_name": "Death Rate (accidental unspecified)",
+      "long_name": "Rate of Deaths Caused by accidental unspecified",
+      "category": "Injury & Overdose",
+      "subcategory": "Fatalities",
+      "short_description": "Death rate due to accidental unspecified.",
+      "long_description": "Deaths per 100k people due to accidental unspecified.",
+      "measure_type": "per 100k",
+      "unit": "rate",
+      "time_resolution": "yearly",
+      "sources": {
+        "id": "wisqars",
+        "location": "Fatal Injury Report, Unintentional intent",
+        "location_url": "https://wisqars.cdc.gov/reports/?o=MORT&i=8&m=20810&s=0&r=0&ry=2&y1=2018&y2=2023&a=ALL&g1=0&g2=199&a1=0&a2=199&r1=MECH&r2=AGEGP&r3=STATE&r4=YEAR&r5=NONE&r6=NONE&g=00&e=0&yp=65&me=0&t=0"
+      },
+      "id": "wisqars_accident_unspecified"
+    },
+    "_sources": {
+      "wisqars": {
+        "name": "Web-based Injury Statistics Query and Reporting System",
+        "url": "https://wisqars.cdc.gov/",
+        "organization": "Centers for Disease Control and Prevention",
+        "organization_url": "https://data.cdc.gov"
+      },
+      "id": "_sources"
+    }
+  }
+}

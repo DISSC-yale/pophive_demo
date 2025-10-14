@@ -17,6 +17,7 @@
       "filename": "data.csv.gz",
       "versions": {
         "hash": [
+          "c379cc22607a43e86e596816611992efd341d8e5",
           "1df013e68649aa6be9c6980c73d3a89a03b60c1b",
           "9efae4a4a1054316182a5cb46bb3ca9b4ffa2e4e",
           "a544486f317e4f6ae657419bf0b6667f87101fe9",
@@ -56,6 +57,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "Micah <micah.iserman@gmail.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -69,6 +71,7 @@
           "Micah <micah.iserman@gmail.com>"
         ],
         "date": [
+          "Mon Oct 13 02:37:29 2025 +0000",
           "Mon Oct 6 02:34:57 2025 +0000",
           "Mon Sep 29 02:36:48 2025 +0000",
           "Mon Sep 22 02:37:27 2025 +0000",
@@ -95,6 +98,7 @@
           "Wed May 21 10:19:42 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled data build",
           "scheduled data build",
           "scheduled data build",
@@ -138,8 +142,8 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-10-13 02:37:24.213901",
-      "last_modified": "2025-10-13 02:37:24.213901",
+      "created": "2025-10-14 04:09:09.319649",
+      "last_modified": "2025-10-14 04:09:09.319649",
       "row_count": 31980,
       "entity_count": 52,
       "schema": {

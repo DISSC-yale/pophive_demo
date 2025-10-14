@@ -1,0 +1,56 @@
+{
+  "name": "wisqars",
+  "type": "source",
+  "scripts": [
+    {
+      "path": "ingest.R",
+      "manual": false,
+      "frequency": 7,
+      "last_run": "2025-10-14 06:20:31",
+      "run_time": 9.44,
+      "last_status": {
+        "log": [
+          "\u001bG3;ℹ requesting report <https://wisqars.cdc.gov/reports/?o=MORT&i=8&m=20810&s=0&r=0&ry=2&y1=2018&y2=2018&a=ALL&g1=0&g2=199&a1=0&a2=199&r1=MECH&r2=AGEGP&r3=STATE&r4=YEAR&r5=NONE&r6=NONE&g=00&e=0&yp=65&me=0&t=0>",
+          "\u001bg\u001bG3;⠙ processing source \u001b[1mwisqars\u001b[22m (\u001b[3m../wisqars/ingest.R\u001b[23m)\r\u001bg\u001bG3;ℹ requesting report <https://wisqars.cdc.gov/reports/?o=MORT&i=1&m=20810&s=0&r=0&ry=2&y1=2018&y2=2018&a=ALL&g1=0&g2=199&a1=0&a2=199&r1=MECH&r2=AGEGP&r3=STATE&r4=YEAR&r5=NONE&r6=NONE&g=00&e=0&yp=65&me=0&t=0>",
+          "\u001bg\u001bG3;⠙ processing source \u001b[1mwisqars\u001b[22m (\u001b[3m../wisqars/ingest.R\u001b[23m)\r\u001bgRows: 5730 Columns: 22",
+          "⠙ processing source \u001b[1mwisqars\u001b[22m (\u001b[3m../wisqars/ingest.R\u001b[23m)\r",
+          "⠙ processing source \u001b[1mwisqars\u001b[22m (\u001b[3m../wisqars/ingest.R\u001b[23m)\r── Column specification ────────────────────────────────────────────────────",
+          "⠙ processing source \u001b[1mwisqars\u001b[22m (\u001b[3m../wisqars/ingest.R\u001b[23m)\rDelimiter: \",\"",
+          "chr  (8): agegp, state, Mechlbl, Statelbl, deaths, ypll, CrudeRate, Crud...",
+          "dbl (14): SupressFlag, Population, year, mech, MedCostRate, workCostRate...",
+          "",
+          "⠙ processing source \u001b[1mwisqars\u001b[22m (\u001b[3m../wisqars/ingest.R\u001b[23m)\r",
+          "",
+          "⠙ processing source \u001b[1mwisqars\u001b[22m (\u001b[3m../wisqars/ingest.R\u001b[23m)\rℹ Use `spec()` to retrieve the full column specification for this data.",
+          "⠙ processing source \u001b[1mwisqars\u001b[22m (\u001b[3m../wisqars/ingest.R\u001b[23m)\rℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.",
+          "⠙ processing source \u001b[1mwisqars\u001b[22m (\u001b[3m../wisqars/ingest.R\u001b[23m)\r",
+          "Rows: 9859 Columns: 22",
+          "⠙ processing source \u001b[1mwisqars\u001b[22m (\u001b[3m../wisqars/ingest.R\u001b[23m)\r",
+          "⠙ processing source \u001b[1mwisqars\u001b[22m (\u001b[3m../wisqars/ingest.R\u001b[23m)\r── Column specification ────────────────────────────────────────────────────",
+          "⠙ processing source \u001b[1mwisqars\u001b[22m (\u001b[3m../wisqars/ingest.R\u001b[23m)\rDelimiter: \",\"",
+          "chr  (8): agegp, state, Mechlbl, Statelbl, deaths, ypll, CrudeRate, Crud...",
+          "dbl (14): SupressFlag, Population, year, mech, MedCostRate, workCostRate...",
+          "",
+          "⠙ processing source \u001b[1mwisqars\u001b[22m (\u001b[3m../wisqars/ingest.R\u001b[23m)\r",
+          "",
+          "⠙ processing source \u001b[1mwisqars\u001b[22m (\u001b[3m../wisqars/ingest.R\u001b[23m)\rℹ Use `spec()` to retrieve the full column specification for this data.",
+          "⠙ processing source \u001b[1mwisqars\u001b[22m (\u001b[3m../wisqars/ingest.R\u001b[23m)\rℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.",
+          "⠙ processing source \u001b[1mwisqars\u001b[22m (\u001b[3m../wisqars/ingest.R\u001b[23m)\r"
+        ],
+        "success": true
+      }
+    }
+  ],
+  "checked": "2025-10-14 06:46:02",
+  "check_results": {
+    "./data/wisqars/standard/data.csv.gz": []
+  },
+  "raw_state": {
+    "raw/accident.csv.xz": "dc6d828b44a44e8757172862d5f040d0",
+    "raw/violence.csv.xz": "8f226d03f9d9773a082409c836a71f87"
+  },
+  "standard_state": {
+    "./data/wisqars/measure_info.json": "d61911f2553ba41d3808c1bcac416367",
+    "./data/wisqars/standard/data.csv.gz": "55f8f26d8354ff111ac3b07f642e1ed4"
+  }
+}
