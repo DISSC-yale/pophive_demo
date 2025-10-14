@@ -8,9 +8,6 @@ flowchart LR
     s3(("<strong><a href="https://www.cdc.gov/nrevss" target="_blank" rel="noreferrer">National Respiratory and Enteric Virus Surveillance System</a></strong>"))
     s5(("<strong><a href="https://www.cdc.gov/nwss" target="_blank" rel="noreferrer">National Wastewater Surveillance System</a></strong>"))
     s9(("<strong><a href="https://wisqars.cdc.gov/" target="_blank" rel="noreferrer">Web-based Injury Statistics Query and Reporting System</a></strong>"))
-    s10(("<strong><a href="" target="_blank" rel="noreferrer">Fatal Injury Report, Violence-related intent</a></strong>"))
-    s11(("<strong><a href="" target="_blank" rel="noreferrer">https://wisqars.cdc.gov/reports/?o=MORT&i=8&m=20810&s=0&r=0&ry=2&y1=2018&y2=2023&a=ALL&g1=0&g2=199&a1=0&a2=199&r1=MECH&r2=AGEGP&r3=STATE&r4=YEAR&r5=NONE&r6=NONE&g=00&e=0&yp=65&me=0&t=0</a></strong>"))
-    s12(("<strong><a href="" target="_blank" rel="noreferrer">Fatal Injury Report, Unintentional intent</a></strong>"))
     subgraph epic["`<strong><a href="https://github.com/dissc-yale/pophive_demo/tree/main/data/epic" target="_blank" rel="noreferrer">epic</a></strong>`"]
         direction LR
         n1["`<strong><a href="https://github.com/dissc-yale/pophive_demo/blob/main/data/epic/standard/children.csv.gz" target="_blank" rel="noreferrer">children.csv.gz</a></strong><br/><br/><ul><li><code>time_missing</code></li></ul>`"]:::warn
@@ -54,10 +51,10 @@ flowchart LR
     s7 --> n8
     s5---s8["<strong><a href="https://www.cdc.gov/nwss/rv/RSV-statetrend.html" target="_blank" rel="noreferrer">Wastewater RSV State and Territory Trends</a></strong>"]
     s8 --> n8
-    s9 --> n9
+    s9---s10["<strong><a href="https://wisqars.cdc.gov/reports/?o=MORT&i=8&m=20810&s=0&r=0&ry=2&y1=2018&y2=2023&a=ALL&g1=0&g2=199&a1=0&a2=199&r1=MECH&r2=AGEGP&r3=STATE&r4=YEAR&r5=NONE&r6=NONE&g=00&e=0&yp=65&me=0&t=0" target="_blank" rel="noreferrer">Fatal Injury Report, Violence-related intent</a></strong>"]
     s10 --> n9
+    s9---s11["<strong><a href="https://wisqars.cdc.gov/reports/?o=MORT&i=1&m=20810&s=0&r=0&ry=2&y1=2018&y2=2023&a=ALL&g1=0&g2=199&a1=0&a2=199&r1=MECH&r2=AGEGP&r3=STATE&r4=YEAR&r5=NONE&r6=NONE&g=00&e=0&yp=65&me=0&t=0" target="_blank" rel="noreferrer">Fatal Injury Report, Unintentional intent</a></strong>"]
     s11 --> n9
-    s12 --> n9
     n5 --> bundle_respiratory
     n6 --> bundle_respiratory
     n8 --> bundle_respiratory
