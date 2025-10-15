@@ -9,14 +9,15 @@
   },
   "resources": [
     {
-      "bytes": 179073,
+      "bytes": 191199,
       "encoding": "ISO-8859-1",
-      "md5": "a8d210d32b8508c4ccbfc53895a97e4d",
+      "md5": "a7a682ad6ede4b2d4a9a4d5dba1abee2",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
         "hash": [
+          "076b852d31b5af16235aa56dde508fa73983d479",
           "cb8a41fa3da3ddedbbee4bf6153c208de7de3a01",
           "520394f79a87bf2fa0a4b1ae2213932e728b1570",
           "ac2f7e138d60f8a861a3d584e134a5fdf5ec78c9",
@@ -45,6 +46,7 @@
           "36914a3d9b47f91eba0b5d8dfddd357a700fd525"
         ],
         "author": [
+          "Micah <micah.iserman@gmail.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -73,6 +75,7 @@
           "Micah <micah.iserman@gmail.com>"
         ],
         "date": [
+          "Tue Oct 14 06:48:38 2025 -0400",
           "Sat Sep 27 02:31:30 2025 +0000",
           "Sat Sep 20 02:31:17 2025 +0000",
           "Thu Sep 18 02:33:21 2025 +0000",
@@ -101,6 +104,7 @@
           "Tue May 27 13:56:02 2025 -0400"
         ],
         "message": [
+          "adds wisqars source",
           "scheduled data build",
           "scheduled data build",
           "scheduled data build",
@@ -151,23 +155,74 @@
           "variable": "geography"
         }
       ],
-      "id_length": "NA",
+      "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-10-14 06:45:49.755373",
-      "last_modified": "2025-10-14 04:09:00.227161",
+      "created": "2025-10-15 02:34:51.274384",
+      "last_modified": "2025-10-15 02:34:51.274384",
       "row_count": 9603,
-      "entity_count": 1,
+      "entity_count": 52,
       "schema": {
         "fields": [
           {
             "name": "geography",
-            "duplicates": 9602,
-            "time_range": [-1, -1],
+            "duplicates": 9551,
+            "time_range": [34, 120],
             "type": "string",
-            "missing": 9603,
+            "missing": 0,
             "table": {
-              "1": 0
+              "01": 166,
+              "02": 173,
+              "04": 194,
+              "05": 172,
+              "06": 195,
+              "08": 195,
+              "09": 177,
+              "10": 181,
+              "11": 174,
+              "12": 195,
+              "13": 176,
+              "15": 177,
+              "16": 195,
+              "17": 195,
+              "18": 177,
+              "19": 177,
+              "20": 177,
+              "21": 187,
+              "22": 176,
+              "23": 188,
+              "24": 174,
+              "25": 195,
+              "26": 195,
+              "27": 180,
+              "28": 164,
+              "29": 195,
+              "30": 195,
+              "31": 195,
+              "32": 195,
+              "33": 175,
+              "34": 176,
+              "35": 177,
+              "36": 195,
+              "37": 194,
+              "38": 161,
+              "39": 195,
+              "40": 195,
+              "41": 195,
+              "42": 190,
+              "44": 176,
+              "45": 194,
+              "46": 173,
+              "47": 195,
+              "48": 195,
+              "49": 195,
+              "50": 177,
+              "51": 195,
+              "53": 195,
+              "54": 195,
+              "55": 195,
+              "56": 167,
+              "66": 163
             }
           },
           {
@@ -409,7 +464,7 @@
           }
         ]
       },
-      "sha512": "0e85543eb876ce30a91533da9c6d2a3584d88fb463f62c24b5c69c6af7b1ebdffce59b676186b645ce4cc8c7a5289be5b69811071d432ff2d70b5e4a0a64c8a9"
+      "sha512": "22159507eac2625c1252d4982c2bb748f6790fa4130ddfd01fbba1cba05bda9a3a3ad5b6e6ebcf0c7e91ddd036459d712f32c4fce45bf52ce55b897259111ed3"
     }
   ],
   "measure_info": {

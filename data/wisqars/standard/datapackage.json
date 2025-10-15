@@ -16,10 +16,18 @@
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
-        "hash": ["076b852d31b5af16235aa56dde508fa73983d479"],
-        "author": ["Micah <micah.iserman@gmail.com>"],
-        "date": ["Tue Oct 14 06:48:38 2025 -0400"],
-        "message": ["adds wisqars source"]
+        "hash": [
+          "076b852d31b5af16235aa56dde508fa73983d479"
+        ],
+        "author": [
+          "Micah <micah.iserman@gmail.com>"
+        ],
+        "date": [
+          "Tue Oct 14 06:48:38 2025 -0400"
+        ],
+        "message": [
+          "adds wisqars source"
+        ]
       },
       "source": [],
       "ids": [
@@ -30,8 +38,8 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-10-14 06:43:39.097462",
-      "last_modified": "2025-10-14 06:20:30.541367",
+      "created": "2025-10-15 02:33:37.48605",
+      "last_modified": "2025-10-15 02:33:37.48605",
       "row_count": 913,
       "entity_count": 51,
       "schema": {
