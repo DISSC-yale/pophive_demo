@@ -9,9 +9,9 @@
   },
   "resources": [
     {
-      "bytes": 14939,
+      "bytes": 14984,
       "encoding": "ISO-8859-1",
-      "md5": "a47731bcace0e18c372a949d5de3cb7b",
+      "md5": "52013b9d484e3ac17bf99785b5c86f1a",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
@@ -114,35 +114,35 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-10-15 02:33:37.46505",
-      "last_modified": "2025-10-15 02:33:37.46505",
-      "row_count": 2870,
+      "created": "2025-10-17 02:33:42.615854",
+      "last_modified": "2025-10-17 02:33:42.615854",
+      "row_count": 2880,
       "entity_count": 10,
       "schema": {
         "fields": [
           {
             "name": "geography",
-            "duplicates": 2860,
-            "time_range": [0, 286],
+            "duplicates": 2870,
+            "time_range": [0, 287],
             "type": "string",
             "missing": 0,
             "table": {
-              "hhs_1": 287,
-              "hhs_10": 287,
-              "hhs_2": 287,
-              "hhs_3": 287,
-              "hhs_4": 287,
-              "hhs_5": 287,
-              "hhs_6": 287,
-              "hhs_7": 287,
-              "hhs_8": 287,
-              "hhs_9": 287
+              "hhs_1": 288,
+              "hhs_10": 288,
+              "hhs_2": 288,
+              "hhs_3": 288,
+              "hhs_4": 288,
+              "hhs_5": 288,
+              "hhs_6": 288,
+              "hhs_7": 288,
+              "hhs_8": 288,
+              "hhs_9": 288
             }
           },
           {
             "name": "time",
-            "duplicates": 2583,
-            "time_range": [0, 286],
+            "duplicates": 2592,
+            "time_range": [0, 287],
             "type": "string",
             "missing": 0,
             "table": {
@@ -432,34 +432,35 @@
               "2025-09-13": 10,
               "2025-09-20": 10,
               "2025-09-27": 10,
-              "2025-10-04": 10
+              "2025-10-04": 10,
+              "2025-10-11": 10
             }
           },
           {
             "name": "nrevss_week",
-            "duplicates": 2817,
-            "time_range": [0, 286],
+            "duplicates": 2827,
+            "time_range": [0, 287],
             "type": "integer",
             "missing": 0,
-            "mean": 26.682927,
-            "sd": 14.551042,
+            "mean": 26.732639,
+            "sd": 14.550151,
             "min": 1,
             "max": 53
           },
           {
             "name": "nrevss",
-            "duplicates": 1490,
-            "time_range": [0, 286],
+            "duplicates": 1503,
+            "time_range": [0, 287],
             "type": "float",
             "missing": 0,
-            "mean": 254.072857,
-            "sd": 523.982602,
+            "mean": 253.27875,
+            "sd": 523.245845,
             "min": 0,
             "max": 5097.2
           }
         ]
       },
-      "sha512": "34f39be23f65db88d0040dc6159e8e8df8c0a9f384dc727df71f28e703a6d8e4d99d52fc3c3642ae857ac574d2b9a1d4e1bdcbffa8ffc56a05c53dfdb7bd32f6"
+      "sha512": "2cf23d00a01ec14833b0db375f49173818c755a91e232d27c24272c99865467b5ca2159bf8b177fe21773d76ec00f1a8c6ddf62d8d89a4f8bad7797bc9712c47"
     }
   ],
   "measure_info": {
