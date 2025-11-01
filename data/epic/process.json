@@ -34,7 +34,7 @@
     "./data/epic/standard/weekly.csv.gz": []
   },
   "standard_state": {
-    "./data/epic/measure_info.json": "d9c860726da15efa659f077f12fce777",
+    "./data/epic/measure_info.json": "f8ca16b6ec149ec601da2fff8c395a14",
     "./data/epic/standard/children.csv.gz": "538f9bfa2a7c012fcf15d9491b5ee60e",
     "./data/epic/standard/county_no_time.csv.gz": "732265db20d823ac6b8cd7e4fa91e184",
     "./data/epic/standard/no_geo.csv.gz": "612347598abc7970631923a099f4aa44",

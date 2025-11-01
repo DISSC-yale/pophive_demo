@@ -9,14 +9,15 @@
   },
   "resources": [
     {
-      "bytes": 651086,
+      "bytes": 651064,
       "encoding": "ISO-8859-1",
-      "md5": "f7199750ce5fba52e59652b6bdd7fa1a",
+      "md5": "816c132db0890e65c8d4a7ca27526fee",
       "format": "parquet",
       "name": "data",
       "filename": "data.parquet",
       "versions": {
         "hash": [
+          "e775e69475895caff28a9685c3a4eca4d8a44db6",
           "189151a1c1acf2492c030f57a6b076a6a7e0e0b5",
           "5bb5ee954b8717a9577090cba7912474bd2bb820",
           "5563a50413876d209604a2c4fbac0fffbd4ba793",
@@ -52,6 +53,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "Micah <micah.iserman@gmail.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -81,6 +83,7 @@
           "Micah <micah.iserman@gmail.com>"
         ],
         "date": [
+          "Sat Nov 1 02:47:32 2025 +0000",
           "Mon Oct 27 02:39:01 2025 +0000",
           "Mon Oct 20 02:39:12 2025 +0000",
           "Wed Oct 15 02:35:00 2025 +0000",
@@ -113,6 +116,7 @@
           "Thu Jul 17 09:46:50 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled data build",
           "scheduled data build",
           "scheduled data build",
@@ -154,8 +158,9 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-11-01 02:47:30.820674",
-      "last_modified": "2025-11-01 02:47:30.820674",
+      "created": "2025-11-01 09:57:21.504957",
+      "last_modified": "2025-11-01 09:56:35.058529",
+      "vintage": "2025-07-14",
       "row_count": 25804,
       "entity_count": 56,
       "schema": {
@@ -735,6 +740,9 @@
           {
             "name": "epic_all_encounters",
             "duplicates": 19878,
+            "info": {
+              "source_id": "n_all_encounters"
+            },
             "time_range": [0, 130],
             "type": "integer",
             "missing": 18730,
@@ -746,6 +754,9 @@
           {
             "name": "epic_covid",
             "duplicates": 24569,
+            "info": {
+              "source_id": "n_covid"
+            },
             "time_range": [0, 130],
             "type": "integer",
             "missing": 18730,
@@ -757,6 +768,9 @@
           {
             "name": "epic_flu",
             "duplicates": 24558,
+            "info": {
+              "source_id": "n_flu"
+            },
             "time_range": [0, 130],
             "type": "integer",
             "missing": 18730,
@@ -768,6 +782,9 @@
           {
             "name": "epic_rsv",
             "duplicates": 25276,
+            "info": {
+              "source_id": "n_rsv"
+            },
             "time_range": [0, 130],
             "type": "integer",
             "missing": 18861,
@@ -779,6 +796,7 @@
           {
             "name": "gtrends_rsv_vaccine",
             "duplicates": 20516,
+            "info": {},
             "time_range": [131, 469],
             "type": "float",
             "missing": 9996,
@@ -790,6 +808,7 @@
           {
             "name": "gtrends_naloxone",
             "duplicates": 18294,
+            "info": {},
             "time_range": [131, 469],
             "type": "float",
             "missing": 9996,
@@ -801,6 +820,7 @@
           {
             "name": "gtrends_overdose",
             "duplicates": 10982,
+            "info": {},
             "time_range": [131, 469],
             "type": "float",
             "missing": 9996,
@@ -812,6 +832,7 @@
           {
             "name": "gtrends_rsv",
             "duplicates": 12981,
+            "info": {},
             "time_range": [131, 469],
             "type": "float",
             "missing": 9996,
@@ -823,6 +844,7 @@
           {
             "name": "wastewater_covid",
             "duplicates": 16765,
+            "info": {},
             "time_range": [463, 498],
             "type": "float",
             "missing": 16442,
@@ -834,6 +856,7 @@
           {
             "name": "wastewater_flua",
             "duplicates": 22481,
+            "info": {},
             "time_range": [463, 498],
             "type": "float",
             "missing": 18958,
@@ -845,6 +868,7 @@
           {
             "name": "wastewater_rsv",
             "duplicates": 22486,
+            "info": {},
             "time_range": [463, 485],
             "type": "float",
             "missing": 18900,
@@ -855,7 +879,7 @@
           }
         ]
       },
-      "sha512": "57a35001a9eb23e0e8fe69146e47f8f3e5d758a86362b362f344efb52abd631c7f2976bc8f6f2855012d5b14d7ebfa0872b70292bd100b8a58784143d88d8b70"
+      "sha512": "df8da2409667912cb0fc26d9dc1d1b15b1508a860b700d4e04104e6710d393da1deacc8369e96a56701b37cad23c7e122be49199045518970c687d04998ddf09"
     }
   ],
   "measure_info": {

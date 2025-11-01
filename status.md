@@ -55,4 +55,7 @@ flowchart LR
     s10 --> n9
     s9---s11["<strong><a href="https://wisqars.cdc.gov/reports/?o=MORT&i=1&m=20810&s=0&r=0&ry=2&y1=2018&y2=2023&a=ALL&g1=0&g2=199&a1=0&a2=199&r1=MECH&r2=AGEGP&r3=STATE&r4=YEAR&r5=NONE&r6=NONE&g=00&e=0&yp=65&me=0&t=0" target="_blank" rel="noreferrer">Fatal Injury Report, Unintentional intent</a></strong>"]
     s11 --> n9
+    n5 --> bundle_respiratory
+    n6 --> bundle_respiratory
+    n8 --> bundle_respiratory
 ```
