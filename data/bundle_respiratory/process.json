@@ -12,11 +12,11 @@
       }
     }
   ],
-  "source_files": [
-    "epic/standard/weekly.csv.gz",
-    "gtrends/standard/data.csv.gz",
-    "wastewater/standard/data.csv.gz"
-  ],
+  "source_files": {
+    "epic/standard/weekly.csv.gz": "data.parquet",
+    "gtrends/standard/data.csv.gz": "data.parquet",
+    "wastewater/standard/data.csv.gz": "data.parquet"
+  },
   "standard_state": {
     "./data/epic/standard/weekly.csv.gz": "29d830af361a067be287c61da0180ad5",
     "./data/gtrends/standard/data.csv.gz": "04f55e17b660137fd1315e60e995f236",

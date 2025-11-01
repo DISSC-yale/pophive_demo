@@ -1,5 +1,5 @@
 process <- dcf::dcf_process_record()
-standard_files <- paste0("../", process$source_files)
+standard_files <- paste0("../", names(process$source_files))
 
 start_time <- "2020"
 data <- lapply(standard_files, function(file) {
