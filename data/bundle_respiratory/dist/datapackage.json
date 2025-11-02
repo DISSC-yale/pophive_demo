@@ -9,14 +9,15 @@
   },
   "resources": [
     {
-      "bytes": 651064,
+      "bytes": 651086,
       "encoding": "ISO-8859-1",
-      "md5": "816c132db0890e65c8d4a7ca27526fee",
+      "md5": "f7199750ce5fba52e59652b6bdd7fa1a",
       "format": "parquet",
       "name": "data",
       "filename": "data.parquet",
       "versions": {
         "hash": [
+          "04fafdcf31a126e42642e6010a3100aa63edda81",
           "e775e69475895caff28a9685c3a4eca4d8a44db6",
           "189151a1c1acf2492c030f57a6b076a6a7e0e0b5",
           "5bb5ee954b8717a9577090cba7912474bd2bb820",
@@ -50,6 +51,7 @@
           "8b9395792ca23c342cf25af097d86a519918e2e6"
         ],
         "author": [
+          "Micah <micah.iserman@gmail.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -83,6 +85,7 @@
           "Micah <micah.iserman@gmail.com>"
         ],
         "date": [
+          "Sat Nov 1 09:57:43 2025 -0400",
           "Sat Nov 1 02:47:32 2025 +0000",
           "Mon Oct 27 02:39:01 2025 +0000",
           "Mon Oct 20 02:39:12 2025 +0000",
@@ -116,6 +119,7 @@
           "Thu Jul 17 09:46:50 2025 -0400"
         ],
         "message": [
+          "local rebuild",
           "scheduled data build",
           "scheduled data build",
           "scheduled data build",
@@ -158,8 +162,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-11-01 09:57:21.504957",
-      "last_modified": "2025-11-01 09:56:35.058529",
+      "created": "2025-11-02 02:38:04.185695",
+      "last_modified": "2025-11-02 02:38:04.185695",
       "vintage": "2025-07-14",
       "row_count": 25804,
       "entity_count": 56,
@@ -879,7 +883,7 @@
           }
         ]
       },
-      "sha512": "df8da2409667912cb0fc26d9dc1d1b15b1508a860b700d4e04104e6710d393da1deacc8369e96a56701b37cad23c7e122be49199045518970c687d04998ddf09"
+      "sha512": "57a35001a9eb23e0e8fe69146e47f8f3e5d758a86362b362f344efb52abd631c7f2976bc8f6f2855012d5b14d7ebfa0872b70292bd100b8a58784143d88d8b70"
     }
   ],
   "measure_info": {

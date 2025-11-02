@@ -11,12 +11,13 @@
     {
       "bytes": 191199,
       "encoding": "ISO-8859-1",
-      "md5": "7adf54c27ee9c539a16af9a700c882b0",
+      "md5": "a7a682ad6ede4b2d4a9a4d5dba1abee2",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
         "hash": [
+          "04fafdcf31a126e42642e6010a3100aa63edda81",
           "5563a50413876d209604a2c4fbac0fffbd4ba793",
           "076b852d31b5af16235aa56dde508fa73983d479",
           "cb8a41fa3da3ddedbbee4bf6153c208de7de3a01",
@@ -47,6 +48,7 @@
           "36914a3d9b47f91eba0b5d8dfddd357a700fd525"
         ],
         "author": [
+          "Micah <micah.iserman@gmail.com>",
           "GitHub Actions <actions@github.com>",
           "Micah <micah.iserman@gmail.com>",
           "GitHub Actions <actions@github.com>",
@@ -77,6 +79,7 @@
           "Micah <micah.iserman@gmail.com>"
         ],
         "date": [
+          "Sat Nov 1 09:57:43 2025 -0400",
           "Wed Oct 15 02:35:00 2025 +0000",
           "Tue Oct 14 06:48:38 2025 -0400",
           "Sat Sep 27 02:31:30 2025 +0000",
@@ -107,6 +110,7 @@
           "Tue May 27 13:56:02 2025 -0400"
         ],
         "message": [
+          "local rebuild",
           "scheduled data build",
           "adds wisqars source",
           "scheduled data build",
@@ -162,8 +166,8 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-11-01 09:57:11.585037",
-      "last_modified": "2025-11-01 09:56:35.06353",
+      "created": "2025-11-02 02:37:56.652658",
+      "last_modified": "2025-11-02 02:37:56.652658",
       "vintage": {},
       "row_count": 9603,
       "entity_count": 52,
@@ -469,7 +473,7 @@
           }
         ]
       },
-      "sha512": "f0dfc090910d98bd1711520e3abfed69c0b6ea424966b55433f73f6534612e33d12518e99cf5a31460ea34606f286e0e34447f0941a6af2e0660255b4246c6fc"
+      "sha512": "22159507eac2625c1252d4982c2bb748f6790fa4130ddfd01fbba1cba05bda9a3a3ad5b6e6ebcf0c7e91ddd036459d712f32c4fce45bf52ce55b897259111ed3"
     }
   ],
   "measure_info": {
