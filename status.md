@@ -30,7 +30,7 @@ flowchart LR
     end
     subgraph wisqars["`<strong><a href="https://github.com/dissc-yale/pophive_demo/tree/main/data/wisqars" target="_blank" rel="noreferrer">wisqars</a></strong>`"]
         direction LR
-        n9["`<strong><a href="https://github.com/dissc-yale/pophive_demo/blob/main/data/wisqars/standard/data.csv.gz" target="_blank" rel="noreferrer">data.csv.gz</a></strong>`"]:::pass
+        n9["`<strong><a href="https://github.com/dissc-yale/pophive_demo/blob/main/data/wisqars/standard/data.csv.gz" target="_blank" rel="noreferrer">data.csv.gz</a></strong><br /><br />Script Failed:<br />request failed: 502`"]:::fail
     end
     subgraph bundle_respiratory["`<strong><a href="https://github.com/dissc-yale/pophive_demo/tree/main/data/bundle_respiratory" target="_blank" rel="noreferrer">bundle_respiratory</a></strong>`"]
         direction LR
