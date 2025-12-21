@@ -9,14 +9,15 @@
   },
   "resources": [
     {
-      "bytes": 777264,
+      "bytes": 777694,
       "encoding": "ISO-8859-1",
-      "md5": "502ab615fc6387c888cf7e57fda350e2",
+      "md5": "b8f64dafca85f0dd20314e5f1ef1e927",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
         "hash": [
+          "1cc6ddc09e4150cef53fe10d5913c82835b41d4c",
           "6eaa7c03595bd5536d8e00c814581a3fa27c1431",
           "1ba8529a8202bb02b798de98c93ac148b6e82c55",
           "2328cbf04dc35cb6b1b7a4eb9003a8e41304c34e",
@@ -74,6 +75,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "Micah <micah.iserman@gmail.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -87,6 +89,7 @@
           "Micah <micah.iserman@gmail.com>"
         ],
         "date": [
+          "Mon Dec 15 02:43:39 2025 +0000",
           "Mon Dec 8 02:38:56 2025 +0000",
           "Mon Dec 1 02:50:36 2025 +0000",
           "Mon Nov 24 02:40:15 2025 +0000",
@@ -144,6 +147,7 @@
           "scheduled data build",
           "scheduled data build",
           "scheduled data build",
+          "scheduled data build",
           "removes package parts",
           "scheduled data build",
           "scheduled data build",
@@ -174,8 +178,8 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2025-12-15 02:43:27.908329",
-      "last_modified": "2025-12-15 02:43:27.908329",
+      "created": "2025-12-21 02:44:34.351944",
+      "last_modified": "2025-12-21 02:44:34.351944",
       "vintage": {},
       "row_count": 32448,
       "entity_count": 52,
@@ -876,23 +880,23 @@
           },
           {
             "name": "gtrends_rsv_vaccine",
-            "duplicates": 26675,
+            "duplicates": 26657,
             "time_range": [0, 623],
             "type": "float",
             "missing": 0,
-            "mean": 44.518561,
-            "sd": 137.15479,
+            "mean": 44.624104,
+            "sd": 137.19486,
             "min": 0,
             "max": 1690.800386
           },
           {
             "name": "gtrends_naloxone",
-            "duplicates": 20949,
+            "duplicates": 20921,
             "time_range": [0, 623],
             "type": "float",
             "missing": 0,
-            "mean": 30.681712,
-            "sd": 56.788655,
+            "mean": 30.733966,
+            "sd": 56.791132,
             "min": 0,
             "max": 1817.846215
           },
@@ -902,25 +906,25 @@
             "time_range": [0, 623],
             "type": "float",
             "missing": 0,
-            "mean": 638.124774,
-            "sd": 283.256868,
+            "mean": 638.127743,
+            "sd": 283.169059,
             "min": 0,
             "max": 4590.231121
           },
           {
             "name": "gtrends_rsv",
-            "duplicates": 10554,
+            "duplicates": 10553,
             "time_range": [0, 623],
             "type": "float",
             "missing": 0,
-            "mean": 518.851174,
-            "sd": 898.555208,
+            "mean": 519.137628,
+            "sd": 898.651347,
             "min": 0,
             "max": 12136.048552
           }
         ]
       },
-      "sha512": "f24d97d8a63568b7539c29799dcbaf9afb76a62dd4df9ede9427b3f949814e9edce62562a08b7d87e11db74b9bc1f1a043ea30606f5cf4fa9a245fb17b9b6751"
+      "sha512": "226211bf710b4ed501fdabb70dd20717205195f6b1716afcbc87ce99809a5a144d49041a6d14f16aacdaee44db988ea88ef9a8221acab3fc418b13887c771735"
     }
   ],
   "measure_info": {
