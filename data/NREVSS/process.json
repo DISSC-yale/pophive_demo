@@ -6,10 +6,10 @@
       "path": "ingest.R",
       "manual": false,
       "frequency": 0,
-      "last_run": "2025-12-19 02:39:42",
-      "run_time": 25.293,
+      "last_run": "2025-12-30 02:42:01",
+      "run_time": 25.448,
       "last_status": {
-        "log": ["", "⠙ processing source NREVSS (./data/NREVSS/ingest.R)\r── downloading resource <https://data.cdc.gov/resource/3cxc-4k8q> ──────────────", "⠙ processing source NREVSS (./data/NREVSS/ingest.R)\rℹ metadata: <https://data.cdc.gov/api/views/3cxc-4k8q>", "✔ metadata: <https://data.cdc.gov/api/views/3cxc-4k8q> [727ms]", "", "⠙ processing source NREVSS (./data/NREVSS/ingest.R)\rℹ data: <https://data.cdc.gov/api/views/3cxc-4k8q/rows.csv>", "✔ data: <https://data.cdc.gov/api/views/3cxc-4k8q/rows.csv> [10.2s]", "", "⠙ processing source NREVSS (./data/NREVSS/ingest.R)\rℹ compressing data", "✔ compressing data [12.5s]", "", "⠙ processing source NREVSS (./data/NREVSS/ingest.R)\r"],
+        "log": ["", "⠙ processing source NREVSS (./data/NREVSS/ingest.R)\r── downloading resource <https://data.cdc.gov/resource/3cxc-4k8q> ──────────────", "⠙ processing source NREVSS (./data/NREVSS/ingest.R)\rℹ metadata: <https://data.cdc.gov/api/views/3cxc-4k8q>", "✔ metadata: <https://data.cdc.gov/api/views/3cxc-4k8q> [383ms]", "", "⠙ processing source NREVSS (./data/NREVSS/ingest.R)\rℹ data: <https://data.cdc.gov/api/views/3cxc-4k8q/rows.csv>", "✔ data: <https://data.cdc.gov/api/views/3cxc-4k8q/rows.csv> [8.8s]", "", "⠙ processing source NREVSS (./data/NREVSS/ingest.R)\rℹ compressing data", "✔ compressing data [14.5s]", "", "⠙ processing source NREVSS (./data/NREVSS/ingest.R)\r"],
         "success": true
       }
     }
@@ -18,9 +18,9 @@
   "check_results": {
     "./data/NREVSS/standard/data.csv.gz": []
   },
-  "raw_state": 1766065285,
+  "raw_state": 1767022389,
   "standard_state": {
     "./data/NREVSS/measure_info.json": "af59b2c9d77ed722701b9bbdb5bcb3ce",
-    "./data/NREVSS/standard/data.csv.gz": "46a93df024d23faf3c5659add00968f2"
+    "./data/NREVSS/standard/data.csv.gz": "dce25c88a33935f0fcbe8b9305cc82ea"
   }
 }
