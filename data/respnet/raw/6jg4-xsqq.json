@@ -1,0 +1,630 @@
+{
+  "id" : "6jg4-xsqq",
+  "name" : "Weekly Rates of Laboratory-Confirmed COVID-19 Hospitalizations from the COVID-NET Surveillance System",
+  "assetType" : "dataset",
+  "attribution" : "RESP-NET",
+  "attributionLink" : "https://www.cdc.gov/covid/php/covid-net/index.html",
+  "averageRating" : 0,
+  "category" : "Public Health Surveillance",
+  "createdAt" : 1714481352,
+  "description" : "The Coronavirus Disease 2019 (COVID-19) Hospitalization Surveillance Network (COVID-NET) a network that conducts active, population-based surveillance for laboratory-confirmed COVID-19-associated hospitalizations among children and adults. COVID-NET, along with the Respiratory Syncytial Virus Hospitalization Surveillance Network (RSV-NET) and the Influenza Hospitalization Surveillance Network (FluSurv-NET), comprise the Respiratory Virus Hospitalization Surveillance Network (RESP-NET). The RESP-NET platforms have overlapping surveillance areas and use similar methods to collect data. COVID-NET is CDC’s source for important data on rates of hospitalizations associated with COVID-19. Hospitalization rates show how many people in the surveillance area are hospitalized with COVID-19, compared to the total number of people residing in that area. \n\nData are preliminary and subject to change as more data become available. Data will be updated weekly.",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 10293,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "licenseId" : "USGOV_WORKS",
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 40643389,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1719415520,
+  "publicationGroup" : 19514103,
+  "publicationStage" : "published",
+  "rowsUpdatedAt" : 1767292740,
+  "rowsUpdatedBy" : "mwsw-x2sy",
+  "tableId" : 19559724,
+  "totalTimesRated" : 0,
+  "viewCount" : 13622,
+  "viewLastModified" : 1767292730,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1714481649,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 6365870,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1714481649,
+    "targetAudience" : "public",
+    "workflowId" : 2100,
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "endedAt" : 1714481649,
+      "failureCount" : 0,
+      "startedAt" : 1714481649,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "mwsw-x2sy",
+      "displayName" : "RESP-NET"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 594368705,
+    "name" : "State",
+    "dataTypeName" : "text",
+    "description" : "COVID-NET Catchment Site",
+    "fieldName" : "state",
+    "position" : 1,
+    "renderTypeName" : "text",
+    "tableColumnId" : 152405224,
+    "cachedContents" : {
+      "non_null" : "194525",
+      "largest" : "Washington",
+      "null" : "0",
+      "top" : [ {
+        "item" : "COVID-NET",
+        "count" : "14961"
+      }, {
+        "item" : "Colorado",
+        "count" : "13376"
+      }, {
+        "item" : "Connecticut",
+        "count" : "13376"
+      }, {
+        "item" : "Georgia",
+        "count" : "13376"
+      }, {
+        "item" : "California",
+        "count" : "13376"
+      }, {
+        "item" : "New York",
+        "count" : "13376"
+      }, {
+        "item" : "Oregon",
+        "count" : "13376"
+      }, {
+        "item" : "Tennessee",
+        "count" : "13376"
+      }, {
+        "item" : "Utah",
+        "count" : "13376"
+      }, {
+        "item" : "Maryland",
+        "count" : "13376"
+      }, {
+        "item" : "Michigan",
+        "count" : "13376"
+      }, {
+        "item" : "Minnesota",
+        "count" : "13376"
+      }, {
+        "item" : "New Mexico",
+        "count" : "13376"
+      }, {
+        "item" : "Ohio",
+        "count" : "10516"
+      }, {
+        "item" : "Iowa",
+        "count" : "5104"
+      }, {
+        "item" : "North Carolina",
+        "count" : "2860"
+      }, {
+        "item" : "Washington",
+        "count" : "572"
+      } ],
+      "smallest" : "California",
+      "count" : "194525",
+      "cardinality" : "194525"
+    },
+    "format" : { }
+  }, {
+    "id" : 594368706,
+    "name" : "Season",
+    "dataTypeName" : "text",
+    "description" : "Season of Surveillance",
+    "fieldName" : "season",
+    "position" : 2,
+    "renderTypeName" : "text",
+    "tableColumnId" : 152405225,
+    "cachedContents" : {
+      "non_null" : "194525",
+      "largest" : "2025-26",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2020-21",
+        "count" : "35245"
+      }, {
+        "item" : "2021-22",
+        "count" : "33744"
+      }, {
+        "item" : "2024-25",
+        "count" : "32357"
+      }, {
+        "item" : "2022-23",
+        "count" : "32292"
+      }, {
+        "item" : "2023-24",
+        "count" : "32292"
+      }, {
+        "item" : "2019-20",
+        "count" : "19950"
+      }, {
+        "item" : "2025-26",
+        "count" : "8645"
+      } ],
+      "smallest" : "2019-20",
+      "count" : "194525",
+      "cardinality" : "194525"
+    },
+    "format" : { }
+  }, {
+    "id" : 594368707,
+    "name" : "_WeekendDate",
+    "dataTypeName" : "text",
+    "description" : "MMWR Week Ending Date",
+    "fieldName" : "_weekenddate",
+    "position" : 3,
+    "renderTypeName" : "text",
+    "tableColumnId" : 152405223,
+    "cachedContents" : {
+      "non_null" : "194525",
+      "largest" : "2025-12-27",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2025-12-20",
+        "count" : "670"
+      }, {
+        "item" : "2025-10-11",
+        "count" : "670"
+      }, {
+        "item" : "2025-11-15",
+        "count" : "670"
+      }, {
+        "item" : "2025-12-13",
+        "count" : "670"
+      }, {
+        "item" : "2025-11-01",
+        "count" : "670"
+      }, {
+        "item" : "2025-10-04",
+        "count" : "670"
+      }, {
+        "item" : "2025-10-18",
+        "count" : "670"
+      }, {
+        "item" : "2025-11-08",
+        "count" : "670"
+      }, {
+        "item" : "2025-11-29",
+        "count" : "670"
+      }, {
+        "item" : "2025-12-06",
+        "count" : "670"
+      }, {
+        "item" : "2025-12-27",
+        "count" : "670"
+      }, {
+        "item" : "2025-11-22",
+        "count" : "670"
+      }, {
+        "item" : "2025-10-25",
+        "count" : "670"
+      }, {
+        "item" : "2020-06-13",
+        "count" : "665"
+      }, {
+        "item" : "2020-06-06",
+        "count" : "665"
+      }, {
+        "item" : "2020-04-18",
+        "count" : "665"
+      }, {
+        "item" : "2020-05-30",
+        "count" : "665"
+      }, {
+        "item" : "2020-05-23",
+        "count" : "665"
+      }, {
+        "item" : "2020-04-11",
+        "count" : "665"
+      }, {
+        "item" : "2020-03-21",
+        "count" : "665"
+      } ],
+      "smallest" : "2020-03-07",
+      "count" : "194525",
+      "cardinality" : "194525"
+    },
+    "format" : { }
+  }, {
+    "id" : 594368708,
+    "name" : "AgeCategory_Legend",
+    "dataTypeName" : "text",
+    "description" : "Age Category",
+    "fieldName" : "agecategory_legend",
+    "position" : 4,
+    "renderTypeName" : "text",
+    "tableColumnId" : 152405226,
+    "cachedContents" : {
+      "non_null" : "194525",
+      "largest" : "All",
+      "null" : "0",
+      "top" : [ {
+        "item" : "All",
+        "count" : "36665"
+      }, {
+        "item" : "0-17 years (Children)",
+        "count" : "35080"
+      }, {
+        "item" : "≥18 years (Adults)",
+        "count" : "35080"
+      }, {
+        "item" : "0-<6 months",
+        "count" : "4385"
+      }, {
+        "item" : "12-17 years",
+        "count" : "4385"
+      }, {
+        "item" : "1-<2 years",
+        "count" : "4385"
+      }, {
+        "item" : "1-4 years",
+        "count" : "4385"
+      }, {
+        "item" : "18-29 years",
+        "count" : "4385"
+      }, {
+        "item" : "18-49 years",
+        "count" : "4385"
+      }, {
+        "item" : "0-<1 year",
+        "count" : "4385"
+      }, {
+        "item" : "2-4 years",
+        "count" : "4385"
+      }, {
+        "item" : "30-39 years",
+        "count" : "4385"
+      }, {
+        "item" : "40-49 years",
+        "count" : "4385"
+      }, {
+        "item" : "50-64 years",
+        "count" : "4385"
+      }, {
+        "item" : "5-11 years",
+        "count" : "4385"
+      }, {
+        "item" : "5-17 years",
+        "count" : "4385"
+      }, {
+        "item" : "65-74 years",
+        "count" : "4385"
+      }, {
+        "item" : "≥65 years",
+        "count" : "4385"
+      }, {
+        "item" : "6mo-<12 months",
+        "count" : "4385"
+      }, {
+        "item" : "75-84 years",
+        "count" : "4385"
+      } ],
+      "smallest" : "0-17 years (Children)",
+      "count" : "194525",
+      "cardinality" : "194525"
+    },
+    "format" : { }
+  }, {
+    "id" : 594368709,
+    "name" : "Sex_Label",
+    "dataTypeName" : "text",
+    "description" : "Sex",
+    "fieldName" : "sex_label",
+    "position" : 5,
+    "renderTypeName" : "text",
+    "tableColumnId" : 152405227,
+    "cachedContents" : {
+      "non_null" : "194525",
+      "largest" : "Male",
+      "null" : "0",
+      "top" : [ {
+        "item" : "All",
+        "count" : "168215"
+      }, {
+        "item" : "Female",
+        "count" : "13155"
+      }, {
+        "item" : "Male",
+        "count" : "13155"
+      } ],
+      "smallest" : "All",
+      "count" : "194525",
+      "cardinality" : "194525"
+    },
+    "format" : { }
+  }, {
+    "id" : 594368710,
+    "name" : "Race_Label",
+    "dataTypeName" : "text",
+    "description" : "Race and Ethnicity",
+    "fieldName" : "race_label",
+    "position" : 6,
+    "renderTypeName" : "text",
+    "tableColumnId" : 152405228,
+    "cachedContents" : {
+      "non_null" : "194525",
+      "largest" : "White, non-Hispanic",
+      "null" : "0",
+      "top" : [ {
+        "item" : "All",
+        "count" : "127165"
+      }, {
+        "item" : "AI/AN, non-Hispanic",
+        "count" : "13472"
+      }, {
+        "item" : "A/PI, non-Hispanic",
+        "count" : "13472"
+      }, {
+        "item" : "Black, non-Hispanic",
+        "count" : "13472"
+      }, {
+        "item" : "Hispanic",
+        "count" : "13472"
+      }, {
+        "item" : "White, non-Hispanic",
+        "count" : "13472"
+      } ],
+      "smallest" : "AI/AN, non-Hispanic",
+      "count" : "194525",
+      "cardinality" : "194525"
+    },
+    "format" : { }
+  }, {
+    "id" : 594368711,
+    "name" : "Type",
+    "dataTypeName" : "text",
+    "description" : "Rate Type",
+    "fieldName" : "type",
+    "position" : 7,
+    "renderTypeName" : "text",
+    "tableColumnId" : 153268884,
+    "cachedContents" : {
+      "non_null" : "194525",
+      "largest" : "Crude Rate",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Crude Rate",
+        "count" : "192940"
+      }, {
+        "item" : "Age adjusted Rate",
+        "count" : "1585"
+      } ],
+      "smallest" : "Age adjusted Rate",
+      "count" : "194525",
+      "cardinality" : "194525"
+    },
+    "format" : { }
+  }, {
+    "id" : 594368712,
+    "name" : "WeeklyRate",
+    "dataTypeName" : "text",
+    "description" : "Weekly Rate",
+    "fieldName" : "weeklyrate",
+    "position" : 8,
+    "renderTypeName" : "text",
+    "tableColumnId" : 152405229,
+    "cachedContents" : {
+      "non_null" : "194460",
+      "largest" : "99.9",
+      "null" : "65",
+      "top" : [ {
+        "item" : "0.0",
+        "count" : "48932"
+      }, {
+        "item" : "0.5",
+        "count" : "3348"
+      }, {
+        "item" : "0.4",
+        "count" : "3275"
+      }, {
+        "item" : "0.6",
+        "count" : "3199"
+      }, {
+        "item" : "0.7",
+        "count" : "3180"
+      }, {
+        "item" : "0.8",
+        "count" : "3089"
+      }, {
+        "item" : "0.9",
+        "count" : "2858"
+      }, {
+        "item" : "1.1",
+        "count" : "2795"
+      }, {
+        "item" : "1.0",
+        "count" : "2774"
+      }, {
+        "item" : "1.2",
+        "count" : "2720"
+      }, {
+        "item" : "1.4",
+        "count" : "2704"
+      }, {
+        "item" : "0.3",
+        "count" : "2623"
+      }, {
+        "item" : "1.3",
+        "count" : "2436"
+      }, {
+        "item" : "1.6",
+        "count" : "2266"
+      }, {
+        "item" : "1.5",
+        "count" : "2199"
+      }, {
+        "item" : "2.0",
+        "count" : "2054"
+      }, {
+        "item" : "0.2",
+        "count" : "2037"
+      }, {
+        "item" : "1.7",
+        "count" : "1989"
+      }, {
+        "item" : "1.8",
+        "count" : "1925"
+      }, {
+        "item" : "1.9",
+        "count" : "1885"
+      } ],
+      "smallest" : "0.0",
+      "count" : "194525",
+      "cardinality" : "194525"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 594368713,
+    "name" : "CumulativeRate",
+    "dataTypeName" : "text",
+    "description" : "Cumulative Rate",
+    "fieldName" : "cumulativerate",
+    "position" : 9,
+    "renderTypeName" : "text",
+    "tableColumnId" : 152405230,
+    "cachedContents" : {
+      "non_null" : "194460",
+      "largest" : "999.9",
+      "null" : "65",
+      "top" : [ {
+        "item" : "0.0",
+        "count" : "10416"
+      }, {
+        "item" : "1.4",
+        "count" : "486"
+      }, {
+        "item" : "2.0",
+        "count" : "418"
+      }, {
+        "item" : "1.0",
+        "count" : "404"
+      }, {
+        "item" : "2.7",
+        "count" : "397"
+      }, {
+        "item" : "0.9",
+        "count" : "391"
+      }, {
+        "item" : "2.8",
+        "count" : "390"
+      }, {
+        "item" : "1.9",
+        "count" : "385"
+      }, {
+        "item" : "0.5",
+        "count" : "384"
+      }, {
+        "item" : "1.6",
+        "count" : "371"
+      }, {
+        "item" : "1.1",
+        "count" : "371"
+      }, {
+        "item" : "2.3",
+        "count" : "368"
+      }, {
+        "item" : "0.6",
+        "count" : "361"
+      }, {
+        "item" : "1.5",
+        "count" : "358"
+      }, {
+        "item" : "2.4",
+        "count" : "347"
+      }, {
+        "item" : "0.4",
+        "count" : "340"
+      }, {
+        "item" : "1.3",
+        "count" : "338"
+      }, {
+        "item" : "1.7",
+        "count" : "338"
+      }, {
+        "item" : "3.5",
+        "count" : "335"
+      }, {
+        "item" : "1.2",
+        "count" : "332"
+      } ],
+      "smallest" : "0.0",
+      "count" : "194525",
+      "cardinality" : "194525"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "license" : {
+    "name" : "Public Domain U.S. Government",
+    "termsLink" : "https://www.usa.gov/government-works"
+  },
+  "metadata" : {
+    "custom_fields" : {
+      "Data Quality" : {
+        "Suggested Citation" : "“COVID-NET: Coronavirus Disease 2019 (COVID-19) Hospitalization Surveillance Network, Centers for Disease Control and Prevention. WEBSITE. Accessed on DATE”"
+      },
+      "Common Core" : {
+        "Contact Email" : "CovidRSV-Net@cdc.gov",
+        "Homepage" : "https://www.cdc.gov/covid/php/covid-net/index.html",
+        "Contact Name" : "RESP-NET",
+        "Update Frequency" : "Weekly",
+        "Program Code" : "009:038",
+        "Geographic Coverage" : "COVID-NET Sites",
+        "Bureau Code" : "009:20",
+        "Public Access Level" : "public"
+      }
+    },
+    "rowLabel" : "Weekly/Cumulative rate of COVID-19 Hospitalization rate for each MMWR Week stratified by age, sex, race/ethnicity, catchment site, or season.",
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+  },
+  "owner" : {
+    "id" : "mwsw-x2sy",
+    "displayName" : "RESP-NET",
+    "screenName" : "RESP-NET",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "mwsw-x2sy",
+    "displayName" : "RESP-NET",
+    "screenName" : "RESP-NET",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "covid19", "covid", "covid-19", "surveillance", "hospitalizations", "respiratory virus response", "respiratory illness", "covid-net", "resp-net", "covidnet", "respnet", "hospitalization rate", "rate", "rates by race and ethnicity", "rates by age group" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}
