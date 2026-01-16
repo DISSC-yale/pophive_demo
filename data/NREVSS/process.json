@@ -6,10 +6,10 @@
       "path": "ingest.R",
       "manual": false,
       "frequency": 0,
-      "last_run": "2026-01-09 02:43:50",
-      "run_time": 24.416,
+      "last_run": "2026-01-16 02:44:44",
+      "run_time": 23.441,
       "last_status": {
-        "log": ["", "⠙ processing source NREVSS (./data/NREVSS/ingest.R)\r── downloading resource <https://data.cdc.gov/resource/3cxc-4k8q> ──────────────", "⠙ processing source NREVSS (./data/NREVSS/ingest.R)\rℹ metadata: <https://data.cdc.gov/api/views/3cxc-4k8q>", "✔ metadata: <https://data.cdc.gov/api/views/3cxc-4k8q> [516ms]", "", "⠙ processing source NREVSS (./data/NREVSS/ingest.R)\rℹ data: <https://data.cdc.gov/api/views/3cxc-4k8q/rows.csv>", "✔ data: <https://data.cdc.gov/api/views/3cxc-4k8q/rows.csv> [8s]", "", "⠙ processing source NREVSS (./data/NREVSS/ingest.R)\rℹ compressing data", "✔ compressing data [14s]", "", "⠙ processing source NREVSS (./data/NREVSS/ingest.R)\r"],
+        "log": ["", "⠙ processing source NREVSS (./data/NREVSS/ingest.R)\r── downloading resource <https://data.cdc.gov/resource/3cxc-4k8q> ──────────────", "⠙ processing source NREVSS (./data/NREVSS/ingest.R)\rℹ metadata: <https://data.cdc.gov/api/views/3cxc-4k8q>", "✔ metadata: <https://data.cdc.gov/api/views/3cxc-4k8q> [659ms]", "", "⠙ processing source NREVSS (./data/NREVSS/ingest.R)\rℹ data: <https://data.cdc.gov/api/views/3cxc-4k8q/rows.csv>", "✔ data: <https://data.cdc.gov/api/views/3cxc-4k8q/rows.csv> [8.4s]", "", "⠙ processing source NREVSS (./data/NREVSS/ingest.R)\rℹ compressing data", "✔ compressing data [12.4s]", "", "⠙ processing source NREVSS (./data/NREVSS/ingest.R)\r"],
         "success": true
       }
     }
@@ -18,9 +18,9 @@
   "check_results": {
     "./data/NREVSS/standard/data.csv.gz": []
   },
-  "raw_state": 1767880724,
+  "raw_state": 1768485230,
   "standard_state": {
     "./data/NREVSS/measure_info.json": "af59b2c9d77ed722701b9bbdb5bcb3ce",
-    "./data/NREVSS/standard/data.csv.gz": "e633030f99f6b86c151b520f2cac405e"
+    "./data/NREVSS/standard/data.csv.gz": "051deab4abee1aaa8ced1733f7e13c6f"
   }
 }
