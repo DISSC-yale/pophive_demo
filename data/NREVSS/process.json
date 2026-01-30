@@ -6,10 +6,10 @@
       "path": "ingest.R",
       "manual": false,
       "frequency": 0,
-      "last_run": "2026-01-23 02:45:11",
-      "run_time": 41.867,
+      "last_run": "2026-01-30 03:00:24",
+      "run_time": 41.483,
       "last_status": {
-        "log": ["", "⠙ processing source NREVSS (./data/NREVSS/ingest.R)\r── downloading resource <https://data.cdc.gov/resource/3cxc-4k8q> ──────────────", "⠙ processing source NREVSS (./data/NREVSS/ingest.R)\rℹ metadata: <https://data.cdc.gov/api/views/3cxc-4k8q>", "✔ metadata: <https://data.cdc.gov/api/views/3cxc-4k8q> [441ms]", "", "⠙ processing source NREVSS (./data/NREVSS/ingest.R)\rℹ data: <https://data.cdc.gov/api/views/3cxc-4k8q/rows.csv>", "✔ data: <https://data.cdc.gov/api/views/3cxc-4k8q/rows.csv> [22s]", "", "⠙ processing source NREVSS (./data/NREVSS/ingest.R)\rℹ compressing data", "✔ compressing data [17.4s]", "", "⠙ processing source NREVSS (./data/NREVSS/ingest.R)\r"],
+        "log": ["", "⠙ processing source NREVSS (./data/NREVSS/ingest.R)\r── downloading resource <https://data.cdc.gov/resource/3cxc-4k8q> ──────────────", "⠙ processing source NREVSS (./data/NREVSS/ingest.R)\rℹ metadata: <https://data.cdc.gov/api/views/3cxc-4k8q>", "✔ metadata: <https://data.cdc.gov/api/views/3cxc-4k8q> [526ms]", "", "⠙ processing source NREVSS (./data/NREVSS/ingest.R)\rℹ data: <https://data.cdc.gov/api/views/3cxc-4k8q/rows.csv>", "✔ data: <https://data.cdc.gov/api/views/3cxc-4k8q/rows.csv> [22s]", "", "⠙ processing source NREVSS (./data/NREVSS/ingest.R)\rℹ compressing data", "✔ compressing data [16.9s]", "", "⠙ processing source NREVSS (./data/NREVSS/ingest.R)\r"],
         "success": true
       }
     }
@@ -18,9 +18,9 @@
   "check_results": {
     "./data/NREVSS/standard/data.csv.gz": []
   },
-  "raw_state": 1769090343,
+  "raw_state": 1769695187,
   "standard_state": {
     "./data/NREVSS/measure_info.json": "af59b2c9d77ed722701b9bbdb5bcb3ce",
-    "./data/NREVSS/standard/data.csv.gz": "01ac51532b1921f7f61d9e8092d8fbfd"
+    "./data/NREVSS/standard/data.csv.gz": "124e82955170175c6fd0fbcf557a9db1"
   }
 }
