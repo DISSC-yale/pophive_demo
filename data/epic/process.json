@@ -17,20 +17,12 @@
       }
     }
   ],
-  "checked": "2025-09-17 15:44:02",
+  "checked": "2026-02-05 03:03:01",
   "check_results": {
-    "./data/epic/standard/children.csv.gz": {
-      "data": "time_missing"
-    },
-    "./data/epic/standard/county_no_time.csv.gz": {
-      "data": "time_missing"
-    },
-    "./data/epic/standard/no_geo.csv.gz": {
-      "data": "geography_missing"
-    },
-    "./data/epic/standard/state_no_time.csv.gz": {
-      "data": "time_missing"
-    },
+    "./data/epic/standard/children.csv.gz": [],
+    "./data/epic/standard/county_no_time.csv.gz": [],
+    "./data/epic/standard/no_geo.csv.gz": [],
+    "./data/epic/standard/state_no_time.csv.gz": [],
     "./data/epic/standard/weekly.csv.gz": []
   },
   "standard_state": {
