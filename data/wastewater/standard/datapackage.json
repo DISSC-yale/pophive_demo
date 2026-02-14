@@ -9,14 +9,15 @@
   },
   "resources": [
     {
-      "bytes": 211902,
+      "bytes": 212966,
       "encoding": "ISO-8859-1",
-      "md5": "013b3f834076f3b62ac24e0ca9d83a6b",
+      "md5": "b710a906b0e7e5f22633a5ec93577b9a",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
         "hash": [
+          "ddf9f96a6a6c317dce66b67a4d96451e39be09ad",
           "08497141c4531a07965c39dd6daa74ff9ad37e84",
           "82fbf03d1b4bdc0ac48bdbf31b14e4dce2cc1418",
           "a4d5b3eb34c94e805110a6969b9a962cba1cc031",
@@ -72,6 +73,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "Micah <micah.iserman@gmail.com>",
           "GitHub Actions <actions@github.com>",
           "Micah <micah.iserman@gmail.com>",
@@ -103,6 +105,7 @@
           "Micah <micah.iserman@gmail.com>"
         ],
         "date": [
+          "Sat Feb 7 02:58:42 2026 +0000",
           "Sat Jan 31 02:56:54 2026 +0000",
           "Sat Jan 24 02:41:15 2026 +0000",
           "Sat Jan 17 02:38:43 2026 +0000",
@@ -146,6 +149,7 @@
           "Tue May 27 13:56:02 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled data build",
           "scheduled data build",
           "scheduled data build",
@@ -214,28 +218,28 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-02-07 02:58:23.720158",
-      "last_modified": "2026-02-07 02:58:23.720158",
+      "created": "2026-02-14 03:01:05.990065",
+      "last_modified": "2026-02-14 03:01:05.990065",
       "vintage": {},
-      "row_count": 10578,
+      "row_count": 10630,
       "entity_count": 52,
       "schema": {
         "fields": [
           {
             "name": "geography",
-            "duplicates": 10526,
-            "time_range": [43, 62],
+            "duplicates": 10578,
+            "time_range": [18, 138],
             "type": "integer",
             "missing": 0,
-            "mean": 29.77595,
-            "sd": 16.252205,
+            "mean": 29.775447,
+            "sd": 16.252624,
             "min": 1,
             "max": 66
           },
           {
             "name": "time",
-            "duplicates": 10364,
-            "time_range": [43, 62],
+            "duplicates": 10415,
+            "time_range": [18, 138],
             "type": "string",
             "missing": 0,
             "table": {
@@ -452,45 +456,46 @@
               "2026-01-10": 52,
               "2026-01-17": 52,
               "2026-01-24": 52,
-              "2026-01-31": 52
+              "2026-01-31": 52,
+              "2026-02-07": 52
             }
           },
           {
             "name": "wastewater_covid",
-            "duplicates": 581,
-            "time_range": [43, 62],
+            "duplicates": 577,
+            "time_range": [18, 138],
             "type": "float",
-            "missing": 264,
-            "mean": 5.906297,
-            "sd": 5.356603,
+            "missing": 265,
+            "mean": 5.949315,
+            "sd": 5.399328,
             "min": 0.03373,
-            "max": 106.32724
+            "max": 108.61165
           },
           {
             "name": "wastewater_flua",
-            "duplicates": 6861,
-            "time_range": [43, 62],
+            "duplicates": 6876,
+            "time_range": [18, 138],
             "type": "float",
             "missing": 2682,
-            "mean": 4.20372,
-            "sd": 12.43242,
+            "mean": 4.231134,
+            "sd": 12.468181,
             "min": 0.088399,
             "max": 817.974761
           },
           {
             "name": "wastewater_rsv",
-            "duplicates": 6912,
-            "time_range": [43, 85],
+            "duplicates": 6944,
+            "time_range": [90, 138],
             "type": "float",
-            "missing": 2709,
-            "mean": 3.926751,
-            "sd": 32.392619,
+            "missing": 2710,
+            "mean": 3.933564,
+            "sd": 32.290352,
             "min": 0.042245,
             "max": 2232.014295
           }
         ]
       },
-      "sha512": "c800c0196a7f22cbd52af1a0693a7fbfe43310f36135b326fdebebd9013d7246182189a1e1827d71c1f207bc2f12189dbde10fd1807b2bd15fe000923654a758"
+      "sha512": "1ad096e879c74dcd42162a264ca61bf3f45d63f4493682ea720b3176c13e9c4b284f9ea7546edb32f0abc026c85339e92636298410abe1ef712723ad982e59d8"
     }
   ],
   "measure_info": {
