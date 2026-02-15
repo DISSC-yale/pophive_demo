@@ -9,14 +9,15 @@
   },
   "resources": [
     {
-      "bytes": 792683,
+      "bytes": 794878,
       "encoding": "ISO-8859-1",
-      "md5": "9f9455d7344d416d08a1d68e9df6e84b",
+      "md5": "95ca977f6499228196ddf7d5d27bee04",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
         "hash": [
+          "35d6e1bc69fa7c413e8e73b9ab7ddae2ea762ace",
           "a1e0b21dc940901ecb18d6df4428feb17bbf4555",
           "b69d5e02cbe1af0530bfa18661d3006a3f6d665f",
           "4c0100417c6939d36320b5bc65153611542364bb",
@@ -90,6 +91,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "Micah <micah.iserman@gmail.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -103,6 +105,7 @@
           "Micah <micah.iserman@gmail.com>"
         ],
         "date": [
+          "Sun Feb 8 03:07:12 2026 +0000",
           "Sun Feb 1 03:07:15 2026 +0000",
           "Sun Jan 25 02:52:42 2026 +0000",
           "Sun Jan 18 02:50:08 2026 +0000",
@@ -176,6 +179,7 @@
           "scheduled data build",
           "scheduled data build",
           "scheduled data build",
+          "scheduled data build",
           "removes package parts",
           "scheduled data build",
           "scheduled data build",
@@ -206,19 +210,19 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-02-08 03:06:59.14562",
-      "last_modified": "2026-02-08 03:06:59.14562",
+      "created": "2026-02-15 03:06:23.932077",
+      "last_modified": "2026-02-15 03:06:23.932077",
       "vintage": {},
-      "row_count": 32812,
+      "row_count": 32864,
       "entity_count": 52,
       "schema": {
         "fields": [
           {
             "name": "geography",
-            "duplicates": 32760,
-            "time_range": [0, 630],
+            "duplicates": 32812,
+            "time_range": [0, 631],
             "type": "integer",
-            "missing": 631,
+            "missing": 632,
             "mean": 28.960784,
             "sd": 15.677079,
             "min": 1,
@@ -226,8 +230,8 @@
           },
           {
             "name": "time",
-            "duplicates": 32181,
-            "time_range": [0, 630],
+            "duplicates": 32232,
+            "time_range": [0, 631],
             "type": "string",
             "missing": 0,
             "table": {
@@ -861,56 +865,57 @@
               "2026-01-11": 52,
               "2026-01-18": 52,
               "2026-01-25": 52,
-              "2026-02-01": 52
+              "2026-02-01": 52,
+              "2026-02-08": 52
             }
           },
           {
             "name": "gtrends_rsv_vaccine",
             "duplicates": 26657,
-            "time_range": [0, 630],
+            "time_range": [0, 631],
             "type": "float",
             "missing": 0,
-            "mean": 45.827741,
-            "sd": 136.95516,
+            "mean": 45.930951,
+            "sd": 136.872808,
             "min": 0,
             "max": 1690.800386
           },
           {
             "name": "gtrends_naloxone",
             "duplicates": 20924,
-            "time_range": [0, 630],
+            "time_range": [0, 631],
             "type": "float",
             "missing": 0,
-            "mean": 31.252145,
-            "sd": 56.723555,
+            "mean": 31.348508,
+            "sd": 56.738744,
             "min": 0,
             "max": 1817.846215
           },
           {
             "name": "gtrends_overdose",
             "duplicates": 2802,
-            "time_range": [0, 630],
+            "time_range": [0, 631],
             "type": "float",
             "missing": 0,
-            "mean": 637.395667,
-            "sd": 281.816429,
+            "mean": 637.350128,
+            "sd": 281.621702,
             "min": 0,
             "max": 4590.231121
           },
           {
             "name": "gtrends_rsv",
             "duplicates": 10553,
-            "time_range": [0, 630],
+            "time_range": [0, 631],
             "type": "float",
             "missing": 0,
-            "mean": 525.026464,
-            "sd": 895.859534,
+            "mean": 525.875371,
+            "sd": 895.442248,
             "min": 0,
             "max": 12136.048552
           }
         ]
       },
-      "sha512": "2d1b2f5eefb451c4a88098edd16001fb67c6521c171c286666193922d76704e5f5b78b394ab26130b702264e045325f9eaa0930488f20e17d57822eafc3b07c6"
+      "sha512": "6e371326114c6720a39a45234ec9859bdfb3c23294aef822d92ebcc376a96ed407143ac042bb6a74df8e2668a86c7b3b1d18b92af8deccca066138b0ce251bbc"
     }
   ],
   "measure_info": {
