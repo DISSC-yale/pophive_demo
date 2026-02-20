@@ -9,14 +9,24 @@
       "last_run": "2026-02-14 03:01:05",
       "run_time": 3.84,
       "last_status": {
-        "log": ["trying URL 'https://www.cdc.gov/wcms/vizdata/NCEZID_DIDRI/RSVStateLevelDownloadCSV.csv'", "downloaded 1.1 MB", "", "trying URL 'https://www.cdc.gov/wcms/vizdata/NCEZID_DIDRI/FluA/FluAStateMapDownloadCSV.csv'", "downloaded 1.1 MB", "", "trying URL 'https://www.cdc.gov/wcms/vizdata/NCEZID_DIDRI/SC2StateLevelDownloadCSV.csv'", "downloaded 1.6 MB", ""],
+        "log": [
+          "trying URL 'https://www.cdc.gov/wcms/vizdata/NCEZID_DIDRI/RSVStateLevelDownloadCSV.csv'",
+          "downloaded 1.1 MB",
+          "",
+          "trying URL 'https://www.cdc.gov/wcms/vizdata/NCEZID_DIDRI/FluA/FluAStateMapDownloadCSV.csv'",
+          "downloaded 1.1 MB",
+          "",
+          "trying URL 'https://www.cdc.gov/wcms/vizdata/NCEZID_DIDRI/SC2StateLevelDownloadCSV.csv'",
+          "downloaded 1.6 MB",
+          ""
+        ],
         "success": true
       }
     }
   ],
-  "checked": "2025-10-15 02:35:00",
+  "checked": "2026-02-20 03:03:35",
   "check_results": {
-    "./data/wastewater/standard/data.csv.gz": []
+    "/home/runner/work/pophive_demo/pophive_demo/data/wastewater/standard/data.csv.gz": []
   },
   "raw_state": {
     "raw/covid.csv.xz": "ec026420e3c46390363f448dbab464db",

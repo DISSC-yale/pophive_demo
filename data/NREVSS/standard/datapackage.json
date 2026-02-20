@@ -9,14 +9,15 @@
   },
   "resources": [
     {
-      "bytes": 15905,
+      "bytes": 15957,
       "encoding": "ISO-8859-1",
-      "md5": "3231e75be29bab90d77620082261a55e",
+      "md5": "e856637749e87c3b57b6f4258e53c841",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
         "hash": [
+          "f05270d1a0e8a879a6d1543b5ed7a92b6bbd69e3",
           "b93d1b217caf79296b72fccc090bc3258bb58168",
           "1424ff4ff95e74a799ca1ab8507d3701ac708297",
           "52d37f07ae87d9c1076cd99a47c19beacb0f2eb9",
@@ -85,6 +86,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "Micah <micah.iserman@gmail.com>",
           "Micah <micah.iserman@gmail.com>",
           "GitHub Actions <actions@github.com>",
@@ -95,6 +97,7 @@
           "Micah <micah.iserman@gmail.com>"
         ],
         "date": [
+          "Fri Feb 13 03:07:54 2026 +0000",
           "Fri Feb 6 03:03:09 2026 +0000",
           "Fri Jan 30 03:00:35 2026 +0000",
           "Fri Jan 23 02:45:22 2026 +0000",
@@ -163,6 +166,7 @@
           "scheduled data build",
           "scheduled data build",
           "scheduled data build",
+          "scheduled data build",
           "adds bundle_respiratory",
           "transitions to dcf",
           "scheduled data build",
@@ -182,36 +186,36 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-02-13 03:07:44.668757",
-      "last_modified": "2026-02-13 03:07:44.668757",
+      "created": "2026-02-20 03:03:24.334473",
+      "last_modified": "2026-02-20 03:03:24.334473",
       "vintage": {},
-      "row_count": 3050,
+      "row_count": 3060,
       "entity_count": 10,
       "schema": {
         "fields": [
           {
             "name": "geography",
-            "duplicates": 3040,
-            "time_range": [0, 304],
+            "duplicates": 3050,
+            "time_range": [0, 305],
             "type": "string",
             "missing": 0,
             "table": {
-              "hhs_1": 305,
-              "hhs_10": 305,
-              "hhs_2": 305,
-              "hhs_3": 305,
-              "hhs_4": 305,
-              "hhs_5": 305,
-              "hhs_6": 305,
-              "hhs_7": 305,
-              "hhs_8": 305,
-              "hhs_9": 305
+              "hhs_1": 306,
+              "hhs_10": 306,
+              "hhs_2": 306,
+              "hhs_3": 306,
+              "hhs_4": 306,
+              "hhs_5": 306,
+              "hhs_6": 306,
+              "hhs_7": 306,
+              "hhs_8": 306,
+              "hhs_9": 306
             }
           },
           {
             "name": "time",
-            "duplicates": 2745,
-            "time_range": [0, 304],
+            "duplicates": 2754,
+            "time_range": [0, 305],
             "type": "string",
             "missing": 0,
             "table": {
@@ -519,34 +523,35 @@
               "2026-01-17": 10,
               "2026-01-24": 10,
               "2026-01-31": 10,
-              "2026-02-07": 10
+              "2026-02-07": 10,
+              "2026-02-14": 10
             }
           },
           {
             "name": "nrevss_week",
-            "duplicates": 2997,
-            "time_range": [0, 304],
+            "duplicates": 3007,
+            "time_range": [0, 305],
             "type": "integer",
             "missing": 0,
-            "mean": 27.160656,
-            "sd": 15.047659,
+            "mean": 27.091503,
+            "sd": 15.071524,
             "min": 1,
             "max": 53
           },
           {
             "name": "nrevss",
-            "duplicates": 1577,
-            "time_range": [0, 304],
+            "duplicates": 1579,
+            "time_range": [0, 305],
             "type": "float",
             "missing": 0,
-            "mean": 256.237869,
-            "sd": 513.482696,
+            "mean": 257.662843,
+            "sd": 513.830643,
             "min": 0,
             "max": 5097.2
           }
         ]
       },
-      "sha512": "5cc1fc8ffc06e223cd9977e8852768b068240ae3b033406ae0c6c972d7a22d3d96990bd172d22b114f7daaeb03de75d59b43d04a2453f7e5d02752dd20843725"
+      "sha512": "5b0ea5e81f35ae9c033851f850b2903cf4b626451a8c714666cce2874c0b852730744b708df61a474de0da1df73c891a9c5fdac6360b4515066ba610fb91e4ba"
     }
   ],
   "measure_info": {
