@@ -1,20 +1,12 @@
-#
-# Download
-#
-
-#
-# Reformat
-#
-
-# check raw state
+# retrieve raw state
 terms <- c("Naloxone", "overdose", "rsv", "%252Fg%252F11j30ybfx6")
 raw_state <- jsonlite::read_json(
   "https://github.com/DISSC-yale/gtrends_collection/raw/refs/heads/main/data_state.json"
 )
-raw_state <- raw_state[
-  names(raw_state) %in%
-    paste0("data/term=", URLdecode(terms), "/part-0.parquet")
-]
+raw_state <- raw_state[grep(
+  paste0("data/term=(?:", paste(URLdecode(terms), collapse = "|"), ")"),
+  names(raw_state)
+)]
 process <- dcf::dcf_process_record()
 
 # process raw if state has changed
