@@ -32,9 +32,9 @@ process <- dcf::dcf_process_record()
 if (!identical(process$raw_state, raw_state)) {
   data <- do.call(
     rbind,
-    lapply(list.files("raw", "xz", full.names = TRUE), function(file) {
+    lapply(list.files("raw", "xz", full.names = TRUE), function(f) {
       d <- vroom::vroom(
-        file,
+        f,
         ",",
         col_types = list(
           `State/Territory` = "c",
@@ -50,9 +50,16 @@ if (!identical(process$raw_state, raw_state)) {
         )
       )
       time_col <- colnames(d)[grep("^20..-", d[1L, ])]
-      geo_col <- if (any(d$`State/Territory` == "Maryland"))
+      geo_col <- if (
+        any(!is.na(d$`State/Territory`) & d$`State/Territory` == "Maryland")
+      )
         "State/Territory" else "Data_Collection_Period"
-      collection_col <- if (any(d$Data_Collection_Period == "All Resutls"))
+      collection_col <- if (
+        any(
+          !is.na(d$Data_Collection_Period) &
+            d$Data_Collection_Period == "All Resutls"
+        )
+      )
         "Data_Collection_Period" else "Week_Ending_Date"
       d <- d[
         !is.na(d[[geo_col]]) & d[[collection_col]] == "All Results",
@@ -61,7 +68,7 @@ if (!identical(process$raw_state, raw_state)) {
       colnames(d) <- c("geography", "time", "value")
       d$variable <- paste0(
         "wastewater_",
-        strsplit(basename(file), ".", fixed = TRUE)[[1]][[1]]
+        strsplit(basename(f), ".", fixed = TRUE)[[1]][[1]]
       )
       d
     })

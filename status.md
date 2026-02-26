@@ -36,6 +36,11 @@ flowchart LR
         direction LR
         n10["`<strong><a href="https://github.com/dissc-yale/pophive_demo/blob/main/data/bundle_respiratory/dist/data.parquet" target="_blank" rel="noreferrer">data.parquet</a></strong>`"]
     end
+    subgraph bundle_tall["`<strong><a href="https://github.com/dissc-yale/pophive_demo/tree/main/data/bundle_tall" target="_blank" rel="noreferrer">bundle_tall</a></strong>`"]
+        direction LR
+        n11["`<strong><a href="https://github.com/dissc-yale/pophive_demo/blob/main/data/bundle_tall/dist/flu.parquet" target="_blank" rel="noreferrer">flu.parquet</a></strong>`"]
+        n12["`<strong><a href="https://github.com/dissc-yale/pophive_demo/blob/main/data/bundle_tall/dist/rsv.parquet" target="_blank" rel="noreferrer">rsv.parquet</a></strong>`"]
+    end
     s0 --> n1
     s0 --> n2
     s0 --> n3
@@ -58,4 +63,7 @@ flowchart LR
     n5 --> bundle_respiratory
     n6 --> bundle_respiratory
     n8 --> bundle_respiratory
+    n5 --> bundle_tall
+    n6 --> bundle_tall
+    n8 --> bundle_tall
 ```

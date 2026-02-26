@@ -2,33 +2,35 @@
 # Download
 #
 
-base_url <- "https://github.com/DISSC-yale/gtrends_collection/raw/refs/heads/main/data/term="
-terms <- c("Naloxone", "overdose", "rsv", "%252Fg%252F11j30ybfx6")
-for (term in terms) {
-  term_dir <- paste0("raw/term=", term)
-  dir.create(term_dir, showWarnings = FALSE)
-  download.file(
-    paste0(base_url, term, "/part-0.parquet"),
-    paste0(term_dir, "/part-0.parquet"),
-    mode = "wb"
-  )
-}
-
 #
 # Reformat
 #
 
 # check raw state
-raw_state <- as.list(tools::md5sum(list.files(
-  "raw",
-  "parquet",
-  recursive = TRUE,
-  full.names = TRUE
-)))
+terms <- c("Naloxone", "overdose", "rsv", "%252Fg%252F11j30ybfx6")
+raw_state <- jsonlite::read_json(
+  "https://github.com/DISSC-yale/gtrends_collection/raw/refs/heads/main/data_state.json"
+)
+raw_state <- raw_state[
+  names(raw_state) %in%
+    paste0("data/term=", URLdecode(terms), "/part-0.parquet")
+]
 process <- dcf::dcf_process_record()
 
 # process raw if state has changed
 if (!identical(process$raw_state, raw_state)) {
+  # download raw files
+  base_url <- "https://github.com/DISSC-yale/gtrends_collection/raw/refs/heads/main/data/term="
+  for (term in terms) {
+    term_dir <- paste0("raw/term=", term)
+    dir.create(term_dir, showWarnings = FALSE)
+    download.file(
+      paste0(base_url, term, "/part-0.parquet"),
+      paste0(term_dir, "/part-0.parquet"),
+      mode = "wb"
+    )
+  }
+
   data <- dplyr::collect(dplyr::filter(
     arrow::open_dataset("raw"),
     grepl("US", location),

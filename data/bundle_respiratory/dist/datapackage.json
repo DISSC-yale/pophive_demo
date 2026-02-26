@@ -9,14 +9,15 @@
   },
   "resources": [
     {
-      "bytes": 702690,
+      "bytes": 705150,
       "encoding": "ISO-8859-1",
-      "md5": "416be68c1cdb0dfdff8a84240efe3383",
+      "md5": "8b83583364844c9d8236a5dd2d82ac06",
       "format": "parquet",
       "name": "data",
       "filename": "data.parquet",
       "versions": {
         "hash": [
+          "3382cf3407765011afbe7c5785e70c7c95faa74b",
           "27cc4a42f06ec76a45200e93f64e3a120cd5ede1",
           "84321adfdaea33c0bee824eacc7c64de2b2475e6",
           "c3c65aaea0c33f42ccb40af8876719f638455c21",
@@ -113,6 +114,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "Micah <micah.iserman@gmail.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -147,6 +149,7 @@
           "Micah <micah.iserman@gmail.com>"
         ],
         "date": [
+          "Sun Feb 22 03:05:51 2026 +0000",
           "Sat Feb 21 02:57:46 2026 +0000",
           "Sun Feb 15 03:06:33 2026 +0000",
           "Sat Feb 14 03:01:15 2026 +0000",
@@ -243,6 +246,7 @@
           "scheduled data build",
           "scheduled data build",
           "scheduled data build",
+          "scheduled data build",
           "local rebuild",
           "scheduled data build",
           "scheduled data build",
@@ -286,8 +290,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-02-22 03:05:50.39441",
-      "last_modified": "2026-02-22 03:05:50.39441",
+      "created": "2026-02-26 03:39:19.224789",
+      "last_modified": "2026-02-25 16:16:10.751511",
       "vintage": "2025-07-14",
       "row_count": 27715,
       "entity_count": 56,
@@ -906,7 +910,37 @@
             "name": "epic_all_encounters",
             "duplicates": 21789,
             "info": {
-              "source_id": "n_all_encounters"
+              "source_id": "n_all_encounters",
+              "id": "epic_all_encounters",
+              "name": "n_all_encounters",
+              "duplicates": 42083,
+              "info": {
+                "full_name": "n_all_encounters",
+                "measure": "n_all_encounters",
+                "short_name": "All Patients",
+                "long_name": "All Emergency Room (ER) Encounters",
+                "short_description": "Number of All Parients",
+                "long_description": "Number of emergency room (ER) encounters with All ICD-10-CM codes.",
+                "measure_type": "integer",
+                "unit": "encounters",
+                "sources": "epic",
+                "id": "n_all_encounters"
+              },
+              "time_range": [
+                0,
+                130
+              ],
+              "type": "integer",
+              "missing": 0,
+              "mean": 8726.698332,
+              "sd": 52025.531319,
+              "min": 5,
+              "max": 1134128,
+              "source_file": {
+                "project": "epic",
+                "data_dir": "./data/epic/standard",
+                "file": "weekly.csv.gz"
+              }
             },
             "time_range": [0, 130],
             "type": "integer",
@@ -920,7 +954,39 @@
             "name": "epic_covid",
             "duplicates": 26480,
             "info": {
-              "source_id": "n_covid"
+              "source_id": "n_covid",
+              "id": "epic_covid",
+              "name": "n_covid",
+              "duplicates": 54891,
+              "info": {
+                "full_name": "n_covid",
+                "measure": "n_covid",
+                "short_name": "COVID Patients",
+                "long_name": "COVID Emergency Room (ER) Encounters",
+                "short_description": "Number of COVID Parients",
+                "long_description": "Number of emergency room (ER) encounters with COVID ICD-10-CM codes.",
+                "measure_type": "integer",
+                "unit": "encounters",
+                "sources": "epic",
+                "category": "Respiratory Diseases",
+                "subcategory": "COVID-19",
+                "id": "n_covid"
+              },
+              "time_range": [
+                0,
+                130
+              ],
+              "type": "integer",
+              "missing": 0,
+              "mean": 117.386874,
+              "sd": 822.944743,
+              "min": 5,
+              "max": 40359,
+              "source_file": {
+                "project": "epic",
+                "data_dir": "./data/epic/standard",
+                "file": "weekly.csv.gz"
+              }
             },
             "time_range": [0, 130],
             "type": "integer",
@@ -934,7 +1000,39 @@
             "name": "epic_flu",
             "duplicates": 26469,
             "info": {
-              "source_id": "n_flu"
+              "source_id": "n_flu",
+              "id": "epic_flu",
+              "name": "n_flu",
+              "duplicates": 54765,
+              "info": {
+                "full_name": "n_flu",
+                "measure": "n_flu",
+                "short_name": "FLU Patients",
+                "long_name": "FLU Emergency Room (ER) Encounters",
+                "short_description": "Number of FLU Parients",
+                "long_description": "Number of emergency room (ER) encounters with FLU ICD-10-CM codes.",
+                "measure_type": "integer",
+                "unit": "encounters",
+                "sources": "epic",
+                "category": "Respiratory Diseases",
+                "subcategory": "Influenza",
+                "id": "n_flu"
+              },
+              "time_range": [
+                0,
+                130
+              ],
+              "type": "integer",
+              "missing": 0,
+              "mean": 131.226357,
+              "sd": 1419.062635,
+              "min": 5,
+              "max": 110071,
+              "source_file": {
+                "project": "epic",
+                "data_dir": "./data/epic/standard",
+                "file": "weekly.csv.gz"
+              }
             },
             "time_range": [0, 130],
             "type": "integer",
@@ -948,7 +1046,39 @@
             "name": "epic_rsv",
             "duplicates": 27187,
             "info": {
-              "source_id": "n_rsv"
+              "source_id": "n_rsv",
+              "id": "epic_rsv",
+              "name": "n_rsv",
+              "duplicates": 55877,
+              "info": {
+                "full_name": "n_rsv",
+                "measure": "n_rsv",
+                "short_name": "RSV Patients",
+                "long_name": "RSV Emergency Room (ER) Encounters",
+                "short_description": "Number of RSV Parients",
+                "long_description": "Number of emergency room (ER) encounters with RSV ICD-10-CM codes.",
+                "measure_type": "integer",
+                "unit": "encounters",
+                "sources": "epic",
+                "category": "Respiratory Diseases",
+                "subcategory": "Respiratory Syncytial Virus",
+                "id": "n_rsv"
+              },
+              "time_range": [
+                0,
+                130
+              ],
+              "type": "integer",
+              "missing": 1048,
+              "mean": 24.414914,
+              "sd": 213.188494,
+              "min": 5,
+              "max": 12568,
+              "source_file": {
+                "project": "epic",
+                "data_dir": "./data/epic/standard",
+                "file": "weekly.csv.gz"
+              }
             },
             "time_range": [0, 130],
             "type": "integer",
@@ -961,7 +1091,26 @@
           {
             "name": "gtrends_rsv_vaccine",
             "duplicates": 21582,
-            "info": {},
+            "info": {
+              "id": "gtrends_rsv_vaccine",
+              "name": "gtrends_rsv_vaccine",
+              "duplicates": 26657,
+              "time_range": [
+                0,
+                632
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 46.025791,
+              "sd": 136.786393,
+              "min": 0,
+              "max": 1690.800386,
+              "source_file": {
+                "project": "gtrends",
+                "data_dir": "./data/gtrends/standard",
+                "file": "data.csv.gz"
+              }
+            },
             "time_range": [131, 506],
             "type": "float",
             "missing": 11075,
@@ -973,7 +1122,26 @@
           {
             "name": "gtrends_naloxone",
             "duplicates": 19352,
-            "info": {},
+            "info": {
+              "id": "gtrends_naloxone",
+              "name": "gtrends_naloxone",
+              "duplicates": 20925,
+              "time_range": [
+                0,
+                632
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 31.447094,
+              "sd": 56.755033,
+              "min": 0,
+              "max": 1817.846215,
+              "source_file": {
+                "project": "gtrends",
+                "data_dir": "./data/gtrends/standard",
+                "file": "data.csv.gz"
+              }
+            },
             "time_range": [131, 506],
             "type": "float",
             "missing": 11075,
@@ -985,7 +1153,26 @@
           {
             "name": "gtrends_overdose",
             "duplicates": 12060,
-            "info": {},
+            "info": {
+              "id": "gtrends_overdose",
+              "name": "gtrends_overdose",
+              "duplicates": 2802,
+              "time_range": [
+                0,
+                632
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 637.34091,
+              "sd": 281.430991,
+              "min": 0,
+              "max": 4590.231121,
+              "source_file": {
+                "project": "gtrends",
+                "data_dir": "./data/gtrends/standard",
+                "file": "data.csv.gz"
+              }
+            },
             "time_range": [131, 506],
             "type": "float",
             "missing": 11075,
@@ -997,7 +1184,26 @@
           {
             "name": "gtrends_rsv",
             "duplicates": 14057,
-            "info": {},
+            "info": {
+              "id": "gtrends_rsv",
+              "name": "gtrends_rsv",
+              "duplicates": 10553,
+              "time_range": [
+                0,
+                632
+              ],
+              "type": "float",
+              "missing": 0,
+              "mean": 526.84887,
+              "sd": 895.115928,
+              "min": 0,
+              "max": 12136.048552,
+              "source_file": {
+                "project": "gtrends",
+                "data_dir": "./data/gtrends/standard",
+                "file": "data.csv.gz"
+              }
+            },
             "time_range": [131, 506],
             "type": "float",
             "missing": 11075,
@@ -1009,7 +1215,26 @@
           {
             "name": "wastewater_covid",
             "duplicates": 17616,
-            "info": {},
+            "info": {
+              "id": "wastewater_covid",
+              "name": "wastewater_covid",
+              "duplicates": 583,
+              "time_range": [
+                29,
+                106
+              ],
+              "type": "float",
+              "missing": 265,
+              "mean": 5.973101,
+              "sd": 5.469147,
+              "min": 0.03373,
+              "max": 108.61165,
+              "source_file": {
+                "project": "wastewater",
+                "data_dir": "./data/wastewater/standard",
+                "file": "data.csv.gz"
+              }
+            },
             "time_range": [505, 535],
             "type": "float",
             "missing": 17298,
@@ -1021,7 +1246,26 @@
           {
             "name": "wastewater_flua",
             "duplicates": 23919,
-            "info": {},
+            "info": {
+              "id": "wastewater_flua",
+              "name": "wastewater_flua",
+              "duplicates": 6886,
+              "time_range": [
+                29,
+                106
+              ],
+              "type": "float",
+              "missing": 2683,
+              "mean": 4.228861,
+              "sd": 12.407537,
+              "min": 0.088399,
+              "max": 817.974761,
+              "source_file": {
+                "project": "wastewater",
+                "data_dir": "./data/wastewater/standard",
+                "file": "data.csv.gz"
+              }
+            },
             "time_range": [505, 535],
             "type": "float",
             "missing": 19716,
@@ -1033,7 +1277,26 @@
           {
             "name": "wastewater_rsv",
             "duplicates": 23979,
-            "info": {},
+            "info": {
+              "id": "wastewater_rsv",
+              "name": "wastewater_rsv",
+              "duplicates": 6946,
+              "time_range": [
+                29,
+                126
+              ],
+              "type": "float",
+              "missing": 2710,
+              "mean": 3.940783,
+              "sd": 32.185231,
+              "min": 0.042245,
+              "max": 2232.014295,
+              "source_file": {
+                "project": "wastewater",
+                "data_dir": "./data/wastewater/standard",
+                "file": "data.csv.gz"
+              }
+            },
             "time_range": [505, 522],
             "type": "float",
             "missing": 19743,
@@ -1044,7 +1307,287 @@
           }
         ]
       },
-      "sha512": "a4175a96fde800bc50a8bb214f87d96247575b2b2d89722840618b68a16be6b56de92d4adbd5474b81177765cc5609f65dfd7e1576262eb0f2bb07dce242271f"
+      "measure_info": {
+        "epic_all_encounters": {
+          "source_id": "n_all_encounters",
+          "id": "epic_all_encounters",
+          "name": "n_all_encounters",
+          "duplicates": 42083,
+          "info": {
+            "full_name": "n_all_encounters",
+            "measure": "n_all_encounters",
+            "short_name": "All Patients",
+            "long_name": "All Emergency Room (ER) Encounters",
+            "short_description": "Number of All Parients",
+            "long_description": "Number of emergency room (ER) encounters with All ICD-10-CM codes.",
+            "measure_type": "integer",
+            "unit": "encounters",
+            "sources": "epic",
+            "id": "n_all_encounters"
+          },
+          "time_range": [
+            0,
+            130
+          ],
+          "type": "integer",
+          "missing": 0,
+          "mean": 8726.698332,
+          "sd": 52025.531319,
+          "min": 5,
+          "max": 1134128,
+          "source_file": {
+            "project": "epic",
+            "data_dir": "./data/epic/standard",
+            "file": "weekly.csv.gz"
+          }
+        },
+        "epic_covid": {
+          "source_id": "n_covid",
+          "id": "epic_covid",
+          "name": "n_covid",
+          "duplicates": 54891,
+          "info": {
+            "full_name": "n_covid",
+            "measure": "n_covid",
+            "short_name": "COVID Patients",
+            "long_name": "COVID Emergency Room (ER) Encounters",
+            "short_description": "Number of COVID Parients",
+            "long_description": "Number of emergency room (ER) encounters with COVID ICD-10-CM codes.",
+            "measure_type": "integer",
+            "unit": "encounters",
+            "sources": "epic",
+            "category": "Respiratory Diseases",
+            "subcategory": "COVID-19",
+            "id": "n_covid"
+          },
+          "time_range": [
+            0,
+            130
+          ],
+          "type": "integer",
+          "missing": 0,
+          "mean": 117.386874,
+          "sd": 822.944743,
+          "min": 5,
+          "max": 40359,
+          "source_file": {
+            "project": "epic",
+            "data_dir": "./data/epic/standard",
+            "file": "weekly.csv.gz"
+          }
+        },
+        "epic_flu": {
+          "source_id": "n_flu",
+          "id": "epic_flu",
+          "name": "n_flu",
+          "duplicates": 54765,
+          "info": {
+            "full_name": "n_flu",
+            "measure": "n_flu",
+            "short_name": "FLU Patients",
+            "long_name": "FLU Emergency Room (ER) Encounters",
+            "short_description": "Number of FLU Parients",
+            "long_description": "Number of emergency room (ER) encounters with FLU ICD-10-CM codes.",
+            "measure_type": "integer",
+            "unit": "encounters",
+            "sources": "epic",
+            "category": "Respiratory Diseases",
+            "subcategory": "Influenza",
+            "id": "n_flu"
+          },
+          "time_range": [
+            0,
+            130
+          ],
+          "type": "integer",
+          "missing": 0,
+          "mean": 131.226357,
+          "sd": 1419.062635,
+          "min": 5,
+          "max": 110071,
+          "source_file": {
+            "project": "epic",
+            "data_dir": "./data/epic/standard",
+            "file": "weekly.csv.gz"
+          }
+        },
+        "epic_rsv": {
+          "source_id": "n_rsv",
+          "id": "epic_rsv",
+          "name": "n_rsv",
+          "duplicates": 55877,
+          "info": {
+            "full_name": "n_rsv",
+            "measure": "n_rsv",
+            "short_name": "RSV Patients",
+            "long_name": "RSV Emergency Room (ER) Encounters",
+            "short_description": "Number of RSV Parients",
+            "long_description": "Number of emergency room (ER) encounters with RSV ICD-10-CM codes.",
+            "measure_type": "integer",
+            "unit": "encounters",
+            "sources": "epic",
+            "category": "Respiratory Diseases",
+            "subcategory": "Respiratory Syncytial Virus",
+            "id": "n_rsv"
+          },
+          "time_range": [
+            0,
+            130
+          ],
+          "type": "integer",
+          "missing": 1048,
+          "mean": 24.414914,
+          "sd": 213.188494,
+          "min": 5,
+          "max": 12568,
+          "source_file": {
+            "project": "epic",
+            "data_dir": "./data/epic/standard",
+            "file": "weekly.csv.gz"
+          }
+        },
+        "gtrends_rsv_vaccine": {
+          "id": "gtrends_rsv_vaccine",
+          "name": "gtrends_rsv_vaccine",
+          "duplicates": 26657,
+          "time_range": [
+            0,
+            632
+          ],
+          "type": "float",
+          "missing": 0,
+          "mean": 46.025791,
+          "sd": 136.786393,
+          "min": 0,
+          "max": 1690.800386,
+          "source_file": {
+            "project": "gtrends",
+            "data_dir": "./data/gtrends/standard",
+            "file": "data.csv.gz"
+          }
+        },
+        "gtrends_naloxone": {
+          "id": "gtrends_naloxone",
+          "name": "gtrends_naloxone",
+          "duplicates": 20925,
+          "time_range": [
+            0,
+            632
+          ],
+          "type": "float",
+          "missing": 0,
+          "mean": 31.447094,
+          "sd": 56.755033,
+          "min": 0,
+          "max": 1817.846215,
+          "source_file": {
+            "project": "gtrends",
+            "data_dir": "./data/gtrends/standard",
+            "file": "data.csv.gz"
+          }
+        },
+        "gtrends_overdose": {
+          "id": "gtrends_overdose",
+          "name": "gtrends_overdose",
+          "duplicates": 2802,
+          "time_range": [
+            0,
+            632
+          ],
+          "type": "float",
+          "missing": 0,
+          "mean": 637.34091,
+          "sd": 281.430991,
+          "min": 0,
+          "max": 4590.231121,
+          "source_file": {
+            "project": "gtrends",
+            "data_dir": "./data/gtrends/standard",
+            "file": "data.csv.gz"
+          }
+        },
+        "gtrends_rsv": {
+          "id": "gtrends_rsv",
+          "name": "gtrends_rsv",
+          "duplicates": 10553,
+          "time_range": [
+            0,
+            632
+          ],
+          "type": "float",
+          "missing": 0,
+          "mean": 526.84887,
+          "sd": 895.115928,
+          "min": 0,
+          "max": 12136.048552,
+          "source_file": {
+            "project": "gtrends",
+            "data_dir": "./data/gtrends/standard",
+            "file": "data.csv.gz"
+          }
+        },
+        "wastewater_covid": {
+          "id": "wastewater_covid",
+          "name": "wastewater_covid",
+          "duplicates": 583,
+          "time_range": [
+            29,
+            106
+          ],
+          "type": "float",
+          "missing": 265,
+          "mean": 5.973101,
+          "sd": 5.469147,
+          "min": 0.03373,
+          "max": 108.61165,
+          "source_file": {
+            "project": "wastewater",
+            "data_dir": "./data/wastewater/standard",
+            "file": "data.csv.gz"
+          }
+        },
+        "wastewater_flua": {
+          "id": "wastewater_flua",
+          "name": "wastewater_flua",
+          "duplicates": 6886,
+          "time_range": [
+            29,
+            106
+          ],
+          "type": "float",
+          "missing": 2683,
+          "mean": 4.228861,
+          "sd": 12.407537,
+          "min": 0.088399,
+          "max": 817.974761,
+          "source_file": {
+            "project": "wastewater",
+            "data_dir": "./data/wastewater/standard",
+            "file": "data.csv.gz"
+          }
+        },
+        "wastewater_rsv": {
+          "id": "wastewater_rsv",
+          "name": "wastewater_rsv",
+          "duplicates": 6946,
+          "time_range": [
+            29,
+            126
+          ],
+          "type": "float",
+          "missing": 2710,
+          "mean": 3.940783,
+          "sd": 32.185231,
+          "min": 0.042245,
+          "max": 2232.014295,
+          "source_file": {
+            "project": "wastewater",
+            "data_dir": "./data/wastewater/standard",
+            "file": "data.csv.gz"
+          }
+        }
+      },
+      "sha512": "6555eb62485fb59242804fdb148556b0986ac6ad51ad4b1f3c292f1282c55232c0ac2e98c885df4e3c771eedd355e4118c7e0a7a8c528b9780e66ae93dee72b0"
     }
   ],
   "measure_info": {

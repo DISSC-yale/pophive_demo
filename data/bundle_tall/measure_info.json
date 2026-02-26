@@ -1,0 +1,39 @@
+{
+  "bundle_tall/dist/rsv.parquet|measure": {
+    "levels": {
+      "epic_all_encounters": {
+        "source_id": "n_all_encounters"
+      },
+      "epic_rsv": {
+        "source_id": "n_rsv"
+      },
+      "gtrends_rsv_vaccine": {},
+      "gtrends_rsv": {},
+      "wastewater_rsv": {}
+    }
+  },
+  "bundle_tall/dist/flu.parquet|measure": {
+    "levels": {
+      "epic_all_encounters": {
+        "source_id": "n_all_encounters"
+      },
+      "epic_flu": {
+        "source_id": "n_flu"
+      },
+      "wastewater_flua": {}
+    }
+  },
+  "{category}value{variant}": {
+    "measure_column": "{category}measure",
+    "categories": {
+      "bundle_tall/dist/rsv.parquet|": {},
+      "bundle_tall/dist/flu.parquet|": {}
+    },
+    "variants": {
+      "blank": {},
+      "_scaled": {
+        "description": "Values are min-max scaled and multiplied by 100."
+      }
+    }
+  }
+}
