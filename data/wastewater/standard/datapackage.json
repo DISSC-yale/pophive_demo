@@ -11,12 +11,13 @@
     {
       "bytes": 214645,
       "encoding": "ISO-8859-1",
-      "md5": "90ff9887d6d3184a6c5e13a0ce291119",
+      "md5": "2227640ac6253b78c16aa729b8335685",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
         "hash": [
+          "62e67f828464b6e263463828391b965153ef5e76",
           "27cc4a42f06ec76a45200e93f64e3a120cd5ede1",
           "c3c65aaea0c33f42ccb40af8876719f638455c21",
           "ddf9f96a6a6c317dce66b67a4d96451e39be09ad",
@@ -63,6 +64,7 @@
           "36914a3d9b47f91eba0b5d8dfddd357a700fd525"
         ],
         "author": [
+          "Micah <micah.iserman@gmail.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -109,6 +111,7 @@
           "Micah <micah.iserman@gmail.com>"
         ],
         "date": [
+          "Thu Feb 26 03:42:48 2026 -0500",
           "Sat Feb 21 02:57:46 2026 +0000",
           "Sat Feb 14 03:01:15 2026 +0000",
           "Sat Feb 7 02:58:42 2026 +0000",
@@ -155,6 +158,7 @@
           "Tue May 27 13:56:02 2025 -0400"
         ],
         "message": [
+          "adds tall bundle",
           "scheduled data build",
           "scheduled data build",
           "scheduled data build",
@@ -226,8 +230,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-02-26 03:39:09.799393",
-      "last_modified": "2026-02-25 16:16:18.440161",
+      "created": "2026-02-27 03:02:24.243176",
+      "last_modified": "2026-02-27 03:02:24.243176",
       "vintage": {},
       "row_count": 10682,
       "entity_count": 52,
@@ -504,7 +508,7 @@
           }
         ]
       },
-      "sha512": "7b41f1666e47ac1a5230bc76254b7234119f5bd60f061e69f9b72a0a3faed0eca4ed0c44ed9cdfda62aff3fe2a6cc595ac3359b0d89960572ddad4324bdcaaba"
+      "sha512": "7586c4bc7d04c87be9d53cd814967dea320e03058f0a96f3c7fb359872d5988cb81e164ded40929215362730b04fbe1445ef533162d2a73928333a4c1f6d3dff"
     }
   ],
   "measure_info": {

@@ -9,14 +9,35 @@
       "last_run": "2026-02-26 03:38:10",
       "run_time": 5.55,
       "last_status": {
-        "log": ["trying URL 'https://github.com/DISSC-yale/gtrends_collection/raw/refs/heads/main/data/term=Naloxone/part-0.parquet'", "Content type 'application/octet-stream' length 835580 bytes (815 KB)", "downloaded 815 KB", "", "trying URL 'https://github.com/DISSC-yale/gtrends_collection/raw/refs/heads/main/data/term=overdose/part-0.parquet'", "Content type 'application/octet-stream' length 1533803 bytes (1.5 MB)", "downloaded 1.5 MB", "", "trying URL 'https://github.com/DISSC-yale/gtrends_collection/raw/refs/heads/main/data/term=rsv/part-0.parquet'", "Content type 'application/octet-stream' length 2288268 bytes (2.2 MB)", "downloaded 2.2 MB", "", "trying URL 'https://github.com/DISSC-yale/gtrends_collection/raw/refs/heads/main/data/term=%252Fg%252F11j30ybfx6/part-0.parquet'", "Content type 'application/octet-stream' length 577562 bytes (564 KB)", "downloaded 564 KB", "", "\u001bG3;ℹ reading in existing file", "\u001bg\u001bG3;✔ reading in existing file [96ms]", "\u001bg\u001bG3;", "\u001bg\u001bG3;⠙ processing source \u001b[1mgtrends\u001b[22m (\u001b[3m./data/gtrends/ingest.R\u001b[23m)\r\u001bg"],
+        "log": [
+          "trying URL 'https://github.com/DISSC-yale/gtrends_collection/raw/refs/heads/main/data/term=Naloxone/part-0.parquet'",
+          "Content type 'application/octet-stream' length 835580 bytes (815 KB)",
+          "downloaded 815 KB",
+          "",
+          "trying URL 'https://github.com/DISSC-yale/gtrends_collection/raw/refs/heads/main/data/term=overdose/part-0.parquet'",
+          "Content type 'application/octet-stream' length 1533803 bytes (1.5 MB)",
+          "downloaded 1.5 MB",
+          "",
+          "trying URL 'https://github.com/DISSC-yale/gtrends_collection/raw/refs/heads/main/data/term=rsv/part-0.parquet'",
+          "Content type 'application/octet-stream' length 2288268 bytes (2.2 MB)",
+          "downloaded 2.2 MB",
+          "",
+          "trying URL 'https://github.com/DISSC-yale/gtrends_collection/raw/refs/heads/main/data/term=%252Fg%252F11j30ybfx6/part-0.parquet'",
+          "Content type 'application/octet-stream' length 577562 bytes (564 KB)",
+          "downloaded 564 KB",
+          "",
+          "\u001bG3;ℹ reading in existing file",
+          "\u001bg\u001bG3;✔ reading in existing file [96ms]",
+          "\u001bg\u001bG3;",
+          "\u001bg\u001bG3;⠙ processing source \u001b[1mgtrends\u001b[22m (\u001b[3m./data/gtrends/ingest.R\u001b[23m)\r\u001bg"
+        ],
         "success": true
       }
     }
   ],
-  "checked": "2026-02-26 02:24:26",
+  "checked": "2026-02-27 03:02:32",
   "check_results": {
-    "F:/Content/Work/Yale/DISSC/pophive/pophive_demo/data/gtrends/standard/data.csv.gz": {
+    "/home/runner/work/pophive_demo/pophive_demo/data/gtrends/standard/data.csv.gz": {
       "data": "geography_nas"
     }
   },
@@ -27,7 +48,7 @@
     "data/term=rsv/part-0.parquet": "2958044305b4c094d595ba3b6025a13f"
   },
   "standard_state": {
-    "./data/gtrends/measure_info.json": "feaeca4b551937b347456989f3310780",
+    "./data/gtrends/measure_info.json": "e2ec3b655de754ddd1cddd44f005137c",
     "./data/gtrends/standard/data.csv.gz": "9c43c01f1af08e8f8ecf3bf576edbc68"
   }
 }
