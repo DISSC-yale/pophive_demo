@@ -4,8 +4,8 @@
   "scripts": [
     {
       "path": "build.R",
-      "last_run": "2026-02-27 03:02:31",
-      "run_time": 0.34,
+      "last_run": "2026-02-28 02:52:13",
+      "run_time": 0.327,
       "last_status": {
         "log": [],
         "success": true
@@ -20,7 +20,7 @@
   "standard_state": {
     "./data/epic/standard/weekly.csv.gz": "29d830af361a067be287c61da0180ad5",
     "./data/gtrends/standard/data.csv.gz": "9c43c01f1af08e8f8ecf3bf576edbc68",
-    "./data/wastewater/standard/data.csv.gz": "2227640ac6253b78c16aa729b8335685"
+    "./data/wastewater/standard/data.csv.gz": "568490a06ac1b261e8d55831acfad8c1"
   },
   "checked": "2026-02-27 03:02:32",
   "check_results": {
@@ -28,10 +28,10 @@
     "/home/runner/work/pophive_demo/pophive_demo/data/bundle_tall/dist/rsv.parquet": []
   },
   "dist_state": {
-    "./data/bundle_tall/dist/flu.parquet": "7e382c13ebacc54cfe4ea20e6cc64fd2",
-    "./data/bundle_tall/dist/rsv.parquet": "7e382c13ebacc54cfe4ea20e6cc64fd2",
+    "./data/bundle_tall/dist/flu.parquet": "26e8add559507764ac62b79d1b0b92eb",
+    "./data/bundle_tall/dist/rsv.parquet": "26e8add559507764ac62b79d1b0b92eb",
     "./data/epic/standard/datapackage.json": "90fa001fa69c293d04c1ae98755792d6",
     "./data/gtrends/standard/datapackage.json": "9a5035254fa7a53ec833f34ded36970b",
-    "./data/wastewater/standard/datapackage.json": "c17d6c234ca4a1f3d2efbe9d79d5ba6d"
+    "./data/wastewater/standard/datapackage.json": "2ee551e56377bf676c710580229df3d9"
   }
 }
