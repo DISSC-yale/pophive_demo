@@ -17,18 +17,22 @@
       "filename": "flu.parquet",
       "versions": {
         "hash": [
+          "9776c31feb97a6043e0fd31207f037110885ffb7",
           "942e1dc906b4edd1ec024f2b764df239c982d04c",
           "62e67f828464b6e263463828391b965153ef5e76"
         ],
         "author": [
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "Micah <micah.iserman@gmail.com>"
         ],
         "date": [
+          "Sat Feb 28 02:52:14 2026 +0000",
           "Fri Feb 27 03:02:33 2026 +0000",
           "Thu Feb 26 03:42:48 2026 -0500"
         ],
         "message": [
+          "scheduled data build",
           "scheduled data build",
           "adds tall bundle"
         ]
@@ -42,8 +46,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-02-28 02:52:13.462379",
-      "last_modified": "2026-02-28 02:52:13.462379",
+      "created": "2026-03-01 03:06:55.15743",
+      "last_modified": "2026-03-01 03:06:55.15743",
       "vintage": {},
       "row_count": 22198,
       "entity_count": 55,
@@ -517,18 +521,22 @@
       "filename": "rsv.parquet",
       "versions": {
         "hash": [
+          "9776c31feb97a6043e0fd31207f037110885ffb7",
           "942e1dc906b4edd1ec024f2b764df239c982d04c",
           "62e67f828464b6e263463828391b965153ef5e76"
         ],
         "author": [
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "Micah <micah.iserman@gmail.com>"
         ],
         "date": [
+          "Sat Feb 28 02:52:14 2026 +0000",
           "Fri Feb 27 03:02:33 2026 +0000",
           "Thu Feb 26 03:42:48 2026 -0500"
         ],
         "message": [
+          "scheduled data build",
           "scheduled data build",
           "adds tall bundle"
         ]
@@ -542,8 +550,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-02-28 02:52:13.49238",
-      "last_modified": "2026-02-28 02:52:13.49238",
+      "created": "2026-03-01 03:06:55.18443",
+      "last_modified": "2026-03-01 03:06:55.18443",
       "vintage": {},
       "row_count": 22198,
       "entity_count": 55,
@@ -1086,12 +1094,12 @@
           "duplicates": 26657,
           "time_range": [
             0,
-            632
+            633
           ],
           "type": "float",
           "missing": 0,
-          "mean": 46.025791,
-          "sd": 136.786393,
+          "mean": 46.115978,
+          "sd": 136.698508,
           "min": 0,
           "max": 1690.800386,
           "source_file": {
@@ -1106,12 +1114,12 @@
           "duplicates": 10553,
           "time_range": [
             0,
-            632
+            633
           ],
           "type": "float",
           "missing": 0,
-          "mean": 526.84887,
-          "sd": 895.115928,
+          "mean": 527.783306,
+          "sd": 894.7779,
           "min": 0,
           "max": 12136.048552,
           "source_file": {

@@ -9,9 +9,9 @@
   },
   "resources": [
     {
-      "bytes": 797014,
+      "bytes": 799249,
       "encoding": "ISO-8859-1",
-      "md5": "9c43c01f1af08e8f8ecf3bf576edbc68",
+      "md5": "09a24245606cea742ed0cd51f7eeab87",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
@@ -222,19 +222,19 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-02-27 03:00:12.24622",
-      "last_modified": "2026-02-27 03:00:12.24622",
+      "created": "2026-03-01 03:06:45.192418",
+      "last_modified": "2026-03-01 03:06:45.192418",
       "vintage": {},
-      "row_count": 32916,
+      "row_count": 32968,
       "entity_count": 52,
       "schema": {
         "fields": [
           {
             "name": "geography",
-            "duplicates": 32864,
-            "time_range": [0, 632],
+            "duplicates": 32916,
+            "time_range": [0, 633],
             "type": "integer",
-            "missing": 633,
+            "missing": 634,
             "mean": 28.960784,
             "sd": 15.677078,
             "min": 1,
@@ -242,8 +242,8 @@
           },
           {
             "name": "time",
-            "duplicates": 32283,
-            "time_range": [0, 632],
+            "duplicates": 32334,
+            "time_range": [0, 633],
             "type": "string",
             "missing": 0,
             "table": {
@@ -879,56 +879,57 @@
               "2026-01-25": 52,
               "2026-02-01": 52,
               "2026-02-08": 52,
-              "2026-02-15": 52
+              "2026-02-15": 52,
+              "2026-02-22": 52
             }
           },
           {
             "name": "gtrends_rsv_vaccine",
             "duplicates": 26657,
-            "time_range": [0, 632],
+            "time_range": [0, 633],
             "type": "float",
             "missing": 0,
-            "mean": 46.025791,
-            "sd": 136.786393,
+            "mean": 46.115978,
+            "sd": 136.698508,
             "min": 0,
             "max": 1690.800386
           },
           {
             "name": "gtrends_naloxone",
-            "duplicates": 20925,
-            "time_range": [0, 632],
+            "duplicates": 20924,
+            "time_range": [0, 633],
             "type": "float",
             "missing": 0,
-            "mean": 31.447094,
-            "sd": 56.755033,
+            "mean": 31.545882,
+            "sd": 56.769427,
             "min": 0,
             "max": 1817.846215
           },
           {
             "name": "gtrends_overdose",
             "duplicates": 2802,
-            "time_range": [0, 632],
+            "time_range": [0, 633],
             "type": "float",
             "missing": 0,
-            "mean": 637.34091,
-            "sd": 281.430991,
+            "mean": 637.287442,
+            "sd": 281.244976,
             "min": 0,
             "max": 4590.231121
           },
           {
             "name": "gtrends_rsv",
             "duplicates": 10553,
-            "time_range": [0, 632],
+            "time_range": [0, 633],
             "type": "float",
             "missing": 0,
-            "mean": 526.84887,
-            "sd": 895.115928,
+            "mean": 527.783306,
+            "sd": 894.7779,
             "min": 0,
             "max": 12136.048552
           }
         ]
       },
-      "sha512": "44658bfa4f400db2bb676bb0873926b2b5299ef80d3c37059a4386d5f71b0fdcde7152b6ed7ec53b4dc3a8926e8c4a2fb84ca0038ac91c12ec9b5b18fde053cd"
+      "sha512": "54ef8d0e3489238919058830335b3f307e9e85b0c7b16db1d3da560d2f51525b0be1aee26c2efa1edadcb88a5d2c5c5df95bd8aa3f856e749f302d4f7bfa1c21"
     }
   ],
   "measure_info": {
