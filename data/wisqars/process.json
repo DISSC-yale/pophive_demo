@@ -41,9 +41,9 @@
       }
     }
   ],
-  "checked": "2026-02-27 03:02:32",
+  "checked": "2026-03-04 02:59:45",
   "check_results": {
-    "/home/runner/work/pophive_demo/pophive_demo/data/wisqars/standard/data.csv.gz": []
+    "data/wisqars/standard/data.csv.gz": []
   },
   "raw_state": {
     "raw/accident.csv.xz": "dc6d828b44a44e8757172862d5f040d0",

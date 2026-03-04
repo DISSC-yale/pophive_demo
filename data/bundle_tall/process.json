@@ -22,10 +22,10 @@
     "./data/gtrends/standard/data.csv.gz": "09a24245606cea742ed0cd51f7eeab87",
     "./data/wastewater/standard/data.csv.gz": "568490a06ac1b261e8d55831acfad8c1"
   },
-  "checked": "2026-02-27 03:02:32",
+  "checked": "2026-03-04 02:59:45",
   "check_results": {
-    "/home/runner/work/pophive_demo/pophive_demo/data/bundle_tall/dist/flu.parquet": [],
-    "/home/runner/work/pophive_demo/pophive_demo/data/bundle_tall/dist/rsv.parquet": []
+    "data/bundle_tall/dist/flu.parquet": [],
+    "data/bundle_tall/dist/rsv.parquet": []
   },
   "dist_state": {
     "./data/bundle_tall/dist/flu.parquet": "26e8add559507764ac62b79d1b0b92eb",
