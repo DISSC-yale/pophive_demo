@@ -9,14 +9,15 @@
   },
   "resources": [
     {
-      "bytes": 704923,
+      "bytes": 705494,
       "encoding": "ISO-8859-1",
-      "md5": "98d655a79d6a5dadb00d1bc0c33a41b4",
+      "md5": "d7f89ac3801192e43ab17c9c50ee800e",
       "format": "parquet",
       "name": "data",
       "filename": "data.parquet",
       "versions": {
         "hash": [
+          "b2bf971ae3f2c803bd25f63c6847ee61cb90eef3",
           "9776c31feb97a6043e0fd31207f037110885ffb7",
           "942e1dc906b4edd1ec024f2b764df239c982d04c",
           "62e67f828464b6e263463828391b965153ef5e76",
@@ -88,6 +89,7 @@
         "author": [
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "Micah <micah.iserman@gmail.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -155,6 +157,7 @@
           "Micah <micah.iserman@gmail.com>"
         ],
         "date": [
+          "Sun Mar 1 03:06:56 2026 +0000",
           "Sat Feb 28 02:52:14 2026 +0000",
           "Fri Feb 27 03:02:33 2026 +0000",
           "Thu Feb 26 03:42:48 2026 -0500",
@@ -224,6 +227,7 @@
           "Thu Jul 17 09:46:50 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled data build",
           "scheduled data build",
           "adds tall bundle",
@@ -302,81 +306,81 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-03-01 03:06:54.614429",
-      "last_modified": "2026-03-01 03:06:54.614429",
+      "created": "2026-03-07 02:54:40.73667",
+      "last_modified": "2026-03-07 02:54:40.73667",
       "vintage": "2025-07-14",
-      "row_count": 27819,
+      "row_count": 27870,
       "entity_count": 56,
       "schema": {
         "fields": [
           {
             "name": "geography",
-            "duplicates": 27763,
-            "time_range": [131, 508],
+            "duplicates": 27814,
+            "time_range": [131, 509],
             "type": "string",
             "missing": 321,
             "table": {
               "0": 131,
-              "01": 509,
-              "02": 516,
-              "04": 537,
-              "05": 515,
-              "06": 538,
-              "08": 538,
-              "09": 520,
-              "10": 524,
-              "11": 517,
-              "12": 538,
-              "13": 523,
-              "15": 520,
-              "16": 538,
-              "17": 538,
-              "18": 520,
-              "19": 520,
-              "20": 520,
-              "21": 530,
-              "22": 519,
-              "23": 531,
-              "24": 517,
-              "25": 538,
-              "26": 538,
-              "27": 523,
-              "28": 507,
-              "29": 538,
-              "30": 538,
-              "31": 538,
-              "32": 521,
-              "33": 518,
-              "34": 519,
-              "35": 520,
-              "36": 538,
-              "37": 537,
+              "01": 510,
+              "02": 517,
+              "04": 538,
+              "05": 516,
+              "06": 539,
+              "08": 539,
+              "09": 521,
+              "10": 525,
+              "11": 518,
+              "12": 539,
+              "13": 524,
+              "15": 521,
+              "16": 539,
+              "17": 539,
+              "18": 521,
+              "19": 521,
+              "20": 521,
+              "21": 531,
+              "22": 520,
+              "23": 532,
+              "24": 518,
+              "25": 539,
+              "26": 539,
+              "27": 524,
+              "28": 508,
+              "29": 539,
+              "30": 539,
+              "31": 539,
+              "32": 522,
+              "33": 519,
+              "34": 520,
+              "35": 521,
+              "36": 539,
+              "37": 538,
               "38": 504,
-              "39": 538,
-              "40": 538,
-              "41": 538,
-              "42": 533,
-              "44": 519,
-              "45": 537,
-              "46": 516,
-              "47": 538,
-              "48": 538,
-              "49": 538,
-              "50": 520,
-              "51": 538,
+              "39": 539,
+              "40": 539,
+              "41": 539,
+              "42": 534,
+              "44": 520,
+              "45": 538,
+              "46": 517,
+              "47": 539,
+              "48": 539,
+              "49": 539,
+              "50": 521,
+              "51": 539,
               "52": 131,
-              "53": 538,
-              "54": 538,
-              "55": 538,
-              "56": 510,
-              "66": 185,
+              "53": 539,
+              "54": 539,
+              "55": 539,
+              "56": 511,
+              "66": 186,
               "72": 131
             }
           },
           {
             "name": "time",
-            "duplicates": 27281,
-            "time_range": [131, 508],
+            "duplicates": 27331,
+            "time_range": [131, 509],
             "type": "string",
             "missing": 0,
             "table": {
@@ -917,48 +921,33 @@
               "2026-02-14": 52,
               "2026-02-15": 52,
               "2026-02-21": 52,
-              "2026-02-22": 52
+              "2026-02-22": 52,
+              "2026-02-28": 51
             }
           },
           {
             "name": "epic_all_encounters",
-            "duplicates": 21893,
+            "duplicates": 21944,
             "info": {
-              "source_id": "n_all_encounters",
-              "id": "epic_all_encounters",
-              "name": "n_all_encounters",
-              "duplicates": 42083,
-              "info": {
-                "full_name": "n_all_encounters",
-                "measure": "n_all_encounters",
-                "short_name": "All Patients",
-                "long_name": "All Emergency Room (ER) Encounters",
-                "short_description": "Number of All Parients",
-                "long_description": "Number of emergency room (ER) encounters with All ICD-10-CM codes.",
-                "measure_type": "integer",
-                "unit": "encounters",
-                "sources": "epic",
-                "id": "n_all_encounters"
-              },
-              "time_range": [
-                0,
-                130
-              ],
-              "type": "integer",
-              "missing": 0,
-              "mean": 8726.698332,
-              "sd": 52025.531319,
-              "min": 5,
-              "max": 1134128,
+              "full_name": "n_all_encounters",
+              "measure": "n_all_encounters",
+              "short_name": "All Patients",
+              "long_name": "All Emergency Room (ER) Encounters",
+              "short_description": "Number of All Parients",
+              "long_description": "Number of emergency room (ER) encounters with All ICD-10-CM codes.",
+              "measure_type": "integer",
+              "unit": "encounters",
+              "sources": "epic",
+              "id": "n_all_encounters",
               "source_file": {
                 "project": "epic",
-                "data_dir": "./data/epic/standard",
+                "data_dir": "/data/epic/standard",
                 "file": "weekly.csv.gz"
               }
             },
             "time_range": [0, 130],
             "type": "integer",
-            "missing": 20745,
+            "missing": 20796,
             "mean": 34904.065592,
             "sd": 127907.45493,
             "min": 5,
@@ -966,45 +955,29 @@
           },
           {
             "name": "epic_covid",
-            "duplicates": 26584,
+            "duplicates": 26635,
             "info": {
-              "source_id": "n_covid",
-              "id": "epic_covid",
-              "name": "n_covid",
-              "duplicates": 54891,
-              "info": {
-                "full_name": "n_covid",
-                "measure": "n_covid",
-                "short_name": "COVID Patients",
-                "long_name": "COVID Emergency Room (ER) Encounters",
-                "short_description": "Number of COVID Parients",
-                "long_description": "Number of emergency room (ER) encounters with COVID ICD-10-CM codes.",
-                "measure_type": "integer",
-                "unit": "encounters",
-                "sources": "epic",
-                "category": "Respiratory Diseases",
-                "subcategory": "COVID-19",
-                "id": "n_covid"
-              },
-              "time_range": [
-                0,
-                130
-              ],
-              "type": "integer",
-              "missing": 0,
-              "mean": 117.386874,
-              "sd": 822.944743,
-              "min": 5,
-              "max": 40359,
+              "full_name": "n_covid",
+              "measure": "n_covid",
+              "short_name": "COVID Patients",
+              "long_name": "COVID Emergency Room (ER) Encounters",
+              "short_description": "Number of COVID Parients",
+              "long_description": "Number of emergency room (ER) encounters with COVID ICD-10-CM codes.",
+              "measure_type": "integer",
+              "unit": "encounters",
+              "sources": "epic",
+              "category": "Respiratory Diseases",
+              "subcategory": "COVID-19",
+              "id": "n_covid",
               "source_file": {
                 "project": "epic",
-                "data_dir": "./data/epic/standard",
+                "data_dir": "/data/epic/standard",
                 "file": "weekly.csv.gz"
               }
             },
             "time_range": [0, 130],
             "type": "integer",
-            "missing": 20745,
+            "missing": 20796,
             "mean": 464.308595,
             "sd": 2037.599899,
             "min": 5,
@@ -1012,45 +985,29 @@
           },
           {
             "name": "epic_flu",
-            "duplicates": 26573,
+            "duplicates": 26624,
             "info": {
-              "source_id": "n_flu",
-              "id": "epic_flu",
-              "name": "n_flu",
-              "duplicates": 54765,
-              "info": {
-                "full_name": "n_flu",
-                "measure": "n_flu",
-                "short_name": "FLU Patients",
-                "long_name": "FLU Emergency Room (ER) Encounters",
-                "short_description": "Number of FLU Parients",
-                "long_description": "Number of emergency room (ER) encounters with FLU ICD-10-CM codes.",
-                "measure_type": "integer",
-                "unit": "encounters",
-                "sources": "epic",
-                "category": "Respiratory Diseases",
-                "subcategory": "Influenza",
-                "id": "n_flu"
-              },
-              "time_range": [
-                0,
-                130
-              ],
-              "type": "integer",
-              "missing": 0,
-              "mean": 131.226357,
-              "sd": 1419.062635,
-              "min": 5,
-              "max": 110071,
+              "full_name": "n_flu",
+              "measure": "n_flu",
+              "short_name": "FLU Patients",
+              "long_name": "FLU Emergency Room (ER) Encounters",
+              "short_description": "Number of FLU Parients",
+              "long_description": "Number of emergency room (ER) encounters with FLU ICD-10-CM codes.",
+              "measure_type": "integer",
+              "unit": "encounters",
+              "sources": "epic",
+              "category": "Respiratory Diseases",
+              "subcategory": "Influenza",
+              "id": "n_flu",
               "source_file": {
                 "project": "epic",
-                "data_dir": "./data/epic/standard",
+                "data_dir": "/data/epic/standard",
                 "file": "weekly.csv.gz"
               }
             },
             "time_range": [0, 130],
             "type": "integer",
-            "missing": 20745,
+            "missing": 20796,
             "mean": 517.513429,
             "sd": 3609.520812,
             "min": 5,
@@ -1058,45 +1015,29 @@
           },
           {
             "name": "epic_rsv",
-            "duplicates": 27291,
+            "duplicates": 27342,
             "info": {
-              "source_id": "n_rsv",
-              "id": "epic_rsv",
-              "name": "n_rsv",
-              "duplicates": 55877,
-              "info": {
-                "full_name": "n_rsv",
-                "measure": "n_rsv",
-                "short_name": "RSV Patients",
-                "long_name": "RSV Emergency Room (ER) Encounters",
-                "short_description": "Number of RSV Parients",
-                "long_description": "Number of emergency room (ER) encounters with RSV ICD-10-CM codes.",
-                "measure_type": "integer",
-                "unit": "encounters",
-                "sources": "epic",
-                "category": "Respiratory Diseases",
-                "subcategory": "Respiratory Syncytial Virus",
-                "id": "n_rsv"
-              },
-              "time_range": [
-                0,
-                130
-              ],
-              "type": "integer",
-              "missing": 1048,
-              "mean": 24.414914,
-              "sd": 213.188494,
-              "min": 5,
-              "max": 12568,
+              "full_name": "n_rsv",
+              "measure": "n_rsv",
+              "short_name": "RSV Patients",
+              "long_name": "RSV Emergency Room (ER) Encounters",
+              "short_description": "Number of RSV Parients",
+              "long_description": "Number of emergency room (ER) encounters with RSV ICD-10-CM codes.",
+              "measure_type": "integer",
+              "unit": "encounters",
+              "sources": "epic",
+              "category": "Respiratory Diseases",
+              "subcategory": "Respiratory Syncytial Virus",
+              "id": "n_rsv",
               "source_file": {
                 "project": "epic",
-                "data_dir": "./data/epic/standard",
+                "data_dir": "/data/epic/standard",
                 "file": "weekly.csv.gz"
               }
             },
             "time_range": [0, 130],
             "type": "integer",
-            "missing": 20876,
+            "missing": 20927,
             "mean": 86.671756,
             "sd": 528.144274,
             "min": 5,
@@ -1104,30 +1045,39 @@
           },
           {
             "name": "gtrends_rsv_vaccine",
-            "duplicates": 21634,
+            "duplicates": 21685,
             "info": {
-              "id": "gtrends_rsv_vaccine",
-              "name": "gtrends_rsv_vaccine",
-              "duplicates": 26657,
-              "time_range": [
-                0,
-                633
+              "full_name": "gtrends_rsv_vaccine",
+              "measure": "gtrends_rsv_vaccine",
+              "short_name": "Google Search Volume: rsv_vaccine",
+              "long_name": "Google Trends Search Volume of Term rsv_vaccine",
+              "short_description": "Google search volume of the term rsv_vaccine.",
+              "long_description": "Google trends search volume of the term rsv_vaccine. Values are the probabilities of a short search session including the term within the geography and timeframe, multiplied by 10 million.",
+              "statement": "There is a {value} / 10M chance of a short search session including the term rsv_vaccine",
+              "measure_type": "probability",
+              "unit": "probability * 10M",
+              "time_resolution": "week",
+              "sources": [
+                {
+                  "name": "Google Trends",
+                  "url": "https://trends.google.com",
+                  "location": "Yale Data-Intensive Social Sciences, Google Trends Collection Framework",
+                  "location_url": "https://github.com/DISSC-yale/gtrends_collection",
+                  "description": "Google Trends data represent scaled Google search volume by week and state or metropolitan area and are obtained from the Google Health Trends API for non-commercial purposes."
+                }
               ],
-              "type": "float",
-              "missing": 0,
-              "mean": 46.115978,
-              "sd": 136.698508,
-              "min": 0,
-              "max": 1690.800386,
+              "category": "Respiratory Diseases",
+              "subcategory": "Respiratory Syncytial Virus",
+              "id": "gtrends_rsv_vaccine",
               "source_file": {
                 "project": "gtrends",
-                "data_dir": "./data/gtrends/standard",
+                "data_dir": "/data/gtrends/standard",
                 "file": "data.csv.gz"
               }
             },
             "time_range": [131, 508],
             "type": "float",
-            "missing": 11127,
+            "missing": 11178,
             "mean": 89.941048,
             "sd": 179.367316,
             "min": 0,
@@ -1135,30 +1085,39 @@
           },
           {
             "name": "gtrends_naloxone",
-            "duplicates": 19403,
+            "duplicates": 19454,
             "info": {
-              "id": "gtrends_naloxone",
-              "name": "gtrends_naloxone",
-              "duplicates": 20924,
-              "time_range": [
-                0,
-                633
+              "full_name": "gtrends_naloxone",
+              "measure": "gtrends_naloxone",
+              "short_name": "Google Search Volume: naloxone",
+              "long_name": "Google Trends Search Volume of Term naloxone",
+              "short_description": "Google search volume of the term naloxone.",
+              "long_description": "Google trends search volume of the term naloxone. Values are the probabilities of a short search session including the term within the geography and timeframe, multiplied by 10 million.",
+              "statement": "There is a {value} / 10M chance of a short search session including the term naloxone",
+              "measure_type": "probability",
+              "unit": "probability * 10M",
+              "time_resolution": "week",
+              "sources": [
+                {
+                  "name": "Google Trends",
+                  "url": "https://trends.google.com",
+                  "location": "Yale Data-Intensive Social Sciences, Google Trends Collection Framework",
+                  "location_url": "https://github.com/DISSC-yale/gtrends_collection",
+                  "description": "Google Trends data represent scaled Google search volume by week and state or metropolitan area and are obtained from the Google Health Trends API for non-commercial purposes."
+                }
               ],
-              "type": "float",
-              "missing": 0,
-              "mean": 31.545882,
-              "sd": 56.769427,
-              "min": 0,
-              "max": 1817.846215,
+              "category": "Injury & Overdose",
+              "subcategory": "Opioid Overdoses",
+              "id": "gtrends_naloxone",
               "source_file": {
                 "project": "gtrends",
-                "data_dir": "./data/gtrends/standard",
+                "data_dir": "/data/gtrends/standard",
                 "file": "data.csv.gz"
               }
             },
             "time_range": [131, 508],
             "type": "float",
-            "missing": 11127,
+            "missing": 11178,
             "mean": 44.994652,
             "sd": 60.192489,
             "min": 0,
@@ -1166,30 +1125,39 @@
           },
           {
             "name": "gtrends_overdose",
-            "duplicates": 12112,
+            "duplicates": 12163,
             "info": {
-              "id": "gtrends_overdose",
-              "name": "gtrends_overdose",
-              "duplicates": 2802,
-              "time_range": [
-                0,
-                633
+              "full_name": "gtrends_overdose",
+              "measure": "gtrends_overdose",
+              "short_name": "Google Search Volume: overdose",
+              "long_name": "Google Trends Search Volume of Term overdose",
+              "short_description": "Google search volume of the term overdose.",
+              "long_description": "Google trends search volume of the term overdose. Values are the probabilities of a short search session including the term within the geography and timeframe, multiplied by 10 million.",
+              "statement": "There is a {value} / 10M chance of a short search session including the term overdose",
+              "measure_type": "probability",
+              "unit": "probability * 10M",
+              "time_resolution": "week",
+              "sources": [
+                {
+                  "name": "Google Trends",
+                  "url": "https://trends.google.com",
+                  "location": "Yale Data-Intensive Social Sciences, Google Trends Collection Framework",
+                  "location_url": "https://github.com/DISSC-yale/gtrends_collection",
+                  "description": "Google Trends data represent scaled Google search volume by week and state or metropolitan area and are obtained from the Google Health Trends API for non-commercial purposes."
+                }
               ],
-              "type": "float",
-              "missing": 0,
-              "mean": 637.287442,
-              "sd": 281.244976,
-              "min": 0,
-              "max": 4590.231121,
+              "category": "Injury & Overdose",
+              "subcategory": "Opioid Overdoses",
+              "id": "gtrends_overdose",
               "source_file": {
                 "project": "gtrends",
-                "data_dir": "./data/gtrends/standard",
+                "data_dir": "/data/gtrends/standard",
                 "file": "data.csv.gz"
               }
             },
             "time_range": [131, 508],
             "type": "float",
-            "missing": 11127,
+            "missing": 11178,
             "mean": 621.574778,
             "sd": 226.30293,
             "min": 0,
@@ -1197,30 +1165,39 @@
           },
           {
             "name": "gtrends_rsv",
-            "duplicates": 14109,
+            "duplicates": 14160,
             "info": {
-              "id": "gtrends_rsv",
-              "name": "gtrends_rsv",
-              "duplicates": 10553,
-              "time_range": [
-                0,
-                633
+              "full_name": "gtrends_rsv",
+              "measure": "gtrends_rsv",
+              "short_name": "Google Search Volume: rsv",
+              "long_name": "Google Trends Search Volume of Term rsv",
+              "short_description": "Google search volume of the term rsv.",
+              "long_description": "Google trends search volume of the term rsv. Values are the probabilities of a short search session including the term within the geography and timeframe, multiplied by 10 million.",
+              "statement": "There is a {value} / 10M chance of a short search session including the term rsv",
+              "measure_type": "probability",
+              "unit": "probability * 10M",
+              "time_resolution": "week",
+              "sources": [
+                {
+                  "name": "Google Trends",
+                  "url": "https://trends.google.com",
+                  "location": "Yale Data-Intensive Social Sciences, Google Trends Collection Framework",
+                  "location_url": "https://github.com/DISSC-yale/gtrends_collection",
+                  "description": "Google Trends data represent scaled Google search volume by week and state or metropolitan area and are obtained from the Google Health Trends API for non-commercial purposes."
+                }
               ],
-              "type": "float",
-              "missing": 0,
-              "mean": 527.783306,
-              "sd": 894.7779,
-              "min": 0,
-              "max": 12136.048552,
+              "category": "Respiratory Diseases",
+              "subcategory": "Respiratory Syncytial Virus",
+              "id": "gtrends_rsv",
               "source_file": {
                 "project": "gtrends",
-                "data_dir": "./data/gtrends/standard",
+                "data_dir": "/data/gtrends/standard",
                 "file": "data.csv.gz"
               }
             },
             "time_range": [131, 508],
             "type": "float",
-            "missing": 11127,
+            "missing": 11178,
             "mean": 819.755468,
             "sd": 1130.197591,
             "min": 0,
@@ -1228,30 +1205,40 @@
           },
           {
             "name": "wastewater_covid",
-            "duplicates": 17677,
+            "duplicates": 17728,
             "info": {
-              "id": "wastewater_covid",
-              "name": "wastewater_covid",
-              "duplicates": 592,
-              "time_range": [
-                35,
-                69
+              "full_name": "wastewater_covid",
+              "measure": "wastewater_covid",
+              "short_name": "Wastewater: COVID-19",
+              "long_name": "Wastewater Viral Activity Level of COVID-19",
+              "category": "Respiratory Diseases",
+              "short_description": "Wastewater Viral Activity Level of COVID-19.",
+              "long_description": "Wastewater Viral Activity Level (VAL) of COVID-19. The viral activity level is the scaled number of standard deviations above a dynamic baseline. The baseline is the 10th percentile of the log-transformed and normalized concentration values, which is calculated within a 12 month timeframe every 6 months. This is then scaled, where e is the mathmatical constant, and x is the number of standard deviations: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><semantics><mrow><mi>V<\/mi><mi>A<\/mi><mi>L<\/mi><mo>=<\/mo><msup><mi>e<\/mi><mi>x<\/mi><\/msup><\/mrow><annotation encoding=\"application/x-tex\">VAL = e^{x}<\/annotation><\/semantics><\/math> These values are categorized as very low, low, moderate, high, or very high using the following breakpoints: 1.5, 3, 4.5, and 8.",
+              "statement": "The viral activity level of COVID-19 in wastewater is {value}.",
+              "measure_type": "scaled_log_standard_deviation",
+              "unit": "linear scaling of log standard deviations above a baseline",
+              "time_resolution": "week",
+              "norm_frequency": "12 month timeframe every 6 months",
+              "breakpoints": "1.5, 3, 4.5, and 8",
+              "location_url": "https://www.cdc.gov/nwss/rv/COVID19-statetrend.html",
+              "subcategory": "COVID-19",
+              "sources": [
+                {
+                  "id": "nwss",
+                  "location": "Wastewater COVID-19 State and Territory Trends",
+                  "location_url": "https://www.cdc.gov/nwss/rv/COVID19-statetrend.html"
+                }
               ],
-              "type": "float",
-              "missing": 266,
-              "mean": 5.994374,
-              "sd": 5.493827,
-              "min": 0.03373,
-              "max": 101.187984,
+              "id": "wastewater_covid",
               "source_file": {
                 "project": "wastewater",
-                "data_dir": "./data/wastewater/standard",
+                "data_dir": "/data/wastewater/standard",
                 "file": "data.csv.gz"
               }
             },
-            "time_range": [507, 537],
+            "time_range": [507, 538],
             "type": "float",
-            "missing": 17351,
+            "missing": 17402,
             "mean": 5.994374,
             "sd": 5.493827,
             "min": 0.03373,
@@ -1259,61 +1246,79 @@
           },
           {
             "name": "wastewater_flua",
-            "duplicates": 23995,
+            "duplicates": 24015,
             "info": {
-              "id": "wastewater_flua",
-              "name": "wastewater_flua",
-              "duplicates": 6910,
-              "time_range": [
-                35,
-                69
+              "full_name": "wastewater_flua",
+              "measure": "wastewater_flua",
+              "short_name": "Wastewater: Influenza A",
+              "long_name": "Wastewater Viral Activity Level of Influenza A",
+              "category": "Respiratory Diseases",
+              "short_description": "Wastewater Viral Activity Level of Influenza A.",
+              "long_description": "Wastewater Viral Activity Level (VAL) of Influenza A. The viral activity level is the scaled number of standard deviations above a dynamic baseline. The baseline is the 10th percentile of the log-transformed and normalized concentration values, which is calculated within a 18 month timeframe every year. This is then scaled, where e is the mathmatical constant, and x is the number of standard deviations: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><semantics><mrow><mi>V<\/mi><mi>A<\/mi><mi>L<\/mi><mo>=<\/mo><msup><mi>e<\/mi><mi>x<\/mi><\/msup><\/mrow><annotation encoding=\"application/x-tex\">VAL = e^{x}<\/annotation><\/semantics><\/math> These values are categorized as very low, low, moderate, high, or very high using the following breakpoints: 1.6, 4.5, 12.2, and 20.1.",
+              "statement": "The viral activity level of Influenza A in wastewater is {value}.",
+              "measure_type": "scaled_log_standard_deviation",
+              "unit": "linear scaling of log standard deviations above a baseline",
+              "time_resolution": "week",
+              "norm_frequency": "18 month timeframe every year",
+              "breakpoints": "1.6, 4.5, 12.2, and 20.1",
+              "subcategory": "Influenza",
+              "sources": [
+                {
+                  "id": "nwss",
+                  "location": "Wastewater Influenza A State and Territory Trends",
+                  "location_url": "https://www.cdc.gov/nwss/rv/InfluenzaA-statetrend.html"
+                }
               ],
-              "type": "float",
-              "missing": 2684,
-              "mean": 4.212925,
-              "sd": 12.30838,
-              "min": 0.088399,
-              "max": 817.974761,
+              "id": "wastewater_flua",
               "source_file": {
                 "project": "wastewater",
-                "data_dir": "./data/wastewater/standard",
+                "data_dir": "/data/wastewater/standard",
                 "file": "data.csv.gz"
               }
             },
-            "time_range": [507, 537],
+            "time_range": [509, 538],
             "type": "float",
             "missing": 19769,
-            "mean": 4.212925,
-            "sd": 12.30838,
+            "mean": 4.203487,
+            "sd": 12.338896,
             "min": 0.088399,
             "max": 817.974761
           },
           {
             "name": "wastewater_rsv",
-            "duplicates": 24058,
+            "duplicates": 24109,
             "info": {
-              "id": "wastewater_rsv",
-              "name": "wastewater_rsv",
-              "duplicates": 6973,
-              "time_range": [
-                14,
-                69
+              "full_name": "wastewater_rsv",
+              "measure": "wastewater_rsv",
+              "short_name": "Wastewater: RSV",
+              "long_name": "Wastewater Viral Activity Level of RSV",
+              "category": "Respiratory Diseases",
+              "short_description": "Wastewater Viral Activity Level of RSV.",
+              "long_description": "Wastewater Viral Activity Level (VAL) of RSV. The viral activity level is the scaled number of standard deviations above a dynamic baseline. The baseline is the 10th percentile of the log-transformed and normalized concentration values, which is calculated within a 18 month timeframe every year. This is then scaled, where e is the mathmatical constant, and x is the number of standard deviations: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><semantics><mrow><mi>V<\/mi><mi>A<\/mi><mi>L<\/mi><mo>=<\/mo><msup><mi>e<\/mi><mi>x<\/mi><\/msup><\/mrow><annotation encoding=\"application/x-tex\">VAL = e^{x}<\/annotation><\/semantics><\/math> These values are categorized as very low, low, moderate, high, or very high using the following breakpoints: 4, 8, 12, and 20.",
+              "statement": "The viral activity level of RSV in wastewater is {value}.",
+              "measure_type": "scaled_log_standard_deviation",
+              "unit": "linear scaling of log standard deviations above a baseline",
+              "time_resolution": "week",
+              "norm_frequency": "18 month timeframe every year",
+              "breakpoints": "4, 8, 12, and 20",
+              "subcategory": "Respiratory Syncytial Virus",
+              "sources": [
+                {
+                  "id": "nwss",
+                  "location": "Wastewater RSV State and Territory Trends",
+                  "location_url": "https://www.cdc.gov/nwss/rv/RSV-statetrend.html"
+                }
               ],
-              "type": "float",
-              "missing": 2711,
-              "mean": 3.943413,
-              "sd": 32.084138,
-              "min": 0.042245,
-              "max": 2232.014295,
+              "id": "wastewater_rsv",
               "source_file": {
                 "project": "wastewater",
-                "data_dir": "./data/wastewater/standard",
+                "data_dir": "/data/wastewater/standard",
                 "file": "data.csv.gz"
               }
             },
-            "time_range": [507, 524],
+            "time_range": [507, 525],
             "type": "float",
-            "missing": 19796,
+            "missing": 19847,
             "mean": 3.943413,
             "sd": 32.084138,
             "min": 0.042245,
@@ -1337,7 +1342,12 @@
             "measure_type": "integer",
             "unit": "encounters",
             "sources": "epic",
-            "id": "n_all_encounters"
+            "id": "n_all_encounters",
+            "source_file": {
+              "project": "epic",
+              "data_dir": "/data/epic/standard",
+              "file": "weekly.csv.gz"
+            }
           },
           "time_range": [
             0,
@@ -1348,12 +1358,7 @@
           "mean": 8726.698332,
           "sd": 52025.531319,
           "min": 5,
-          "max": 1134128,
-          "source_file": {
-            "project": "epic",
-            "data_dir": "./data/epic/standard",
-            "file": "weekly.csv.gz"
-          }
+          "max": 1134128
         },
         "epic_covid": {
           "source_id": "n_covid",
@@ -1372,7 +1377,12 @@
             "sources": "epic",
             "category": "Respiratory Diseases",
             "subcategory": "COVID-19",
-            "id": "n_covid"
+            "id": "n_covid",
+            "source_file": {
+              "project": "epic",
+              "data_dir": "/data/epic/standard",
+              "file": "weekly.csv.gz"
+            }
           },
           "time_range": [
             0,
@@ -1383,12 +1393,7 @@
           "mean": 117.386874,
           "sd": 822.944743,
           "min": 5,
-          "max": 40359,
-          "source_file": {
-            "project": "epic",
-            "data_dir": "./data/epic/standard",
-            "file": "weekly.csv.gz"
-          }
+          "max": 40359
         },
         "epic_flu": {
           "source_id": "n_flu",
@@ -1407,7 +1412,12 @@
             "sources": "epic",
             "category": "Respiratory Diseases",
             "subcategory": "Influenza",
-            "id": "n_flu"
+            "id": "n_flu",
+            "source_file": {
+              "project": "epic",
+              "data_dir": "/data/epic/standard",
+              "file": "weekly.csv.gz"
+            }
           },
           "time_range": [
             0,
@@ -1418,12 +1428,7 @@
           "mean": 131.226357,
           "sd": 1419.062635,
           "min": 5,
-          "max": 110071,
-          "source_file": {
-            "project": "epic",
-            "data_dir": "./data/epic/standard",
-            "file": "weekly.csv.gz"
-          }
+          "max": 110071
         },
         "epic_rsv": {
           "source_id": "n_rsv",
@@ -1442,7 +1447,12 @@
             "sources": "epic",
             "category": "Respiratory Diseases",
             "subcategory": "Respiratory Syncytial Virus",
-            "id": "n_rsv"
+            "id": "n_rsv",
+            "source_file": {
+              "project": "epic",
+              "data_dir": "/data/epic/standard",
+              "file": "weekly.csv.gz"
+            }
           },
           "time_range": [
             0,
@@ -1453,12 +1463,7 @@
           "mean": 24.414914,
           "sd": 213.188494,
           "min": 5,
-          "max": 12568,
-          "source_file": {
-            "project": "epic",
-            "data_dir": "./data/epic/standard",
-            "file": "weekly.csv.gz"
-          }
+          "max": 12568
         },
         "gtrends_rsv_vaccine": {
           "id": "gtrends_rsv_vaccine",
@@ -1474,10 +1479,34 @@
           "sd": 136.698508,
           "min": 0,
           "max": 1690.800386,
-          "source_file": {
-            "project": "gtrends",
-            "data_dir": "./data/gtrends/standard",
-            "file": "data.csv.gz"
+          "info": {
+            "full_name": "gtrends_rsv_vaccine",
+            "measure": "gtrends_rsv_vaccine",
+            "short_name": "Google Search Volume: rsv_vaccine",
+            "long_name": "Google Trends Search Volume of Term rsv_vaccine",
+            "short_description": "Google search volume of the term rsv_vaccine.",
+            "long_description": "Google trends search volume of the term rsv_vaccine. Values are the probabilities of a short search session including the term within the geography and timeframe, multiplied by 10 million.",
+            "statement": "There is a {value} / 10M chance of a short search session including the term rsv_vaccine",
+            "measure_type": "probability",
+            "unit": "probability * 10M",
+            "time_resolution": "week",
+            "sources": [
+              {
+                "name": "Google Trends",
+                "url": "https://trends.google.com",
+                "location": "Yale Data-Intensive Social Sciences, Google Trends Collection Framework",
+                "location_url": "https://github.com/DISSC-yale/gtrends_collection",
+                "description": "Google Trends data represent scaled Google search volume by week and state or metropolitan area and are obtained from the Google Health Trends API for non-commercial purposes."
+              }
+            ],
+            "category": "Respiratory Diseases",
+            "subcategory": "Respiratory Syncytial Virus",
+            "id": "gtrends_rsv_vaccine",
+            "source_file": {
+              "project": "gtrends",
+              "data_dir": "/data/gtrends/standard",
+              "file": "data.csv.gz"
+            }
           }
         },
         "gtrends_naloxone": {
@@ -1494,10 +1523,34 @@
           "sd": 56.769427,
           "min": 0,
           "max": 1817.846215,
-          "source_file": {
-            "project": "gtrends",
-            "data_dir": "./data/gtrends/standard",
-            "file": "data.csv.gz"
+          "info": {
+            "full_name": "gtrends_naloxone",
+            "measure": "gtrends_naloxone",
+            "short_name": "Google Search Volume: naloxone",
+            "long_name": "Google Trends Search Volume of Term naloxone",
+            "short_description": "Google search volume of the term naloxone.",
+            "long_description": "Google trends search volume of the term naloxone. Values are the probabilities of a short search session including the term within the geography and timeframe, multiplied by 10 million.",
+            "statement": "There is a {value} / 10M chance of a short search session including the term naloxone",
+            "measure_type": "probability",
+            "unit": "probability * 10M",
+            "time_resolution": "week",
+            "sources": [
+              {
+                "name": "Google Trends",
+                "url": "https://trends.google.com",
+                "location": "Yale Data-Intensive Social Sciences, Google Trends Collection Framework",
+                "location_url": "https://github.com/DISSC-yale/gtrends_collection",
+                "description": "Google Trends data represent scaled Google search volume by week and state or metropolitan area and are obtained from the Google Health Trends API for non-commercial purposes."
+              }
+            ],
+            "category": "Injury & Overdose",
+            "subcategory": "Opioid Overdoses",
+            "id": "gtrends_naloxone",
+            "source_file": {
+              "project": "gtrends",
+              "data_dir": "/data/gtrends/standard",
+              "file": "data.csv.gz"
+            }
           }
         },
         "gtrends_overdose": {
@@ -1514,10 +1567,34 @@
           "sd": 281.244976,
           "min": 0,
           "max": 4590.231121,
-          "source_file": {
-            "project": "gtrends",
-            "data_dir": "./data/gtrends/standard",
-            "file": "data.csv.gz"
+          "info": {
+            "full_name": "gtrends_overdose",
+            "measure": "gtrends_overdose",
+            "short_name": "Google Search Volume: overdose",
+            "long_name": "Google Trends Search Volume of Term overdose",
+            "short_description": "Google search volume of the term overdose.",
+            "long_description": "Google trends search volume of the term overdose. Values are the probabilities of a short search session including the term within the geography and timeframe, multiplied by 10 million.",
+            "statement": "There is a {value} / 10M chance of a short search session including the term overdose",
+            "measure_type": "probability",
+            "unit": "probability * 10M",
+            "time_resolution": "week",
+            "sources": [
+              {
+                "name": "Google Trends",
+                "url": "https://trends.google.com",
+                "location": "Yale Data-Intensive Social Sciences, Google Trends Collection Framework",
+                "location_url": "https://github.com/DISSC-yale/gtrends_collection",
+                "description": "Google Trends data represent scaled Google search volume by week and state or metropolitan area and are obtained from the Google Health Trends API for non-commercial purposes."
+              }
+            ],
+            "category": "Injury & Overdose",
+            "subcategory": "Opioid Overdoses",
+            "id": "gtrends_overdose",
+            "source_file": {
+              "project": "gtrends",
+              "data_dir": "/data/gtrends/standard",
+              "file": "data.csv.gz"
+            }
           }
         },
         "gtrends_rsv": {
@@ -1534,74 +1611,171 @@
           "sd": 894.7779,
           "min": 0,
           "max": 12136.048552,
-          "source_file": {
-            "project": "gtrends",
-            "data_dir": "./data/gtrends/standard",
-            "file": "data.csv.gz"
+          "info": {
+            "full_name": "gtrends_rsv",
+            "measure": "gtrends_rsv",
+            "short_name": "Google Search Volume: rsv",
+            "long_name": "Google Trends Search Volume of Term rsv",
+            "short_description": "Google search volume of the term rsv.",
+            "long_description": "Google trends search volume of the term rsv. Values are the probabilities of a short search session including the term within the geography and timeframe, multiplied by 10 million.",
+            "statement": "There is a {value} / 10M chance of a short search session including the term rsv",
+            "measure_type": "probability",
+            "unit": "probability * 10M",
+            "time_resolution": "week",
+            "sources": [
+              {
+                "name": "Google Trends",
+                "url": "https://trends.google.com",
+                "location": "Yale Data-Intensive Social Sciences, Google Trends Collection Framework",
+                "location_url": "https://github.com/DISSC-yale/gtrends_collection",
+                "description": "Google Trends data represent scaled Google search volume by week and state or metropolitan area and are obtained from the Google Health Trends API for non-commercial purposes."
+              }
+            ],
+            "category": "Respiratory Diseases",
+            "subcategory": "Respiratory Syncytial Virus",
+            "id": "gtrends_rsv",
+            "source_file": {
+              "project": "gtrends",
+              "data_dir": "/data/gtrends/standard",
+              "file": "data.csv.gz"
+            }
           }
         },
         "wastewater_covid": {
           "id": "wastewater_covid",
           "name": "wastewater_covid",
-          "duplicates": 592,
+          "duplicates": 643,
           "time_range": [
             35,
             69
           ],
           "type": "float",
-          "missing": 266,
+          "missing": 317,
           "mean": 5.994374,
           "sd": 5.493827,
           "min": 0.03373,
           "max": 101.187984,
-          "source_file": {
-            "project": "wastewater",
-            "data_dir": "./data/wastewater/standard",
-            "file": "data.csv.gz"
+          "info": {
+            "full_name": "wastewater_covid",
+            "measure": "wastewater_covid",
+            "short_name": "Wastewater: COVID-19",
+            "long_name": "Wastewater Viral Activity Level of COVID-19",
+            "category": "Respiratory Diseases",
+            "short_description": "Wastewater Viral Activity Level of COVID-19.",
+            "long_description": "Wastewater Viral Activity Level (VAL) of COVID-19. The viral activity level is the scaled number of standard deviations above a dynamic baseline. The baseline is the 10th percentile of the log-transformed and normalized concentration values, which is calculated within a 12 month timeframe every 6 months. This is then scaled, where e is the mathmatical constant, and x is the number of standard deviations: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><semantics><mrow><mi>V<\/mi><mi>A<\/mi><mi>L<\/mi><mo>=<\/mo><msup><mi>e<\/mi><mi>x<\/mi><\/msup><\/mrow><annotation encoding=\"application/x-tex\">VAL = e^{x}<\/annotation><\/semantics><\/math> These values are categorized as very low, low, moderate, high, or very high using the following breakpoints: 1.5, 3, 4.5, and 8.",
+            "statement": "The viral activity level of COVID-19 in wastewater is {value}.",
+            "measure_type": "scaled_log_standard_deviation",
+            "unit": "linear scaling of log standard deviations above a baseline",
+            "time_resolution": "week",
+            "norm_frequency": "12 month timeframe every 6 months",
+            "breakpoints": "1.5, 3, 4.5, and 8",
+            "location_url": "https://www.cdc.gov/nwss/rv/COVID19-statetrend.html",
+            "subcategory": "COVID-19",
+            "sources": [
+              {
+                "id": "nwss",
+                "location": "Wastewater COVID-19 State and Territory Trends",
+                "location_url": "https://www.cdc.gov/nwss/rv/COVID19-statetrend.html"
+              }
+            ],
+            "id": "wastewater_covid",
+            "source_file": {
+              "project": "wastewater",
+              "data_dir": "/data/wastewater/standard",
+              "file": "data.csv.gz"
+            }
           }
         },
         "wastewater_flua": {
           "id": "wastewater_flua",
           "name": "wastewater_flua",
-          "duplicates": 6910,
+          "duplicates": 6930,
           "time_range": [
             35,
-            69
+            217
           ],
           "type": "float",
           "missing": 2684,
-          "mean": 4.212925,
-          "sd": 12.30838,
+          "mean": 4.203487,
+          "sd": 12.338896,
           "min": 0.088399,
           "max": 817.974761,
-          "source_file": {
-            "project": "wastewater",
-            "data_dir": "./data/wastewater/standard",
-            "file": "data.csv.gz"
+          "info": {
+            "full_name": "wastewater_flua",
+            "measure": "wastewater_flua",
+            "short_name": "Wastewater: Influenza A",
+            "long_name": "Wastewater Viral Activity Level of Influenza A",
+            "category": "Respiratory Diseases",
+            "short_description": "Wastewater Viral Activity Level of Influenza A.",
+            "long_description": "Wastewater Viral Activity Level (VAL) of Influenza A. The viral activity level is the scaled number of standard deviations above a dynamic baseline. The baseline is the 10th percentile of the log-transformed and normalized concentration values, which is calculated within a 18 month timeframe every year. This is then scaled, where e is the mathmatical constant, and x is the number of standard deviations: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><semantics><mrow><mi>V<\/mi><mi>A<\/mi><mi>L<\/mi><mo>=<\/mo><msup><mi>e<\/mi><mi>x<\/mi><\/msup><\/mrow><annotation encoding=\"application/x-tex\">VAL = e^{x}<\/annotation><\/semantics><\/math> These values are categorized as very low, low, moderate, high, or very high using the following breakpoints: 1.6, 4.5, 12.2, and 20.1.",
+            "statement": "The viral activity level of Influenza A in wastewater is {value}.",
+            "measure_type": "scaled_log_standard_deviation",
+            "unit": "linear scaling of log standard deviations above a baseline",
+            "time_resolution": "week",
+            "norm_frequency": "18 month timeframe every year",
+            "breakpoints": "1.6, 4.5, 12.2, and 20.1",
+            "subcategory": "Influenza",
+            "sources": [
+              {
+                "id": "nwss",
+                "location": "Wastewater Influenza A State and Territory Trends",
+                "location_url": "https://www.cdc.gov/nwss/rv/InfluenzaA-statetrend.html"
+              }
+            ],
+            "id": "wastewater_flua",
+            "source_file": {
+              "project": "wastewater",
+              "data_dir": "/data/wastewater/standard",
+              "file": "data.csv.gz"
+            }
           }
         },
         "wastewater_rsv": {
           "id": "wastewater_rsv",
           "name": "wastewater_rsv",
-          "duplicates": 6973,
+          "duplicates": 7024,
           "time_range": [
             14,
             69
           ],
           "type": "float",
-          "missing": 2711,
+          "missing": 2762,
           "mean": 3.943413,
           "sd": 32.084138,
           "min": 0.042245,
           "max": 2232.014295,
-          "source_file": {
-            "project": "wastewater",
-            "data_dir": "./data/wastewater/standard",
-            "file": "data.csv.gz"
+          "info": {
+            "full_name": "wastewater_rsv",
+            "measure": "wastewater_rsv",
+            "short_name": "Wastewater: RSV",
+            "long_name": "Wastewater Viral Activity Level of RSV",
+            "category": "Respiratory Diseases",
+            "short_description": "Wastewater Viral Activity Level of RSV.",
+            "long_description": "Wastewater Viral Activity Level (VAL) of RSV. The viral activity level is the scaled number of standard deviations above a dynamic baseline. The baseline is the 10th percentile of the log-transformed and normalized concentration values, which is calculated within a 18 month timeframe every year. This is then scaled, where e is the mathmatical constant, and x is the number of standard deviations: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><semantics><mrow><mi>V<\/mi><mi>A<\/mi><mi>L<\/mi><mo>=<\/mo><msup><mi>e<\/mi><mi>x<\/mi><\/msup><\/mrow><annotation encoding=\"application/x-tex\">VAL = e^{x}<\/annotation><\/semantics><\/math> These values are categorized as very low, low, moderate, high, or very high using the following breakpoints: 4, 8, 12, and 20.",
+            "statement": "The viral activity level of RSV in wastewater is {value}.",
+            "measure_type": "scaled_log_standard_deviation",
+            "unit": "linear scaling of log standard deviations above a baseline",
+            "time_resolution": "week",
+            "norm_frequency": "18 month timeframe every year",
+            "breakpoints": "4, 8, 12, and 20",
+            "subcategory": "Respiratory Syncytial Virus",
+            "sources": [
+              {
+                "id": "nwss",
+                "location": "Wastewater RSV State and Territory Trends",
+                "location_url": "https://www.cdc.gov/nwss/rv/RSV-statetrend.html"
+              }
+            ],
+            "id": "wastewater_rsv",
+            "source_file": {
+              "project": "wastewater",
+              "data_dir": "/data/wastewater/standard",
+              "file": "data.csv.gz"
+            }
           }
         }
       },
-      "sha512": "dda2f56b50c3879a0399671afa38060c173e38fe5a19d98e714a67ee4aa77fd3064fc4e3426fbc8402bc81274086b98a590800f532228dcd0ff9500b14eadda9"
+      "sha512": "ff6c4c621d8603f695d098a30995fc26294e22a3fbb144747417850dc5d8b9abaa57356d0195884e21de302ee056b90e784c8c17a4685f8f203fa1f4467b2379"
     }
   ],
   "measure_info": {

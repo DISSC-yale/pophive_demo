@@ -9,9 +9,9 @@
   },
   "resources": [
     {
-      "bytes": 239986,
+      "bytes": 251665,
       "encoding": "ISO-8859-1",
-      "md5": "26e8add559507764ac62b79d1b0b92eb",
+      "md5": "4ccf6206c4505ce87d6a0860baac8884",
       "format": "parquet",
       "name": "flu",
       "filename": "flu.parquet",
@@ -46,81 +46,81 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-03-01 03:06:55.15743",
-      "last_modified": "2026-03-01 03:06:55.15743",
+      "created": "2026-03-07 02:54:41.492665",
+      "last_modified": "2026-03-07 02:54:41.492665",
       "vintage": {},
-      "row_count": 22198,
+      "row_count": 22249,
       "entity_count": 55,
       "schema": {
         "fields": [
           {
             "name": "geography",
-            "duplicates": 22143,
-            "time_range": [315, 339],
+            "duplicates": 22194,
+            "time_range": [316, 340],
             "type": "string",
             "missing": 0,
             "table": {
               "0": 262,
-              "01": 447,
-              "02": 406,
-              "04": 384,
-              "05": 409,
-              "06": 470,
-              "08": 459,
-              "09": 383,
-              "10": 421,
-              "11": 376,
-              "12": 465,
-              "13": 452,
-              "15": 405,
-              "16": 470,
-              "17": 448,
-              "18": 446,
-              "19": 429,
-              "20": 448,
-              "21": 464,
-              "22": 379,
-              "23": 443,
-              "24": 429,
-              "25": 428,
-              "26": 463,
-              "27": 444,
-              "28": 375,
-              "29": 385,
-              "30": 321,
-              "31": 396,
-              "32": 414,
-              "33": 438,
-              "34": 448,
-              "35": 379,
-              "36": 395,
-              "37": 445,
+              "01": 448,
+              "02": 407,
+              "04": 385,
+              "05": 410,
+              "06": 471,
+              "08": 460,
+              "09": 384,
+              "10": 422,
+              "11": 377,
+              "12": 466,
+              "13": 453,
+              "15": 406,
+              "16": 471,
+              "17": 449,
+              "18": 447,
+              "19": 430,
+              "20": 449,
+              "21": 465,
+              "22": 380,
+              "23": 444,
+              "24": 430,
+              "25": 429,
+              "26": 464,
+              "27": 445,
+              "28": 376,
+              "29": 386,
+              "30": 322,
+              "31": 397,
+              "32": 415,
+              "33": 439,
+              "34": 449,
+              "35": 380,
+              "36": 396,
+              "37": 446,
               "38": 262,
-              "39": 429,
-              "40": 458,
-              "41": 451,
-              "42": 448,
-              "44": 351,
-              "45": 374,
-              "46": 408,
-              "47": 403,
-              "48": 470,
-              "49": 441,
-              "50": 418,
-              "51": 429,
+              "39": 430,
+              "40": 459,
+              "41": 452,
+              "42": 449,
+              "44": 352,
+              "45": 375,
+              "46": 409,
+              "47": 404,
+              "48": 471,
+              "49": 442,
+              "50": 419,
+              "51": 430,
               "52": 262,
-              "53": 394,
-              "54": 411,
-              "55": 448,
-              "56": 395,
-              "66": 58,
+              "53": 395,
+              "54": 412,
+              "55": 449,
+              "56": 396,
+              "66": 59,
               "72": 262
             }
           },
           {
             "name": "time",
-            "duplicates": 21850,
-            "time_range": [315, 339],
+            "duplicates": 21900,
+            "time_range": [316, 340],
             "type": "string",
             "missing": 0,
             "table": {
@@ -471,51 +471,52 @@
               "2026-01-31": 51,
               "2026-02-07": 51,
               "2026-02-14": 51,
-              "2026-02-21": 51
+              "2026-02-21": 51,
+              "2026-02-28": 51
             }
           },
           {
             "name": "measure",
-            "duplicates": 22195,
-            "time_range": [315, 339],
+            "duplicates": 22246,
+            "time_range": [316, 340],
             "type": "string",
             "missing": 0,
             "table": {
               "epic_all_encounters": 7074,
               "epic_flu": 7074,
-              "wastewater_flua": 8050
+              "wastewater_flua": 8101
             }
           },
           {
             "name": "value",
-            "duplicates": 11617,
-            "time_range": [315, 339],
+            "duplicates": 11637,
+            "time_range": [316, 340],
             "type": "float",
             "missing": 0,
-            "mean": 11289.583028,
-            "sd": 74014.843783,
+            "mean": 11263.710839,
+            "sd": 73931.931974,
             "min": 0.088399,
             "max": 1134128
           },
           {
             "name": "value_scaled",
-            "duplicates": 11209,
-            "time_range": [315, 339],
+            "duplicates": 11229,
+            "time_range": [316, 340],
             "type": "float",
             "missing": 0,
-            "mean": 1.311897,
-            "sd": 6.799736,
+            "mean": 1.309626,
+            "sd": 6.792781,
             "min": 0,
             "max": 100
           }
         ]
       },
-      "sha512": "ca62173d2b243cc289c959eb526b347b185a274255d47d1fdd802422c23359d71718d6ad6c62059f107669d9e8afca6b1189501485b7148b752407e6afd94927"
+      "sha512": "dc33944d1a99e3eb463a9603a2f49901096d369be6558fb7f33be462b93d0a1d13faf3bb82a474b145c7fa133d9a201a5ccf82940b7184451d27c3e419a7a6f5"
     },
     {
-      "bytes": 239986,
+      "bytes": 251665,
       "encoding": "ISO-8859-1",
-      "md5": "26e8add559507764ac62b79d1b0b92eb",
+      "md5": "4ccf6206c4505ce87d6a0860baac8884",
       "format": "parquet",
       "name": "rsv",
       "filename": "rsv.parquet",
@@ -550,81 +551,81 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-03-01 03:06:55.18443",
-      "last_modified": "2026-03-01 03:06:55.18443",
+      "created": "2026-03-07 02:54:41.524665",
+      "last_modified": "2026-03-07 02:54:41.524665",
       "vintage": {},
-      "row_count": 22198,
+      "row_count": 22249,
       "entity_count": 55,
       "schema": {
         "fields": [
           {
             "name": "geography",
-            "duplicates": 22143,
-            "time_range": [315, 339],
+            "duplicates": 22194,
+            "time_range": [316, 340],
             "type": "string",
             "missing": 0,
             "table": {
               "0": 262,
-              "01": 447,
-              "02": 406,
-              "04": 384,
-              "05": 409,
-              "06": 470,
-              "08": 459,
-              "09": 383,
-              "10": 421,
-              "11": 376,
-              "12": 465,
-              "13": 452,
-              "15": 405,
-              "16": 470,
-              "17": 448,
-              "18": 446,
-              "19": 429,
-              "20": 448,
-              "21": 464,
-              "22": 379,
-              "23": 443,
-              "24": 429,
-              "25": 428,
-              "26": 463,
-              "27": 444,
-              "28": 375,
-              "29": 385,
-              "30": 321,
-              "31": 396,
-              "32": 414,
-              "33": 438,
-              "34": 448,
-              "35": 379,
-              "36": 395,
-              "37": 445,
+              "01": 448,
+              "02": 407,
+              "04": 385,
+              "05": 410,
+              "06": 471,
+              "08": 460,
+              "09": 384,
+              "10": 422,
+              "11": 377,
+              "12": 466,
+              "13": 453,
+              "15": 406,
+              "16": 471,
+              "17": 449,
+              "18": 447,
+              "19": 430,
+              "20": 449,
+              "21": 465,
+              "22": 380,
+              "23": 444,
+              "24": 430,
+              "25": 429,
+              "26": 464,
+              "27": 445,
+              "28": 376,
+              "29": 386,
+              "30": 322,
+              "31": 397,
+              "32": 415,
+              "33": 439,
+              "34": 449,
+              "35": 380,
+              "36": 396,
+              "37": 446,
               "38": 262,
-              "39": 429,
-              "40": 458,
-              "41": 451,
-              "42": 448,
-              "44": 351,
-              "45": 374,
-              "46": 408,
-              "47": 403,
-              "48": 470,
-              "49": 441,
-              "50": 418,
-              "51": 429,
+              "39": 430,
+              "40": 459,
+              "41": 452,
+              "42": 449,
+              "44": 352,
+              "45": 375,
+              "46": 409,
+              "47": 404,
+              "48": 471,
+              "49": 442,
+              "50": 419,
+              "51": 430,
               "52": 262,
-              "53": 394,
-              "54": 411,
-              "55": 448,
-              "56": 395,
-              "66": 58,
+              "53": 395,
+              "54": 412,
+              "55": 449,
+              "56": 396,
+              "66": 59,
               "72": 262
             }
           },
           {
             "name": "time",
-            "duplicates": 21850,
-            "time_range": [315, 339],
+            "duplicates": 21900,
+            "time_range": [316, 340],
             "type": "string",
             "missing": 0,
             "table": {
@@ -975,46 +976,47 @@
               "2026-01-31": 51,
               "2026-02-07": 51,
               "2026-02-14": 51,
-              "2026-02-21": 51
+              "2026-02-21": 51,
+              "2026-02-28": 51
             }
           },
           {
             "name": "measure",
-            "duplicates": 22195,
-            "time_range": [315, 339],
+            "duplicates": 22246,
+            "time_range": [316, 340],
             "type": "string",
             "missing": 0,
             "table": {
               "epic_all_encounters": 7074,
               "epic_flu": 7074,
-              "wastewater_flua": 8050
+              "wastewater_flua": 8101
             }
           },
           {
             "name": "value",
-            "duplicates": 11617,
-            "time_range": [315, 339],
+            "duplicates": 11637,
+            "time_range": [316, 340],
             "type": "float",
             "missing": 0,
-            "mean": 11289.583028,
-            "sd": 74014.843783,
+            "mean": 11263.710839,
+            "sd": 73931.931974,
             "min": 0.088399,
             "max": 1134128
           },
           {
             "name": "value_scaled",
-            "duplicates": 11209,
-            "time_range": [315, 339],
+            "duplicates": 11229,
+            "time_range": [316, 340],
             "type": "float",
             "missing": 0,
-            "mean": 1.311897,
-            "sd": 6.799736,
+            "mean": 1.309626,
+            "sd": 6.792781,
             "min": 0,
             "max": 100
           }
         ]
       },
-      "sha512": "ca62173d2b243cc289c959eb526b347b185a274255d47d1fdd802422c23359d71718d6ad6c62059f107669d9e8afca6b1189501485b7148b752407e6afd94927"
+      "sha512": "dc33944d1a99e3eb463a9603a2f49901096d369be6558fb7f33be462b93d0a1d13faf3bb82a474b145c7fa133d9a201a5ccf82940b7184451d27c3e419a7a6f5"
     }
   ],
   "measure_info": {
@@ -1035,7 +1037,12 @@
             "measure_type": "integer",
             "unit": "encounters",
             "sources": "epic",
-            "id": "n_all_encounters"
+            "id": "n_all_encounters",
+            "source_file": {
+              "project": "epic",
+              "data_dir": "/data/epic/standard",
+              "file": "weekly.csv.gz"
+            }
           },
           "time_range": [
             0,
@@ -1046,12 +1053,7 @@
           "mean": 8726.698332,
           "sd": 52025.531319,
           "min": 5,
-          "max": 1134128,
-          "source_file": {
-            "project": "epic",
-            "data_dir": "./data/epic/standard",
-            "file": "weekly.csv.gz"
-          }
+          "max": 1134128
         },
         "epic_rsv": {
           "source_id": "n_rsv",
@@ -1070,7 +1072,12 @@
             "sources": "epic",
             "category": "Respiratory Diseases",
             "subcategory": "Respiratory Syncytial Virus",
-            "id": "n_rsv"
+            "id": "n_rsv",
+            "source_file": {
+              "project": "epic",
+              "data_dir": "/data/epic/standard",
+              "file": "weekly.csv.gz"
+            }
           },
           "time_range": [
             0,
@@ -1081,12 +1088,7 @@
           "mean": 24.414914,
           "sd": 213.188494,
           "min": 5,
-          "max": 12568,
-          "source_file": {
-            "project": "epic",
-            "data_dir": "./data/epic/standard",
-            "file": "weekly.csv.gz"
-          }
+          "max": 12568
         },
         "gtrends_rsv_vaccine": {
           "id": "gtrends_rsv_vaccine",
@@ -1102,10 +1104,34 @@
           "sd": 136.698508,
           "min": 0,
           "max": 1690.800386,
-          "source_file": {
-            "project": "gtrends",
-            "data_dir": "./data/gtrends/standard",
-            "file": "data.csv.gz"
+          "info": {
+            "full_name": "gtrends_rsv_vaccine",
+            "measure": "gtrends_rsv_vaccine",
+            "short_name": "Google Search Volume: rsv_vaccine",
+            "long_name": "Google Trends Search Volume of Term rsv_vaccine",
+            "short_description": "Google search volume of the term rsv_vaccine.",
+            "long_description": "Google trends search volume of the term rsv_vaccine. Values are the probabilities of a short search session including the term within the geography and timeframe, multiplied by 10 million.",
+            "statement": "There is a {value} / 10M chance of a short search session including the term rsv_vaccine",
+            "measure_type": "probability",
+            "unit": "probability * 10M",
+            "time_resolution": "week",
+            "sources": [
+              {
+                "name": "Google Trends",
+                "url": "https://trends.google.com",
+                "location": "Yale Data-Intensive Social Sciences, Google Trends Collection Framework",
+                "location_url": "https://github.com/DISSC-yale/gtrends_collection",
+                "description": "Google Trends data represent scaled Google search volume by week and state or metropolitan area and are obtained from the Google Health Trends API for non-commercial purposes."
+              }
+            ],
+            "category": "Respiratory Diseases",
+            "subcategory": "Respiratory Syncytial Virus",
+            "id": "gtrends_rsv_vaccine",
+            "source_file": {
+              "project": "gtrends",
+              "data_dir": "/data/gtrends/standard",
+              "file": "data.csv.gz"
+            }
           }
         },
         "gtrends_rsv": {
@@ -1122,30 +1148,78 @@
           "sd": 894.7779,
           "min": 0,
           "max": 12136.048552,
-          "source_file": {
-            "project": "gtrends",
-            "data_dir": "./data/gtrends/standard",
-            "file": "data.csv.gz"
+          "info": {
+            "full_name": "gtrends_rsv",
+            "measure": "gtrends_rsv",
+            "short_name": "Google Search Volume: rsv",
+            "long_name": "Google Trends Search Volume of Term rsv",
+            "short_description": "Google search volume of the term rsv.",
+            "long_description": "Google trends search volume of the term rsv. Values are the probabilities of a short search session including the term within the geography and timeframe, multiplied by 10 million.",
+            "statement": "There is a {value} / 10M chance of a short search session including the term rsv",
+            "measure_type": "probability",
+            "unit": "probability * 10M",
+            "time_resolution": "week",
+            "sources": [
+              {
+                "name": "Google Trends",
+                "url": "https://trends.google.com",
+                "location": "Yale Data-Intensive Social Sciences, Google Trends Collection Framework",
+                "location_url": "https://github.com/DISSC-yale/gtrends_collection",
+                "description": "Google Trends data represent scaled Google search volume by week and state or metropolitan area and are obtained from the Google Health Trends API for non-commercial purposes."
+              }
+            ],
+            "category": "Respiratory Diseases",
+            "subcategory": "Respiratory Syncytial Virus",
+            "id": "gtrends_rsv",
+            "source_file": {
+              "project": "gtrends",
+              "data_dir": "/data/gtrends/standard",
+              "file": "data.csv.gz"
+            }
           }
         },
         "wastewater_rsv": {
           "id": "wastewater_rsv",
           "name": "wastewater_rsv",
-          "duplicates": 6973,
+          "duplicates": 7024,
           "time_range": [
             14,
             69
           ],
           "type": "float",
-          "missing": 2711,
+          "missing": 2762,
           "mean": 3.943413,
           "sd": 32.084138,
           "min": 0.042245,
           "max": 2232.014295,
-          "source_file": {
-            "project": "wastewater",
-            "data_dir": "./data/wastewater/standard",
-            "file": "data.csv.gz"
+          "info": {
+            "full_name": "wastewater_rsv",
+            "measure": "wastewater_rsv",
+            "short_name": "Wastewater: RSV",
+            "long_name": "Wastewater Viral Activity Level of RSV",
+            "category": "Respiratory Diseases",
+            "short_description": "Wastewater Viral Activity Level of RSV.",
+            "long_description": "Wastewater Viral Activity Level (VAL) of RSV. The viral activity level is the scaled number of standard deviations above a dynamic baseline. The baseline is the 10th percentile of the log-transformed and normalized concentration values, which is calculated within a 18 month timeframe every year. This is then scaled, where e is the mathmatical constant, and x is the number of standard deviations: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><semantics><mrow><mi>V<\/mi><mi>A<\/mi><mi>L<\/mi><mo>=<\/mo><msup><mi>e<\/mi><mi>x<\/mi><\/msup><\/mrow><annotation encoding=\"application/x-tex\">VAL = e^{x}<\/annotation><\/semantics><\/math> These values are categorized as very low, low, moderate, high, or very high using the following breakpoints: 4, 8, 12, and 20.",
+            "statement": "The viral activity level of RSV in wastewater is {value}.",
+            "measure_type": "scaled_log_standard_deviation",
+            "unit": "linear scaling of log standard deviations above a baseline",
+            "time_resolution": "week",
+            "norm_frequency": "18 month timeframe every year",
+            "breakpoints": "4, 8, 12, and 20",
+            "subcategory": "Respiratory Syncytial Virus",
+            "sources": [
+              {
+                "id": "nwss",
+                "location": "Wastewater RSV State and Territory Trends",
+                "location_url": "https://www.cdc.gov/nwss/rv/RSV-statetrend.html"
+              }
+            ],
+            "id": "wastewater_rsv",
+            "source_file": {
+              "project": "wastewater",
+              "data_dir": "/data/wastewater/standard",
+              "file": "data.csv.gz"
+            }
           }
         }
       },
@@ -1168,7 +1242,12 @@
             "measure_type": "integer",
             "unit": "encounters",
             "sources": "epic",
-            "id": "n_all_encounters"
+            "id": "n_all_encounters",
+            "source_file": {
+              "project": "epic",
+              "data_dir": "/data/epic/standard",
+              "file": "weekly.csv.gz"
+            }
           },
           "time_range": [
             0,
@@ -1179,12 +1258,7 @@
           "mean": 8726.698332,
           "sd": 52025.531319,
           "min": 5,
-          "max": 1134128,
-          "source_file": {
-            "project": "epic",
-            "data_dir": "./data/epic/standard",
-            "file": "weekly.csv.gz"
-          }
+          "max": 1134128
         },
         "epic_flu": {
           "source_id": "n_flu",
@@ -1203,7 +1277,12 @@
             "sources": "epic",
             "category": "Respiratory Diseases",
             "subcategory": "Influenza",
-            "id": "n_flu"
+            "id": "n_flu",
+            "source_file": {
+              "project": "epic",
+              "data_dir": "/data/epic/standard",
+              "file": "weekly.csv.gz"
+            }
           },
           "time_range": [
             0,
@@ -1214,31 +1293,50 @@
           "mean": 131.226357,
           "sd": 1419.062635,
           "min": 5,
-          "max": 110071,
-          "source_file": {
-            "project": "epic",
-            "data_dir": "./data/epic/standard",
-            "file": "weekly.csv.gz"
-          }
+          "max": 110071
         },
         "wastewater_flua": {
           "id": "wastewater_flua",
           "name": "wastewater_flua",
-          "duplicates": 6910,
+          "duplicates": 6930,
           "time_range": [
             35,
-            69
+            217
           ],
           "type": "float",
           "missing": 2684,
-          "mean": 4.212925,
-          "sd": 12.30838,
+          "mean": 4.203487,
+          "sd": 12.338896,
           "min": 0.088399,
           "max": 817.974761,
-          "source_file": {
-            "project": "wastewater",
-            "data_dir": "./data/wastewater/standard",
-            "file": "data.csv.gz"
+          "info": {
+            "full_name": "wastewater_flua",
+            "measure": "wastewater_flua",
+            "short_name": "Wastewater: Influenza A",
+            "long_name": "Wastewater Viral Activity Level of Influenza A",
+            "category": "Respiratory Diseases",
+            "short_description": "Wastewater Viral Activity Level of Influenza A.",
+            "long_description": "Wastewater Viral Activity Level (VAL) of Influenza A. The viral activity level is the scaled number of standard deviations above a dynamic baseline. The baseline is the 10th percentile of the log-transformed and normalized concentration values, which is calculated within a 18 month timeframe every year. This is then scaled, where e is the mathmatical constant, and x is the number of standard deviations: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><semantics><mrow><mi>V<\/mi><mi>A<\/mi><mi>L<\/mi><mo>=<\/mo><msup><mi>e<\/mi><mi>x<\/mi><\/msup><\/mrow><annotation encoding=\"application/x-tex\">VAL = e^{x}<\/annotation><\/semantics><\/math> These values are categorized as very low, low, moderate, high, or very high using the following breakpoints: 1.6, 4.5, 12.2, and 20.1.",
+            "statement": "The viral activity level of Influenza A in wastewater is {value}.",
+            "measure_type": "scaled_log_standard_deviation",
+            "unit": "linear scaling of log standard deviations above a baseline",
+            "time_resolution": "week",
+            "norm_frequency": "18 month timeframe every year",
+            "breakpoints": "1.6, 4.5, 12.2, and 20.1",
+            "subcategory": "Influenza",
+            "sources": [
+              {
+                "id": "nwss",
+                "location": "Wastewater Influenza A State and Territory Trends",
+                "location_url": "https://www.cdc.gov/nwss/rv/InfluenzaA-statetrend.html"
+              }
+            ],
+            "id": "wastewater_flua",
+            "source_file": {
+              "project": "wastewater",
+              "data_dir": "/data/wastewater/standard",
+              "file": "data.csv.gz"
+            }
           }
         }
       },
