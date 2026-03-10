@@ -49,4 +49,4 @@ rsv <- tidyr::pivot_longer(
     value_scaled = value - min(value, na.rm = TRUE),
     value_scaled = value_scaled / max(value_scaled, na.rm = TRUE) * 100
   )
-arrow::write_parquet(flu, "dist/rsv.parquet")
+arrow::write_parquet(rsv, "dist/rsv.parquet")
