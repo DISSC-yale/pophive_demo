@@ -9,14 +9,15 @@
   },
   "resources": [
     {
-      "bytes": 715453,
+      "bytes": 723569,
       "encoding": "ISO-8859-1",
-      "md5": "8014e722ecae44c86ecc9e82011c2fd3",
+      "md5": "aca3e01780f78f874833c3d50d986287",
       "format": "parquet",
       "name": "data",
       "filename": "data.parquet",
       "versions": {
         "hash": [
+          "845dd103a2137a91291a2d4103e731afcc0acde8",
           "e6f5ef87bd964f8c989413b00c8eb01d7b2f8757",
           "b2bf971ae3f2c803bd25f63c6847ee61cb90eef3",
           "9776c31feb97a6043e0fd31207f037110885ffb7",
@@ -92,6 +93,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "Micah <micah.iserman@gmail.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -159,6 +161,7 @@
           "Micah <micah.iserman@gmail.com>"
         ],
         "date": [
+          "Sun Mar 8 03:03:40 2026 +0000",
           "Sat Mar 7 02:54:42 2026 +0000",
           "Sun Mar 1 03:06:56 2026 +0000",
           "Sat Feb 28 02:52:14 2026 +0000",
@@ -234,6 +237,7 @@
           "scheduled data build",
           "scheduled data build",
           "scheduled data build",
+          "scheduled data build",
           "adds tall bundle",
           "scheduled data build",
           "scheduled data build",
@@ -302,6 +306,7 @@
         ]
       },
       "source": [],
+      "data_format": "wide",
       "ids": [
         {
           "variable": "geography"
@@ -310,8 +315,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-03-08 03:03:38.671138",
-      "last_modified": "2026-03-08 03:03:38.671138",
+      "created": "2026-03-10 05:14:12.674978",
+      "last_modified": "2026-03-10 05:05:21.995417",
       "vintage": "2025-07-14",
       "row_count": 27922,
       "entity_count": 56,
@@ -320,6 +325,7 @@
           {
             "name": "geography",
             "duplicates": 27866,
+            "info": [],
             "time_range": [131, 510],
             "type": "string",
             "missing": 322,
@@ -384,6 +390,7 @@
           {
             "name": "time",
             "duplicates": 27382,
+            "info": [],
             "time_range": [131, 510],
             "type": "string",
             "missing": 0,
@@ -1474,16 +1481,6 @@
           "id": "gtrends_rsv_vaccine",
           "name": "gtrends_rsv_vaccine",
           "duplicates": 26657,
-          "time_range": [
-            0,
-            634
-          ],
-          "type": "float",
-          "missing": 0,
-          "mean": 46.206689,
-          "sd": 136.611143,
-          "min": 0,
-          "max": 1690.800386,
           "info": {
             "full_name": "gtrends_rsv_vaccine",
             "measure": "gtrends_rsv_vaccine",
@@ -1512,22 +1509,22 @@
               "data_dir": "/data/gtrends/standard",
               "file": "data.csv.gz"
             }
-          }
-        },
-        "gtrends_naloxone": {
-          "id": "gtrends_naloxone",
-          "name": "gtrends_naloxone",
-          "duplicates": 20924,
+          },
           "time_range": [
             0,
             634
           ],
           "type": "float",
           "missing": 0,
-          "mean": 31.636417,
-          "sd": 56.7752,
+          "mean": 46.206689,
+          "sd": 136.611143,
           "min": 0,
-          "max": 1817.846215,
+          "max": 1690.800386
+        },
+        "gtrends_naloxone": {
+          "id": "gtrends_naloxone",
+          "name": "gtrends_naloxone",
+          "duplicates": 20924,
           "info": {
             "full_name": "gtrends_naloxone",
             "measure": "gtrends_naloxone",
@@ -1556,22 +1553,22 @@
               "data_dir": "/data/gtrends/standard",
               "file": "data.csv.gz"
             }
-          }
-        },
-        "gtrends_overdose": {
-          "id": "gtrends_overdose",
-          "name": "gtrends_overdose",
-          "duplicates": 2802,
+          },
           "time_range": [
             0,
             634
           ],
           "type": "float",
           "missing": 0,
-          "mean": 637.176071,
-          "sd": 281.052949,
+          "mean": 31.636417,
+          "sd": 56.7752,
           "min": 0,
-          "max": 4590.231121,
+          "max": 1817.846215
+        },
+        "gtrends_overdose": {
+          "id": "gtrends_overdose",
+          "name": "gtrends_overdose",
+          "duplicates": 2802,
           "info": {
             "full_name": "gtrends_overdose",
             "measure": "gtrends_overdose",
@@ -1600,22 +1597,22 @@
               "data_dir": "/data/gtrends/standard",
               "file": "data.csv.gz"
             }
-          }
-        },
-        "gtrends_rsv": {
-          "id": "gtrends_rsv",
-          "name": "gtrends_rsv",
-          "duplicates": 10553,
+          },
           "time_range": [
             0,
             634
           ],
           "type": "float",
           "missing": 0,
-          "mean": 528.681741,
-          "sd": 894.427204,
+          "mean": 637.176071,
+          "sd": 281.052949,
           "min": 0,
-          "max": 12136.048552,
+          "max": 4590.231121
+        },
+        "gtrends_rsv": {
+          "id": "gtrends_rsv",
+          "name": "gtrends_rsv",
+          "duplicates": 10553,
           "info": {
             "full_name": "gtrends_rsv",
             "measure": "gtrends_rsv",
@@ -1644,22 +1641,22 @@
               "data_dir": "/data/gtrends/standard",
               "file": "data.csv.gz"
             }
-          }
+          },
+          "time_range": [
+            0,
+            634
+          ],
+          "type": "float",
+          "missing": 0,
+          "mean": 528.681741,
+          "sd": 894.427204,
+          "min": 0,
+          "max": 12136.048552
         },
         "wastewater_covid": {
           "id": "wastewater_covid",
           "name": "wastewater_covid",
           "duplicates": 643,
-          "time_range": [
-            35,
-            69
-          ],
-          "type": "float",
-          "missing": 317,
-          "mean": 5.994374,
-          "sd": 5.493827,
-          "min": 0.03373,
-          "max": 101.187984,
           "info": {
             "full_name": "wastewater_covid",
             "measure": "wastewater_covid",
@@ -1689,22 +1686,22 @@
               "data_dir": "/data/wastewater/standard",
               "file": "data.csv.gz"
             }
-          }
+          },
+          "time_range": [
+            35,
+            69
+          ],
+          "type": "float",
+          "missing": 317,
+          "mean": 5.994374,
+          "sd": 5.493827,
+          "min": 0.03373,
+          "max": 101.187984
         },
         "wastewater_flua": {
           "id": "wastewater_flua",
           "name": "wastewater_flua",
           "duplicates": 6930,
-          "time_range": [
-            35,
-            217
-          ],
-          "type": "float",
-          "missing": 2684,
-          "mean": 4.203487,
-          "sd": 12.338896,
-          "min": 0.088399,
-          "max": 817.974761,
           "info": {
             "full_name": "wastewater_flua",
             "measure": "wastewater_flua",
@@ -1733,22 +1730,22 @@
               "data_dir": "/data/wastewater/standard",
               "file": "data.csv.gz"
             }
-          }
+          },
+          "time_range": [
+            35,
+            217
+          ],
+          "type": "float",
+          "missing": 2684,
+          "mean": 4.203487,
+          "sd": 12.338896,
+          "min": 0.088399,
+          "max": 817.974761
         },
         "wastewater_rsv": {
           "id": "wastewater_rsv",
           "name": "wastewater_rsv",
           "duplicates": 7024,
-          "time_range": [
-            14,
-            69
-          ],
-          "type": "float",
-          "missing": 2762,
-          "mean": 3.943413,
-          "sd": 32.084138,
-          "min": 0.042245,
-          "max": 2232.014295,
           "info": {
             "full_name": "wastewater_rsv",
             "measure": "wastewater_rsv",
@@ -1777,10 +1774,20 @@
               "data_dir": "/data/wastewater/standard",
               "file": "data.csv.gz"
             }
-          }
+          },
+          "time_range": [
+            14,
+            69
+          ],
+          "type": "float",
+          "missing": 2762,
+          "mean": 3.943413,
+          "sd": 32.084138,
+          "min": 0.042245,
+          "max": 2232.014295
         }
       },
-      "sha512": "af60fce4518e338cdfee5a69edb267cc0a93ec807b9e9ceda0b6e9c103f069b6934786258f56c315e7c62c34df457d52178cc23497ee254526abcb3b905e1e66"
+      "sha512": "a88e85399dc3698451dcc92c5aa87c29cb5230634e10b24d721799dcc8df96e5b6859213b4b53ff9572781cf9ce6b4a5512c04eab1f7b0d326971093102599bf"
     }
   ],
   "measure_info": {

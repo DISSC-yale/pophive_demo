@@ -17,6 +17,7 @@
       "filename": "data.csv.gz",
       "versions": {
         "hash": [
+          "845dd103a2137a91291a2d4103e731afcc0acde8",
           "b2bf971ae3f2c803bd25f63c6847ee61cb90eef3",
           "62e67f828464b6e263463828391b965153ef5e76",
           "3382cf3407765011afbe7c5785e70c7c95faa74b",
@@ -66,6 +67,7 @@
         ],
         "author": [
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "Micah <micah.iserman@gmail.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -113,6 +115,7 @@
           "Micah <micah.iserman@gmail.com>"
         ],
         "date": [
+          "Sun Mar 8 03:03:40 2026 +0000",
           "Sun Mar 1 03:06:56 2026 +0000",
           "Thu Feb 26 03:42:48 2026 -0500",
           "Sun Feb 22 03:05:51 2026 +0000",
@@ -161,6 +164,7 @@
           "Wed May 21 10:19:42 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled data build",
           "adds tall bundle",
           "scheduled data build",
@@ -218,6 +222,7 @@
           "description": "Google Trends data represent scaled Google search volume by week and state or metropolitan area and are obtained from the Google Health Trends API for non-commercial purposes."
         }
       ],
+      "data_format": "wide",
       "ids": [
         {
           "variable": "geography"
@@ -226,8 +231,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-03-08 03:03:28.567175",
-      "last_modified": "2026-03-08 03:03:28.567175",
+      "created": "2026-03-09 14:11:00.702366",
+      "last_modified": "2026-03-09 14:11:00.702366",
       "vintage": {},
       "row_count": 33020,
       "entity_count": 52,
@@ -236,6 +241,7 @@
           {
             "name": "geography",
             "duplicates": 32968,
+            "info": [],
             "time_range": [0, 634],
             "type": "integer",
             "missing": 635,
@@ -247,6 +253,7 @@
           {
             "name": "time",
             "duplicates": 32385,
+            "info": [],
             "time_range": [0, 634],
             "type": "string",
             "missing": 0,
@@ -891,6 +898,30 @@
           {
             "name": "gtrends_rsv_vaccine",
             "duplicates": 26657,
+            "info": {
+              "full_name": "gtrends_rsv_vaccine",
+              "measure": "gtrends_rsv_vaccine",
+              "short_name": "Google Search Volume: rsv_vaccine",
+              "long_name": "Google Trends Search Volume of Term rsv_vaccine",
+              "short_description": "Google search volume of the term rsv_vaccine.",
+              "long_description": "Google trends search volume of the term rsv_vaccine. Values are the probabilities of a short search session including the term within the geography and timeframe, multiplied by 10 million.",
+              "statement": "There is a {value} / 10M chance of a short search session including the term rsv_vaccine",
+              "measure_type": "probability",
+              "unit": "probability * 10M",
+              "time_resolution": "week",
+              "sources": [
+                {
+                  "name": "Google Trends",
+                  "url": "https://trends.google.com",
+                  "location": "Yale Data-Intensive Social Sciences, Google Trends Collection Framework",
+                  "location_url": "https://github.com/DISSC-yale/gtrends_collection",
+                  "description": "Google Trends data represent scaled Google search volume by week and state or metropolitan area and are obtained from the Google Health Trends API for non-commercial purposes."
+                }
+              ],
+              "category": "Respiratory Diseases",
+              "subcategory": "Respiratory Syncytial Virus",
+              "id": "gtrends_rsv_vaccine"
+            },
             "time_range": [0, 634],
             "type": "float",
             "missing": 0,
@@ -902,6 +933,30 @@
           {
             "name": "gtrends_naloxone",
             "duplicates": 20924,
+            "info": {
+              "full_name": "gtrends_naloxone",
+              "measure": "gtrends_naloxone",
+              "short_name": "Google Search Volume: naloxone",
+              "long_name": "Google Trends Search Volume of Term naloxone",
+              "short_description": "Google search volume of the term naloxone.",
+              "long_description": "Google trends search volume of the term naloxone. Values are the probabilities of a short search session including the term within the geography and timeframe, multiplied by 10 million.",
+              "statement": "There is a {value} / 10M chance of a short search session including the term naloxone",
+              "measure_type": "probability",
+              "unit": "probability * 10M",
+              "time_resolution": "week",
+              "sources": [
+                {
+                  "name": "Google Trends",
+                  "url": "https://trends.google.com",
+                  "location": "Yale Data-Intensive Social Sciences, Google Trends Collection Framework",
+                  "location_url": "https://github.com/DISSC-yale/gtrends_collection",
+                  "description": "Google Trends data represent scaled Google search volume by week and state or metropolitan area and are obtained from the Google Health Trends API for non-commercial purposes."
+                }
+              ],
+              "category": "Injury & Overdose",
+              "subcategory": "Opioid Overdoses",
+              "id": "gtrends_naloxone"
+            },
             "time_range": [0, 634],
             "type": "float",
             "missing": 0,
@@ -913,6 +968,30 @@
           {
             "name": "gtrends_overdose",
             "duplicates": 2802,
+            "info": {
+              "full_name": "gtrends_overdose",
+              "measure": "gtrends_overdose",
+              "short_name": "Google Search Volume: overdose",
+              "long_name": "Google Trends Search Volume of Term overdose",
+              "short_description": "Google search volume of the term overdose.",
+              "long_description": "Google trends search volume of the term overdose. Values are the probabilities of a short search session including the term within the geography and timeframe, multiplied by 10 million.",
+              "statement": "There is a {value} / 10M chance of a short search session including the term overdose",
+              "measure_type": "probability",
+              "unit": "probability * 10M",
+              "time_resolution": "week",
+              "sources": [
+                {
+                  "name": "Google Trends",
+                  "url": "https://trends.google.com",
+                  "location": "Yale Data-Intensive Social Sciences, Google Trends Collection Framework",
+                  "location_url": "https://github.com/DISSC-yale/gtrends_collection",
+                  "description": "Google Trends data represent scaled Google search volume by week and state or metropolitan area and are obtained from the Google Health Trends API for non-commercial purposes."
+                }
+              ],
+              "category": "Injury & Overdose",
+              "subcategory": "Opioid Overdoses",
+              "id": "gtrends_overdose"
+            },
             "time_range": [0, 634],
             "type": "float",
             "missing": 0,
@@ -924,6 +1003,30 @@
           {
             "name": "gtrends_rsv",
             "duplicates": 10553,
+            "info": {
+              "full_name": "gtrends_rsv",
+              "measure": "gtrends_rsv",
+              "short_name": "Google Search Volume: rsv",
+              "long_name": "Google Trends Search Volume of Term rsv",
+              "short_description": "Google search volume of the term rsv.",
+              "long_description": "Google trends search volume of the term rsv. Values are the probabilities of a short search session including the term within the geography and timeframe, multiplied by 10 million.",
+              "statement": "There is a {value} / 10M chance of a short search session including the term rsv",
+              "measure_type": "probability",
+              "unit": "probability * 10M",
+              "time_resolution": "week",
+              "sources": [
+                {
+                  "name": "Google Trends",
+                  "url": "https://trends.google.com",
+                  "location": "Yale Data-Intensive Social Sciences, Google Trends Collection Framework",
+                  "location_url": "https://github.com/DISSC-yale/gtrends_collection",
+                  "description": "Google Trends data represent scaled Google search volume by week and state or metropolitan area and are obtained from the Google Health Trends API for non-commercial purposes."
+                }
+              ],
+              "category": "Respiratory Diseases",
+              "subcategory": "Respiratory Syncytial Virus",
+              "id": "gtrends_rsv"
+            },
             "time_range": [0, 634],
             "type": "float",
             "missing": 0,

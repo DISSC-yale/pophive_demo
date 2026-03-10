@@ -17,6 +17,7 @@
       "filename": "data.csv.gz",
       "versions": {
         "hash": [
+          "4fe775ac8ff0a3cd887a4a8e15e255142be2564d",
           "942e1dc906b4edd1ec024f2b764df239c982d04c",
           "62e67f828464b6e263463828391b965153ef5e76",
           "684d3f8a92748b984ae77a94335d2028f620d3eb",
@@ -61,6 +62,7 @@
         ],
         "author": [
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "Micah <micah.iserman@gmail.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -103,6 +105,7 @@
           "Micah <micah.iserman@gmail.com>"
         ],
         "date": [
+          "Fri Mar 6 03:03:36 2026 +0000",
           "Fri Feb 27 03:02:33 2026 +0000",
           "Thu Feb 26 03:42:48 2026 -0500",
           "Fri Feb 20 03:03:36 2026 +0000",
@@ -147,6 +150,7 @@
         ],
         "message": [
           "scheduled data build",
+          "scheduled data build",
           "adds tall bundle",
           "scheduled data build",
           "scheduled data build",
@@ -190,6 +194,7 @@
         ]
       },
       "source": [],
+      "data_format": "wide",
       "ids": [
         {
           "variable": "geography"
@@ -198,8 +203,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-03-06 03:03:26.98586",
-      "last_modified": "2026-03-06 03:03:26.98586",
+      "created": "2026-03-09 14:11:00.663843",
+      "last_modified": "2026-03-09 14:11:00.663843",
       "vintage": {},
       "row_count": 3080,
       "entity_count": 10,
@@ -208,6 +213,7 @@
           {
             "name": "geography",
             "duplicates": 3070,
+            "info": [],
             "time_range": [12, 307],
             "type": "string",
             "missing": 0,
@@ -227,6 +233,7 @@
           {
             "name": "time",
             "duplicates": 2772,
+            "info": [],
             "time_range": [12, 307],
             "type": "string",
             "missing": 0,
@@ -544,6 +551,27 @@
           {
             "name": "nrevss_week",
             "duplicates": 3027,
+            "info": {
+              "full_name": "nrevss_week",
+              "measure": "nrevss_week",
+              "short_name": "MMWR Week",
+              "long_name": "Morbidity and Mortality Weekly Report (MMWR) Week",
+              "category": "Respiratory Diseases",
+              "subcategory": "Respiratory Syncytial Virus",
+              "short_description": "MMWR report week number.",
+              "long_description": "Morbidity and Mortality Weekly Report (MMWR) week number",
+              "statement": "{value} is the report week",
+              "measure_type": "week",
+              "unit": "report weeks",
+              "time_resolution": "week",
+              "sources": [
+                "nrevss"
+              ],
+              "citations": [
+                "niemi20"
+              ],
+              "id": "nrevss_week"
+            },
             "time_range": [12, 307],
             "type": "integer",
             "missing": 0,
@@ -555,6 +583,24 @@
           {
             "name": "nrevss",
             "duplicates": 1582,
+            "info": {
+              "full_name": "nrevss",
+              "measure": "nrevss",
+              "short_name": "Positive RSV Test Volume",
+              "long_name": "Positive RSV Test Volume (5-Week Moving Average)",
+              "category": "Respiratory Diseases",
+              "subcategory": "Respiratory Syncytial Virus",
+              "short_description": "MMWR report week number since July.",
+              "long_description": "Number of positive Respiratory Syncytial Virus (RSV) Nucleic Acid Amplification Tests, averaged over 5 weeks.",
+              "statement": "there were {value} positive RSV tests in {region_name}",
+              "measure_type": "count",
+              "unit": "positive tests",
+              "time_resolution": "week",
+              "sources": [
+                "nrevss"
+              ],
+              "id": "nrevss"
+            },
             "time_range": [12, 307],
             "type": "float",
             "missing": 0,

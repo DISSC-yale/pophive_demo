@@ -11,12 +11,13 @@
     {
       "bytes": 216199,
       "encoding": "ISO-8859-1",
-      "md5": "3b5b9a990d25225e22e768e4837226ec",
+      "md5": "1a6bdf00af691c90e0c8c3281ee732cc",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
         "hash": [
+          "e6f5ef87bd964f8c989413b00c8eb01d7b2f8757",
           "9776c31feb97a6043e0fd31207f037110885ffb7",
           "942e1dc906b4edd1ec024f2b764df239c982d04c",
           "62e67f828464b6e263463828391b965153ef5e76",
@@ -68,6 +69,7 @@
         "author": [
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "Micah <micah.iserman@gmail.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -115,6 +117,7 @@
           "Micah <micah.iserman@gmail.com>"
         ],
         "date": [
+          "Sat Mar 7 02:54:42 2026 +0000",
           "Sat Feb 28 02:52:14 2026 +0000",
           "Fri Feb 27 03:02:33 2026 +0000",
           "Thu Feb 26 03:42:48 2026 -0500",
@@ -164,6 +167,7 @@
           "Tue May 27 13:56:02 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled data build",
           "scheduled data build",
           "adds tall bundle",
@@ -230,6 +234,7 @@
           "location_url": "https://www.cdc.gov/nwss/rv/COVID19-statetrend.html"
         }
       ],
+      "data_format": "wide",
       "ids": [
         {
           "variable": "geography"
@@ -238,8 +243,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-03-07 02:54:33.401709",
-      "last_modified": "2026-03-07 02:54:33.401709",
+      "created": "2026-03-10 05:14:01.705975",
+      "last_modified": "2026-03-10 05:05:22.008549",
       "vintage": {},
       "row_count": 10785,
       "entity_count": 52,
@@ -248,6 +253,7 @@
           {
             "name": "geography",
             "duplicates": 10733,
+            "info": [],
             "time_range": [35, 217],
             "type": "integer",
             "missing": 0,
@@ -259,6 +265,7 @@
           {
             "name": "time",
             "duplicates": 10567,
+            "info": [],
             "time_range": [35, 217],
             "type": "string",
             "missing": 0,
@@ -486,6 +493,31 @@
           {
             "name": "wastewater_covid",
             "duplicates": 643,
+            "info": {
+              "full_name": "wastewater_covid",
+              "measure": "wastewater_covid",
+              "short_name": "Wastewater: COVID-19",
+              "long_name": "Wastewater Viral Activity Level of COVID-19",
+              "category": "Respiratory Diseases",
+              "short_description": "Wastewater Viral Activity Level of COVID-19.",
+              "long_description": "Wastewater Viral Activity Level (VAL) of COVID-19. The viral activity level is the scaled number of standard deviations above a dynamic baseline. The baseline is the 10th percentile of the log-transformed and normalized concentration values, which is calculated within a 12 month timeframe every 6 months. This is then scaled, where e is the mathmatical constant, and x is the number of standard deviations: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><semantics><mrow><mi>V<\/mi><mi>A<\/mi><mi>L<\/mi><mo>=<\/mo><msup><mi>e<\/mi><mi>x<\/mi><\/msup><\/mrow><annotation encoding=\"application/x-tex\">VAL = e^{x}<\/annotation><\/semantics><\/math> These values are categorized as very low, low, moderate, high, or very high using the following breakpoints: 1.5, 3, 4.5, and 8.",
+              "statement": "The viral activity level of COVID-19 in wastewater is {value}.",
+              "measure_type": "scaled_log_standard_deviation",
+              "unit": "linear scaling of log standard deviations above a baseline",
+              "time_resolution": "week",
+              "norm_frequency": "12 month timeframe every 6 months",
+              "breakpoints": "1.5, 3, 4.5, and 8",
+              "location_url": "https://www.cdc.gov/nwss/rv/COVID19-statetrend.html",
+              "subcategory": "COVID-19",
+              "sources": [
+                {
+                  "id": "nwss",
+                  "location": "Wastewater COVID-19 State and Territory Trends",
+                  "location_url": "https://www.cdc.gov/nwss/rv/COVID19-statetrend.html"
+                }
+              ],
+              "id": "wastewater_covid"
+            },
             "time_range": [35, 69],
             "type": "float",
             "missing": 317,
@@ -497,6 +529,30 @@
           {
             "name": "wastewater_flua",
             "duplicates": 6930,
+            "info": {
+              "full_name": "wastewater_flua",
+              "measure": "wastewater_flua",
+              "short_name": "Wastewater: Influenza A",
+              "long_name": "Wastewater Viral Activity Level of Influenza A",
+              "category": "Respiratory Diseases",
+              "short_description": "Wastewater Viral Activity Level of Influenza A.",
+              "long_description": "Wastewater Viral Activity Level (VAL) of Influenza A. The viral activity level is the scaled number of standard deviations above a dynamic baseline. The baseline is the 10th percentile of the log-transformed and normalized concentration values, which is calculated within a 18 month timeframe every year. This is then scaled, where e is the mathmatical constant, and x is the number of standard deviations: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><semantics><mrow><mi>V<\/mi><mi>A<\/mi><mi>L<\/mi><mo>=<\/mo><msup><mi>e<\/mi><mi>x<\/mi><\/msup><\/mrow><annotation encoding=\"application/x-tex\">VAL = e^{x}<\/annotation><\/semantics><\/math> These values are categorized as very low, low, moderate, high, or very high using the following breakpoints: 1.6, 4.5, 12.2, and 20.1.",
+              "statement": "The viral activity level of Influenza A in wastewater is {value}.",
+              "measure_type": "scaled_log_standard_deviation",
+              "unit": "linear scaling of log standard deviations above a baseline",
+              "time_resolution": "week",
+              "norm_frequency": "18 month timeframe every year",
+              "breakpoints": "1.6, 4.5, 12.2, and 20.1",
+              "subcategory": "Influenza",
+              "sources": [
+                {
+                  "id": "nwss",
+                  "location": "Wastewater Influenza A State and Territory Trends",
+                  "location_url": "https://www.cdc.gov/nwss/rv/InfluenzaA-statetrend.html"
+                }
+              ],
+              "id": "wastewater_flua"
+            },
             "time_range": [35, 217],
             "type": "float",
             "missing": 2684,
@@ -508,6 +564,30 @@
           {
             "name": "wastewater_rsv",
             "duplicates": 7024,
+            "info": {
+              "full_name": "wastewater_rsv",
+              "measure": "wastewater_rsv",
+              "short_name": "Wastewater: RSV",
+              "long_name": "Wastewater Viral Activity Level of RSV",
+              "category": "Respiratory Diseases",
+              "short_description": "Wastewater Viral Activity Level of RSV.",
+              "long_description": "Wastewater Viral Activity Level (VAL) of RSV. The viral activity level is the scaled number of standard deviations above a dynamic baseline. The baseline is the 10th percentile of the log-transformed and normalized concentration values, which is calculated within a 18 month timeframe every year. This is then scaled, where e is the mathmatical constant, and x is the number of standard deviations: <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><semantics><mrow><mi>V<\/mi><mi>A<\/mi><mi>L<\/mi><mo>=<\/mo><msup><mi>e<\/mi><mi>x<\/mi><\/msup><\/mrow><annotation encoding=\"application/x-tex\">VAL = e^{x}<\/annotation><\/semantics><\/math> These values are categorized as very low, low, moderate, high, or very high using the following breakpoints: 4, 8, 12, and 20.",
+              "statement": "The viral activity level of RSV in wastewater is {value}.",
+              "measure_type": "scaled_log_standard_deviation",
+              "unit": "linear scaling of log standard deviations above a baseline",
+              "time_resolution": "week",
+              "norm_frequency": "18 month timeframe every year",
+              "breakpoints": "4, 8, 12, and 20",
+              "subcategory": "Respiratory Syncytial Virus",
+              "sources": [
+                {
+                  "id": "nwss",
+                  "location": "Wastewater RSV State and Territory Trends",
+                  "location_url": "https://www.cdc.gov/nwss/rv/RSV-statetrend.html"
+                }
+              ],
+              "id": "wastewater_rsv"
+            },
             "time_range": [14, 69],
             "type": "float",
             "missing": 2762,
@@ -518,7 +598,7 @@
           }
         ]
       },
-      "sha512": "5d3cbeeedc7cea531f2934934d9eb358fbd8cbedc091f27155d2e1d4ed5ad4d49ff8af507127714de52b643383ee69c872d156b4ad316823f239c30778dccef4"
+      "sha512": "ddc08d52741668d761e55f691e583edc6a474721cf9873ca574d7fd1b61aa01d64d28fe7e6706b700cbe309e575aaf3b2ff9bf31864fbff8a886148c6951736f"
     }
   ],
   "measure_info": {

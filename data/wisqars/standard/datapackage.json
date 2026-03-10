@@ -30,6 +30,7 @@
         ]
       },
       "source": [],
+      "data_format": "wide",
       "ids": [
         {
           "variable": "geography"
@@ -38,8 +39,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-02-27 03:00:12.249373",
-      "last_modified": "2026-02-27 03:00:12.249373",
+      "created": "2026-03-05 13:51:30.676962",
+      "last_modified": "2025-10-14 06:20:30.541367",
       "vintage": {},
       "row_count": 913,
       "entity_count": 51,
@@ -48,6 +49,7 @@
           {
             "name": "geography",
             "duplicates": 862,
+            "info": [],
             "time_range": [0, 0],
             "type": "integer",
             "missing": 0,
@@ -59,6 +61,7 @@
           {
             "name": "time",
             "duplicates": 912,
+            "info": [],
             "time_range": [0, 0],
             "type": "integer",
             "missing": 0,
@@ -70,6 +73,14 @@
           {
             "name": "age",
             "duplicates": 895,
+            "info": {
+              "name": "age",
+              "description": "Age group.",
+              "measure_type": "categorical",
+              "unit": "category",
+              "time_resolution": "yearly",
+              "id": "age"
+            },
             "time_range": [0, 0],
             "type": "string",
             "missing": 0,
@@ -97,6 +108,23 @@
           {
             "name": "wisqars_violence_firearm",
             "duplicates": 362,
+            "info": {
+              "short_name": "Death Rate (intentional firearm)",
+              "long_name": "Rate of Deaths Caused by intentional firearm",
+              "category": "Injury & Overdose",
+              "subcategory": "Fatalities",
+              "short_description": "Death rate due to intentional firearm.",
+              "long_description": "Deaths per 100k people due to intentional firearm.",
+              "measure_type": "per 100k",
+              "unit": "rate",
+              "time_resolution": "yearly",
+              "sources": {
+                "id": "wisqars",
+                "location": "Fatal Injury Report, Violence-related intent",
+                "location_url": "https://wisqars.cdc.gov/reports/?o=MORT&i=8&m=20810&s=0&r=0&ry=2&y1=2018&y2=2023&a=ALL&g1=0&g2=199&a1=0&a2=199&r1=MECH&r2=AGEGP&r3=STATE&r4=YEAR&r5=NONE&r6=NONE&g=00&e=0&yp=65&me=0&t=0"
+              },
+              "id": "wisqars_violence_firearm"
+            },
             "time_range": [0, 0],
             "type": "float",
             "missing": 288,
@@ -108,6 +136,23 @@
           {
             "name": "wisqars_violence_drug_poisoning",
             "duplicates": 773,
+            "info": {
+              "short_name": "Death Rate (intentional drug poisioning)",
+              "long_name": "Rate of Deaths Caused by intentional drug poisioning",
+              "category": "Injury & Overdose",
+              "subcategory": "Fatalities",
+              "short_description": "Death rate due to intentional drug poisioning.",
+              "long_description": "Deaths per 100k people due to intentional drug poisioning.",
+              "measure_type": "per 100k",
+              "unit": "rate",
+              "time_resolution": "yearly",
+              "sources": {
+                "id": "wisqars",
+                "location": "Fatal Injury Report, Violence-related intent",
+                "location_url": "https://wisqars.cdc.gov/reports/?o=MORT&i=8&m=20810&s=0&r=0&ry=2&y1=2018&y2=2023&a=ALL&g1=0&g2=199&a1=0&a2=199&r1=MECH&r2=AGEGP&r3=STATE&r4=YEAR&r5=NONE&r6=NONE&g=00&e=0&yp=65&me=0&t=0"
+              },
+              "id": "wisqars_violence_drug_poisoning"
+            },
             "time_range": [0, 0],
             "type": "float",
             "missing": 746,
@@ -119,6 +164,23 @@
           {
             "name": "wisqars_violence_suffocation",
             "duplicates": 585,
+            "info": {
+              "short_name": "Death Rate (intentional suffocation)",
+              "long_name": "Rate of Deaths Caused by intentional suffocation",
+              "category": "Injury & Overdose",
+              "subcategory": "Fatalities",
+              "short_description": "Death rate due to intentional suffocation.",
+              "long_description": "Deaths per 100k people due to intentional suffocation.",
+              "measure_type": "per 100k",
+              "unit": "rate",
+              "time_resolution": "yearly",
+              "sources": {
+                "id": "wisqars",
+                "location": "Fatal Injury Report, Violence-related intent",
+                "location_url": "https://wisqars.cdc.gov/reports/?o=MORT&i=8&m=20810&s=0&r=0&ry=2&y1=2018&y2=2023&a=ALL&g1=0&g2=199&a1=0&a2=199&r1=MECH&r2=AGEGP&r3=STATE&r4=YEAR&r5=NONE&r6=NONE&g=00&e=0&yp=65&me=0&t=0"
+              },
+              "id": "wisqars_violence_suffocation"
+            },
             "time_range": [0, 0],
             "type": "float",
             "missing": 517,
@@ -130,6 +192,23 @@
           {
             "name": "wisqars_accident_motor_vehicle_traffic",
             "duplicates": 341,
+            "info": {
+              "short_name": "Death Rate (accidental motor vehicle traffic)",
+              "long_name": "Rate of Deaths Caused by accidental motor vehicle traffic",
+              "category": "Injury & Overdose",
+              "subcategory": "Fatalities",
+              "short_description": "Death rate due to accidental motor vehicle traffic.",
+              "long_description": "Deaths per 100k people due to accidental motor vehicle traffic.",
+              "measure_type": "per 100k",
+              "unit": "rate",
+              "time_resolution": "yearly",
+              "sources": {
+                "id": "wisqars",
+                "location": "Fatal Injury Report, Unintentional intent",
+                "location_url": "https://wisqars.cdc.gov/reports/?o=MORT&i=1&m=20810&s=0&r=0&ry=2&y1=2018&y2=2023&a=ALL&g1=0&g2=199&a1=0&a2=199&r1=MECH&r2=AGEGP&r3=STATE&r4=YEAR&r5=NONE&r6=NONE&g=00&e=0&yp=65&me=0&t=0"
+              },
+              "id": "wisqars_accident_motor_vehicle_traffic"
+            },
             "time_range": [0, 0],
             "type": "float",
             "missing": 266,
@@ -141,6 +220,23 @@
           {
             "name": "wisqars_accident_suffocation",
             "duplicates": 712,
+            "info": {
+              "short_name": "Death Rate (accidental suffocation)",
+              "long_name": "Rate of Deaths Caused by accidental suffocation",
+              "category": "Injury & Overdose",
+              "subcategory": "Fatalities",
+              "short_description": "Death rate due to accidental suffocation.",
+              "long_description": "Deaths per 100k people due to accidental suffocation.",
+              "measure_type": "per 100k",
+              "unit": "rate",
+              "time_resolution": "yearly",
+              "sources": {
+                "id": "wisqars",
+                "location": "Fatal Injury Report, Unintentional intent",
+                "location_url": "https://wisqars.cdc.gov/reports/?o=MORT&i=1&m=20810&s=0&r=0&ry=2&y1=2018&y2=2023&a=ALL&g1=0&g2=199&a1=0&a2=199&r1=MECH&r2=AGEGP&r3=STATE&r4=YEAR&r5=NONE&r6=NONE&g=00&e=0&yp=65&me=0&t=0"
+              },
+              "id": "wisqars_accident_suffocation"
+            },
             "time_range": [0, 0],
             "type": "float",
             "missing": 704,
@@ -152,6 +248,23 @@
           {
             "name": "wisqars_accident_drug_poisoning",
             "duplicates": 423,
+            "info": {
+              "short_name": "Death Rate (accidental drug poisioning)",
+              "long_name": "Rate of Deaths Caused by accidental drug poisioning",
+              "category": "Injury & Overdose",
+              "subcategory": "Fatalities",
+              "short_description": "Death rate due to accidental drug poisioning.",
+              "long_description": "Deaths per 100k people due to accidental drug poisioning.",
+              "measure_type": "per 100k",
+              "unit": "rate",
+              "time_resolution": "yearly",
+              "sources": {
+                "id": "wisqars",
+                "location": "Fatal Injury Report, Unintentional intent",
+                "location_url": "https://wisqars.cdc.gov/reports/?o=MORT&i=1&m=20810&s=0&r=0&ry=2&y1=2018&y2=2023&a=ALL&g1=0&g2=199&a1=0&a2=199&r1=MECH&r2=AGEGP&r3=STATE&r4=YEAR&r5=NONE&r6=NONE&g=00&e=0&yp=65&me=0&t=0"
+              },
+              "id": "wisqars_accident_drug_poisoning"
+            },
             "time_range": [0, 0],
             "type": "float",
             "missing": 403,
@@ -163,6 +276,23 @@
           {
             "name": "wisqars_accident_non_drug_poisoning",
             "duplicates": 820,
+            "info": {
+              "short_name": "Death Rate (accidental non-drug poisoning)",
+              "long_name": "Rate of Deaths Caused by accidental non-drug poisoning",
+              "category": "Injury & Overdose",
+              "subcategory": "Fatalities",
+              "short_description": "Death rate due to accidental non-drug poisoning.",
+              "long_description": "Deaths per 100k people due to accidental non-drug poisoning.",
+              "measure_type": "per 100k",
+              "unit": "rate",
+              "time_resolution": "yearly",
+              "sources": {
+                "id": "wisqars",
+                "location": "Fatal Injury Report, Unintentional intent",
+                "location_url": "https://wisqars.cdc.gov/reports/?o=MORT&i=1&m=20810&s=0&r=0&ry=2&y1=2018&y2=2023&a=ALL&g1=0&g2=199&a1=0&a2=199&r1=MECH&r2=AGEGP&r3=STATE&r4=YEAR&r5=NONE&r6=NONE&g=00&e=0&yp=65&me=0&t=0"
+              },
+              "id": "wisqars_accident_non_drug_poisoning"
+            },
             "time_range": [0, 0],
             "type": "float",
             "missing": 812,
@@ -174,6 +304,23 @@
           {
             "name": "wisqars_accident_fall",
             "duplicates": 554,
+            "info": {
+              "short_name": "Death Rate (accidental fall)",
+              "long_name": "Rate of Deaths Caused by accidental fall",
+              "category": "Injury & Overdose",
+              "subcategory": "Fatalities",
+              "short_description": "Death rate due to accidental fall.",
+              "long_description": "Deaths per 100k people due to accidental fall.",
+              "measure_type": "per 100k",
+              "unit": "rate",
+              "time_resolution": "yearly",
+              "sources": {
+                "id": "wisqars",
+                "location": "Fatal Injury Report, Unintentional intent",
+                "location_url": "https://wisqars.cdc.gov/reports/?o=MORT&i=1&m=20810&s=0&r=0&ry=2&y1=2018&y2=2023&a=ALL&g1=0&g2=199&a1=0&a2=199&r1=MECH&r2=AGEGP&r3=STATE&r4=YEAR&r5=NONE&r6=NONE&g=00&e=0&yp=65&me=0&t=0"
+              },
+              "id": "wisqars_accident_fall"
+            },
             "time_range": [0, 0],
             "type": "float",
             "missing": 548,
@@ -185,6 +332,23 @@
           {
             "name": "wisqars_accident_unspecified",
             "duplicates": 756,
+            "info": {
+              "short_name": "Death Rate (accidental unspecified)",
+              "long_name": "Rate of Deaths Caused by accidental unspecified",
+              "category": "Injury & Overdose",
+              "subcategory": "Fatalities",
+              "short_description": "Death rate due to accidental unspecified.",
+              "long_description": "Deaths per 100k people due to accidental unspecified.",
+              "measure_type": "per 100k",
+              "unit": "rate",
+              "time_resolution": "yearly",
+              "sources": {
+                "id": "wisqars",
+                "location": "Fatal Injury Report, Unintentional intent",
+                "location_url": "https://wisqars.cdc.gov/reports/?o=MORT&i=1&m=20810&s=0&r=0&ry=2&y1=2018&y2=2023&a=ALL&g1=0&g2=199&a1=0&a2=199&r1=MECH&r2=AGEGP&r3=STATE&r4=YEAR&r5=NONE&r6=NONE&g=00&e=0&yp=65&me=0&t=0"
+              },
+              "id": "wisqars_accident_unspecified"
+            },
             "time_range": [0, 0],
             "type": "float",
             "missing": 747,
