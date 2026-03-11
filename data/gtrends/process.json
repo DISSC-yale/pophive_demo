@@ -39,11 +39,9 @@
       }
     }
   ],
-  "checked": "2026-03-04 02:59:45",
+  "checked": "2026-03-11 02:59:23",
   "check_results": {
-    "data/gtrends/standard/data.csv.gz": {
-      "data": "geography_nas"
-    }
+    "data/gtrends/standard/data.csv.gz": []
   },
   "raw_state": {
     "data/term=%2Fg%2F11j30ybfx6/part-0.parquet": "8581f3162b5f1a593b324e064f473942",
@@ -52,7 +50,7 @@
     "data/term=rsv/part-0.parquet": "51edb7c0e67d9c69deeede8554d0318b"
   },
   "standard_state": {
-    "./data/gtrends/measure_info.json": "feaeca4b551937b347456989f3310780",
+    "./data/gtrends/measure_info.json": "e2ec3b655de754ddd1cddd44f005137c",
     "./data/gtrends/standard/data.csv.gz": "f39e6c2186ff5e8b99aa0fdd83cb948c"
   }
 }
