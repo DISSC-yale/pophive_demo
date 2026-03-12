@@ -11,12 +11,13 @@
     {
       "bytes": 716478,
       "encoding": "ISO-8859-1",
-      "md5": "4b1d370003e62d908858437b9c702d26",
+      "md5": "4c1cbc1bd1c67ac830f04ff57b7f41f4",
       "format": "parquet",
       "name": "data",
       "filename": "data.parquet",
       "versions": {
         "hash": [
+          "21c6033362f584d7c6dcb26d6297fb4afc9097ae",
           "8ae03d83de51f616ad2623f0f26fb433e205e9f5",
           "845dd103a2137a91291a2d4103e731afcc0acde8",
           "e6f5ef87bd964f8c989413b00c8eb01d7b2f8757",
@@ -90,6 +91,7 @@
           "8b9395792ca23c342cf25af097d86a519918e2e6"
         ],
         "author": [
+          "GitHub Actions <actions@github.com>",
           "Micah <micah.iserman@gmail.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -163,6 +165,7 @@
           "Micah <micah.iserman@gmail.com>"
         ],
         "date": [
+          "Wed Mar 11 02:59:24 2026 +0000",
           "Tue Mar 10 05:17:32 2026 -0400",
           "Sun Mar 8 03:03:40 2026 +0000",
           "Sat Mar 7 02:54:42 2026 +0000",
@@ -236,6 +239,7 @@
           "Thu Jul 17 09:46:50 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "rebuilds for data format info",
           "scheduled data build",
           "scheduled data build",
@@ -319,8 +323,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-03-11 02:59:22.171691",
-      "last_modified": "2026-03-11 02:59:22.171691",
+      "created": "2026-03-12 03:11:14.62495",
+      "last_modified": "2026-03-12 03:11:14.62495",
       "vintage": "2025-07-14",
       "row_count": 27923,
       "entity_count": 56,
@@ -1791,7 +1795,7 @@
           "max": 2232.014295
         }
       },
-      "sha512": "40b1d16de5b5a5d34192ef0b84bb52b26e9a874525a00b23964a5e9f4f8e31b85a1f425bee3ce932c2372e179c9f439af5e78f0229ae8a755217315bb91ea2d3"
+      "sha512": "53718489c74e732ad5fbe9c22a5c41607a0498fe5e963c284851638c75d3ec67eba7755251288913a6915a03edd7f04b6718046ffab056843016b49d7d4eb76a"
     }
   ],
   "measure_info": {

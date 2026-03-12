@@ -10,36 +10,36 @@ flowchart LR
     s9(("<strong><a href="https://wisqars.cdc.gov/" target="_blank" rel="noreferrer">Web-based Injury Statistics Query and Reporting System</a></strong>"))
     subgraph epic["`<strong><a href="https://github.com/dissc-yale/pophive_demo/tree/main/data/epic" target="_blank" rel="noreferrer">epic</a></strong>`"]
         direction LR
-        n1["`<strong><a href="https://github.com/dissc-yale/pophive_demo/blob/main/data/epic/standard/children.csv.gz" target="_blank" rel="noreferrer">children.csv.gz</a></strong>`"]:::pass
-        n2["`<strong><a href="https://github.com/dissc-yale/pophive_demo/blob/main/data/epic/standard/county_no_time.csv.gz" target="_blank" rel="noreferrer">county_no_time.csv.gz</a></strong>`"]:::pass
-        n3["`<strong><a href="https://github.com/dissc-yale/pophive_demo/blob/main/data/epic/standard/no_geo.csv.gz" target="_blank" rel="noreferrer">no_geo.csv.gz</a></strong>`"]:::pass
-        n4["`<strong><a href="https://github.com/dissc-yale/pophive_demo/blob/main/data/epic/standard/state_no_time.csv.gz" target="_blank" rel="noreferrer">state_no_time.csv.gz</a></strong>`"]:::pass
-        n5["`<strong><a href="https://github.com/dissc-yale/pophive_demo/blob/main/data/epic/standard/weekly.csv.gz" target="_blank" rel="noreferrer">weekly.csv.gz</a></strong>`"]:::pass
+        n1["`children.csv.gz`"]:::pass
+        n2["`county_no_time.csv.gz`"]:::pass
+        n3["`no_geo.csv.gz`"]:::pass
+        n4["`state_no_time.csv.gz`"]:::pass
+        n5["`weekly.csv.gz`"]:::pass
     end
     subgraph gtrends["`<strong><a href="https://github.com/dissc-yale/pophive_demo/tree/main/data/gtrends" target="_blank" rel="noreferrer">gtrends</a></strong>`"]
         direction LR
-        n6["`<strong><a href="https://github.com/dissc-yale/pophive_demo/blob/main/data/gtrends/standard/data.csv.gz" target="_blank" rel="noreferrer">data.csv.gz</a></strong>`"]:::pass
+        n6["`data.csv.gz`"]:::pass
     end
     subgraph NREVSS["`<strong><a href="https://github.com/dissc-yale/pophive_demo/tree/main/data/NREVSS" target="_blank" rel="noreferrer">NREVSS</a></strong>`"]
         direction LR
-        n7["`<strong><a href="https://github.com/dissc-yale/pophive_demo/blob/main/data/NREVSS/standard/data.csv.gz" target="_blank" rel="noreferrer">data.csv.gz</a></strong>`"]:::pass
+        n7["`data.csv.gz`"]:::pass
     end
     subgraph wastewater["`<strong><a href="https://github.com/dissc-yale/pophive_demo/tree/main/data/wastewater" target="_blank" rel="noreferrer">wastewater</a></strong>`"]
         direction LR
-        n8["`<strong><a href="https://github.com/dissc-yale/pophive_demo/blob/main/data/wastewater/standard/data.csv.gz" target="_blank" rel="noreferrer">data.csv.gz</a></strong>`"]:::pass
+        n8["`data.csv.gz`"]:::pass
     end
     subgraph wisqars["`<strong><a href="https://github.com/dissc-yale/pophive_demo/tree/main/data/wisqars" target="_blank" rel="noreferrer">wisqars</a></strong>`"]
         direction LR
-        n9["`<strong><a href="https://github.com/dissc-yale/pophive_demo/blob/main/data/wisqars/standard/data.csv.gz" target="_blank" rel="noreferrer">data.csv.gz</a></strong>`"]:::pass
+        n9["`data.csv.gz`"]:::pass
     end
     subgraph bundle_respiratory["`<strong><a href="https://github.com/dissc-yale/pophive_demo/tree/main/data/bundle_respiratory" target="_blank" rel="noreferrer">bundle_respiratory</a></strong>`"]
         direction LR
-        n10["`<strong><a href="https://github.com/dissc-yale/pophive_demo/blob/main/data/bundle_respiratory/dist/data.parquet" target="_blank" rel="noreferrer">data.parquet</a></strong>`"]
+        n10["`data.parquet`"]
     end
     subgraph bundle_tall["`<strong><a href="https://github.com/dissc-yale/pophive_demo/tree/main/data/bundle_tall" target="_blank" rel="noreferrer">bundle_tall</a></strong>`"]
         direction LR
-        n11["`<strong><a href="https://github.com/dissc-yale/pophive_demo/blob/main/data/bundle_tall/dist/flu.parquet" target="_blank" rel="noreferrer">flu.parquet</a></strong>`"]
-        n12["`<strong><a href="https://github.com/dissc-yale/pophive_demo/blob/main/data/bundle_tall/dist/rsv.parquet" target="_blank" rel="noreferrer">rsv.parquet</a></strong>`"]
+        n11["`flu.parquet`"]
+        n12["`rsv.parquet`"]
     end
     s0 --> n1
     s0 --> n2
