@@ -9,9 +9,9 @@
   },
   "resources": [
     {
-      "bytes": 16087,
+      "bytes": 16153,
       "encoding": "ISO-8859-1",
-      "md5": "4f9c9c49a236bf7c52b71e04994552f4",
+      "md5": "f879801fbb32e28ba4e854a7ff5f4a8e",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
@@ -203,38 +203,38 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-03-11 02:58:19.979539",
-      "last_modified": "2026-03-11 02:58:19.979539",
+      "created": "2026-03-13 03:01:49.82433",
+      "last_modified": "2026-03-13 03:01:49.82433",
       "vintage": {},
-      "row_count": 3080,
+      "row_count": 3090,
       "entity_count": 10,
       "schema": {
         "fields": [
           {
             "name": "geography",
-            "duplicates": 3070,
+            "duplicates": 3080,
             "info": [],
-            "time_range": [12, 307],
+            "time_range": [0, 308],
             "type": "string",
             "missing": 0,
             "table": {
-              "hhs_1": 308,
-              "hhs_10": 308,
-              "hhs_2": 308,
-              "hhs_3": 308,
-              "hhs_4": 308,
-              "hhs_5": 308,
-              "hhs_6": 308,
-              "hhs_7": 308,
-              "hhs_8": 308,
-              "hhs_9": 308
+              "hhs_1": 309,
+              "hhs_10": 309,
+              "hhs_2": 309,
+              "hhs_3": 309,
+              "hhs_4": 309,
+              "hhs_5": 309,
+              "hhs_6": 309,
+              "hhs_7": 309,
+              "hhs_8": 309,
+              "hhs_9": 309
             }
           },
           {
             "name": "time",
-            "duplicates": 2772,
+            "duplicates": 2781,
             "info": [],
-            "time_range": [12, 307],
+            "time_range": [0, 308],
             "type": "string",
             "missing": 0,
             "table": {
@@ -545,12 +545,13 @@
               "2026-02-07": 10,
               "2026-02-14": 10,
               "2026-02-21": 10,
-              "2026-02-28": 10
+              "2026-02-28": 10,
+              "2026-03-07": 10
             }
           },
           {
             "name": "nrevss_week",
-            "duplicates": 3027,
+            "duplicates": 3037,
             "info": {
               "full_name": "nrevss_week",
               "measure": "nrevss_week",
@@ -572,17 +573,17 @@
               ],
               "id": "nrevss_week"
             },
-            "time_range": [12, 307],
+            "time_range": [0, 308],
             "type": "integer",
             "missing": 0,
-            "mean": 26.964286,
-            "sd": 15.104766,
+            "mean": 26.906149,
+            "sd": 15.114785,
             "min": 1,
             "max": 53
           },
           {
             "name": "nrevss",
-            "duplicates": 1582,
+            "duplicates": 1583,
             "info": {
               "full_name": "nrevss",
               "measure": "nrevss",
@@ -601,17 +602,17 @@
               ],
               "id": "nrevss"
             },
-            "time_range": [12, 307],
+            "time_range": [0, 308],
             "type": "float",
             "missing": 0,
-            "mean": 261.15211,
-            "sd": 515.372113,
+            "mean": 263.021003,
+            "sd": 517.346287,
             "min": 0,
             "max": 5097.2
           }
         ]
       },
-      "sha512": "d23d7b8d2186ad7f58c1f76113f7db2531430a0cb15f521b9337a78a42a01e675b8e2faf62eb2121b710df18101e1461104c870e0dd3964e471c718682a4bbf2"
+      "sha512": "028032029722b279d9aea480565a38765428ed526f911767fe514360c4b130967210220703414f40915a7895080022cb5d559cebaa827ffe454efa9cc5f4c279"
     }
   ],
   "measure_info": {
