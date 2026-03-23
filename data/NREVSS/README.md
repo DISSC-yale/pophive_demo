@@ -9,7 +9,7 @@ dcf_add_source("NREVSS")
 Using the package, you can also check the project:
 
 ```R
-dcf_check_source("NREVSS", "..")
+dcf_check("NREVSS", "..")
 ```
 
 And process it:

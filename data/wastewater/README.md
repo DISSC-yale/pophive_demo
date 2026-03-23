@@ -9,7 +9,7 @@ dcf_add_source("wastewater")
 Using the package, you can also check the project:
 
 ```R
-dcf_check_source("wastewater", "..")
+dcf_check("wastewater", "..")
 ```
 
 And process it:

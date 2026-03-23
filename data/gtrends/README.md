@@ -9,7 +9,7 @@ dcf_add_source("gtrends")
 Using the package, you can also check the project:
 
 ```R
-dcf_check_source("gtrends", "..")
+dcf_check("gtrends", "..")
 ```
 
 And process it:
