@@ -9,14 +9,15 @@
   },
   "resources": [
     {
-      "bytes": 218855,
+      "bytes": 220982,
       "encoding": "ISO-8859-1",
-      "md5": "22c0aff0745af8f1da5a746e26126f27",
+      "md5": "1acc952eef19eb18afbc1783627d61ee",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
         "hash": [
+          "b70e6ab7d3b2ff46b29cb0ec57d1f1d5e1d6e308",
           "16953fcd6d4a5daf037637fe307d1d61a9466712",
           "21c6033362f584d7c6dcb26d6297fb4afc9097ae",
           "8ae03d83de51f616ad2623f0f26fb433e205e9f5",
@@ -72,6 +73,7 @@
         "author": [
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "Micah <micah.iserman@gmail.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -123,6 +125,7 @@
           "Micah <micah.iserman@gmail.com>"
         ],
         "date": [
+          "Sat Mar 21 02:57:51 2026 +0000",
           "Sat Mar 14 02:59:50 2026 +0000",
           "Wed Mar 11 02:59:24 2026 +0000",
           "Tue Mar 10 05:17:32 2026 -0400",
@@ -176,6 +179,7 @@
           "Tue May 27 13:56:02 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled data build",
           "scheduled data build",
           "rebuilds for data format info",
@@ -255,80 +259,80 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-03-21 02:57:40.716718",
-      "last_modified": "2026-03-21 02:57:40.716718",
+      "created": "2026-03-28 03:10:43.172764",
+      "last_modified": "2026-03-28 03:10:43.172764",
       "vintage": {},
-      "row_count": 10890,
+      "row_count": 10942,
       "entity_count": 52,
       "schema": {
         "fields": [
           {
             "name": "geography",
-            "duplicates": 10838,
+            "duplicates": 10890,
             "info": [],
-            "time_range": [47, 130],
+            "time_range": [26, 129],
             "type": "string",
             "missing": 0,
             "table": {
-              "01": 191,
-              "02": 198,
-              "04": 219,
-              "05": 197,
-              "06": 220,
-              "08": 220,
-              "09": 202,
-              "10": 206,
-              "11": 199,
-              "12": 220,
-              "13": 205,
-              "15": 202,
-              "16": 220,
-              "17": 220,
-              "18": 202,
-              "19": 202,
-              "20": 202,
-              "21": 212,
-              "22": 201,
-              "23": 213,
-              "24": 199,
-              "25": 220,
-              "26": 220,
-              "27": 205,
-              "28": 189,
-              "29": 220,
-              "30": 220,
-              "31": 220,
-              "32": 203,
-              "33": 200,
-              "34": 201,
-              "35": 202,
-              "36": 220,
-              "37": 219,
-              "38": 186,
-              "39": 220,
-              "40": 220,
-              "41": 220,
-              "42": 215,
-              "44": 201,
-              "45": 219,
-              "46": 198,
-              "47": 220,
-              "48": 220,
-              "49": 220,
-              "50": 202,
-              "51": 220,
-              "53": 220,
-              "54": 220,
-              "55": 220,
-              "56": 192,
-              "66": 188
+              "01": 192,
+              "02": 199,
+              "04": 220,
+              "05": 198,
+              "06": 221,
+              "08": 221,
+              "09": 203,
+              "10": 207,
+              "11": 200,
+              "12": 221,
+              "13": 206,
+              "15": 203,
+              "16": 221,
+              "17": 221,
+              "18": 203,
+              "19": 203,
+              "20": 203,
+              "21": 213,
+              "22": 202,
+              "23": 214,
+              "24": 200,
+              "25": 221,
+              "26": 221,
+              "27": 206,
+              "28": 190,
+              "29": 221,
+              "30": 221,
+              "31": 221,
+              "32": 204,
+              "33": 201,
+              "34": 202,
+              "35": 203,
+              "36": 221,
+              "37": 220,
+              "38": 187,
+              "39": 221,
+              "40": 221,
+              "41": 221,
+              "42": 216,
+              "44": 202,
+              "45": 220,
+              "46": 199,
+              "47": 221,
+              "48": 221,
+              "49": 221,
+              "50": 203,
+              "51": 221,
+              "53": 221,
+              "54": 221,
+              "55": 221,
+              "56": 193,
+              "66": 189
             }
           },
           {
             "name": "time",
-            "duplicates": 10670,
+            "duplicates": 10721,
             "info": [],
-            "time_range": [47, 130],
+            "time_range": [26, 129],
             "type": "string",
             "missing": 0,
             "table": {
@@ -551,12 +555,13 @@
               "2026-02-21": 52,
               "2026-02-28": 52,
               "2026-03-07": 52,
-              "2026-03-14": 52
+              "2026-03-14": 52,
+              "2026-03-21": 52
             }
           },
           {
             "name": "wastewater_covid",
-            "duplicates": 611,
+            "duplicates": 617,
             "info": {
               "full_name": "wastewater_covid",
               "measure": "wastewater_covid",
@@ -582,17 +587,17 @@
               ],
               "id": "wastewater_covid"
             },
-            "time_range": [47, 130],
+            "time_range": [26, 129],
             "type": "float",
-            "missing": 269,
-            "mean": 6.052784,
-            "sd": 5.529665,
+            "missing": 270,
+            "mean": 6.048504,
+            "sd": 5.533571,
             "min": 0.03373,
             "max": 90.238356
           },
           {
             "name": "wastewater_flua",
-            "duplicates": 6992,
+            "duplicates": 7009,
             "info": {
               "full_name": "wastewater_flua",
               "measure": "wastewater_flua",
@@ -617,17 +622,17 @@
               ],
               "id": "wastewater_flua"
             },
-            "time_range": [47, 130],
+            "time_range": [26, 129],
             "type": "float",
-            "missing": 2687,
-            "mean": 4.152824,
-            "sd": 12.16711,
-            "min": 0,
+            "missing": 2689,
+            "mean": 4.165725,
+            "sd": 12.166087,
+            "min": 0.088399,
             "max": 817.974761
           },
           {
             "name": "wastewater_rsv",
-            "duplicates": 7036,
+            "duplicates": 7008,
             "info": {
               "full_name": "wastewater_rsv",
               "measure": "wastewater_rsv",
@@ -652,17 +657,17 @@
               ],
               "id": "wastewater_rsv"
             },
-            "time_range": [111, 130],
+            "time_range": [34, 129],
             "type": "float",
-            "missing": 2714,
-            "mean": 3.96538,
-            "sd": 31.787278,
+            "missing": 2716,
+            "mean": 3.994971,
+            "sd": 31.778202,
             "min": 0.042245,
             "max": 2232.014295
           }
         ]
       },
-      "sha512": "853553e114930d79328d8644e10984b6681d608bbba816b537741bcfc49783ee2cd7cd6cbabd5ab3f7f55e875c4f68a35d60cff2174c74bf817a0a52b41f8aff"
+      "sha512": "8279d158f72a42dbc10aea43940a6c2c94a3c7218c61ce827c1592dc9d563c2b6feff0c759d79587c983c9824c49af7e5e54b7cc1f7f8c2261a2a2bbb3e3ca37"
     }
   ],
   "measure_info": {
@@ -748,6 +753,37 @@
         "description": "Testing for viruses in wastewater can provide an efficient way to identify the levels of virus circulation in the community. The CDC’s National Wastewater Surveillance program obtains samples from select communities around the US and presents the data aggregated by state. These data can provide an early indication of viral activity. Limitations include an inability to link detected back to particular groups of individuals and challenges in comparing viral levels across sites that use different methodologies. The sewage is not necessarily representative of the entire population. These data are made available by the CDC."
       },
       "id": "_sources"
+    }
+  },
+  "change_report": {
+    "data.csv.gz": {
+      "state": "changed",
+      "variables": {
+        "geography": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "time": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": "2026-03-21",
+          "dropped_levels": []
+        },
+        "wastewater_covid": {
+          "status": "present",
+          "same_type": true
+        },
+        "wastewater_flua": {
+          "status": "present",
+          "same_type": true
+        },
+        "wastewater_rsv": {
+          "status": "present",
+          "same_type": true
+        }
+      }
     }
   }
 }
