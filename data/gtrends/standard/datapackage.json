@@ -9,14 +9,15 @@
   },
   "resources": [
     {
-      "bytes": 805759,
+      "bytes": 807913,
       "encoding": "ISO-8859-1",
-      "md5": "4fe14865630ab11337aa37b41a01680a",
+      "md5": "65c77521feca807817957875adf91dc5",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
         "hash": [
+          "56a945c9bd02e101814393446d5bed8387fdc9f3",
           "46514358b4097ae4f8449e231014c8ba3d9bbe3f",
           "845dd103a2137a91291a2d4103e731afcc0acde8",
           "b2bf971ae3f2c803bd25f63c6847ee61cb90eef3",
@@ -70,6 +71,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "Micah <micah.iserman@gmail.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -117,6 +119,7 @@
           "Micah <micah.iserman@gmail.com>"
         ],
         "date": [
+          "Sun Mar 22 03:06:43 2026 +0000",
           "Sun Mar 15 03:07:26 2026 +0000",
           "Sun Mar 8 03:03:40 2026 +0000",
           "Sun Mar 1 03:06:56 2026 +0000",
@@ -167,6 +170,7 @@
           "Wed May 21 10:19:42 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled data build",
           "scheduled data build",
           "scheduled data build",
@@ -235,80 +239,80 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-03-22 03:06:31.590156",
-      "last_modified": "2026-03-22 03:06:31.590156",
+      "created": "2026-03-29 03:08:03.419371",
+      "last_modified": "2026-03-29 03:08:03.419371",
       "vintage": {},
-      "row_count": 33124,
+      "row_count": 33176,
       "entity_count": 52,
       "schema": {
         "fields": [
           {
             "name": "geography",
-            "duplicates": 33072,
+            "duplicates": 33124,
             "info": [],
-            "time_range": [0, 636],
+            "time_range": [0, 637],
             "type": "string",
             "missing": 0,
             "table": {
-              "01": 637,
-              "02": 637,
-              "04": 637,
-              "05": 637,
-              "06": 637,
-              "08": 637,
-              "09": 637,
-              "10": 637,
-              "11": 637,
-              "12": 637,
-              "13": 637,
-              "15": 637,
-              "16": 637,
-              "17": 637,
-              "18": 637,
-              "19": 637,
-              "20": 637,
-              "21": 637,
-              "22": 637,
-              "23": 637,
-              "24": 637,
-              "25": 637,
-              "26": 637,
-              "27": 637,
-              "28": 637,
-              "29": 637,
-              "30": 637,
-              "31": 637,
-              "32": 637,
-              "33": 637,
-              "34": 637,
-              "35": 637,
-              "36": 637,
-              "37": 637,
-              "38": 637,
-              "39": 637,
-              "40": 637,
-              "41": 637,
-              "42": 637,
-              "44": 637,
-              "45": 637,
-              "46": 637,
-              "47": 637,
-              "48": 637,
-              "49": 637,
-              "50": 637,
-              "51": 637,
-              "53": 637,
-              "54": 637,
-              "55": 637,
-              "56": 637,
-              "NA": 637
+              "01": 638,
+              "02": 638,
+              "04": 638,
+              "05": 638,
+              "06": 638,
+              "08": 638,
+              "09": 638,
+              "10": 638,
+              "11": 638,
+              "12": 638,
+              "13": 638,
+              "15": 638,
+              "16": 638,
+              "17": 638,
+              "18": 638,
+              "19": 638,
+              "20": 638,
+              "21": 638,
+              "22": 638,
+              "23": 638,
+              "24": 638,
+              "25": 638,
+              "26": 638,
+              "27": 638,
+              "28": 638,
+              "29": 638,
+              "30": 638,
+              "31": 638,
+              "32": 638,
+              "33": 638,
+              "34": 638,
+              "35": 638,
+              "36": 638,
+              "37": 638,
+              "38": 638,
+              "39": 638,
+              "40": 638,
+              "41": 638,
+              "42": 638,
+              "44": 638,
+              "45": 638,
+              "46": 638,
+              "47": 638,
+              "48": 638,
+              "49": 638,
+              "50": 638,
+              "51": 638,
+              "53": 638,
+              "54": 638,
+              "55": 638,
+              "56": 638,
+              "NA": 638
             }
           },
           {
             "name": "time",
-            "duplicates": 32487,
+            "duplicates": 32538,
             "info": [],
-            "time_range": [0, 636],
+            "time_range": [0, 637],
             "type": "string",
             "missing": 0,
             "table": {
@@ -948,7 +952,8 @@
               "2026-02-22": 52,
               "2026-03-01": 52,
               "2026-03-08": 52,
-              "2026-03-15": 52
+              "2026-03-15": 52,
+              "2026-03-22": 52
             }
           },
           {
@@ -978,17 +983,17 @@
               "subcategory": "Respiratory Syncytial Virus",
               "id": "gtrends_rsv_vaccine"
             },
-            "time_range": [0, 636],
+            "time_range": [0, 637],
             "type": "float",
             "missing": 0,
-            "mean": 46.38894,
-            "sd": 136.441958,
+            "mean": 46.467635,
+            "sd": 136.352302,
             "min": 0,
             "max": 1690.800386
           },
           {
             "name": "gtrends_naloxone",
-            "duplicates": 20924,
+            "duplicates": 20925,
             "info": {
               "full_name": "gtrends_naloxone",
               "measure": "gtrends_naloxone",
@@ -1013,11 +1018,11 @@
               "subcategory": "Opioid Overdoses",
               "id": "gtrends_naloxone"
             },
-            "time_range": [0, 636],
+            "time_range": [0, 637],
             "type": "float",
             "missing": 0,
-            "mean": 31.820359,
-            "sd": 56.793171,
+            "mean": 31.923337,
+            "sd": 56.816381,
             "min": 0,
             "max": 1817.846215
           },
@@ -1048,11 +1053,11 @@
               "subcategory": "Opioid Overdoses",
               "id": "gtrends_overdose"
             },
-            "time_range": [0, 636],
+            "time_range": [0, 637],
             "type": "float",
             "missing": 0,
-            "mean": 636.962723,
-            "sd": 280.688661,
+            "mean": 636.877536,
+            "sd": 280.500887,
             "min": 0,
             "max": 4590.231121
           },
@@ -1083,17 +1088,17 @@
               "subcategory": "Respiratory Syncytial Virus",
               "id": "gtrends_rsv"
             },
-            "time_range": [0, 636],
+            "time_range": [0, 637],
             "type": "float",
             "missing": 0,
-            "mean": 530.412284,
-            "sd": 893.724716,
+            "mean": 531.047283,
+            "sd": 893.234857,
             "min": 0,
             "max": 12136.048552
           }
         ]
       },
-      "sha512": "3d04cc52d1bb895c608e54fd168c782650b1f06fb362d707375c87f1e6ec5fc79313f8704dada857e95286466dff5dcad665baa54731a163d3c1281f46a40921"
+      "sha512": "464a96f6c17e025b01de80ae70fd6ee613d2b774377fecdb4ac8193b7acdcbb62a377edeee233bd9144371eb3a0ed9501f2ff2224c8ab17c5f741d00d747f5a8"
     }
   ],
   "measure_info": {
@@ -1192,6 +1197,41 @@
       "category": "Respiratory Diseases",
       "subcategory": "Respiratory Syncytial Virus",
       "id": "gtrends_rsv_vaccine"
+    }
+  },
+  "change_report": {
+    "data.csv.gz": {
+      "state": "changed",
+      "variables": {
+        "geography": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "time": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": "2026-03-22",
+          "dropped_levels": []
+        },
+        "gtrends_rsv_vaccine": {
+          "status": "present",
+          "same_type": true
+        },
+        "gtrends_naloxone": {
+          "status": "present",
+          "same_type": true
+        },
+        "gtrends_overdose": {
+          "status": "present",
+          "same_type": true
+        },
+        "gtrends_rsv": {
+          "status": "present",
+          "same_type": true
+        }
+      }
     }
   }
 }
