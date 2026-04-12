@@ -17,6 +17,7 @@
       "filename": "flu.parquet",
       "versions": {
         "hash": [
+          "ec8b43f56b559e3639dfa6ae9aea038e1623d611",
           "02ce50416017111bfa25e91c38bd6c913b29cba4",
           "9a1c98c176ceff665c0251c92f07132c340eadf8",
           "b70e6ab7d3b2ff46b29cb0ec57d1f1d5e1d6e308",
@@ -36,6 +37,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "Micah <micah.iserman@gmail.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -43,6 +45,7 @@
           "Micah <micah.iserman@gmail.com>"
         ],
         "date": [
+          "Sat Apr 11 03:06:34 2026 +0000",
           "Sat Apr 4 03:04:40 2026 +0000",
           "Sat Mar 28 03:10:53 2026 +0000",
           "Sat Mar 21 02:57:51 2026 +0000",
@@ -56,6 +59,7 @@
           "Thu Feb 26 03:42:48 2026 -0500"
         ],
         "message": [
+          "scheduled data build",
           "scheduled data build",
           "scheduled data build",
           "scheduled data build",
@@ -79,8 +83,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-04-11 03:06:33.046965",
-      "last_modified": "2026-04-11 03:06:33.046965",
+      "created": "2026-04-12 03:09:24.667966",
+      "last_modified": "2026-04-12 03:09:24.667966",
       "vintage": {},
       "row_count": 22504,
       "entity_count": 55,
@@ -679,14 +683,15 @@
       "sha512": "b26097b34a5bfdfd44e0385eddba0a32ff8fe4fbc4d6120719b9eb83ad68ddde0afc7eb8623d28d028c1390c12cc83d0dd987722ab75536d6d52e1432d0a8a87"
     },
     {
-      "bytes": 698610,
+      "bytes": 698054,
       "encoding": "ISO-8859-1",
-      "md5": "915d746dc0eb2cace2af26b5454aa7b6",
+      "md5": "46b78594e053693f8a047178182a9da6",
       "format": "parquet",
       "name": "rsv",
       "filename": "rsv.parquet",
       "versions": {
         "hash": [
+          "ec8b43f56b559e3639dfa6ae9aea038e1623d611",
           "b63062c29adbcc8723f676b0d9b9fc6d35a0dc99",
           "02ce50416017111bfa25e91c38bd6c913b29cba4",
           "738226e3a4a91e28d3585fc31dd97ff9a17eb762",
@@ -715,6 +720,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "Micah <micah.iserman@gmail.com>",
           "Micah <micah.iserman@gmail.com>",
           "GitHub Actions <actions@github.com>",
@@ -723,6 +729,7 @@
           "Micah <micah.iserman@gmail.com>"
         ],
         "date": [
+          "Sat Apr 11 03:06:34 2026 +0000",
           "Sun Apr 5 03:08:15 2026 +0000",
           "Sat Apr 4 03:04:40 2026 +0000",
           "Sun Mar 29 03:08:17 2026 +0000",
@@ -751,6 +758,7 @@
           "scheduled data build",
           "scheduled data build",
           "scheduled data build",
+          "scheduled data build",
           "corrects rsv bundle",
           "rebuilds for data format info",
           "scheduled data build",
@@ -769,83 +777,83 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-04-11 03:06:33.086964",
-      "last_modified": "2026-04-11 03:06:33.086964",
+      "created": "2026-04-12 03:09:24.704966",
+      "last_modified": "2026-04-12 03:09:24.704966",
       "vintage": {},
-      "row_count": 56250,
+      "row_count": 56354,
       "entity_count": 56,
       "schema": {
         "fields": [
           {
             "name": "geography",
-            "duplicates": 56194,
+            "duplicates": 56298,
             "info": [],
-            "time_range": [131, 516],
+            "time_range": [131, 517],
             "type": "string",
-            "missing": 652,
+            "missing": 654,
             "table": {
               "0": 262,
-              "01": 1105,
-              "02": 1064,
-              "04": 1042,
-              "05": 1068,
-              "06": 1128,
-              "08": 1116,
-              "09": 1042,
-              "10": 1079,
-              "11": 1034,
-              "12": 1123,
-              "13": 1110,
-              "15": 1063,
-              "16": 1128,
-              "17": 1106,
-              "18": 1104,
-              "19": 1087,
-              "20": 1106,
-              "21": 1121,
-              "22": 1037,
-              "23": 1101,
-              "24": 1087,
-              "25": 1087,
-              "26": 1121,
-              "27": 1102,
-              "28": 1033,
-              "29": 1064,
-              "30": 983,
-              "31": 1054,
-              "32": 1072,
-              "33": 1096,
-              "34": 1106,
-              "35": 1037,
-              "36": 1054,
-              "37": 1103,
-              "38": 914,
-              "39": 1087,
-              "40": 1101,
-              "41": 1082,
-              "42": 1106,
-              "44": 1009,
-              "45": 1032,
-              "46": 1068,
-              "47": 1061,
-              "48": 1128,
-              "49": 1099,
-              "50": 1076,
-              "51": 1087,
+              "01": 1107,
+              "02": 1066,
+              "04": 1044,
+              "05": 1070,
+              "06": 1130,
+              "08": 1118,
+              "09": 1044,
+              "10": 1081,
+              "11": 1036,
+              "12": 1125,
+              "13": 1112,
+              "15": 1065,
+              "16": 1130,
+              "17": 1108,
+              "18": 1106,
+              "19": 1089,
+              "20": 1108,
+              "21": 1123,
+              "22": 1039,
+              "23": 1103,
+              "24": 1089,
+              "25": 1089,
+              "26": 1123,
+              "27": 1104,
+              "28": 1035,
+              "29": 1066,
+              "30": 985,
+              "31": 1056,
+              "32": 1074,
+              "33": 1098,
+              "34": 1108,
+              "35": 1039,
+              "36": 1056,
+              "37": 1105,
+              "38": 916,
+              "39": 1089,
+              "40": 1103,
+              "41": 1084,
+              "42": 1108,
+              "44": 1011,
+              "45": 1034,
+              "46": 1070,
+              "47": 1063,
+              "48": 1130,
+              "49": 1101,
+              "50": 1078,
+              "51": 1089,
               "52": 131,
-              "53": 1052,
-              "54": 1070,
-              "55": 1106,
-              "56": 1038,
+              "53": 1054,
+              "54": 1072,
+              "55": 1108,
+              "56": 1040,
               "66": 64,
               "72": 262
             }
           },
           {
             "name": "time",
-            "duplicates": 55710,
+            "duplicates": 55813,
             "info": [],
-            "time_range": [131, 516],
+            "time_range": [131, 517],
             "type": "string",
             "missing": 0,
             "table": {
@@ -1388,12 +1396,13 @@
               "2026-03-22": 104,
               "2026-03-28": 51,
               "2026-03-29": 104,
-              "2026-04-04": 51
+              "2026-04-04": 51,
+              "2026-04-05": 104
             }
           },
           {
             "name": "measure",
-            "duplicates": 56245,
+            "duplicates": 56349,
             "info": {
               "levels": {
                 "epic_all_encounters": {
@@ -1499,12 +1508,12 @@
                   },
                   "time_range": [
                     0,
-                    638
+                    639
                   ],
                   "type": "float",
                   "missing": 0,
-                  "mean": 46.529042,
-                  "sd": 136.25656,
+                  "mean": 46.592249,
+                  "sd": 136.162028,
                   "min": 0,
                   "max": 1690.800386
                 },
@@ -1543,12 +1552,12 @@
                   },
                   "time_range": [
                     0,
-                    638
+                    639
                   ],
                   "type": "float",
                   "missing": 0,
-                  "mean": 531.509988,
-                  "sd": 892.661592,
+                  "mean": 531.883731,
+                  "sd": 892.062583,
                   "min": 0,
                   "max": 12136.048552
                 },
@@ -1599,14 +1608,14 @@
               },
               "id": "measure"
             },
-            "time_range": [131, 516],
+            "time_range": [131, 517],
             "type": "string",
             "missing": 0,
             "table": {
               "epic_all_encounters": 7074,
               "epic_rsv": 6943,
-              "gtrends_rsv": 16952,
-              "gtrends_rsv_vaccine": 16952,
+              "gtrends_rsv": 17004,
+              "gtrends_rsv_vaccine": 17004,
               "wastewater_rsv": 8329
             }
           },
@@ -1617,11 +1626,11 @@
               "measure_column": "measure",
               "id": "value"
             },
-            "time_range": [131, 516],
+            "time_range": [131, 517],
             "type": "float",
             "missing": 0,
-            "mean": 4675.865905,
-            "sd": 46788.903213,
+            "mean": 4668.028124,
+            "sd": 46746.066844,
             "min": 0,
             "max": 1134128
           },
@@ -1632,17 +1641,17 @@
               "measure_column": "measure",
               "id": "value_scaled"
             },
-            "time_range": [131, 516],
+            "time_range": [131, 517],
             "type": "float",
             "missing": 0,
-            "mean": 4.141407,
-            "sd": 9.172929,
+            "mean": 4.144371,
+            "sd": 9.165026,
             "min": 0,
             "max": 100
           }
         ]
       },
-      "sha512": "b68d4dd19e6bd171b4beb1882b823ecf3379538ed7377ae5aa885086a7dad42e01453c88e502daba27b9aa64b6e06fa888fc499f0c9889baa4ae8e47091b4e5b"
+      "sha512": "ccb044186f04a16e6fcbae550b79e26f476de97d9e4fec8cd66bdc5b421251750e62499ab918bec6c812e12fdc5049c6d768ac7e974f703a2489c80faf92b1c3"
     }
   ],
   "measure_info": {
@@ -1751,12 +1760,12 @@
           },
           "time_range": [
             0,
-            638
+            639
           ],
           "type": "float",
           "missing": 0,
-          "mean": 46.529042,
-          "sd": 136.25656,
+          "mean": 46.592249,
+          "sd": 136.162028,
           "min": 0,
           "max": 1690.800386
         },
@@ -1795,12 +1804,12 @@
           },
           "time_range": [
             0,
-            638
+            639
           ],
           "type": "float",
           "missing": 0,
-          "mean": 531.509988,
-          "sd": 892.661592,
+          "mean": 531.883731,
+          "sd": 892.062583,
           "min": 0,
           "max": 12136.048552
         },
@@ -1987,35 +1996,7 @@
   },
   "change_report": {
     "flu.parquet": {
-      "state": "changed",
-      "variables": {
-        "geography": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "time": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": "2026-04-04",
-          "dropped_levels": []
-        },
-        "measure": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "value": {
-          "status": "present",
-          "same_type": true
-        },
-        "value_scaled": {
-          "status": "present",
-          "same_type": true
-        }
-      }
+      "state": "unchanged"
     },
     "rsv.parquet": {
       "state": "changed",
@@ -2029,7 +2010,7 @@
         "time": {
           "status": "present",
           "same_type": true,
-          "added_levels": "2026-04-04",
+          "added_levels": "2026-04-05",
           "dropped_levels": []
         },
         "measure": {
