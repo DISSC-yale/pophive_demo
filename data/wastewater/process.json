@@ -6,8 +6,8 @@
       "path": "ingest.R",
       "manual": false,
       "frequency": 0,
-      "last_run": "2026-04-11 03:06:28",
-      "run_time": 2.782,
+      "last_run": "2026-04-18 03:07:57",
+      "run_time": 4.379,
       "last_status": {
         "log": ["trying URL 'https://www.cdc.gov/wcms/vizdata/NCEZID_DIDRI/RSVStateLevelDownloadCSV.csv'", "downloaded 1.1 MB", "", "trying URL 'https://www.cdc.gov/wcms/vizdata/NCEZID_DIDRI/FluA/FluAStateMapDownloadCSV.csv'", "downloaded 1.1 MB", "", "trying URL 'https://www.cdc.gov/wcms/vizdata/NCEZID_DIDRI/SC2StateLevelDownloadCSV.csv'", "downloaded 1.6 MB", ""],
         "success": true
@@ -19,12 +19,12 @@
     "data/wastewater/standard/data.csv.gz": []
   },
   "raw_state": {
-    "raw/covid.csv.xz": "228e9449177b6d83ff32375e139e6970",
-    "raw/flua.csv.xz": "ffd2725fc86f5e03991f0cea5fea002d",
-    "raw/rsv.csv.xz": "dbcd750fdc745d47151c3fd899f81a57"
+    "raw/covid.csv.xz": "fc38218621c35aaeabb59ee31d7c3985",
+    "raw/flua.csv.xz": "2541c73fc78719b3fb620633d45adf8e",
+    "raw/rsv.csv.xz": "931966e3c90cdc71e4edc0afa11156e7"
   },
   "standard_state": {
     "./data/wastewater/measure_info.json": "5d2fdee101826ff1f3493f4e01ff21bc",
-    "./data/wastewater/standard/data.csv.gz": "eae6c6f146b05bbf283246c9d2176fbe"
+    "./data/wastewater/standard/data.csv.gz": "5a45b2b95c4108895e7737a0be28b4fd"
   }
 }
