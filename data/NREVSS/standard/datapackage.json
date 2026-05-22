@@ -9,14 +9,15 @@
   },
   "resources": [
     {
-      "bytes": 16628,
+      "bytes": 16679,
       "encoding": "ISO-8859-1",
-      "md5": "4e13561d8a492775dd79b73f55194316",
+      "md5": "feec0fddb0c7e1af634c5b996da4ba0a",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
         "hash": [
+          "935ed97b92a5a904ee0c02b0ba8a449872f68d56",
           "127310dda5810f4b773d775bb5c85555b5762f43",
           "9f02814ac2c6f0d33c779deb31c5e670f438546a",
           "239fc29db7f8a225d59f1562e38e1923bc393597",
@@ -81,6 +82,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "Micah <micah.iserman@gmail.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -123,6 +125,7 @@
           "Micah <micah.iserman@gmail.com>"
         ],
         "date": [
+          "Fri May 15 03:13:04 2026 +0000",
           "Fri May 8 03:14:59 2026 +0000",
           "Fri May 1 03:11:17 2026 +0000",
           "Fri Apr 24 03:10:23 2026 +0000",
@@ -187,6 +190,7 @@
           "scheduled data build",
           "scheduled data build",
           "scheduled data build",
+          "scheduled data build",
           "adds tall bundle",
           "scheduled data build",
           "scheduled data build",
@@ -239,38 +243,38 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-05-15 03:12:51.13934",
-      "last_modified": "2026-05-15 03:12:51.13934",
+      "created": "2026-05-22 03:12:47.642318",
+      "last_modified": "2026-05-22 03:12:47.642318",
       "vintage": {},
-      "row_count": 3180,
+      "row_count": 3190,
       "entity_count": 10,
       "schema": {
         "fields": [
           {
             "name": "geography",
-            "duplicates": 3170,
+            "duplicates": 3180,
             "info": [],
-            "time_range": [0, 317],
+            "time_range": [0, 318],
             "type": "string",
             "missing": 0,
             "table": {
-              "hhs_1": 318,
-              "hhs_10": 318,
-              "hhs_2": 318,
-              "hhs_3": 318,
-              "hhs_4": 318,
-              "hhs_5": 318,
-              "hhs_6": 318,
-              "hhs_7": 318,
-              "hhs_8": 318,
-              "hhs_9": 318
+              "hhs_1": 319,
+              "hhs_10": 319,
+              "hhs_2": 319,
+              "hhs_3": 319,
+              "hhs_4": 319,
+              "hhs_5": 319,
+              "hhs_6": 319,
+              "hhs_7": 319,
+              "hhs_8": 319,
+              "hhs_9": 319
             }
           },
           {
             "name": "time",
-            "duplicates": 2862,
+            "duplicates": 2871,
             "info": [],
-            "time_range": [0, 317],
+            "time_range": [0, 318],
             "type": "string",
             "missing": 0,
             "table": {
@@ -591,12 +595,13 @@
               "2026-04-18": 10,
               "2026-04-25": 10,
               "2026-05-02": 10,
-              "2026-05-09": 10
+              "2026-05-09": 10,
+              "2026-05-16": 10
             }
           },
           {
             "name": "nrevss_week",
-            "duplicates": 3127,
+            "duplicates": 3137,
             "info": {
               "full_name": "nrevss_week",
               "measure": "nrevss_week",
@@ -618,17 +623,17 @@
               ],
               "id": "nrevss_week"
             },
-            "time_range": [0, 317],
+            "time_range": [0, 318],
             "type": "integer",
             "missing": 0,
-            "mean": 26.540881,
-            "sd": 15.058549,
+            "mean": 26.517241,
+            "sd": 15.04083,
             "min": 1,
             "max": 53
           },
           {
             "name": "nrevss",
-            "duplicates": 1609,
+            "duplicates": 1618,
             "info": {
               "full_name": "nrevss",
               "measure": "nrevss",
@@ -647,17 +652,17 @@
               ],
               "id": "nrevss"
             },
-            "time_range": [0, 317],
+            "time_range": [0, 318],
             "type": "float",
             "missing": 0,
-            "mean": 265.911258,
-            "sd": 514.69893,
+            "mean": 265.657085,
+            "sd": 514.859013,
             "min": 0,
             "max": 5097.2
           }
         ]
       },
-      "sha512": "998fa16bae88f0aebc8eef1068f435c3835c2d5986c1408d2ca701df565b37f4fb579efd7dd9de2ee2e7128dc97caaf7034adebd2f22997a191dc216f0ef15a4"
+      "sha512": "063e7c72300a832996c5b57f712d48157cdacedde9c4e456ef19c47235fa547411998983b0ad34e09de02ff9113a1f44ab00baccb5341a43745d2c57ddf2fd79"
     }
   ],
   "measure_info": {
@@ -739,7 +744,7 @@
         "time": {
           "status": "present",
           "same_type": true,
-          "added_levels": "2026-05-09",
+          "added_levels": "2026-05-16",
           "dropped_levels": []
         },
         "nrevss_week": {
