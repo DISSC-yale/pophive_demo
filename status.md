@@ -22,7 +22,7 @@ flowchart LR
     end
     subgraph NREVSS["`<strong><a href="https://github.com/dissc-yale/pophive_demo/tree/main/data/NREVSS" target="_blank" rel="noreferrer">NREVSS</a></strong>`"]
         direction LR
-        n7["`data.csv.gz`"]:::pass
+        n7["`data.csv.gz<br /><br />Script Failed:<br />cannot open URL 'https://data.cdc.gov/api/views/3cxc-4k8q'`"]:::fail
     end
     subgraph wastewater["`<strong><a href="https://github.com/dissc-yale/pophive_demo/tree/main/data/wastewater" target="_blank" rel="noreferrer">wastewater</a></strong>`"]
         direction LR
