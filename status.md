@@ -10,11 +10,11 @@ flowchart LR
     s9(("<strong><a href="https://wisqars.cdc.gov/" target="_blank" rel="noreferrer">Web-based Injury Statistics Query and Reporting System</a></strong>"))
     subgraph epic["`<strong><a href="https://github.com/dissc-yale/pophive_demo/tree/main/data/epic" target="_blank" rel="noreferrer">epic</a></strong>`"]
         direction LR
-        n1["`children.csv.gz`"]:::pass
-        n2["`county_no_time.csv.gz`"]:::pass
-        n3["`no_geo.csv.gz`"]:::pass
-        n4["`state_no_time.csv.gz`"]:::pass
-        n5["`weekly.csv.gz`"]:::pass
+        n1["`children.csv.gz<br /><br />Script Failed:<br />`"]:::fail
+        n2["`county_no_time.csv.gz<br /><br />Script Failed:<br />`"]:::fail
+        n3["`no_geo.csv.gz<br /><br />Script Failed:<br />`"]:::fail
+        n4["`state_no_time.csv.gz<br /><br />Script Failed:<br />`"]:::fail
+        n5["`weekly.csv.gz<br /><br />Script Failed:<br />`"]:::fail
     end
     subgraph gtrends["`<strong><a href="https://github.com/dissc-yale/pophive_demo/tree/main/data/gtrends" target="_blank" rel="noreferrer">gtrends</a></strong>`"]
         direction LR
