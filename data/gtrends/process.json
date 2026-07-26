@@ -5,11 +5,11 @@
     {
       "path": "ingest.R",
       "manual": false,
-      "last_run": "2026-07-19 03:07:05",
+      "last_run": "2026-07-26 03:06:52",
       "frequency": 0,
-      "run_time": 6.972,
+      "run_time": 7.544,
       "last_status": {
-        "log": ["trying URL 'https://github.com/DISSC-yale/gtrends_collection/raw/refs/heads/main/data/term=Naloxone/part-0.parquet'", "Content type 'application/octet-stream' length 921852 bytes (900 KB)", "==================================================", "downloaded 900 KB", "", "trying URL 'https://github.com/DISSC-yale/gtrends_collection/raw/refs/heads/main/data/term=overdose/part-0.parquet'", "Content type 'application/octet-stream' length 1618378 bytes (1.5 MB)", "==================================================", "downloaded 1.5 MB", "", "trying URL 'https://github.com/DISSC-yale/gtrends_collection/raw/refs/heads/main/data/term=rsv/part-0.parquet'", "Content type 'application/octet-stream' length 2724016 bytes (2.6 MB)", "==================================================", "downloaded 2.6 MB", "", "trying URL 'https://github.com/DISSC-yale/gtrends_collection/raw/refs/heads/main/data/term=%252Fg%252F11j30ybfx6/part-0.parquet'", "Content type 'application/octet-stream' length 658890 bytes (643 KB)", "==================================================", "downloaded 643 KB", "", "ℹ reading in existing file", "✔ reading in existing file [92ms]", "", "⠙ processing source gtrends (./data/gtrends/ingest.R)\r"],
+        "log": ["trying URL 'https://github.com/DISSC-yale/gtrends_collection/raw/refs/heads/main/data/term=Naloxone/part-0.parquet'", "Content type 'application/octet-stream' length 926784 bytes (905 KB)", "==================================================", "downloaded 905 KB", "", "trying URL 'https://github.com/DISSC-yale/gtrends_collection/raw/refs/heads/main/data/term=overdose/part-0.parquet'", "Content type 'application/octet-stream' length 1623430 bytes (1.5 MB)", "==================================================", "downloaded 1.5 MB", "", "trying URL 'https://github.com/DISSC-yale/gtrends_collection/raw/refs/heads/main/data/term=rsv/part-0.parquet'", "Content type 'application/octet-stream' length 2732517 bytes (2.6 MB)", "==================================================", "downloaded 2.6 MB", "", "trying URL 'https://github.com/DISSC-yale/gtrends_collection/raw/refs/heads/main/data/term=%252Fg%252F11j30ybfx6/part-0.parquet'", "Content type 'application/octet-stream' length 662403 bytes (646 KB)", "==================================================", "downloaded 646 KB", "", "ℹ reading in existing file", "✔ reading in existing file [91ms]", "", "⠙ processing source gtrends (./data/gtrends/ingest.R)\r"],
         "success": true
       }
     }
@@ -19,13 +19,13 @@
     "data/gtrends/standard/data.csv.gz": []
   },
   "raw_state": {
-    "data/term=%2Fg%2F11j30ybfx6/part-0.parquet": "8830008b92cac70190d3cb161f62d62a",
-    "data/term=Naloxone/part-0.parquet": "2818fb7167a2d620cd4c80f296081187",
-    "data/term=overdose/part-0.parquet": "a84bec7b2d78668632e834d0a67a8b38",
-    "data/term=rsv/part-0.parquet": "954da2bf4da7b2f3dc8e266fdcaa989b"
+    "data/term=%2Fg%2F11j30ybfx6/part-0.parquet": "7e71cfc982a4fee1b17f6200bdd5ca09",
+    "data/term=Naloxone/part-0.parquet": "7fdf7c9dcfbf8f19f088fe3e6bdf3ab0",
+    "data/term=overdose/part-0.parquet": "7248407ad1dc7aaed50df4ca3376314c",
+    "data/term=rsv/part-0.parquet": "9390a957e37766774f4163608a959dcb"
   },
   "standard_state": {
     "./data/gtrends/measure_info.json": "e2ec3b655de754ddd1cddd44f005137c",
-    "./data/gtrends/standard/data.csv.gz": "2a3f599283088cb5adde4a193b4f9b2d"
+    "./data/gtrends/standard/data.csv.gz": "09b00690c372d7266b34d453a8b5c9ed"
   }
 }
