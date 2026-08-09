@@ -5,9 +5,9 @@
     {
       "path": "build.R",
       "manual": false,
-      "last_run": "2026-08-02 03:06:48",
+      "last_run": "2026-08-09 02:44:54",
       "frequency": 0,
-      "run_time": 0.381,
+      "run_time": 0.367,
       "last_status": {
         "log": [],
         "success": true
@@ -31,14 +31,14 @@
     }
   },
   "dist_state": {
-    "./data/bundle_respiratory/dist/data.parquet": "8ee5af160979fe8a1c188c30901d8db5",
+    "./data/bundle_respiratory/dist/data.parquet": "b67539e83216b68c0cb525760605fbfd",
     "./data/epic/standard/datapackage.json": "2ac552d7c25127dc0cc59d53c78dbaf6",
-    "./data/gtrends/standard/datapackage.json": "5727df528c453794a8f90465161af377",
+    "./data/gtrends/standard/datapackage.json": "dedc1d33eca2cf739a17fb4a43ed9f0c",
     "./data/wastewater/standard/datapackage.json": "d0efe68fd620d743288dcf0ab2d68646"
   },
   "source_state": {
     "./data/epic/standard/weekly.csv.gz": "29d830af361a067be287c61da0180ad5",
-    "./data/gtrends/standard/data.csv.gz": "f7364dc1090aca39b7cdabad05850fd9",
+    "./data/gtrends/standard/data.csv.gz": "f633480ff6da5e0b60dd65d076d0dc68",
     "./data/wastewater/standard/data.csv.gz": "b74ff92cc7591fedcf7b09834ebca238"
   }
 }
