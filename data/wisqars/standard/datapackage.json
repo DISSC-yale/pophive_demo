@@ -10,8 +10,8 @@
   "resources": [
     {
       "bytes": 12298,
-      "encoding": "ISO-8859-1",
-      "md5": "55f8f26d8354ff111ac3b07f642e1ed4",
+      "encoding": "windows-1252",
+      "md5": "c6459c8e74c2fea3894b6a31ddaa8000",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
@@ -39,8 +39,8 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-03-11 02:58:20.011395",
-      "last_modified": "2026-03-11 02:58:20.011395",
+      "created": "2026-10-23 02:17:34.908566",
+      "last_modified": "2026-10-23 02:17:34.908566",
       "vintage": {},
       "row_count": 913,
       "entity_count": 51,
@@ -407,7 +407,7 @@
           }
         ]
       },
-      "sha512": "d7d83210b74227f949f07d2e1fcba0d9fabdf04bcf71f4d03223e822d89124daa6b639867974281f198f00a9d8b9a43235b99ddfc251bb36a1353a8c12a30873"
+      "sha512": "7ffc37e5e6cddba1c67c327d4748c128959897f7c629d5fed395fa20b1196035aa669efa81fdcb679880c3f96f9b29d0952023cbe5d6174d35a89effcef35206"
     }
   ],
   "measure_info": {
@@ -665,6 +665,67 @@
         "organization_url": "https://data.cdc.gov"
       },
       "id": "_sources"
+    }
+  },
+  "change_report": {
+    "data.csv.gz": {
+      "state": "changed",
+      "variables": {
+        "geography": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "time": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "age": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "wisqars_violence_firearm": {
+          "status": "present",
+          "same_type": true
+        },
+        "wisqars_violence_drug_poisoning": {
+          "status": "present",
+          "same_type": true
+        },
+        "wisqars_violence_suffocation": {
+          "status": "present",
+          "same_type": true
+        },
+        "wisqars_accident_motor_vehicle_traffic": {
+          "status": "present",
+          "same_type": true
+        },
+        "wisqars_accident_suffocation": {
+          "status": "present",
+          "same_type": true
+        },
+        "wisqars_accident_drug_poisoning": {
+          "status": "present",
+          "same_type": true
+        },
+        "wisqars_accident_non_drug_poisoning": {
+          "status": "present",
+          "same_type": true
+        },
+        "wisqars_accident_fall": {
+          "status": "present",
+          "same_type": true
+        },
+        "wisqars_accident_unspecified": {
+          "status": "present",
+          "same_type": true
+        }
+      }
     }
   }
 }
